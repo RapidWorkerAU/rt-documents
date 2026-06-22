@@ -28,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install anthropic python-docx
+          pip install anthropic python-docx lxml
 
       - name: Check brief exists
         run: |
