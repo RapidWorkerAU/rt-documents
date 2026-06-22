@@ -1,0 +1,151 @@
+{
+  "procedure_id": "PRO-0001",
+  "document_number": "RTPR-HSE-PRO-0001",
+  "title": "Legal and Other Requirements Procedure",
+  "management_system_element": "02 - Legal & Other Requirements",
+  "preamble": "This procedure governs how the owner-led project identifies, accesses, communicates, and monitors compliance with all applicable legal and HSESC obligations across all project locations and lifecycle phases. In the owner-led model RT holds direct legal responsibility and cannot delegate compliance accountability — this procedure establishes how that accountability is exercised across all project participants.",
+  "owns": [
+    "Legal and Other Requirements Register (RTPR-HSE-REG-0001)",
+    "Regulatory monitoring process",
+    "Non-compliance escalation thresholds"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0010 – Document Control (register format and retention)",
+    "RTPR-HSE-PRO-0009 – Incident Management (regulatory enforcement incidents)",
+    "RTPR-HSE-PRO-0043 – Records Management (retention periods)"
+  ],
+  "referenced_by": [
+    "All procedures — each references the Legal Register as the source of applicable legislation"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Purpose, Scope and Register",
+      "tag": "[RT – RT – Management & Compliance Standard]",
+      "text": "Define the method for continuously identifying, tracking, and updating regulatory requirements across all locations where Work is performed, including a Regulatory Requirements Register as the primary compliance management tool."
+    },
+    {
+      "section_heading": "Purpose, Scope and Register",
+      "tag": "[APPC – Appendix C, C-1 §19]",
+      "text": "Specify that the register must be submitted to the relevant project authority within 30 days of the Effective Date, and that roles and responsibilities for compliance are clearly defined within the register for all applicable obligations."
+    },
+    {
+      "section_heading": "Purpose, Scope and Register",
+      "tag": "[IFC – IFC PS1 §6 and Guidance Note §GN9]",
+      "text": "Include within the register all permits, approvals, conditions of consent, and commitments made through Environmental and Social Impact Assessment processes — these carry equal standing to legislation and must be tracked as binding obligations throughout the project lifecycle."
+    },
+    {
+      "section_heading": "Purpose, Scope and Register",
+      "tag": "[IFC – IFC PS1 Guidance Note §GN18]",
+      "text": "Where host country laws and regulations are less stringent than IFC Performance Standards or World Bank EHS Guidelines, document the more stringent requirement in the register as the project standard."
+    },
+    {
+      "section_heading": "Purpose, Scope and Register",
+      "tag": "[ICMM – ICMM Principle 1 – Ethical Business]",
+      "text": "Confirm that the project commits to full compliance with applicable national and international laws, regulations, and other requirements to which the organisation subscribes including voluntary commitments."
+    },
+    {
+      "section_heading": "Purpose, Scope and Register",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH1]",
+      "text": "Ensure the register captures all applicable occupational health and safety legislation relevant to the project jurisdiction and that senior management accountability for its currency is clearly assigned."
+    },
+    {
+      "section_heading": "Monitoring and Updating",
+      "tag": "[RT – RT – Management & Compliance Standard]",
+      "text": "Define the process for continuously monitoring regulatory changes: subscriptions to government gazette services; engagement with legal counsel; and participation in relevant industry body notifications. Require formal review at minimum quarterly and following any legislative change, permit amendment, or approval condition update."
+    },
+    {
+      "section_heading": "Monitoring and Updating",
+      "tag": "[OSHA – OSHA RP 2016 – Management Leadership]",
+      "text": "Assign a named accountable role with authority to ensure the register is current and that identified compliance obligations are actioned within defined timeframes."
+    },
+    {
+      "section_heading": "Monitoring and Updating",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define escalation thresholds for non-compliance events — distinguishing between minor administrative non-conformances, reportable breaches, and enforcement actions — and specify the response timeframe and notification chain for each level."
+    },
+    {
+      "section_heading": "Communication and Contractor Obligations",
+      "tag": "[APPC – Appendix C, C-1 §19]",
+      "text": "Define how newly identified or changed legal requirements are communicated to affected project personnel, supervisors, and all contractor organisations working under the project management system."
+    },
+    {
+      "section_heading": "Communication and Contractor Obligations",
+      "tag": "[IFC – IFC PS1 Guidance Note §GN33]",
+      "text": "Ensure that relevant legal requirements are communicated to contractors through contractual clauses and that contractor compliance is monitored through the project ESMS."
+    },
+    {
+      "section_heading": "Communication and Contractor Obligations",
+      "tag": "[OSHA – OSHA RP 2016 – Worker Participation]",
+      "text": "Ensure workers have access to information about the legal and regulatory requirements applicable to their work, including their rights under applicable health and safety law."
+    },
+    {
+      "section_heading": "Non-Compliance Management",
+      "tag": "[APPC – Appendix C, C-1 §39.4]",
+      "text": "Require prompt reporting of all regulatory non-compliances, government notices, and enforcement actions to the project leadership team and to the relevant corporate function."
+    },
+    {
+      "section_heading": "Non-Compliance Management",
+      "tag": "[IFC – IFC PS1 §11]",
+      "text": "Ensure that any identified non-compliance with applicable laws, regulations, or permit conditions triggers a corrective action process and is documented in the project action tracking system with a defined closeout date and owner."
+    }
+  ],
+  "project_completion_guidance": [
+    "Identify and list all jurisdictions in which this project operates and insert into the register template (RTPR-HSE-REG-0001). Consider federal, state/territory, and local government levels.",
+    "Define the specific monitoring mechanism to be used for this project (e.g., named subscription service, legal counsel engagement arrangement, peak body memberships) — the procedure states a process is required but the specific service is a project decision.",
+    "Define the non-compliance escalation matrix for this project: what constitutes a minor non-conformance vs a reportable breach vs an enforcement action, and who is notified at each level. Insert into the designated table in this procedure.",
+    "Identify the role responsible for maintaining the register by name and position title for this project.",
+    "Insert the project-specific submission timeline for the initial register to the project owner — check the project Deliverables Schedule (RTPR-HSE-REG-0002)."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Management & Compliance Standard",
+      "summary": "Requires a continuous method for identifying, tracking, and updating regulatory requirements, with formal review at minimum quarterly and following any legislative or permit change."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §19",
+      "summary": "Requires submission of the regulatory requirements register to the project authority within 30 days of the Effective Date, with clearly defined roles and responsibilities for compliance, and communication of changed requirements to all project participants."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 §6 and Guidance Note §GN9",
+      "summary": "Requires that all permits, approvals, conditions of consent, and ESIA commitments are included in the register and tracked as binding obligations throughout the project lifecycle."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 Guidance Note §GN18",
+      "summary": "Requires that where host country laws are less stringent than IFC Performance Standards or World Bank EHS Guidelines, the more stringent requirement is documented as the project standard."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 Guidance Note §GN33",
+      "summary": "Requires that legal requirements are communicated to contractors through contractual clauses and that contractor compliance is monitored through the project ESMS."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 §11",
+      "summary": "Requires that any identified non-compliance with applicable laws, regulations, or permit conditions triggers a corrective action process documented in the project action tracking system with a defined closeout date and owner."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "ICMM Principle 1 – Ethical Business",
+      "summary": "Requires that the project commits to full compliance with applicable national and international laws, regulations, and voluntary commitments to which the organisation subscribes."
+    },
+    {
+      "framework": "TSM",
+      "clause": "TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH1",
+      "summary": "Requires that all applicable occupational health and safety legislation is captured in the register and that senior management accountability for its currency is clearly assigned."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "OSHA RP 2016 – Management Leadership",
+      "summary": "Requires assignment of a named accountable role with authority to ensure the register is current and compliance obligations are actioned within defined timeframes."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "OSHA RP 2016 – Worker Participation",
+      "summary": "Requires that workers have access to information about the legal and regulatory requirements applicable to their work, including their rights under applicable health and safety law."
+    }
+  ]
+}

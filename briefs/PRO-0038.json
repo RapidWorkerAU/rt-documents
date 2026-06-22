@@ -1,0 +1,133 @@
+{
+  "procedure_id": "PRO-0038",
+  "document_number": "RTPR-HSE-PRO-0038",
+  "title": "Biodiversity Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for managing biodiversity impacts across the owner-led project, including fauna management, invasive species control, and achieving the project's no-net-loss commitment for priority biodiversity values.",
+  "owns": [
+    "No-net-loss pathway definition",
+    "Pre-clearance fauna survey requirements",
+    "Fauna rescue and translocation requirements",
+    "Invasive species biosecurity controls",
+    "Biodiversity offset or conservation programme requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0001 – Legal Requirements (fauna protection approvals)",
+    "RTPR-HSE-PRO-0002 – Risk Management (biodiversity impact assessment)",
+    "RTPR-HSE-PRO-0037 – Land Disturbance (habitat rehabilitation post-clearance)",
+    "RTPR-HSE-PRO-0030 – Over Water (marine biosecurity)",
+    "RTPR-HSE-PRO-0042 – Monitoring (biodiversity monitoring programme)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0037 references RTPR-HSE-PRO-0038 for pre-disturbance ecological surveys"
+  ],
+  "requirements": [
+    {
+      "section_heading": "No Net Loss Pathway",
+      "tag": "[RT – RT Environment and Nature – Biodiversity Standard]",
+      "text": "Require definition and implementation of a documented pathway to achieve no net loss of priority biodiversity values by the end of closure. Require independently verified processes for identifying priority values, calculating losses and gains, and addressing value chain impacts."
+    },
+    {
+      "section_heading": "No Net Loss Pathway",
+      "tag": "[RT – RT Environment and Nature – Biodiversity Standard]",
+      "text": "Prohibit exploration, extraction, or operation within the boundaries of World Heritage-listed properties."
+    },
+    {
+      "section_heading": "No Net Loss Pathway",
+      "tag": "[ICMM – ICMM Principle 7 – Conservation of Biodiversity]",
+      "text": "Implement the mitigation hierarchy rigorously for biodiversity impacts: avoid; minimise; rehabilitate/restore; offset as last resort. Document the application of the hierarchy for each significant biodiversity impact."
+    },
+    {
+      "section_heading": "No Net Loss Pathway",
+      "tag": "[IFC – IFC PS6 §7–8]",
+      "text": "Apply the mitigation hierarchy consistently and pursue no net loss of natural habitat. Where critical habitat is present, demonstrate that impacts will not significantly affect the key attributes of the critical habitat."
+    },
+    {
+      "section_heading": "Fauna Management",
+      "tag": "[APPC – Appendix C, C-4 §92.6.2 (implied)]",
+      "text": "Require pre-clearance surveys for threatened or protected fauna before vegetation clearing. Define fauna rescue, translocation, and exclusion fencing requirements. Require a fauna chance discovery protocol communicated to all project personnel."
+    },
+    {
+      "section_heading": "Fauna Management",
+      "tag": "[IFC – IFC PS6 §8]",
+      "text": "Manage impacts on locally important flora and fauna through avoidance and mitigation, and implement compensatory conservation measures where residual impacts remain."
+    },
+    {
+      "section_heading": "Fauna Management",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define species-specific management plans for any threatened or protected fauna species identified in the project impact assessment, specifying controls, monitoring, and success criteria, developed in consultation with a qualified ecologist."
+    },
+    {
+      "section_heading": "Invasive Species and Biosecurity",
+      "tag": "[RT – RT Environment and Nature – Biodiversity Standard]",
+      "text": "Require identification of invasive species risks relevant to each project location. Define biosecurity controls to prevent introduction and spread of invasive species including: vehicle and equipment wash-down requirements before entering sensitive areas; soil and plant material movement controls; and inspection requirements."
+    },
+    {
+      "section_heading": "Invasive Species and Biosecurity",
+      "tag": "[APPC – Appendix C, C-2 §53.4.1]",
+      "text": "Define marine biosecurity controls for vessels including hull inspection, biofouling management, and ballast water management to prevent transfer of aquatic invasive species between project locations."
+    },
+    {
+      "section_heading": "Invasive Species and Biosecurity",
+      "tag": "[TSM – TSM – Biodiversity Conservation Management Protocol, Indicator BC2]",
+      "text": "Implement a biodiversity conservation management plan that addresses invasive species as a component of the broader biodiversity management programme."
+    },
+    {
+      "section_heading": "Noise, Light and Vibration Controls for Biodiversity",
+      "tag": "[RT – RT Environment and Nature – Air Quality Standard (stressors)]",
+      "text": "Document and manage noise, vibration, and light impacts on biodiversity and sensitive ecosystems, including buffer zones, scheduling controls, and low-impact lighting technology for operations near sensitive areas."
+    },
+    {
+      "section_heading": "Noise, Light and Vibration Controls for Biodiversity",
+      "tag": "[IFC – IFC PS6 §8]",
+      "text": "Assess indirect impacts on biodiversity (habitat fragmentation, edge effects, noise, light, vibration) as well as direct disturbance impacts."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the priority biodiversity values for this project's area of interest. The procedure requires a no-net-loss pathway — this starts with identifying what must not experience net loss. Engage a qualified ecologist to define the priority values and insert here.",
+    "For each threatened or protected fauna species confirmed in the project impact assessment: define a species-specific management plan as an appendix to this procedure.",
+    "Define the project vehicle and equipment wash-down requirements for biosecurity: where wash-down stations are located; what triggers mandatory wash-down; what the wash-down standard is.",
+    "If biodiversity offsets are required for this project: define the offset ratio, offset location, management obligations, and monitoring programme. These are regulatory commitments and must be documented here.",
+    "[APPC – Appendix C, C-4 §92.6.0.4]  Require that no personnel capture, feed, harass, deliberately kill, trade animal products from, or have deliberate interactions with wildlife or introduced animals. All sightings of protected or significant fauna species must be reported to the Company environmental representative.",
+    "[APPC – Appendix C, C-4 §92.6.1.2]  Require implementation of control measures to prevent, minimise, and control risks associated with noise, vibration, and artificial light, particularly for activities resulting in high nocturnal light levels or significant noise in sensitive habitats.",
+    "[APPC – Appendix C, C-4 §92.6.2.2.1]  Require compliance with all applicable biosecurity regulations. All imported equipment must be inspected and confirmed free of invasive species before entering the project footprint. Packing and packaging materials must meet country biosecurity requirements.",
+    "Define the project light management controls near sensitive ecosystems (e.g., night-sky sensitive areas, marine turtle nesting beaches, bat habitat)."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Biodiversity Standard",
+      "summary": "Requires a documented no-net-loss pathway for priority biodiversity values, prohibits operations within World Heritage-listed properties, and mandates invasive species biosecurity controls including vehicle wash-down and soil movement controls."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Air Quality Standard (stressors)",
+      "summary": "Requires documentation and management of noise, vibration, and light impacts on biodiversity and sensitive ecosystems, including buffer zones and scheduling controls."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §92.6.2 (implied)",
+      "summary": "Requires pre-clearance surveys for threatened or protected fauna, fauna rescue, translocation and exclusion fencing requirements, and a fauna chance discovery protocol."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §53.4.1",
+      "summary": "Requires marine biosecurity controls for vessels including hull inspection, biofouling management, and ballast water management to prevent transfer of aquatic invasive species."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "ICMM Principle 7 – Conservation of Biodiversity",
+      "summary": "Requires rigorous application of the mitigation hierarchy for biodiversity impacts — avoid, minimise, rehabilitate/restore, offset as last resort — with documented application for each significant impact."
+    },
+    {
+      "framework": "IFC PS6",
+      "clause": "IFC PS6 §7–8",
+      "summary": "Requires consistent application of the mitigation hierarchy, pursuit of no net loss of natural habitat, and demonstration that critical habitat key attributes will not be significantly affected; also requires assessment of indirect biodiversity impacts including habitat fragmentation, noise, light, and vibration."
+    },
+    {
+      "framework": "TSM",
+      "clause": "TSM – Biodiversity Conservation Management Protocol, Indicator BC2",
+      "summary": "Requires implementation of a biodiversity conservation management plan that addresses invasive species as a component of the broader biodiversity management programme."
+    }
+  ]
+}

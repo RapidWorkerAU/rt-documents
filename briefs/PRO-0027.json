@@ -1,0 +1,123 @@
+{
+  "procedure_id": "PRO-0027",
+  "document_number": "RTPR-HSE-PRO-0027",
+  "title": "Personal Protective Equipment Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines the minimum PPE requirements for all project personnel and the process for selecting, providing, inspecting, maintaining, and replacing PPE. PPE is the last line of defence in the hierarchy of controls and must only be used in combination with higher-order controls.",
+  "owns": [
+    "Minimum PPE requirements for all personnel",
+    "PPE selection process by hazard type",
+    "PPE inspection, maintenance and replacement requirements",
+    "Training requirements for PPE use"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (PPE as last resort in control hierarchy)",
+    "RTPR-HSE-PRO-0004 – Training (PPE training — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0008 – Working at Height (fall protection equipment)",
+    "RTPR-HSE-PRO-0013 – Noise (hearing protection selection)",
+    "RTPR-HSE-PRO-0025 – Electrical Safety (arc flash PPE)",
+    "RTPR-HSE-PRO-0012 – Chemicals (chemical-resistant PPE)"
+  ],
+  "referenced_by": [
+    "All operational procedures reference RTPR-HSE-PRO-0027 for PPE requirements — they do not specify PPE in isolation"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Minimum PPE Requirements",
+      "tag": "[APPC – Appendix C, C-1 §37]",
+      "text": "Define minimum PPE for all personnel on site: head protection; eye protection; foot protection; hand protection; hearing protection (in designated areas); and protective clothing (long sleeves and long pants). Confirm that PPE requirements meet or exceed Applicable Laws and industry best practices."
+    },
+    {
+      "section_heading": "Minimum PPE Requirements",
+      "tag": "[IFC – IFC EHS General Guidelines §2.7]",
+      "text": "Ensure PPE is appropriate for the hazards identified in the work environment and is selected to provide adequate protection for the relevant exposure scenario."
+    },
+    {
+      "section_heading": "PPE Selection and High-Risk Activities",
+      "tag": "[RT Standard]",
+      "text": "Define specialist PPE requirements for high-risk activities, with selection based on the specific hazard and required protection level: arc flash rated PPE (based on incident energy calculations); fall arrest equipment (selected to minimise fall distances); and RPE (selected based on contaminant type and exposure level)."
+    },
+    {
+      "section_heading": "PPE Selection and High-Risk Activities",
+      "tag": "[APPC – Appendix C, C-1 §37]",
+      "text": "Require PPE requirements for high-risk tasks to be identified during job-specific planning and documented in the relevant JHA or safe work procedure."
+    },
+    {
+      "section_heading": "PPE Selection and High-Risk Activities",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define a site-specific PPE selection guide for common hazards across the project, specifying the minimum protection class required for each identified hazard type, which will serve as the default standard for all project personnel."
+    },
+    {
+      "section_heading": "Training, Inspection and Maintenance",
+      "tag": "[APPC – Appendix C, C-1 §37]",
+      "text": "Require all personnel to be trained in the correct use, care, and limitations of their required PPE. Require PPE to be regularly inspected, maintained, and replaced as necessary. Require immediate removal from service and replacement of any defective or damaged PPE."
+    },
+    {
+      "section_heading": "Training, Inspection and Maintenance",
+      "tag": "[IFC – IFC EHS General Guidelines §2.7]",
+      "text": "Ensure that PPE is stored appropriately to prevent deterioration or damage between uses, and that inspection records are maintained."
+    },
+    {
+      "section_heading": "Training, Inspection and Maintenance",
+      "tag": "[APPC – Appendix C, C-2 §37.1]",
+      "text": "Require that all PPE used on the project meets or exceeds Applicable Laws. Where Company standards are more stringent than local legislation, the Company standard applies."
+    },
+    {
+      "section_heading": "Training, Inspection and Maintenance",
+      "tag": "[APPC – Appendix C, C-2 §37.2]",
+      "text": "Define the minimum PPE standard for all personnel on site: head protection; eye protection; foot protection; hand protection; hearing protection; and protective clothing consisting of long-sleeve shirt and long trousers as a minimum."
+    },
+    {
+      "section_heading": "Training, Inspection and Maintenance",
+      "tag": "[APPC – Appendix C, C-2 §37.3]",
+      "text": "Require that PPE requirements for high-risk activities are identified in the JHA and specified in the relevant permit. Task-specific PPE must address the hazards identified in that specific work environment."
+    },
+    {
+      "section_heading": "Training, Inspection and Maintenance",
+      "tag": "[APPC – Appendix C, C-2 §37.4]",
+      "text": "Require that all personnel are trained in correct use, care, and limitations of PPE before use. Damaged or defective PPE must be immediately removed from service and replaced, with replacement records maintained."
+    }
+  ],
+  "project_completion_guidance": [
+    "Develop the project-specific PPE selection guide as Appendix A of this procedure. The guide must list every identified hazard type on this project and the minimum required PPE specification (e.g., minimum cut resistance class for gloves, minimum safety footwear rating, arc flash PPE category). This is a project deliverable.",
+    "Define the project PPE provision and replacement process: how is PPE issued; who pays for replacement; what is the maximum wear period before mandatory replacement for critical items.",
+    "Confirm the project mandatory PPE standard for all personnel on site (site-wide minimum). Some projects have elevated minimum standards (e.g., tinted safety glasses mandatory at all times outdoors) — define the project standard."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §37",
+      "summary": "Requires minimum PPE for all site personnel including head, eye, foot, hand, and hearing protection and protective clothing, meeting or exceeding applicable laws and industry best practices."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §37.1",
+      "summary": "Requires all PPE to meet or exceed applicable laws, with the more stringent Company standard applied where it exceeds local legislation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §37.2",
+      "summary": "Defines the minimum PPE standard for all site personnel covering head, eye, foot, hand, and hearing protection and full-length protective clothing."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §37.3",
+      "summary": "Requires task-specific PPE for high-risk activities to be identified in the JHA and specified in the relevant permit."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §37.4",
+      "summary": "Requires training in PPE use before deployment, immediate removal of damaged PPE from service, and maintenance of replacement records."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.7",
+      "summary": "Requires PPE to be appropriate for identified hazards, stored to prevent deterioration, and that inspection records are maintained."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT C2 – Contact with Electricity Standard / RT C4 – Fall from Height Standard",
+      "summary": "Requires specialist PPE for high-risk activities including arc flash rated PPE based on incident energy calculations, fall arrest equipment selected to minimise fall distances, and RPE selected based on contaminant type and exposure level."
+    }
+  ]
+}

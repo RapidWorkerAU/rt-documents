@@ -1,0 +1,120 @@
+{
+  "procedure_id": "PRO-0044",
+  "document_number": "RTPR-HSE-PRO-0044",
+  "title": "Performance Assessment and Auditing Procedure",
+  "management_system_element": "16 – Performance Assessment & Auditing",
+  "preamble": "This procedure defines requirements for planning, conducting, reporting, and tracking HSESC audits and inspections across the owner-led project. As project owner, RT has the right and responsibility to audit all contractor organisations operating under the project management system without restriction.",
+  "owns": [
+    "Audit programme requirements (types, frequency, scope)",
+    "Audit conduct and reporting process",
+    "Finding severity classification",
+    "CRM verification reporting requirements",
+    "Action tracking and closeout verification requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (risk register as basis for audit scope)",
+    "RTPR-HSE-PRO-0007 – Improvement Planning (audit findings as improvement inputs)",
+    "RTPR-HSE-PRO-0010 – Document Control (audit records)",
+    "RTPR-HSE-PRO-0042 – Monitoring (audit as part of performance assessment)",
+    "RTPR-HSE-PRO-0045 – Management Review (audit findings as management review input)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0045 references RTPR-HSE-PRO-0044 for audit findings as management review input"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Audit Programme",
+      "tag": "[APPC – Appendix C, C-1 §40–41]",
+      "text": "Define a planned project HSESC audit programme covering: audit types (system, compliance, and specialised topic audits); frequency; scope; required auditor competency; sampling methodology; and documentation requirements. Apply audit and inspection requirements to all contractor organisations and their subcontractors."
+    },
+    {
+      "section_heading": "Audit Programme",
+      "tag": "[IFC – IFC PS1 §22]",
+      "text": "Ensure that the audit programme covers the effectiveness of management controls against the objectives and targets set in the project management plans, not only checklist compliance."
+    },
+    {
+      "section_heading": "Audit Programme",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH3]",
+      "text": "Confirm through regular audits that processes for preventing incidents are in place and that senior management is demonstrably accountable for safety and health outcomes."
+    },
+    {
+      "section_heading": "Audit Conduct and Reporting",
+      "tag": "[APPC – Appendix C, C-1 §40.2]",
+      "text": "Define the audit process: planning; opening meeting; evidence gathering; finding classification by severity (high/medium/low); closing meeting; and report issuance. Require audit reports to be distributed to all relevant parties and retained."
+    },
+    {
+      "section_heading": "Audit Conduct and Reporting",
+      "tag": "[RT Standard]",
+      "text": "Require unrestricted access by RT audit teams to all contractor facilities, equipment, materials, personnel, and records during reasonable hours, with a minimum of two working days advance notice."
+    },
+    {
+      "section_heading": "Audit Conduct and Reporting",
+      "tag": "[IFC – IFC PS1 Guidance Note §GN100]",
+      "text": "Ensure that audit findings are evaluated not just as individual non-conformances but for what they reveal about systemic management system gaps or recurring performance patterns."
+    },
+    {
+      "section_heading": "CRM Verification Reporting",
+      "tag": "[APPC – Appendix C, C-3]",
+      "text": "Define CRM verification reporting requirements including weekly and monthly reports to the project owner. Define minimum report content: target performance tracking; site performance reports; action plans register. Require entry of all CRM verifications into the RT CRM portal/app with quality evidence."
+    },
+    {
+      "section_heading": "CRM Verification Reporting",
+      "tag": "[RT Standard]",
+      "text": "Conduct Critical Control Verification Standards (CCVS) to provide management-level assurance of the effectiveness of critical control verifications across the project."
+    },
+    {
+      "section_heading": "Action Tracking and Closeout",
+      "tag": "[APPC – Appendix C, C-1 §41.1]",
+      "text": "Record, track, and close out all audit and inspection actions in the project action tracking register. Severity-rank all actions. Issue monthly action closeout reports to the project owner. Define verification requirements for high-severity action closeout — closure must be verified, not just declared."
+    }
+  ],
+  "project_completion_guidance": [
+    "Develop the project HSESC audit schedule for the full project duration: audit types; planned dates; responsible auditor. Insert as a Gantt-style table or programme reference.",
+    "Define the project finding severity classification criteria for this project. The procedure provides categories — the project team defines the specific criteria for High/Medium/Low ratings relevant to this project context.",
+    "[APPC – Appendix C, C-1 §41.0.2]  Require that Contractor-led audit and inspection requirements apply to all Contractor personnel and activities without exception. No scope of work or organisational area is exempt from the project audit and inspection programme.\n[APPC – Appendix C, C-1 §41.0.4]  Require that results of all Contractor-led audits and inspections are shared with the Company upon request. Audit findings, corrective action plans, and closeout status must be available at all times.\n[APPC – Appendix C, C-4 §97.0.5]  Require that where any audit or inspection identifies a deficiency posing an immediate risk to the environment, legal compliance, or project personnel, all affected works must cease immediately and the Company must be notified. Work may not resume until the deficiency is resolved and the Company provides written authorisation.",
+    "Define the project auditor competency requirements: what qualifications or experience are required to lead each type of audit on this project.",
+    "Define the project CRM verification schedule and the weekly/monthly CRM report template for submission to the project owner."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §40–41",
+      "summary": "Requires a planned HSESC audit programme covering audit types, frequency, scope, auditor competency, sampling methodology, and documentation, applied to all contractor organisations and subcontractors."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §40.2",
+      "summary": "Defines the audit process steps from planning through report issuance, including finding classification by severity and distribution of audit reports to all relevant parties."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §41.1",
+      "summary": "Requires all audit and inspection actions to be recorded, severity-ranked, tracked, and closed out in the project action tracking register, with monthly closeout reports to the project owner and verification of high-severity closures."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-3",
+      "summary": "Defines CRM verification reporting requirements including weekly and monthly reports, minimum report content, and entry of all CRM verifications into the RT CRM portal with quality evidence."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§22",
+      "summary": "Requires the audit programme to cover the effectiveness of management controls against project objectives and targets, not only checklist compliance."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "Guidance Note §GN100",
+      "summary": "Requires audit findings to be evaluated for what they reveal about systemic management system gaps or recurring performance patterns, not just as individual non-conformances."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Safe, Healthy and Respectful Workplaces Protocol, Indicator SH3",
+      "summary": "Requires regular audits to confirm that incident prevention processes are in place and that senior management is demonstrably accountable for safety and health outcomes."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Management & Compliance Standard",
+      "summary": "Requires unrestricted access by RT audit teams to all contractor facilities, equipment, materials, personnel, and records during reasonable hours with a minimum of two working days advance notice, and requires CCVS to provide management-level assurance of critical control verification effectiveness."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "procedure_id": "PRO-0024",
+  "document_number": "RTPR-HSE-PRO-0024",
+  "title": "Isolation Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure applies to all energy isolation activities for non-electrical hazardous energy sources: hydraulic; pneumatic; mechanical (stored under tension or gravity); rotating and moving energies; radiation; and chemical energies. Electrical isolation is addressed in the Electrical Safety Procedure. All isolations require authorisation before work commences.",
+  "owns": [
+    "Isolation process steps and sequence requirements",
+    "LOTO requirements and personal lock process",
+    "Isolation Officer role and responsibilities",
+    "High pressure equipment register requirements (RTPR-HSE-REG-0013)",
+    "Mechanical blocking requirements",
+    "Guarding requirements and bypass prohibition",
+    "Live/unisolated work authorisation process"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (isolation risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (Isolation Officer competency — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (isolation permits via PTW system — refer RTPR-HSE-PRO-0021)",
+    "RTPR-HSE-PRO-0025 – Electrical Safety (electrical isolation — refer to RTPR-HSE-PRO-0025, not this procedure)",
+    "RTPR-HSE-PRO-0040 – Management of Change (scope changes during isolation via MoC)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0008, RTPR-HSE-PRO-0014, RTPR-HSE-PRO-0015, RTPR-HSE-PRO-0016, RTPR-HSE-PRO-0025 all reference RTPR-HSE-PRO-0024 for isolation requirements",
+    "RTPR-HSE-PRO-0047 references RTPR-HSE-PRO-0024 for commissioning isolation management"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Hazardous Energy Identification",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Require identification of all energy sources and isolation points for each piece of equipment or system where hazardous energy exists. Require development of isolation drawings, P&IDs, isolation lists, and boundary diagrams for all plant where hazardous energies exist."
+    },
+    {
+      "section_heading": "Hazardous Energy Identification",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Require each energy source to have a defined isolation point and an appropriate isolation device (breaker, valve, disconnect). Require new plant and equipment to be designed to minimise the number and complexity of lockable isolation points."
+    },
+    {
+      "section_heading": "Isolation Process",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Define the isolation process steps: identify all energy sources; de-energise; dissipate and restrain stored energy (bleed, vent, discharge, secure gravity); lock out; tag; verify zero energy; clear personnel before testing. Require isolation procedures to be equipment-specific, including relevant P&IDs and schematics."
+    },
+    {
+      "section_heading": "Isolation Process",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Require each isolation to be carried out by an authorised and competent Isolation Officer. Require test equipment used to verify zero energy to be calibrated and suitable for the energy type."
+    },
+    {
+      "section_heading": "Isolation Process",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure that the energy isolation process explicitly addresses each category of hazardous energy present, and that the effectiveness of each isolation is physically verified before workers enter the work area."
+    },
+    {
+      "section_heading": "Lockout/Tagout (LOTO)",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Define personal isolation lock requirements: each worker in the isolation zone must apply their own personal lock. Define the role of the Isolation Officer and the group isolation process for multi-person jobs. Require that hand tools are only used after all energy sources, including stored energy, are effectively isolated and zero energy is verified."
+    },
+    {
+      "section_heading": "Lockout/Tagout (LOTO)",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Define the process for managing scope changes during isolation — any scope change requires reassessment and updated planning before work proceeds."
+    },
+    {
+      "section_heading": "Lockout/Tagout (LOTO)",
+      "tag": "[OSHA – OSHA 29 CFR 1910.147 (LOTO Standard)]",
+      "text": "Ensure the energy control programme meets minimum LOTO standard requirements: written procedures for each type of equipment; employee training; annual programme audits; and procedures for complex or group isolations."
+    },
+    {
+      "section_heading": "High Pressure Equipment",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Require all high-pressure systems to be documented in a Pressure Equipment Register with design documentation, system pressure ratings, and OEM maintenance schedules. Require certified, correctly sized, and installed pressure relief devices on all high-pressure systems."
+    },
+    {
+      "section_heading": "High Pressure Equipment",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Define specific controls for high-pressure hoses (hose socks, coupling lock systems), washing and water blasting equipment, and automatic pressure relief valves."
+    },
+    {
+      "section_heading": "Mechanical Blocking and Guarding",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Require a risk-based process to identify maintenance work requiring mechanical blocking. Require that stored energy is relieved before mechanical blocking is applied. Require blocking equipment to be rated, certified, and included in a risk-based inspection programme."
+    },
+    {
+      "section_heading": "Mechanical Blocking and Guarding",
+      "tag": "[RT – RT C1 – Control of Energy Standard – Guarding Critical Control]",
+      "text": "Require guarding on all plant equipment to prevent entanglement, crushing, and uncontrolled energy release. Guards must be securely affixed, prevent body part access, require a tool for removal, and not create additional hazards. Prohibit bypassing, removing, or defeating guards without the authorisation and permitting process."
+    },
+    {
+      "section_heading": "Lockout/Tagout (LOTO)",
+      "tag": "[APPC – Appendix C, C-2 §50.0.5]",
+      "text": "Require maintenance of a register of all locks and lock holders used in the project isolation system. Each lock must be uniquely identifiable and assigned to a named individual. The register must be current and available for audit at all times."
+    },
+    {
+      "section_heading": "Lockout/Tagout (LOTO)",
+      "tag": "[APPC – Appendix C, C-2 §50.0.6]",
+      "text": "Require that all required authorised permits and documentation outlining isolation arrangements are available at the work site and communicated to all affected personnel before work commences on any isolated system."
+    },
+    {
+      "section_heading": "Lockout/Tagout (LOTO)",
+      "tag": "[APPC – Appendix C, C-2 §50.0.8]",
+      "text": "Require that a designated competent person and the responsible person for work execution jointly verify at the work site that all physical isolations and controls are in place before work commences. Verification must be documented on the permit."
+    },
+    {
+      "section_heading": "Lockout/Tagout (LOTO)",
+      "tag": "[APPC – Appendix C, C-2 §50.0.9]",
+      "text": "Require that changes in work conditions or scope that deviate from the authorised permits or LOTO documents trigger revalidation and re-verification of the isolation before work resumes."
+    },
+    {
+      "section_heading": "Lockout/Tagout (LOTO)",
+      "tag": "[APPC – Appendix C, C-2 §50.1.1]",
+      "text": "Require that following locking and tagging, a test confirms the absence of voltage. For high-voltage isolations, conductors must be earthed. After any change in conditions or any worker break, a retest must revalidate the absence of voltage before work resumes."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the project isolation point identification and documentation method: P&ID annotation standards, isolation list format, boundary diagram conventions. Insert the project standard or reference the engineering document.",
+    "Define the LOTO device standard for this project: approved lock types, tag design, unique number or name identification. The procedure requires personal locks — define the project procurement and issuance process.",
+    "Define the Isolation Officer authorisation process for this project: who approves Isolation Officers; what the competency assessment includes; where the Authorised Isolation Officers Register is kept.",
+    "Populate the Pressure Equipment Register (RTPR-HSE-REG-0013) with all high-pressure systems on this project before commissioning activities begin.",
+    "Define the guarding inspection programme for this project: what equipment requires guarding inspection; at what frequency; who conducts inspections; where records are kept."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT C1 – Control of Energy Standard",
+      "summary": "Requires identification of all hazardous energy sources and isolation points, equipment-specific isolation procedures, competent Isolation Officers, personal LOTO for each worker, scope change reassessment, mechanical blocking requirements, and guarding on all plant equipment."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.1",
+      "summary": "Requires the energy isolation process to explicitly address each category of hazardous energy present and that the effectiveness of each isolation is physically verified before workers enter the work area."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "29 CFR 1910.147 (LOTO Standard)",
+      "summary": "Requires written energy control procedures for each equipment type, employee training, annual programme audits, and procedures for complex or group isolations."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §50.0.5",
+      "summary": "Requires maintenance of a register of all locks and lock holders, with each lock uniquely identifiable and assigned to a named individual."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §50.0.6",
+      "summary": "Requires that all authorised permits and isolation documentation are available at the work site and communicated to all affected personnel before work commences."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §50.0.8",
+      "summary": "Requires that a designated competent person and the responsible person for work execution jointly verify all physical isolations at the work site before work commences, with verification documented on the permit."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §50.0.9",
+      "summary": "Requires that changes in work conditions or scope that deviate from authorised permits or LOTO documents trigger revalidation and re-verification of the isolation before work resumes."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §50.1.1",
+      "summary": "Requires a test confirming absence of voltage following locking and tagging, earthing of conductors for high-voltage isolations, and a retest after any change in conditions or worker break before work resumes."
+    }
+  ]
+}

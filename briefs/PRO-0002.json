@@ -1,0 +1,394 @@
+{
+  "procedure_id": "PRO-0002",
+  "document_number": "RTPR-HSE-PRO-0002",
+  "title": "HSESC Risk Management Procedure",
+  "management_system_element": "03 – Hazard Identification & Risk Management",
+  "preamble": "This procedure defines the project's integrated approach to identifying hazards, assessing risks across all HSESC domains, applying the hierarchy of controls, and maintaining a live risk register. As project owner, RT sets the risk management framework that all project participants work within — this procedure is the primary tool through which that framework is applied at the project level.",
+  "owns": [
+    "RT 5×5 Risk Matrix (consequence and likelihood descriptors)",
+    "Risk tolerability thresholds and required actions",
+    "Hierarchy of controls definition",
+    "Hazard and Risk Register format (RTPR-HSE-REG-0004)",
+    "HAZID workshop process and Terms of Reference requirements",
+    "JHA process and minimum fields",
+    "Hazard Observation Programme structure"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0001 – Legal Requirements (regulatory context for risk assessments)",
+    "RTPR-HSE-PRO-0004 – Training (competency for risk assessment roles)",
+    "RTPR-HSE-PRO-0009 – Incident Management (incidents as inputs to risk register)",
+    "RTPR-HSE-PRO-0010 – Document Control (register maintenance)",
+    "RTPR-HSE-PRO-0040 – Management of Change (MoC as trigger for risk review)",
+    "RTPR-HSE-PRO-0042 – Monitoring (monitoring as input to risk register)"
+  ],
+  "referenced_by": [
+    "ALL operational procedures reference RTPR-HSE-PRO-0002 for the risk matrix",
+    "RTPR-HSE-PRO-0007, RTPR-HSE-PRO-0040, RTPR-HSE-PRO-0042, RTPR-HSE-PRO-0044, RTPR-HSE-PRO-0045 reference RTPR-HSE-PRO-0002 for risk framework"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Risk Framework",
+      "tag": "[RT – RT – Risk Management Standard]",
+      "text": "Define the mandatory use of the RT 5×5 Risk Matrix as the project risk assessment tool, including consequence and likelihood descriptors, risk tolerability thresholds (Acceptable, ALARP, Unacceptable), and required actions for each risk band."
+    },
+    {
+      "section_heading": "Risk Framework",
+      "tag": "[RT – RT – Risk Management Standard]",
+      "text": "Define the hierarchy of controls (elimination, substitution, engineering, administrative, PPE) and require it to be applied in order with documented rationale when higher-order controls are not feasible."
+    },
+    {
+      "section_heading": "Risk Framework",
+      "tag": "[ICMM – ICMM Principle 4 – Risk Management]",
+      "text": "Implement effective risk management strategies based on sound science that account for stakeholder perceptions of risk, consistent with recognised international standards."
+    },
+    {
+      "section_heading": "Risk Framework",
+      "tag": "[IFC – IFC PS1 §7]",
+      "text": "Confirm that the risk management process applies across the full project lifecycle and addresses environmental, social, health, safety, and security risks in an integrated manner, not as separate standalone assessments."
+    },
+    {
+      "section_heading": "Hazard and Risk Register",
+      "tag": "[RT – RT – Risk Management Standard]",
+      "text": "Define the format and mandatory content of the project Hazard and Risk Register: hazard description; associated risk; current controls; residual risk rating (5×5 matrix); control owner; verification method; and review date."
+    },
+    {
+      "section_heading": "Hazard and Risk Register",
+      "tag": "[APPC – Appendix C, C-1 §25.1]",
+      "text": "Require that all hazards identified through HAZID workshops, constructability reviews, health risk assessments, environmental risk assessments, and social risk assessments are consolidated into a single integrated project-level risk register."
+    },
+    {
+      "section_heading": "Hazard and Risk Register",
+      "tag": "[IFC – IFC PS1 Guidance Note §GN15]",
+      "text": "Maintain the risk register as a living document, updated when new hazards are identified, controls change, or the project scope or context changes materially."
+    },
+    {
+      "section_heading": "Hazard and Risk Register",
+      "tag": "[OSHA – OSHA RP 2016 – Hazard Identification and Assessment]",
+      "text": "Include systematic workplace inspections and monitoring data as continuous inputs to the risk register alongside workshop and assessment outputs."
+    },
+    {
+      "section_heading": "HAZID and Level 2 Risk Assessment Workshops",
+      "tag": "[APPC – Appendix C, C-1 §25.3]",
+      "text": "Require HAZID and Level 2 Risk and Opportunity Assessment Workshops to be conducted prior to commencement of Work at site, involving both owner team and contractor personnel, with appropriate subject matter expertise."
+    },
+    {
+      "section_heading": "HAZID and Level 2 Risk Assessment Workshops",
+      "tag": "[APPC – Appendix C, C-1 §25.3]",
+      "text": "Require a Terms of Reference defining scope, methodology, and node structure before each workshop, and require workshop reports to be distributed to all relevant project parties within 30 days of completion."
+    },
+    {
+      "section_heading": "HAZID and Level 2 Risk Assessment Workshops",
+      "tag": "[APPC – Appendix C, C-1 §25.3]",
+      "text": "Require a dedicated node or standalone workshop focused on human-energy interactions — the single largest source of construction fatalities — within the HAZID process."
+    },
+    {
+      "section_heading": "HAZID and Level 2 Risk Assessment Workshops",
+      "tag": "[IFC – IFC PS1 §8]",
+      "text": "Ensure that the assessment methodology is consistent with Good International Industry Practice (GIIP) and that specialists with relevant technical and local contextual knowledge are engaged where required."
+    },
+    {
+      "section_heading": "Job Hazard Analysis (JHA)",
+      "tag": "[APPC – Appendix C, C-1 §25.4]",
+      "text": "Define the project JHA process: mandatory use of the RT 5×5 Risk Matrix; minimum required fields; coverage of all disciplines, interfaces, and simultaneous activities; and the requirement that JHAs are communicated to all involved personnel before work commences."
+    },
+    {
+      "section_heading": "Job Hazard Analysis (JHA)",
+      "tag": "[APPC – Appendix C, C-1 §25.4]",
+      "text": "Confirm that no new task commences without a pre-start meeting referencing the relevant JHA and permit. JHAs must be reviewed and revised whenever conditions change."
+    },
+    {
+      "section_heading": "Job Hazard Analysis (JHA)",
+      "tag": "[OSHA – OSHA RP 2016 – Hazard Prevention and Control]",
+      "text": "Ensure that JHAs identify root causes rather than just surface hazards, and that the selected controls address the root cause at the highest practicable level of the hierarchy."
+    },
+    {
+      "section_heading": "Hazard Observation Programme",
+      "tag": "[APPC – Appendix C, C-1 §25.5]",
+      "text": "Define a structured process for all project personnel to identify, document, and submit hazard observations, with defined action assignment, tracking, and closeout."
+    },
+    {
+      "section_heading": "Hazard Observation Programme",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH2]",
+      "text": "Use hazard observation data as a leading indicator of safety culture maturity; analyse trends and report against targets in monthly HSESC performance reports."
+    },
+    {
+      "section_heading": "Hazard Observation Programme",
+      "tag": "[OSHA – OSHA RP 2016 – Worker Participation]",
+      "text": "Ensure workers are actively encouraged to report hazards and that they face no disciplinary measures or negative consequences for doing so."
+    },
+    {
+      "section_heading": "Security Risk Assessment",
+      "tag": "[APPC – Appendix C, C-1 §33.1]",
+      "text": "Require a comprehensive security risk assessment covering all key work locations, transport routes, and supply chain nodes. The assessment must involve multi-disciplinary participation including the CSP function, and be documented in the project risk register."
+    },
+    {
+      "section_heading": "Security Risk Assessment",
+      "tag": "[IFC – IFC PS4 §13]",
+      "text": "Ensure the security risk assessment addresses potential human rights risks associated with the use of security personnel and includes reference to the Voluntary Principles on Security and Human Rights."
+    },
+    {
+      "section_heading": "Constructability Reviews",
+      "tag": "[APPC – Appendix C, C-1 §25.2.1]",
+      "text": "Require preparation of a hazard and risk assessment register when constructability reviews commence, with hazards identified and addressed during the pre-construction phase. Constructability Review Teams must include both owner and contractor personnel with appropriate subject matter experts across all relevant disciplines."
+    },
+    {
+      "section_heading": "Constructability Reviews",
+      "tag": "[APPC – Appendix C, C-1 §25.2.2]",
+      "text": "Require that hazards identified during constructability reviews are documented to identify the control or management of each hazard. Output from these reviews forms the basis for Safe Work Methodology Statements for all high-risk activities by construction contractors."
+    },
+    {
+      "section_heading": "Management of Change Interface",
+      "tag": "[APPC – Appendix C, C-1 §25.6.1]",
+      "text": "Require that changes to the project organisation, activities, processes, or documentation are assessed for HSESC risks through the Management of Change process. All changes in conditions or scope that introduce new hazards or remove existing controls must be assessed before work continues — refer RTPR-HSE-PRO-0040."
+    },
+    {
+      "section_heading": "Management of Change Interface",
+      "tag": "[APPC – Appendix C, C-1 §25.6.2]",
+      "text": "Require that all changes identified through the MoC process are communicated to the Company and to all affected project personnel before implementation."
+    },
+    {
+      "section_heading": "CRM Programme Requirements",
+      "tag": "[APPC – Appendix C, C-3 §73.0.1]",
+      "text": "Require participation in the CRM programme defined for the project, following the framework developed by the Company. The CRM programme must define critical risk exposures, provide training in the correct application of CRM tools, establish a CRM deployment team, and define roles and responsibilities for critical control verification."
+    },
+    {
+      "section_heading": "CRM Programme Requirements",
+      "tag": "[APPC – Appendix C, C-3 §73.1.1]",
+      "text": "Require that the site risk profile is monitored and adjusted as required, with CRM tools kept current and available to project personnel via the Forwood portal. The CRM profile must form an integral part of all risk assessment reviews and be updated when activities change within project areas."
+    },
+    {
+      "section_heading": "CRM Programme Requirements",
+      "tag": "[APPC – Appendix C, C-3 §73.1.6]",
+      "text": "Require that for all identified CRM risks, an appropriate level of Critical Control Verification Standards (CCVS), Critical Control Field Verifications (CCFV), and Critical Control Checklists (CCC) coverage is built into project schedules and leadership activities."
+    },
+    {
+      "section_heading": "CRM Programme Requirements",
+      "tag": "[APPC – Appendix C, C-3 §75.1.1]",
+      "text": "Require completion of Company-supplied CRM training prior to commencement of work on the project. Follow-up training and knowledge verification must take place in the workplace as soon as practicable, with work crews engaged in practical CRM application within two weeks of mobilisation."
+    },
+    {
+      "section_heading": "CRM Programme Requirements",
+      "tag": "[APPC – Appendix C, C-3 §76.1]",
+      "text": "Require identification of suitable CRM Champions within the project organisation to support implementation and sustainability of CRM. CRM Champions must demonstrate commitment to CRM, have experience in the Critical Risk areas they champion, and provide SME coaching to individuals and groups involved in critical risk activities."
+    },
+    {
+      "section_heading": "CRM Programme Requirements",
+      "tag": "[APPC – Appendix C, C-3 §79.0.1]",
+      "text": "Require CRM information to be incorporated into pre-start meeting discussions at the beginning of each shift. Pre-start boards must be used to record daily activities with critical risk exposure, the nature of the risk, and the critical controls required. All work crews must be given an opportunity to discuss non-compliant critical controls and raise concerns from the previous shift."
+    },
+    {
+      "section_heading": "CRM Programme Requirements",
+      "tag": "[APPC – Appendix C, C-3 §81.1.1]",
+      "text": "Require monthly CRM data analysis detailing performance over the previous reporting period, posted to all project notice boards. CRM statistics including data quality must be included in monthly HSESC performance reports. Weekly Forwood portal reports must review performance against non-compliance, mobile submission, coaching, and completion of all field verifications."
+    },
+    {
+      "section_heading": "Fatality Prevention Programme",
+      "tag": "[APPC – Appendix C, C-1 §27.2]",
+      "text": "Require assignment of an FPP Sponsor at Project Director level and an FPP Implementation Lead at HSESC Manager level before project mobilisation. The sponsor provides visible leadership and endorses FPP actions. The implementation lead is accountable for facilitating workshops, coordinating in-field inspections, tracking actions, and reporting FPP performance to the Company."
+    },
+    {
+      "section_heading": "Fatality Prevention Programme",
+      "tag": "[APPC – Appendix C, C-1 §27.3]",
+      "text": "Require an FPP kick-off workshop conducted once before project mobilisation, addressing the activities and conditions identified as having the highest fatality potential for the specific project scope. The workshop must be facilitated by the HSESC Manager and attended by all supervisor-level personnel and above across Company and Contractor organisations."
+    },
+    {
+      "section_heading": "Fatality Prevention Programme",
+      "tag": "[APPC – Appendix C, C-1 §27.4]",
+      "text": "Require FPP in-field inspections conducted at a minimum frequency of once every eight weeks throughout the project execution phase. All personnel at supervisor level and above must participate in at least one in-field inspection per defined frequency. Resources must be made available by both Company and Contractor organisations to support FPP activities, and FPP activities are not deferred without Project Director approval."
+    },
+    {
+      "section_heading": "Fatality Prevention Programme",
+      "tag": "[APPC – Appendix C, C-1 §27.5]",
+      "text": "Require a documented FPP schedule established before mobilisation and maintained throughout the project lifecycle, including: a pre-mobilisation kick-off workshop; in-field inspections at no less than eight-weekly intervals; and an FPP actions review forum at each project HSESC leadership or performance meeting. The schedule must be held at a defined and accessible project location."
+    },
+    {
+      "section_heading": "Fatality Prevention Programme",
+      "tag": "[APPC – Appendix C, C-1 §27.6]",
+      "text": "Require all actions arising from FPP workshops and in-field inspections to be assigned an owner and a due date, tracked to closure, and reported at each project HSESC performance meeting. FPP results, including inspection findings and action status, must be communicated to the Company at each project HSESC performance meeting and included in the monthly HSESC performance report."
+    },
+    {
+      "section_heading": "Fatality Prevention Programme",
+      "tag": "[APPC – Appendix C, C-1 §27.8]",
+      "text": "Require the project CRM verification programme to be integrated with and aligned to FPP activities. The CRM verification schedule must be held at a defined and accessible location and reviewed at each FPP actions review forum."
+    },
+    {
+      "section_heading": "Fatality Prevention Programme",
+      "tag": "[APPC – Appendix C, C-1 §27.10]",
+      "text": "Require that FPP participant lists are confirmed by the HSESC Manager before each activity and held at a defined project location. Participation must not be limited to HSESC personnel. FPP activities are multi-disciplinary and must include operational, engineering, and supervisory personnel from both Company and Contractor organisations."
+    }
+  ],
+  "project_completion_guidance": [
+    "CRITICAL — The 5×5 Risk Matrix must be inserted as a formatted table in this procedure. Obtain the current RT project risk matrix template and insert it here. All other procedures reference this section — it must be complete before any other procedure can reference it.",
+    "Define the project risk tolerability thresholds in the designated table: what residual risk rating requires escalation to the project owner; what rating requires stop-work; what rating is acceptable to proceed with existing controls.",
+    "Confirm the HAZID workshop schedule for this project and insert into the procedure: pre-construction HAZID date, construction phase reviews, commissioning HAZID. These dates become the project HAZID programme.",
+    "Define the JHA trigger list for this project — the specific task categories and conditions that require a formal JHA vs those managed by standard operating procedures. This is a project-specific decision.",
+    "Define minimum hazard observation targets for this project (e.g., minimum observations per supervisor per week). Insert into the designated table."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Risk Management Standard",
+      "summary": "Mandates use of the RT 5×5 Risk Matrix, risk tolerability thresholds, and the hierarchy of controls for all project risk assessments."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §25.1",
+      "summary": "Requires all hazards identified through HAZID, constructability reviews, and health, environmental, and social risk assessments to be consolidated into a single integrated project-level risk register."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §25.2.1",
+      "summary": "Requires preparation of a hazard and risk assessment register when constructability reviews commence, involving both owner and contractor personnel with appropriate subject matter experts."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §25.2.2",
+      "summary": "Requires hazards identified during constructability reviews to be documented with defined controls, forming the basis for Safe Work Methodology Statements for high-risk activities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §25.3",
+      "summary": "Requires HAZID and Level 2 Risk and Opportunity Assessment Workshops before commencement of work at site, with Terms of Reference and reports distributed within 30 days, including a dedicated human-energy interaction node."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §25.4",
+      "summary": "Defines the project JHA process including mandatory use of the RT 5×5 Risk Matrix, minimum fields, and the requirement that no new task commences without a pre-start meeting referencing the relevant JHA and permit."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §25.5",
+      "summary": "Requires a structured hazard observation programme for all project personnel with defined action assignment, tracking, and closeout."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §25.6.1",
+      "summary": "Requires that all changes to the project organisation, activities, processes, or documentation that introduce new hazards or remove existing controls are assessed through the Management of Change process before work continues."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §25.6.2",
+      "summary": "Requires that all changes identified through the MoC process are communicated to the Company and all affected project personnel before implementation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §27.2",
+      "summary": "Requires appointment of an FPP Sponsor at Project Director level and an FPP Implementation Lead at HSESC Manager level before mobilisation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §27.3",
+      "summary": "Requires a pre-mobilisation FPP kick-off workshop addressing activities and conditions with the highest fatality potential, attended by all supervisor-level personnel and above."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §27.4",
+      "summary": "Requires FPP in-field inspections at a minimum frequency of once every eight weeks throughout execution, with all supervisor-level and above personnel participating."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §27.5",
+      "summary": "Requires a documented FPP schedule established before mobilisation, including kick-off workshop, eight-weekly in-field inspections, and an FPP actions review forum at each HSESC performance meeting."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §27.6",
+      "summary": "Requires all FPP actions to be assigned an owner and due date, tracked to closure, and reported at each project HSESC performance meeting and included in the monthly HSESC performance report."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §27.8",
+      "summary": "Requires the CRM verification programme to be integrated with FPP activities, with the CRM verification schedule reviewed at each FPP actions review forum."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §27.10",
+      "summary": "Requires FPP participant lists to be confirmed by the HSESC Manager before each activity, with multi-disciplinary participation from both Company and Contractor organisations."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §33.1",
+      "summary": "Requires a comprehensive security risk assessment covering all work locations, transport routes, and supply chain nodes, documented in the project risk register."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-3 §73.0.1",
+      "summary": "Requires participation in the Company CRM programme, defining critical risk exposures, CRM training, a deployment team, and roles and responsibilities for critical control verification."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-3 §73.1.1",
+      "summary": "Requires the site risk profile to be monitored and adjusted, with CRM tools kept current via the Forwood portal and integrated into all risk assessment reviews."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-3 §73.1.6",
+      "summary": "Requires appropriate CCVS, CCFV, and CCC coverage for all identified CRM risks to be built into project schedules and leadership activities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-3 §75.1.1",
+      "summary": "Requires completion of Company-supplied CRM training before commencement of work, with practical CRM application by work crews within two weeks of mobilisation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-3 §76.1",
+      "summary": "Requires identification of CRM Champions within the project organisation to support CRM implementation and provide SME coaching in critical risk areas."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-3 §79.0.1",
+      "summary": "Requires CRM information to be incorporated into pre-start meeting discussions, with pre-start boards recording daily critical risk activities, the nature of the risk, and required critical controls."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-3 §81.1.1",
+      "summary": "Requires monthly CRM data analysis posted to notice boards, CRM statistics included in monthly HSESC performance reports, and weekly Forwood portal reports reviewing performance against non-compliance and completion of field verifications."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "ICMM Principle 4 – Risk Management",
+      "summary": "Requires implementation of effective risk management strategies based on sound science that account for stakeholder perceptions of risk and are consistent with recognised international standards."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 §7",
+      "summary": "Requires the risk management process to apply across the full project lifecycle and address environmental, social, health, safety, and security risks in an integrated manner."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 §8",
+      "summary": "Requires that the assessment methodology is consistent with Good International Industry Practice and that specialists with relevant technical and local contextual knowledge are engaged where required."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 Guidance Note §GN15",
+      "summary": "Requires the risk register to be maintained as a living document, updated when new hazards are identified, controls change, or the project scope or context changes materially."
+    },
+    {
+      "framework": "IFC PS4",
+      "clause": "IFC PS4 §13",
+      "summary": "Requires the security risk assessment to address potential human rights risks associated with the use of security personnel and include reference to the Voluntary Principles on Security and Human Rights."
+    },
+    {
+      "framework": "TSM",
+      "clause": "TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH2",
+      "summary": "Requires hazard observation data to be used as a leading indicator of safety culture maturity, with trends analysed and reported against targets in monthly HSESC performance reports."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "OSHA RP 2016 – Hazard Identification and Assessment",
+      "summary": "Requires systematic workplace inspections and monitoring data to be included as continuous inputs to the risk register alongside workshop and assessment outputs."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "OSHA RP 2016 – Hazard Prevention and Control",
+      "summary": "Requires JHAs to identify root causes rather than just surface hazards, with selected controls addressing root causes at the highest practicable level of the hierarchy."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "OSHA RP 2016 – Worker Participation",
+      "summary": "Requires workers to be actively encouraged to report hazards without fear of disciplinary measures or negative consequences."
+    }
+  ]
+}

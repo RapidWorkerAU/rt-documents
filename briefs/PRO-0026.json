@@ -1,0 +1,154 @@
+{
+  "procedure_id": "PRO-0026",
+  "document_number": "RTPR-HSE-PRO-0026",
+  "title": "Vehicles and Driving Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure applies to all light vehicles, mass transport vehicles, heavy mobile equipment (HME), special-purpose vehicles, ancillary mobile equipment, and powered mobile equipment operated on the owner-led project. All project vehicle operators — RT staff and contractors — must comply. Mass transport vehicles are those designed to transport nine or more persons including the driver.",
+  "owns": [
+    "Vehicle minimum specification requirements (Table 1)",
+    "Driver and operator authorisation process",
+    "Positive communications process and distance requirements",
+    "Fundamentally stable parking requirements",
+    "Journey Management Plan trigger criteria and minimum content",
+    "Downhill haulage ramp register requirements",
+    "Vehicle technology (IVMS) requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (vehicle and traffic risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (driver competency — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0006 – Fitness for Work (driver fitness, D&A testing)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (pit permits for restricted area access — via RTPR-HSE-PRO-0021)",
+    "RTPR-HSE-PRO-0031 – Traffic Management (traffic management planning)",
+    "RTPR-HSE-PRO-0009 – Incident Management (vehicle incident reporting)",
+    "RTPR-HSE-PRO-0008 – Working at Height (height controls for load securing at height)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0031 – Traffic Management references RTPR-HSE-PRO-0026 for vehicle specifications and driver requirements"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Vehicle Minimum Specifications",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard]",
+      "text": "Define minimum specifications for all vehicles per the RT standard: occupant protection (fixed seats and seatbelts for all occupants); speedometer; markings visible from all directions; pedestrian/object warning systems; reverse alarm; site-compatible two-way communications; park brake; horn; fire suppression or extinguisher (risk-based); and identified lockable isolation point."
+    },
+    {
+      "section_heading": "Vehicle Minimum Specifications",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard]",
+      "text": "Require all new light vehicle purchases to hold a minimum 5-star NCAP rating. Define legacy fleet minimum requirements. Define additional mass transport vehicle technology requirements: IVMS with in-vehicle camera; fatigue detection technology with immediate driver alert; and blind spot monitoring."
+    },
+    {
+      "section_heading": "Vehicle Minimum Specifications",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard]",
+      "text": "Require pre-first-use inspection of all vehicles to verify minimum requirements are met and functioning correctly."
+    },
+    {
+      "section_heading": "Vehicle Minimum Specifications",
+      "tag": "[APPC – Appendix C, C-2 §52.1.3]",
+      "text": "Require that seat belts in all project vehicles are three-point lap-sash seat belts with pre-tensioner. Lap-only or sash-only seat belts are not permitted."
+    },
+    {
+      "section_heading": "Vehicle Minimum Specifications",
+      "tag": "[APPC – Appendix C, C-2 §52.1.4]",
+      "text": "Require that mobile phones and portable electronic devices may only be used by the driver when the vehicle is stationary and in a safe location. Hands-free devices are not exempt from this requirement."
+    },
+    {
+      "section_heading": "Vehicle Minimum Specifications",
+      "tag": "[APPC – Appendix C, C-2 §52.5.1]",
+      "text": "Require a risk assessment before loading or unloading any load, confirming the load will not shift, roll, tip over, fall, or move once unsecured and will not inadvertently release hazardous substances."
+    },
+    {
+      "section_heading": "Driver and Operator Authorisation",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard – Critical Control]",
+      "text": "Require compliance with all regulatory licensing requirements. Require training per a documented protocol by qualified trainers, vehicle-specific theory and practical assessments, and a risk-based competency reassessment frequency. Define HME-specific competency requirements: downhill haulage risks and controls; use of Retard Speed Control (RSC); and use of independent braking systems in emergency situations."
+    },
+    {
+      "section_heading": "Driver and Operator Authorisation",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard]",
+      "text": "Require defensive driver training for mass transport vehicle drivers. Define risk-based requirements for other vehicle types."
+    },
+    {
+      "section_heading": "Positive Communications",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard – Critical Control]",
+      "text": "Define the positive communication process for vehicle/PME interactions. Require agreed communication method, clear initiation, and confirmed acknowledgement using a repeat-back or equivalent. Surface mining: no vehicle may approach within 50 metres of HME without first establishing positive communication. Underground mining: no person or vehicle may approach HME without positive communication. Define the overtaking protocol for HME."
+    },
+    {
+      "section_heading": "Fatigue, FFW, and Pre-operational Checks",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard – Critical Control]",
+      "text": "Require verification that drivers/operators are not under the influence of alcohol, drugs, or impairing medications. Require alcohol testing for mass transport vehicle drivers at commencement of shift. Require fatigue management for all drivers. Define pre-operational check requirements with equipment-specific checklists and Go/No-Go thresholds. Require immediate removal from service for any defect that renders the vehicle unsafe."
+    },
+    {
+      "section_heading": "Journey Management",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard – Critical Control]",
+      "text": "Define the risk-based approach to journey management, including triggers for a Journey Management Plan (JMP). Define minimum JMP content: fatigue management protocols; live vehicle tracking and communication protocols; and emergency response protocols. Require all high-risk journeys to have a documented JMP before departure."
+    },
+    {
+      "section_heading": "Journey Management",
+      "tag": "[APPC – Appendix C, C-2 §53.1.2.8]",
+      "text": "Require a formal Journey Management Plan for journeys involving travel outside daylight hours, unfamiliar routes, areas with limited communications, travel to remote locations, or other high-risk factors. The JMP must address route selection, fatigue risk, rest stops, communication, weather conditions, and emergency supply provisions."
+    },
+    {
+      "section_heading": "Traffic Management, Segregation and Parking",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard – Critical Control]",
+      "text": "Require physical segregation between PME, pedestrians, and other vehicles as the preferred control. Define alternative separation methods (50m exclusion zones, dedicated pedestrian crossings) where physical segregation cannot be achieved. Require roads to be designed and maintained by a competent person with a documented inspection and maintenance schedule."
+    },
+    {
+      "section_heading": "Traffic Management, Segregation and Parking",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard – Critical Control]",
+      "text": "Require vehicles and PME to be parked in a fundamentally stable state: park brake engaged; wheel chocks where required; ignition off when operator absent (unless risk-assessed); and parked in a designated area suitable for the vehicle type."
+    },
+    {
+      "section_heading": "Mass Transport",
+      "tag": "[APPC – Appendix C, C-2 §53.1.3.1]",
+      "text": "Require that all mass transport vehicles are equipped with In-Vehicle Monitoring Systems (IVMS) and cameras. IVMS must monitor and alert for speed limit breaches, seat belt non-compliance, and harsh acceleration or braking. Cameras must cover the front windscreen and the driver."
+    },
+    {
+      "section_heading": "Mass Transport",
+      "tag": "[APPC – Appendix C, C-2 §53.1.5.1]",
+      "text": "Require that vehicles purchased after January 2022 for mass transport meet minimum standards: three-point seat belts with warning system; ESC or ABS; lane departure warning; engine bay fire detection and suppression; pedestrian alert system; blind spot monitoring; and adequate emergency exits."
+    }
+  ],
+  "project_completion_guidance": [
+    "Complete the vehicle fleet inventory for this project: list all vehicle and equipment types; confirm which meet minimum specifications; identify any legacy equipment requiring assessment or upgrade.",
+    "Define the positive communication protocol for this project: what communication system is used (UHF channel, Bluetooth, proximity detection); the specific channel/frequency allocations for each site area. The procedure sets the 50m requirement — the project implements the specific system.",
+    "Define the JMP trigger list for this project: which journeys are automatically high-risk requiring a JMP; which require a risk assessment to determine. Insert as a table.",
+    "If this project involves downhill haul roads: populate the Ramp Register before HME operations commence, including gradient verification by a competent person.",
+    "Define the IVMS monitoring process for this project: who monitors IVMS data; at what frequency; what threshold events trigger investigation. The procedure requires IVMS — the project defines the monitoring governance."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT C3 – Vehicles and Driving Standard",
+      "summary": "Defines mandatory minimum vehicle specifications, driver authorisation, positive communications, fatigue and fitness for work controls, journey management, traffic segregation, and parking requirements for all vehicle and PME operations."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §52.1.3",
+      "summary": "Requires three-point lap-sash seat belts with pre-tensioner in all project vehicles."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §52.1.4",
+      "summary": "Prohibits use of mobile phones and portable electronic devices by drivers unless the vehicle is stationary and in a safe location, including hands-free devices."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §52.5.1",
+      "summary": "Requires a risk assessment before loading or unloading any load to confirm the load will not shift, tip, fall, or inadvertently release hazardous substances."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §53.1.2.8",
+      "summary": "Requires a formal Journey Management Plan for high-risk journeys including those outside daylight hours, on unfamiliar routes, or to remote locations with limited communications."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §53.1.3.1",
+      "summary": "Requires all mass transport vehicles to be equipped with IVMS and cameras monitoring speed, seat belt compliance, and harsh driving events."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §53.1.5.1",
+      "summary": "Requires mass transport vehicles purchased after January 2022 to meet minimum safety technology standards including ESC or ABS, lane departure warning, fire detection and suppression, and blind spot monitoring."
+    }
+  ]
+}

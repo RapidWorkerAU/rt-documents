@@ -1,0 +1,97 @@
+{
+  "procedure_id": "PRO-0020",
+  "document_number": "RTPR-HSE-PRO-0020",
+  "title": "Functional Safety Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for managing Safety Instrumented Systems (SIS) and other functional safety systems to ensure they remain capable of performing their intended safety function throughout their lifecycle — from design through commissioning, operation, maintenance, modification, and decommissioning.",
+  "owns": [
+    "SIL determination methodology",
+    "Safety Requirements Specification requirements",
+    "FAT and SAT requirements",
+    "Defeat and bypass management for SIS",
+    "Proof test interval requirements",
+    "Functional safety competency requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0019 – Process Safety (SIL classification basis)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (SIS testing via PTW)",
+    "RTPR-HSE-PRO-0024 – Isolation (isolation of SIS for testing)",
+    "RTPR-HSE-PRO-0040 – Management of Change (SIS changes via MoC)",
+    "RTPR-HSE-PRO-0047 – Commissioning (SIS commissioning and handover)",
+    "RTPR-HSE-PRO-0004 – Training (functional safety competency)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0019 references RTPR-HSE-PRO-0020 for SIS testing",
+    "RTPR-HSE-PRO-0047 references RTPR-HSE-PRO-0020 for pre-commissioning safety system testing"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Safety Requirements and SIL Classification",
+      "tag": "[RT – RT – Process Safety Standard and Functional Safety Standard]",
+      "text": "Define functional safety lifecycle requirements from concept through decommissioning. Require Safety Integrity Level (SIL) determination for all safety functions based on risk assessment. Require documented Safety Requirements Specifications (SRS) for each safety function before detailed design begins."
+    },
+    {
+      "section_heading": "Safety Requirements and SIL Classification",
+      "tag": "[IFC – IFC EHS General Guidelines §2.8]",
+      "text": "Ensure that SIS and other safety instrumented functions are designed by competent personnel and that the design basis is documented and retained for the life of the system."
+    },
+    {
+      "section_heading": "Safety Requirements and SIL Classification",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the methodology for SIL determination (e.g., risk graph, layer of protection analysis), the authority level required to approve SIL assignments, and the process for reviewing and confirming SIL allocations at each project stage gate."
+    },
+    {
+      "section_heading": "Design, Installation and Commissioning",
+      "tag": "[RT – RT – Functional Safety Standard]",
+      "text": "Require Factory Acceptance Testing (FAT) and Site Acceptance Testing (SAT) for all SIS before commissioning, with results documented and retained. Require commissioning documentation confirming each safety function has been tested and verified before it is relied upon for plant protection."
+    },
+    {
+      "section_heading": "Design, Installation and Commissioning",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the minimum documentation requirements for SIS handover from the construction team to the operations team, ensuring that as-built documentation, test results, and proof test procedures are transferred and controlled."
+    },
+    {
+      "section_heading": "Defeat and Bypass Management",
+      "tag": "[RT – RT – Process Safety Standard]",
+      "text": "Require a formal authorisation process for any defeat or bypass of a safety instrumented function: risk assessment before bypass; documented compensating controls; time-limited bypass with defined duration; approval at appropriate authority level; and active tracking of all active bypasses."
+    },
+    {
+      "section_heading": "Defeat and Bypass Management",
+      "tag": "[APPC – Appendix C, C-1 §26]",
+      "text": "Ensure that bypass of any critical control is captured in the project action tracking system and reported to the project owner as part of monthly HSESC reporting."
+    },
+    {
+      "section_heading": "Testing and Maintenance",
+      "tag": "[RT – RT – Functional Safety Standard]",
+      "text": "Define proof test interval requirements based on the SIL target for each safety function. Require that proof test procedures are documented, followed by competent personnel, and that results are documented and any failures investigated."
+    },
+    {
+      "section_heading": "Testing and Maintenance",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the minimum functional safety competency requirements for personnel responsible for SIS testing and maintenance, and document the process for verifying that contractors engaged in SIS work meet those requirements."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the SIL determination methodology approved for this project (risk graph, LOPA, or equivalent) and insert the approved methodology or reference to the project-specific process safety study.",
+    "For each safety instrumented function on this project, complete the SRS before detailed design is finalised. Define the SRS template to be used.",
+    "Define the project FAT and SAT requirements: what systems require FAT; who witnesses FAT/SAT; what documentation is required. Insert as a table.",
+    "Define the functional safety competency requirements for this project: who must have formal TÜV or equivalent functional safety certification; who may perform proof tests under supervision only."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "Process Safety Standard and Functional Safety Standard",
+      "summary": "Requires functional safety lifecycle management from concept through decommissioning, including SIL determination, Safety Requirements Specifications, FAT/SAT, bypass management, and proof test intervals for all SIS."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.8",
+      "summary": "Requires that SIS and safety instrumented functions are designed by competent personnel with documented design basis retained for the life of the system, and that adequate ventilation and confined space management practices are maintained."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §26",
+      "summary": "Requires that any bypass of a critical control is captured in the project action tracking system and reported to the project owner as part of monthly HSESC reporting."
+    }
+  ]
+}

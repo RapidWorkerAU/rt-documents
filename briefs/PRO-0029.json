@@ -1,0 +1,150 @@
+{
+  "procedure_id": "PRO-0029",
+  "document_number": "RTPR-HSE-PRO-0029",
+  "title": "Excavation and Penetration Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure applies to all excavation work (mechanical and manual) and all penetrations through structures, floors, walls, ceilings, and ground surfaces across the owner-led project.",
+  "owns": [
+    "Excavation and penetration permit requirements (via RTPR-HSE-PRO-0021)",
+    "Services identification and clearance process",
+    "Excavation stability and edge protection requirements",
+    "Access and egress requirements for excavations",
+    "Dewatering requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (excavation risk assessment)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (excavation/penetration permit via PTW — refer RTPR-HSE-PRO-0021)",
+    "RTPR-HSE-PRO-0008 – Working at Height (fall into excavation — edge protection via RTPR-HSE-PRO-0008)",
+    "RTPR-HSE-PRO-0028 – Barricading (excavation barricading requirements via RTPR-HSE-PRO-0028)",
+    "RTPR-HSE-PRO-0024 – Isolation (isolation of services before excavation)",
+    "RTPR-HSE-PRO-0009 – Incident Management (excavation incident reporting)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0048 – SIMOPS (SIMOPS assessment for excavation in active areas)"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Risk Assessment and Permits",
+      "tag": "[APPC – Appendix C, C-2 §60]",
+      "text": "Require an Excavation Permit and/or Penetration Permit (as applicable) before all excavation and penetration activities, with minimum content: work location; dimensions; identified underground or in-structure services; edge protection requirements; shoring requirements; and access and egress provisions."
+    },
+    {
+      "section_heading": "Risk Assessment and Permits",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Require a hazard identification and risk assessment specific to the excavation or penetration activity, covering slope stability, water ingress, adjacent services, and construction activity interfaces."
+    },
+    {
+      "section_heading": "Services Identification",
+      "tag": "[APPC – Appendix C, C-2 §60]",
+      "text": "Require identification and marking of all underground and in-structure services (electrical, gas, hydraulic, telecommunications, water, process services) before excavation or penetration commences, using utility mapping, as-built drawings, ground penetrating radar, or other suitable methods."
+    },
+    {
+      "section_heading": "Services Identification",
+      "tag": "[OSHA – OSHA 29 CFR 1926 Subpart P – Excavations]",
+      "text": "Define exclusion zones around identified services and require manual excavation within defined proximity distances. Require the competent person to establish clearance procedures for all identified services before work commences."
+    },
+    {
+      "section_heading": "Excavation Stability and Edge Protection",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Define slope and benching requirements for unsupported excavations and shoring requirements for excavations beyond defined depths, based on soil type assessment by a competent person."
+    },
+    {
+      "section_heading": "Excavation Stability and Edge Protection",
+      "tag": "[RT – RT C4 – Fall from Height Standard]",
+      "text": "Require edge protection (barriers/bunding) around all open excavations with fall potential, consistent with the requirements of the Working at Heights Procedure."
+    },
+    {
+      "section_heading": "Excavation Stability and Edge Protection",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the maximum unsupported excavation depth before geotechnical assessment is required, and the minimum frequency of stability inspection for open excavations, based on soil conditions, weather exposure, and adjacent loading."
+    },
+    {
+      "section_heading": "Access, Monitoring and Dewatering",
+      "tag": "[OSHA – OSHA 29 CFR 1926 Subpart P]",
+      "text": "Require safe means of access and egress for all excavations accessible to personnel (e.g., ladders, ramps, stairs) placed every 7.5 metres (25 feet) maximum in long trenches."
+    },
+    {
+      "section_heading": "Access, Monitoring and Dewatering",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the inspection frequency for open excavations (including after rain events, ground movement, or adjacent loading changes), the criteria for stopping work if unsafe conditions are identified, and the process for dewatering water-filled excavations."
+    },
+    {
+      "section_heading": "Project Completion Guidance — additional requirements embedded in PCG block",
+      "tag": "[APPC – Appendix C, C-2 §62.1]",
+      "text": "Require assessment of whether the identified hazard can be eliminated, substituted, or controlled through engineering means before barricading is selected as a control. Barricading is within the administrative tier of the hierarchy of controls."
+    },
+    {
+      "section_heading": "Project Completion Guidance — additional requirements embedded in PCG block",
+      "tag": "[APPC – Appendix C, C-2 §62.1]",
+      "text": "Require barricading for all of the following scenarios as a minimum: work at height where there is a risk of falling objects, with barricading extending outward at 15 degrees from the highest point; excavation edges; commissioning access control zones; crane operating areas and drop zones; blast exclusion areas; and manholes."
+    },
+    {
+      "section_heading": "Project Completion Guidance — additional requirements embedded in PCG block",
+      "tag": "[APPC – Appendix C, C-2 §62.7]",
+      "text": "Require solid barricading where the barricade must be higher than two metres, where flooring or handrails have been removed creating fall risk, or where holes or excavations are intended to remain open. Rope or chain must not be used as a temporary barricade to replace a handrail."
+    },
+    {
+      "section_heading": "Project Completion Guidance — additional requirements embedded in PCG block",
+      "tag": "[APPC – Appendix C, C-2 §62.1]",
+      "text": "Require the Barricading Plan to define the process for safely accessing barricaded work areas, including the permit or authorisation required and the conditions that must be met before any person enters a barricaded zone."
+    },
+    {
+      "section_heading": "Project Completion Guidance — additional requirements embedded in PCG block",
+      "tag": "[APPC – Appendix C, C-2 §63.0.1]",
+      "text": "Require a SIMOPS assessment for all excavation and penetration activities occurring in areas where other work scopes are active. Where excavation interfaces with adjacent scopes, the SIMOPS plan must define safe separation distances and coordination protocols — refer RTPR-HSE-PRO-0048."
+    },
+    {
+      "section_heading": "Project Completion Guidance — additional requirements embedded in PCG block",
+      "tag": "[APPC – Appendix C, C-2 §62.2]",
+      "text": "Require barricading of all excavations where personnel or machinery could approach the edge. Solid barricading must be used for excavations intended to remain open for extended periods — refer RTPR-HSE-PRO-0028."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the utility mapping process for this project: what utility records are available; what ground penetrating radar or equivalent process is required; who certifies the area as clear. Insert the project-specific process.",
+    "Define the project maximum unsupported excavation depth before geotechnical assessment is required. The procedure requires this threshold to be set — insert the project-specific value based on anticipated soil conditions.",
+    "Define the excavation inspection frequency for this project (minimum after each rain event, before each shift). Confirm the inspection record format and storage.",
+    "If the project involves excavation near existing infrastructure: define the hand-dig exclusion zone distances for each utility type relevant to this project location."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §60",
+      "summary": "Requires an Excavation Permit and/or Penetration Permit before all excavation and penetration activities, covering location, dimensions, services identification, edge protection, shoring, and access/egress, and requires services to be identified and marked before work commences."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.1",
+      "summary": "Requires a hazard identification and risk assessment covering slope stability, water ingress, adjacent services, and construction interfaces, and defines slope, benching, and shoring requirements based on soil type assessment by a competent person."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "29 CFR 1926 Subpart P – Excavations",
+      "summary": "Requires exclusion zones around identified services, manual excavation within defined proximity distances, competent-person clearance procedures, and safe means of access and egress placed every 7.5 metres maximum in long trenches."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT C4 – Fall from Height Standard",
+      "summary": "Requires edge protection (barriers/bunding) around all open excavations with fall potential, consistent with the Working at Heights Procedure."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §62.1",
+      "summary": "Requires assessment of engineering controls before barricading is selected, mandates barricading of excavation edges as a minimum scenario, and requires the Barricading Plan to define the authorised entry process for barricaded areas."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §62.2",
+      "summary": "Requires barricading of all excavations where personnel or machinery could approach the edge, with solid barricading for excavations intended to remain open for extended periods."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §62.7",
+      "summary": "Requires solid barricading where barricades exceed two metres height, where flooring or handrails are removed creating fall risk, or where holes or excavations remain open, and prohibits rope or chain as a handrail substitute."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.0.1",
+      "summary": "Requires a SIMOPS assessment for all excavation and penetration activities in areas where other work scopes are active, with the SIMOPS plan defining safe separation distances and coordination protocols."
+    }
+  ]
+}

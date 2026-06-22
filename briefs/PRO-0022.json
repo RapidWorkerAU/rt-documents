@@ -1,0 +1,110 @@
+{
+  "procedure_id": "PRO-0022",
+  "document_number": "RTPR-HSE-PRO-0022",
+  "title": "Infectious Disease Control Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for managing vector-borne and infectious disease risks relevant to project work locations, protecting the health of all project personnel and, where applicable, host communities. The specific requirements depend on the geographic risk profile of the project.",
+  "owns": [
+    "Infectious disease risk assessment requirements",
+    "Location-specific disease control programmes (malaria, HIV/AIDS, TB, Legionella)",
+    "Pandemic preparedness requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (disease risk assessment framework)",
+    "RTPR-HSE-PRO-0004 – Training (health awareness training)",
+    "RTPR-HSE-PRO-0006 – Fitness for Work (vaccination and health screening)",
+    "RTPR-HSE-PRO-0041 – Business Resilience (pandemic response as an emergency scenario)",
+    "RTPR-HSE-PRO-0009 – Incident Management (disease outbreak reporting)"
+  ],
+  "referenced_by": [],
+  "requirements": [
+    {
+      "section_heading": "Risk Assessment and General Controls",
+      "tag": "[APPC – Appendix C, C-2 §70.1]",
+      "text": "Require disease-specific risk assessments for all work locations before mobilisation, covering diseases relevant to the location. Require annual evaluation of infectious disease management programmes by a competent person. Require minimisation of travel-related health risks including vaccination and health screening requirements."
+    },
+    {
+      "section_heading": "Risk Assessment and General Controls",
+      "tag": "[IFC – IFC EHS General Guidelines §3.6]",
+      "text": "Assess communicable disease risks associated with the project workforce, including risks associated with large influx of workers into areas with different disease prevalence, and implement controls proportionate to the identified risks."
+    },
+    {
+      "section_heading": "Risk Assessment and General Controls",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH3]",
+      "text": "Implement processes to prevent incidents and manage workplace health risks including communicable diseases, with documented controls and monitoring."
+    },
+    {
+      "section_heading": "Location-Specific Disease Controls",
+      "tag": "[APPC – Appendix C, C-2 §70.2]",
+      "text": "Where HIV/AIDS or TB prevalence thresholds are met, ensure access to an HIV/AIDS and TB management programme including prevention, testing, treatment, and confidentiality protections."
+    },
+    {
+      "section_heading": "Location-Specific Disease Controls",
+      "tag": "[APPC – Appendix C, C-2 §70.2.2]",
+      "text": "In WHO-designated high-risk malaria locations, conduct a risk-based malaria assessment and implement a prevention and management programme covering: vector control; personal protection protocols; chemoprophylaxis; diagnosis and treatment; and education."
+    },
+    {
+      "section_heading": "Location-Specific Disease Controls",
+      "tag": "[APPC – Appendix C, C-2 §70.2.3]",
+      "text": "Identify water systems and equipment with potential for Legionella growth. Define testing, monitoring, treatment, and cleaning/disinfection schedules for identified systems."
+    },
+    {
+      "section_heading": "Pandemic Preparedness",
+      "tag": "[APPC – Appendix C, C-2 §70.2.5]",
+      "text": "Define pandemic preparedness and response planning requirements covering: surveillance; containment; communication; workforce management; and business continuity. Define escalation triggers and response actions."
+    },
+    {
+      "section_heading": "Pandemic Preparedness",
+      "tag": "[IFC – IFC EHS General Guidelines §3.6]",
+      "text": "Ensure pandemic preparedness plans are consistent with WHO guidance and applicable national public health requirements, and that they address the specific vulnerabilities of project workforce accommodation settings."
+    }
+  ],
+  "project_completion_guidance": [
+    "Conduct a location-specific infectious disease risk assessment for this project before mobilisation. The procedure requires one — insert the assessment findings or a reference to the completed assessment.",
+    "If the project location is in a WHO-designated malaria risk area: complete the malaria programme section of this procedure with project-specific controls, chemoprophylaxis guidance, and the approved medical provider.",
+    "Define the Legionella monitoring programme for this project: identify all water systems at risk; insert the testing schedule and action levels.",
+    "[APPC – Appendix C, C-2 §70.1.1]  Require risk assessments for vector-borne and infectious diseases relevant to all locations where the project operates. Assessments must be updated when project locations change.",
+    "[APPC – Appendix C, C-2 §70.2.1.1]  Where HIV/AIDS or tuberculosis prevalence thresholds are met in the project jurisdiction, ensure access to an HIV/AIDS and TB management programme for all project personnel through health insurance, a private provider, or other locally available resources.",
+    "[APPC – Appendix C, C-2 §70.2.2.1]  In high-risk malaria locations as defined by the World Health Organisation, conduct a risk-based malaria assessment and implement a prevention and management programme covering vector control, personal protection, chemoprophylaxis where recommended, and rapid diagnosis and treatment.",
+    "[APPC – Appendix C, C-2 §70.2.3.1]  Identify all water systems and equipment with the potential for Legionella bacteria growth and mist generation. Conduct a risk assessment and implement a control programme for all identified high or critical risks, including regular water sampling and testing.",
+    "[APPC – Appendix C, C-2 §70.2.4.1]  Require infectious disease preparedness and response measures for pandemic or outbreak-level events, including: defined roles and responsibilities; communication protocols; personnel education and training; vaccination requirements; health screening; quarantine and isolation protocols; PPE requirements; contact registration and tracing; physical distancing where required; ventilation requirements; and hygiene protocols.",
+    "Define the pandemic response activation triggers for this project and the communication chain. The procedure sets the framework — the project defines the specific triggers relevant to the host country context."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §70.1",
+      "summary": "Requires disease-specific risk assessments for all work locations before mobilisation, annual programme evaluation, and minimisation of travel-related health risks including vaccination and health screening."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §70.2",
+      "summary": "Requires access to an HIV/AIDS and TB management programme where prevalence thresholds are met, covering prevention, testing, treatment, and confidentiality protections."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §70.2.2",
+      "summary": "Requires a risk-based malaria assessment and a prevention and management programme in WHO-designated high-risk malaria locations."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §70.2.3",
+      "summary": "Requires identification of water systems with potential for Legionella growth and implementation of testing, monitoring, treatment, and cleaning/disinfection schedules."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §70.2.5",
+      "summary": "Requires pandemic preparedness and response planning covering surveillance, containment, communication, workforce management, and business continuity with defined escalation triggers."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§3.6",
+      "summary": "Requires assessment of communicable disease risks associated with the project workforce, including risks from workforce influx, and implementation of proportionate controls; pandemic preparedness plans must be consistent with WHO guidance and address accommodation setting vulnerabilities."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Safe, Healthy and Respectful Workplaces Protocol, Indicator SH3",
+      "summary": "Requires implementation of processes to prevent incidents and manage workplace health risks including communicable diseases, with documented controls and monitoring."
+    }
+  ]
+}

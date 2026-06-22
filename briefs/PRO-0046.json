@@ -1,0 +1,316 @@
+{
+  "procedure_id": "PRO-0046",
+  "document_number": "RTPR-HSE-PRO-0046",
+  "title": "Scaffolding Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "Scaffolding is one of the highest-risk activities on any construction project — it combines working at height, heavy manual tasks, complex temporary structure integrity, and simultaneous activities involving multiple trades. This procedure addresses the full scaffold lifecycle: planning and design; erection; use; inspection; modification; and dismantling. For work performed from scaffold (as opposed to erection and dismantling), the Working at Heights Procedure also applies.",
+  "owns": [
+    "Scaffold Safe System of Work (SSoW)",
+    "Scaffold design and competency class requirements",
+    "Ground condition assessment requirements",
+    "Scaffold proximity to electricity controls",
+    "Erection sequencing and fall protection during erection",
+    "Design verification, handover and tagging system",
+    "Scaffold Register (RTPR-HSE-REG-0011)",
+    "Inspection frequencies and extended use requirements",
+    "Scaffold over water specific requirements",
+    "Dismantling sequencing and fall protection",
+    "Competency requirements by scaffold role"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (scaffold risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (scaffold competency — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0008 – Working at Height (fall protection for scaffold users — refer RTPR-HSE-PRO-0008)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (scaffold permits via PTW system — refer RTPR-HSE-PRO-0021)",
+    "RTPR-HSE-PRO-0025 – Electrical Safety (proximity to electrical installations)",
+    "RTPR-HSE-PRO-0030 – Over Water (PFD requirements when scaffold is near water)",
+    "RTPR-HSE-PRO-0028 – Barricading (exclusion zones during erection and dismantling)",
+    "RTPR-HSE-PRO-0009 – Incident Management (scaffold incident reporting)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0008 – Working at Height references RTPR-HSE-PRO-0046 for erection/dismantling; users reference RTPR-HSE-PRO-0008"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Scaffold Safe System of Work",
+      "tag": "[APPC – Appendix C, C-2 §55.4]",
+      "text": "Require development and implementation of a Scaffold Safe System of Work (SSoW) covering the full scaffold lifecycle. The SSoW must incorporate local legislative requirements and relevant standards applicable to the project jurisdiction."
+    },
+    {
+      "section_heading": "Scaffold Safe System of Work",
+      "tag": "[RT Standard]",
+      "text": "Ensure the SSoW requires scaffolding to be erected by a competent scaffolder operating within their class of licence, with scaffolding assembled and dismantled by authorised personnel following an approved sequence procedure."
+    },
+    {
+      "section_heading": "Scaffold Safe System of Work",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Require the SSoW to address the specific risks associated with scaffolding over water, scaffolding adjacent to energised electrical installations, and scaffolding during adverse weather."
+    },
+    {
+      "section_heading": "Planning, Selection and Design",
+      "tag": "[APPC – Appendix C, C-2 §55.7]",
+      "text": "Require that personnel involved in planning, selection, and design have the necessary experience, training, and competency. Require scaffolding to be selected and designed by a competent scaffolder within their competency class and in accordance with local legislative and regulatory requirements."
+    },
+    {
+      "section_heading": "Planning, Selection and Design",
+      "tag": "[APPC – Appendix C, C-2 §55.7.2]",
+      "text": "Require the design to consider: activity to be undertaken on the structure; static and dynamic load capacity; ground conditions; underground services; fall protection systems; edge protection; anchor points; access and egress; and adjacent activities including vehicle movements."
+    },
+    {
+      "section_heading": "Planning, Selection and Design",
+      "tag": "[APPC – Appendix C, C-2 §55.8]",
+      "text": "Require that complex or non-standard scaffold configurations (slung, suspended, over water, on barges, adjacent to rail lines, cantilever) are designed or reviewed by a qualified engineer before erection commences."
+    },
+    {
+      "section_heading": "Planning, Selection and Design",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure scaffold designs account for maximum anticipated static and dynamic loads, including wind loading and the cumulative load of concurrent users, materials, and equipment."
+    },
+    {
+      "section_heading": "Ground Conditions and Load Capacity",
+      "tag": "[APPC – Appendix C, C-2 §55.13]",
+      "text": "Require a ground condition assessment by a competent person before erecting any scaffold, verifying: adequate bearing capacity for the scaffold and imposed loads; absence of underground services within the zone of influence; absence of subsidence, softening, or saturation; and the suitability of mudsills, base plates, or other load-spreading measures."
+    },
+    {
+      "section_heading": "Ground Conditions and Load Capacity",
+      "tag": "[APPC – Appendix C, C-2 §55.9]",
+      "text": "Define scaffold load capacity requirements: design load ratings; maximum permissible distributed and point loads; and restrictions on storing materials on scaffold unless the design specifically accommodates material loading."
+    },
+    {
+      "section_heading": "Proximity to Electricity and Energised Plant",
+      "tag": "[APPC – Appendix C, C-2 §55.10]",
+      "text": "Require that where there is a risk of contact with live electricity during scaffold erection, use, or dismantling: de-energise the relevant electrical installations before work commences; define minimum approach distances to live conductors that cannot be de-energised; and use insulating covers, screens, or barriers where minimum approach distances cannot be maintained."
+    },
+    {
+      "section_heading": "Proximity to Electricity and Energised Plant",
+      "tag": "[RT Standard]",
+      "text": "Require a specific risk assessment and Energised Work Authorisation for any scaffolding activity that cannot be separated from energised conductors by the required clearance distance."
+    },
+    {
+      "section_heading": "Access, Egress and Edge Protection",
+      "tag": "[APPC – Appendix C, C-2 §55.14]",
+      "text": "Require that access to and egress from scaffolding is only through purpose-designed entry and exit points. Prohibit climbing the scaffold structure or accessing by any means other than designated entry and exit points."
+    },
+    {
+      "section_heading": "Access, Egress and Edge Protection",
+      "tag": "[APPC – Appendix C, C-2 §55.16.3]",
+      "text": "Require that edge protection design and installation includes guardrails (minimum 900mm high), mid-rails, and toe boards. Require that the work method or scaffold plan includes sequential edge protection installation to prevent workers being exposed to an open edge during erection."
+    },
+    {
+      "section_heading": "Access, Egress and Edge Protection",
+      "tag": "[RT Standard]",
+      "text": "Require fall protection systems (harness and lanyard attached to an independent anchor) during erection and dismantling where workers are exposed to fall distances of two metres or more and before edge protection is in place."
+    },
+    {
+      "section_heading": "Erection Sequencing and Fall Protection During Erection",
+      "tag": "[APPC – Appendix C, C-2 §55.16.1]",
+      "text": "Require that a documented erection sequence and method is prepared before erection commences, identifying: the order of component installation; the means by which leading edge protection is provided at each stage; the anchor points available for fall arrest during each phase of erection; and the maximum height to which erection may proceed before handover for inspection."
+    },
+    {
+      "section_heading": "Erection Sequencing and Fall Protection During Erection",
+      "tag": "[APPC – Appendix C, C-2 §55.16.2]",
+      "text": "Define the controls for managing the risk of falls during erection: advance installation of temporary anchor points; use of self-retracting lanyards where mobility is required; and the prohibition of working from the top of a partially erected scaffold without an approved fall protection system."
+    },
+    {
+      "section_heading": "Erection Sequencing and Fall Protection During Erection",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure that erection sequencing is reviewed for SIMOPS conflicts — particularly where erection is occurring above or adjacent to active work areas."
+    },
+    {
+      "section_heading": "Design Verification, Handover and Tagging",
+      "tag": "[APPC – Appendix C, C-2 §55.17.1]",
+      "text": "Require a design verification and handover process before any scaffold is used: the scaffold must be inspected and verified by a competent person against the design documentation; a formal handover must be completed between the erecting scaffolder and the receiving work group; and the scaffold must be tagged at all access points before use."
+    },
+    {
+      "section_heading": "Design Verification, Handover and Tagging",
+      "tag": "[APPC – Appendix C, C-2 §55.17.4]",
+      "text": "Define the scaffold tagging system: Green tag (Safe to Use — fully compliant with design); Yellow tag (Use with Restrictions — specific limitations defined); Red tag (Do Not Use — unsafe condition, access prohibited). Require tags to be placed at all access points and removed and replaced whenever the scaffold status changes."
+    },
+    {
+      "section_heading": "Design Verification, Handover and Tagging",
+      "tag": "[RT Standard]",
+      "text": "Require a scaffold register to be maintained for all scaffolds on site including unique ID, location, design details, erection date, last inspection date, inspector identity, tagging status, and permitted load."
+    },
+    {
+      "section_heading": "Inspection and Monitoring During Use",
+      "tag": "[APPC – Appendix C, C-2 §55.17.2]",
+      "text": "Define scaffold inspection frequencies: before first use (design verification); at regular intervals during use (risk-based, minimum weekly for occupied scaffolds); following any event that may affect integrity (high wind, impact, overloading, significant precipitation, seismic event); and before resuming use after any period of inactivity exceeding a defined duration."
+    },
+    {
+      "section_heading": "Inspection and Monitoring During Use",
+      "tag": "[APPC – Appendix C, C-2 §55.17.3]",
+      "text": "Define extended use scaffold requirements — scaffolds remaining in place for longer than a defined period (e.g., 30 days) must be subject to formal periodic structural inspection at intervals no greater than defined in the design documentation or applicable standard, whichever is more frequent."
+    },
+    {
+      "section_heading": "Inspection and Monitoring During Use",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure that inspection findings are documented and that any defect requiring remediation results in the scaffold being taken out of service (Red tag) until the defect is rectified and the scaffold re-verified."
+    },
+    {
+      "section_heading": "Scaffolding Over Water",
+      "tag": "[APPC – Appendix C, C-2 §55.16.7]",
+      "text": "Require that fall protection for scaffolds over or adjacent to water is anchored to an independent, certified structure — not to the temporary scaffold structure being erected, altered, or dismantled. Require PFDs to be worn during all scaffold work within two metres of an unprotected water edge, consistent with the Working Over Water Procedure."
+    },
+    {
+      "section_heading": "Scaffolding Over Water",
+      "tag": "[RT Standard]",
+      "text": "Require that scaffolds over water have engineered designs reviewed by a competent person covering: the loads imposed by the structure and its users on the supporting surface; the emergency rescue access provisions for a person who falls into the water; and the anchor arrangements for fall protection equipment that prevent contact with the water on arrest."
+    },
+    {
+      "section_heading": "Dismantling and Emergency Preparedness",
+      "tag": "[APPC – Appendix C, C-2 §55.18]",
+      "text": "Require that scaffolding is dismantled by a competent and authorised scaffolder following a documented dismantling sequence. Require that the risk of falls during dismantling is managed using the same fall protection approach as erection — edge protection must be maintained until immediately before the relevant component is removed."
+    },
+    {
+      "section_heading": "Dismantling and Emergency Preparedness",
+      "tag": "[APPC – Appendix C, C-2 §55.18.2]",
+      "text": "Define emergency preparedness requirements specific to scaffolding: rescue plans for a person fallen while attached to a fall arrest system on scaffold; evacuation procedures for partial scaffold collapse; and compatibility of rescue equipment with the scaffold configuration."
+    },
+    {
+      "section_heading": "Training and Competency",
+      "tag": "[APPC – Appendix C, C-2 §55.18.3–55.18.7]",
+      "text": "Define competency requirements by scaffold role: Scaffold Designer — competent scaffolder with design competency or qualified engineer for complex configurations; Scaffold Inspector/Verifier — competent scaffolder or engineer with inspection competency; Scaffold Erector/Modifier/Dismantler — licensed and competent scaffolder operating within their class; and Scaffold User — inducted and trained in scaffold user responsibilities (load limits, prohibited actions, reporting damage)."
+    },
+    {
+      "section_heading": "Training and Competency",
+      "tag": "[APPC – Appendix C, C-2 §55.18.6]",
+      "text": "Require competency to be verified before personnel are authorised in any scaffold role, with re-verification at a risk-based frequency appropriate to the hazards, scaffold types, and jurisdiction."
+    },
+    {
+      "section_heading": "Training and Competency",
+      "tag": "[IFC – IFC PS2 GN§80]",
+      "text": "Ensure that scaffold workers are trained not only in task-specific skills but also in the emergency response procedures applicable to scaffold incidents, including rescue from height and communication protocols."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the project scaffold tagging system: the specific tag design (colour, content, format); where tags are procured; how tags are controlled. The procedure defines the Green/Yellow/Red system — the project implements it.",
+    "Define the project-specific approach to complex scaffold configurations (over water, suspended, cantilever, adjacent to rail). Identify any complex scaffold types expected on this project and define the engineering review process.",
+    "Define the project scaffold inspection recording system: what form is used; where records are stored; how the Scaffold Register (RTPR-HSE-REG-0011) is maintained and updated.",
+    "Define the Scaffold Supervisor for this project (or confirm it is a contractor appointment). The SSoW requires a responsible person — identify by role.",
+    "[APPC – Appendix C, C-2 §55.7.2.2]  Require that any scaffold over 4 metres in height is documented in a basic scaffolding plan and/or design drawing and approved by a competent person before erection commences.",
+    "[APPC – Appendix C, C-2 §55.10.1]  Where there is a risk of contact with live electricity due to scaffold proximity, require: isolation of the electrical energy source; determination of the minimum approach distance to any conductor; and earthing of scaffold structures by a competent person during erection and dismantling.",
+    "[APPC – Appendix C, C-2 §55.11.1]  Require that mobile scaffolds are never moved while personnel are on the structure. Wheels must be locked when in use, and the scaffold must be inspected after any movement.",
+    "[APPC – Appendix C, C-2 §55.17.2.2]  Require scaffold inspections at minimum: daily visual inspection before accessing; every 7 days for scaffold in active service; every 30 days for scaffold not in service; after any modifications; and following any event that may have affected stability.",
+    "[APPC – Appendix C, C-2 §55.17.3.1]  Require that for scaffolds in place for more than 90 days, a competent person reassesses structural integrity. Inspection frequency and type must be based on scaffold type, use, location exposure, and contact with corrosive substances.",
+    "[APPC – Appendix C, C-2 §55.16.7.1]  Require that scaffold over water incorporates fall protection with an inbuilt flotation device (IFD) attached to an independent structure. The authorisation process must include assessment of water immersion emergency response — refer RTPR-HSE-PRO-0030.",
+    "[APPC – Appendix C, C-2 §55.18.2.1]  Require emergency procedures and rescue plans for scaffold emergencies, tailored to scaffold type and location and tested regularly. Scenarios must include: fall during erection, use, or dismantling; medical incidents on scaffold; fire or emergency requiring evacuation; and suspension trauma from fall arrest.",
+    "Define the project extended-use scaffold periodic inspection interval. The procedure sets a maximum — the project may set a more frequent interval based on site exposure conditions."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.4",
+      "summary": "Requires development and implementation of a Scaffold Safe System of Work covering the full scaffold lifecycle, incorporating local legislative requirements and relevant standards."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT C4 – Fall from Height Standard",
+      "summary": "Requires scaffolding to be erected by a competent scaffolder within their licence class and that fall protection systems are used during erection and dismantling where workers are exposed to fall distances of two metres or more."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC EHS General Guidelines §2.1",
+      "summary": "Requires the SSoW to address specific scaffold risks, designs to account for maximum anticipated loads including wind loading, erection sequencing to be reviewed for SIMOPS conflicts, and inspection findings to be documented with defective scaffolds taken out of service."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.7",
+      "summary": "Requires that personnel involved in planning, selection, and design have the necessary experience, training, and competency, and that scaffolding is selected and designed by a competent scaffolder within their competency class."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.7.2",
+      "summary": "Requires the scaffold design to consider activity to be undertaken, load capacity, ground conditions, underground services, fall protection systems, edge protection, anchor points, access and egress, and adjacent activities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.8",
+      "summary": "Requires complex or non-standard scaffold configurations to be designed or reviewed by a qualified engineer before erection commences."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.13",
+      "summary": "Requires a ground condition assessment by a competent person before erecting any scaffold, verifying bearing capacity, absence of underground services, absence of subsidence, and suitability of load-spreading measures."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.9",
+      "summary": "Requires scaffold load capacity requirements to be defined including design load ratings, maximum permissible loads, and restrictions on storing materials on scaffold."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.10",
+      "summary": "Requires specific controls where there is a risk of contact with live electricity during scaffold erection, use, or dismantling, including de-energisation, minimum approach distances, and insulating covers."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.14",
+      "summary": "Requires that access to and egress from scaffolding is only through purpose-designed entry and exit points, prohibiting climbing the scaffold structure."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.16.3",
+      "summary": "Requires edge protection to include guardrails at minimum 900mm, mid-rails, and toe boards, with sequential installation to prevent exposure to open edges during erection."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.16.1",
+      "summary": "Requires a documented erection sequence and method to be prepared before erection commences, identifying the order of component installation, edge protection provision, anchor points, and maximum erection height before handover for inspection."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.16.2",
+      "summary": "Defines controls for managing fall risks during erection including advance installation of temporary anchor points, use of self-retracting lanyards, and prohibition of working from the top of a partially erected scaffold without an approved fall protection system."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.17.1",
+      "summary": "Requires a design verification and handover process before any scaffold is used, including inspection by a competent person, formal handover, and tagging at all access points."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.17.4",
+      "summary": "Defines the scaffold tagging system using Green, Yellow, and Red tags to indicate safe to use, use with restrictions, and do not use respectively."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.17.2",
+      "summary": "Defines scaffold inspection frequencies including before first use, regular intervals during use at minimum weekly for occupied scaffolds, following integrity-affecting events, and before resuming use after inactivity."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.17.3",
+      "summary": "Requires scaffolds remaining in place beyond a defined period to be subject to formal periodic structural inspection at intervals no greater than those defined in the design documentation or applicable standard."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.16.7",
+      "summary": "Requires fall protection for scaffolds over or adjacent to water to be anchored to an independent certified structure, and PFDs to be worn during all scaffold work within two metres of an unprotected water edge."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.18",
+      "summary": "Requires scaffolding to be dismantled by a competent and authorised scaffolder following a documented dismantling sequence with fall protection maintained until immediately before the relevant component is removed."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.18.2",
+      "summary": "Defines emergency preparedness requirements specific to scaffolding including rescue plans for falls on scaffold, evacuation procedures for partial collapse, and compatibility of rescue equipment with the scaffold configuration."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.18.3–55.18.7",
+      "summary": "Defines competency requirements by scaffold role covering Scaffold Designer, Scaffold Inspector/Verifier, Scaffold Erector/Modifier/Dismantler, and Scaffold User."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §55.18.6",
+      "summary": "Requires competency to be verified before personnel are authorised in any scaffold role, with re-verification at a risk-based frequency."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "GN§80",
+      "summary": "Requires scaffold workers to be trained in task-specific skills and in emergency response procedures applicable to scaffold incidents including rescue from height and communication protocols."
+    }
+  ]
+}

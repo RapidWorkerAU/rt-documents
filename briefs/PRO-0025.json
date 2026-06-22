@@ -1,0 +1,155 @@
+{
+  "procedure_id": "PRO-0025",
+  "document_number": "RTPR-HSE-PRO-0025",
+  "title": "Electrical Safety Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure applies to all electrical work and electrical equipment at voltages above 50V AC or 110V DC, including arc flash risk management. All electrical work requires formal authorisation before commencement. This procedure complements the Isolation Procedure, which covers non-electrical energy sources.",
+  "owns": [
+    "Arc flash hazard assessment requirements",
+    "Electrical equipment inspection and tagging requirements",
+    "SLD documentation and maintenance requirements",
+    "Electrical isolation and zero-energy verification requirements",
+    "Energised Work Authorisation process",
+    "Arc flash PPE requirements by task category",
+    "Lightning and severe weather electrical management",
+    "Electrical competency and authorisation categories"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (electrical risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (electrical competency — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (electrical work permits via PTW — refer RTPR-HSE-PRO-0021)",
+    "RTPR-HSE-PRO-0024 – Isolation (mechanical and energy isolation — electrical isolation covered here)",
+    "RTPR-HSE-PRO-0027 – PPE (arc flash PPE selection)",
+    "RTPR-HSE-REG-0010 – Electrical Equipment Register (via RTPR-HSE-PRO-0010 document control)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0047 – Commissioning references RTPR-HSE-PRO-0025 for electrical commissioning requirements",
+    "RTPR-HSE-PRO-0019 references RTPR-HSE-PRO-0025 for electrical aspects of process safety"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Risk Assessment and Electrical Hazard Management",
+      "tag": "[RT – RT C2 – Contact with Electricity Standard]",
+      "text": "Require a risk assessment for all work involving arc flash, direct shock, or indirect shock exposure. Require arc flash hazard assessments per IEEE 1584 or equivalent for all work with arc flash risk. Require the documented electrical hazard management process to be reviewed at intervals not exceeding two years."
+    },
+    {
+      "section_heading": "Risk Assessment and Electrical Hazard Management",
+      "tag": "[RT – RT C2 – Contact with Electricity Standard]",
+      "text": "Require alignment with applicable national or international standards (IEC, NEMA, ANSI, IEEE, AS/NZS)."
+    },
+    {
+      "section_heading": "Equipment Design and Installation",
+      "tag": "[RT – RT C2 – Contact with Electricity Standard]",
+      "text": "Require overload protection on all final distribution circuits with settings verified and documented by authorised electrical personnel. Require earth leakage protection on all subcircuits supplying socket outlets where required by legislation or risk assessment. Require electrical equipment to be identifiable via labelling and single-line diagrams (SLDs) that are controlled, maintained, and updated following any modifications."
+    },
+    {
+      "section_heading": "Equipment Design and Installation",
+      "tag": "[APPC – Appendix C, C-2 §61.1]",
+      "text": "Require all electrical equipment to be inspected and tagged quarterly by a certified electrician, recorded in a register, and colour-coded to indicate inspection status."
+    },
+    {
+      "section_heading": "Electrical Isolation and Zero Energy Verification",
+      "tag": "[RT – RT C2 – Contact with Electricity Standard]",
+      "text": "Define electrical isolation requirements: identification of energy sources; documented isolation methods for standard and novel isolations; personal isolation locks and tags; and the prohibition of access to conductors above 1,000V AC or 1,500V DC without full isolation, zero-energy verification, earthing, and an isolation permit."
+    },
+    {
+      "section_heading": "Electrical Isolation and Zero Energy Verification",
+      "tag": "[RT – RT C2 – Contact with Electricity Standard]",
+      "text": "Require zero-energy verification using approved, fit-for-purpose test equipment, function-tested immediately before and after verification. Apply 'test before you touch'. For conductors above 1,000V AC/1,500V DC, require approved absence-of-voltage test before earthing is applied."
+    },
+    {
+      "section_heading": "Energised Work Authorisation",
+      "tag": "[RT – RT C2 – Contact with Electricity Standard]",
+      "text": "Prohibit work on or near energised equipment unless justified and no safer practicable alternative exists. Require a formal Energised Work Authorisation with independent review by an authorised person not directly involved in the task, supervision appropriate to risk level, and the authorisation available at the work location."
+    },
+    {
+      "section_heading": "Arc Flash PPE and Protective Devices",
+      "tag": "[RT – RT C2 – Contact with Electricity Standard]",
+      "text": "Require arc flash PPE suitably rated for the specific task category and incident energy level, with voltage-rated tools, gloves, and operating sticks where required. Require arc flash relays or equivalent protective devices where the arc flash hazard assessment identifies they are necessary, with settings established, verified, and regularly tested."
+    },
+    {
+      "section_heading": "Lightning, Severe Weather and Emergency Response",
+      "tag": "[RT – RT C2 – Contact with Electricity Standard]",
+      "text": "Require a documented lightning and severe weather management process with site-defined work suspension triggers, identification of shelters, and earthing/isolation arrangements for managing earth potential rise."
+    },
+    {
+      "section_heading": "Lightning, Severe Weather and Emergency Response",
+      "tag": "[RT – RT C2 – Contact with Electricity Standard]",
+      "text": "Require a task-specific Emergency Rescue Plan before commencing live testing or live electrical work. Require electrical emergency response drills on a risk-based frequency."
+    },
+    {
+      "section_heading": "Competency and Authorisation",
+      "tag": "[RT – RT C2 – Contact with Electricity Standard]",
+      "text": "Require all personnel performing electrical work to be qualified, competent, and formally authorised. Where legislation requires a licence, the licence must be held before authorisation is granted. Define authorisation categories: electrical work and isolation; protective equipment selection; and hazardous environment entry including potline environments where applicable."
+    },
+    {
+      "section_heading": "Competency and Authorisation",
+      "tag": "[APPC – Appendix C, C-2 §51.0.1]",
+      "text": "Require that personnel performing electrical work are deemed competent and authorised with competency reassessments at intervals not exceeding two years. Authorisation must be withdrawn and reassessment conducted when personnel change work roles."
+    },
+    {
+      "section_heading": "Competency and Authorisation",
+      "tag": "[APPC – Appendix C, C-2 §51.0.4]",
+      "text": "Require that access to exposed, energised parts exceeding 1,000 volts is prohibited except for isolation, inspection, or testing by competent and authorised personnel using appropriate high-voltage equipment, procedures, and PPE."
+    },
+    {
+      "section_heading": "Competency and Authorisation",
+      "tag": "[APPC – Appendix C, C-2 §51.0.8]",
+      "text": "Require that temporary electrical switchgear is designed and installed in accordance with relevant standards and Company specifications. Temporary switchgear must be formally inspected before energisation."
+    },
+    {
+      "section_heading": "Competency and Authorisation",
+      "tag": "[APPC – Appendix C, C-2 §51.0.9]",
+      "text": "Require that overhead power lines are protected, with crossing points demarcated and barricade flags placed adjacent to the lines. Minimum approach distances must be posted at each crossing point."
+    },
+    {
+      "section_heading": "Competency and Authorisation",
+      "tag": "[APPC – Appendix C, C-2 §51.0.10]",
+      "text": "Where work is required on structures above energised overhead power lines, require a dedicated safe work procedure approved by a competent electrical engineer with a specific permit and formal risk assessment."
+    }
+  ],
+  "project_completion_guidance": [
+    "Commission an arc flash hazard assessment for this project's electrical systems before any energised work commences. Insert the assessment findings or reference the completed assessment report.",
+    "Define the electrical authorisation categories for this project: what work can be performed by a licensed electrician without additional project authorisation; what requires project-level Authorised Person status. Insert the authorisation matrix.",
+    "Define the project SLD documentation standard: where SLDs are stored; who maintains them; what triggers a SLD update. This is critical for isolation accuracy.",
+    "Define the project lightning and severe weather suspension threshold for electrical work (e.g., lightning within X km). The procedure requires a defined threshold — the project sets it based on site location and risk.",
+    "Define the potline-specific requirements if this project includes aluminium smelting or electrolytic process operations."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT C2 – Contact with Electricity Standard",
+      "summary": "Sets mandatory requirements for arc flash assessment, electrical isolation, energised work authorisation, arc flash PPE, lightning and severe weather management, emergency rescue planning, and electrical competency and authorisation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §61.1",
+      "summary": "Requires all electrical equipment to be inspected and tagged quarterly by a certified electrician, recorded in a register, and colour-coded to indicate inspection status."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §51.0.1",
+      "summary": "Requires electrical workers to be competent and authorised with reassessments at intervals not exceeding two years, and authorisation to be withdrawn when personnel change roles."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §51.0.4",
+      "summary": "Prohibits access to exposed energised parts exceeding 1,000 volts except for isolation, inspection, or testing by competent and authorised personnel using appropriate high-voltage equipment and PPE."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §51.0.8",
+      "summary": "Requires temporary electrical switchgear to be designed, installed, and formally inspected in accordance with relevant standards and Company specifications before energisation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §51.0.9",
+      "summary": "Requires overhead power lines to be protected with demarcated crossing points, barricade flags, and posted minimum approach distances at each crossing point."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §51.0.10",
+      "summary": "Requires a dedicated safe work procedure approved by a competent electrical engineer, with a specific permit and formal risk assessment, for work on structures above energised overhead power lines."
+    }
+  ]
+}

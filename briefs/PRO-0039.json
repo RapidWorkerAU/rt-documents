@@ -1,0 +1,152 @@
+{
+  "procedure_id": "PRO-0039",
+  "document_number": "RTPR-HSE-PRO-0039",
+  "title": "Hazardous Materials and Non-Mineral Waste Control Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for managing all non-mineral hazardous materials and wastes, including dangerous goods, regulated substances, sewerage and wastewater, and contaminated sites across the owner-led project.",
+  "owns": [
+    "Non-mineral waste identification and characterisation requirements",
+    "Material and Waste Register (RTPR-HSE-REG-0015)",
+    "Waste management hierarchy application",
+    "Chain of custody and off-site disposal requirements",
+    "Contaminated Sites Register (RTPR-HSE-REG-0018)",
+    "PFAS retention and phase-out requirements",
+    "Sewerage and wastewater requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0012 – Chemicals (hazardous substance controls)",
+    "RTPR-HSE-PRO-0001 – Legal Requirements (waste disposal licence conditions)",
+    "RTPR-HSE-PRO-0034 – Water Quality (liquid waste management)",
+    "RTPR-HSE-PRO-0036 – Reactive Waste (mineral waste — addressed there)",
+    "RTPR-HSE-PRO-0042 – Monitoring (waste monitoring)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0051 – Hazardous Materials (explosives as dangerous goods)"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Waste Identification and Register",
+      "tag": "[RT – RT Environment and Nature – Materials & Waste Standard]",
+      "text": "Require identification and characterisation of all waste streams, maintained in a Material and Waste Register documenting: locations; inventories (annual and cumulative); and inspection requirements for contaminated sites, mineral wastes, bulk hazardous materials, permitted facilities, non-mineral wastes, and stockpiles."
+    },
+    {
+      "section_heading": "Waste Identification and Register",
+      "tag": "[IFC – IFC PS3 §4 and EHS General Guidelines §1.5]",
+      "text": "Classify wastes as hazardous or non-hazardous and apply appropriate management, storage, and disposal requirements for each classification."
+    },
+    {
+      "section_heading": "Waste Management Hierarchy and Storage",
+      "tag": "[IFC – IFC PS3 §5]",
+      "text": "Apply the waste management hierarchy: reduce; reuse; recycle; recover; treat; dispose — in that order. Document how the hierarchy has been applied for each significant waste stream."
+    },
+    {
+      "section_heading": "Waste Management Hierarchy and Storage",
+      "tag": "[RT – RT Environment and Nature – Materials & Waste Standard]",
+      "text": "Require storage facilities to be managed to maintain stability and prevent pollution. Prohibit underground installation of new tanks and pipelines for hazardous or high-risk materials. Require fluorine-free firefighting foams (PFAS prohibition as per RT standard, with documented phase-out plan for any legacy systems)."
+    },
+    {
+      "section_heading": "Chain of Custody and Disposal",
+      "tag": "[RT – RT Environment and Nature – Materials & Waste Standard]",
+      "text": "Require a documented chain of custody for all materials transferred off-site, demonstrating traceability from generation to final authorised disposition. Require due diligence verification of waste contractors and disposal/treatment facilities."
+    },
+    {
+      "section_heading": "Chain of Custody and Disposal",
+      "tag": "[IFC – IFC PS3 §7]",
+      "text": "Ensure that off-site waste disposal is conducted by contractors who are properly licensed and regulated, and that the project retains documentation of the disposal outcome."
+    },
+    {
+      "section_heading": "Contaminated Sites",
+      "tag": "[RT – RT Environment and Nature – Contaminated Sites Standard]",
+      "text": "Require identification of known or potential contaminated sites (hydrocarbons, PFAS, metals) and investigations and risk assessments for environmental and human health impacts. Require remedial action plans or long-term management plans commensurate with risk. Maintain a Contaminated Sites Register."
+    },
+    {
+      "section_heading": "Contaminated Sites",
+      "tag": "[IFC – IFC PS3 §9]",
+      "text": "Address contaminated site risks in the project's environmental assessment and implement remediation proportionate to identified risks and future land use."
+    },
+    {
+      "section_heading": "Waste Management Hierarchy and Storage",
+      "tag": "[APPC – Appendix C, C-4 §92.5.2.3]",
+      "text": "Require that secondary containment drain connections are normally plugged or equipped with locked-closed valves. Direct discharge from secondary containment to the environment is prohibited without Company approval."
+    },
+    {
+      "section_heading": "Waste Identification and Register",
+      "tag": "[APPC – Appendix C, C-4 §92.5.3.3]",
+      "text": "Require prevention of the use of banned substances including asbestos-containing materials, lead-based paints, and hexavalent chromium-containing products."
+    },
+    {
+      "section_heading": "Chain of Custody and Disposal",
+      "tag": "[APPC – Appendix C, C-4 §92.5.6.1]",
+      "text": "Require hydrocarbon and chemical spill kits at all locations where these substances are stored or used. Spill kits must be sized appropriately and replenished on a defined schedule."
+    },
+    {
+      "section_heading": "Chain of Custody and Disposal",
+      "tag": "[APPC – Appendix C, C-4 §92.5.6.3]",
+      "text": "Require that all spills are immediately controlled, contained, and reported to the Company, with cleanup implemented without delay and effectiveness confirmed."
+    }
+  ],
+  "project_completion_guidance": [
+    "Develop the project waste stream inventory before construction commences: identify all expected waste types, estimated volumes, and classification (hazardous/non-hazardous). Insert as Appendix A.",
+    "Identify and vet waste transport contractors and disposal/treatment facilities for this project. Document due diligence findings. Define approved contractors and facilities.",
+    "Conduct a contaminated site assessment for the project area before disturbance. Insert the assessment findings or reference the completed assessment report.",
+    "Define project-specific sewerage and wastewater management arrangements: what type of treatment; where discharge occurs; what monitoring confirms compliance.",
+    "If any legacy PFAS-containing firefighting foam systems exist on this project site: document the justification for retention, the controls to prevent release, and the phase-out plan with a defined completion date."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Materials & Waste Standard",
+      "summary": "Requires identification and characterisation of all waste streams, storage facility management, prohibition of underground tanks for hazardous materials, fluorine-free firefighting foams, and documented chain of custody for all off-site material transfers."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Contaminated Sites Standard",
+      "summary": "Requires identification of known or potential contaminated sites, risk assessments for environmental and human health impacts, remedial or long-term management plans, and maintenance of a Contaminated Sites Register."
+    },
+    {
+      "framework": "IFC PS3",
+      "clause": "IFC PS3 §4",
+      "summary": "Requires classification of wastes as hazardous or non-hazardous and application of appropriate management, storage, and disposal requirements for each classification."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "EHS General Guidelines §1.5",
+      "summary": "Requires comprehensive waste characterisation to identify potentially hazardous materials and set the basis for waste management design."
+    },
+    {
+      "framework": "IFC PS3",
+      "clause": "IFC PS3 §5",
+      "summary": "Requires application of the waste management hierarchy — reduce, reuse, recycle, recover, treat, dispose — in order, with documentation of how the hierarchy has been applied for each significant waste stream."
+    },
+    {
+      "framework": "IFC PS3",
+      "clause": "IFC PS3 §7",
+      "summary": "Requires that off-site waste disposal is conducted by properly licensed and regulated contractors, and that the project retains documentation of the disposal outcome."
+    },
+    {
+      "framework": "IFC PS3",
+      "clause": "IFC PS3 §9",
+      "summary": "Requires contaminated site risks to be addressed in the project's environmental assessment and remediation to be implemented proportionate to identified risks and future land use."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §92.5.2.3",
+      "summary": "Requires secondary containment drain connections to be normally plugged or locked closed, prohibiting direct discharge to the environment without Company approval."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §92.5.3.3",
+      "summary": "Requires prevention of use of banned substances including asbestos-containing materials, lead-based paints, and hexavalent chromium-containing products."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §92.5.6.1",
+      "summary": "Requires appropriately sized hydrocarbon and chemical spill kits at all storage and use locations, replenished on a defined schedule."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §92.5.6.3",
+      "summary": "Requires that all spills are immediately controlled, contained, and reported to the Company, with cleanup confirmed effective."
+    }
+  ]
+}

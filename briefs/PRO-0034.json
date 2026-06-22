@@ -1,0 +1,130 @@
+{
+  "procedure_id": "PRO-0034",
+  "document_number": "RTPR-HSE-PRO-0034",
+  "title": "Water Quality Protection and Water Management Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines requirements for protecting water quality and managing water resources across all project activities including withdrawal, diversion, storage, use, treatment, and discharge of water. It applies to all project lifecycle phases from construction through closure.",
+  "owns": [
+    "Water quality monitoring requirements",
+    "Water abstraction controls",
+    "Stormwater and dirty/clean water separation requirements",
+    "Discharge limits and treatment requirements",
+    "Flooding risk assessment requirements",
+    "Water closure planning requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (water quality risk assessment)",
+    "RTPR-HSE-PRO-0001 – Legal Requirements (water discharge licence conditions)",
+    "RTPR-HSE-PRO-0012 – Chemicals (chemical spill to water)",
+    "RTPR-HSE-PRO-0036 – Reactive Mineral Waste (ARD seepage to water)",
+    "RTPR-HSE-PRO-0042 – Monitoring (water quality as environmental monitoring)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0036 references RTPR-HSE-PRO-0034 for water quality monitoring near reactive waste",
+    "RTPR-HSE-PRO-0037 references RTPR-HSE-PRO-0034 for stormwater management during rehabilitation"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Baseline, Risk Assessment and Planning",
+      "tag": "[RT – RT Environment and Nature – Water Management Standard]",
+      "text": "Require baseline characterisation of surface water, groundwater, and water balance conditions before any disturbance. Require water management planning to be informed by a comprehensive impact assessment addressing direct, indirect, and cumulative impacts. Require description of variability and uncertainty in water balance models with a precautionary approach."
+    },
+    {
+      "section_heading": "Baseline, Risk Assessment and Planning",
+      "tag": "[IFC – IFC PS3 §8 and EHS General Guidelines §1.3]",
+      "text": "Identify potential sources of water pollution (chemicals, sediment, hazardous materials, process water) and design controls to prevent pollutant pathways to receiving water bodies."
+    },
+    {
+      "section_heading": "Baseline, Risk Assessment and Planning",
+      "tag": "[TSM – TSM – Water Stewardship Protocol, Indicator WS1]",
+      "text": "Implement a site water balance to understand project water sources, uses, and discharges, and use it as a basis for water efficiency planning and risk management."
+    },
+    {
+      "section_heading": "Water Supply and Abstraction",
+      "tag": "[RT – RT Environment and Nature – Water Management Standard]",
+      "text": "Demonstrate water supply security and document how water use and dewatering efficiency have been optimised. Require use of the lowest acceptable quality water supplies. Require controls to maintain environmental flows, levels, and quality within acceptable ranges. Require engagement with other water users in the catchment."
+    },
+    {
+      "section_heading": "Water Supply and Abstraction",
+      "tag": "[TSM – TSM – Water Stewardship Protocol, Indicator WS2]",
+      "text": "Implement water use reduction and efficiency measures, track water abstraction volumes, and set targets for reducing environmental water withdrawals."
+    },
+    {
+      "section_heading": "Stormwater and Pollution Prevention",
+      "tag": "[RT – RT Environment and Nature – Water Management Standard]",
+      "text": "Require maximisation of diversion of clean (uncontacted) water around project disturbance areas. Define stormwater management requirements including diversion drains, sediment controls, clean/dirty water separation, and sedimentation pond design."
+    },
+    {
+      "section_heading": "Stormwater and Pollution Prevention",
+      "tag": "[IFC – IFC EHS General Guidelines §1.3]",
+      "text": "Design and manage stormwater controls to prevent sediment and pollutant runoff reaching waterways or groundwater, including erosion and sediment control plans reviewed and updated seasonally."
+    },
+    {
+      "section_heading": "Discharge and Treatment",
+      "tag": "[RT – RT Environment and Nature – Water Management Standard]",
+      "text": "Require compliance with approved discharge locations and water quality limits. Define treatment requirements where quality limits cannot be met without treatment."
+    },
+    {
+      "section_heading": "Discharge and Treatment",
+      "tag": "[IFC – IFC EHS General Guidelines §1.3 and §2.9]",
+      "text": "Define water quality monitoring parameters, locations, frequency, and QA/QC requirements. Define trigger levels and escalation actions for water quality exceedances."
+    },
+    {
+      "section_heading": "Discharge and Treatment",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define site-specific water quality performance criteria for each discharge point and receiving water body based on water quality baseline data, applicable licence conditions, and ecologically relevant standards — to be established with input from a qualified environmental specialist before discharge activities commence."
+    },
+    {
+      "section_heading": "Flooding and Closure",
+      "tag": "[RT – RT Environment and Nature – Water Management Standard]",
+      "text": "Define flooding characteristics for the site under current and future climate change conditions and minimise development within the floodplain or mitigate risk through infrastructure."
+    },
+    {
+      "section_heading": "Flooding and Closure",
+      "tag": "[RT – RT Environment and Nature – Water Management Standard]",
+      "text": "Require closure plans to minimise legacy water management obligations and on-going active water management requirements post-closure."
+    }
+  ],
+  "project_completion_guidance": [
+    "Insert the baseline water quality data for this project (or reference the baseline report). The procedure requires baseline characterisation — this is a pre-disturbance deliverable.",
+    "Define the project-specific water quality performance criteria for each discharge point and receiving water body. These must be set in consultation with a qualified environmental specialist and must be consistent with applicable permit conditions.",
+    "Define the project water balance model and document the assumptions, uncertainty ranges, and the monitoring programme that validates the model over time.",
+    "Define the project Trigger Action Response Plan (TARP) for water quality exceedances: what parameter; what trigger level; what action; who is notified. Insert as a table.",
+    "Require that all environmental approvals, permits, authorisations, and notifications are obtained prior to commencing on-site activities. No work may commence in any area until all required approvals are confirmed in writing. [APPC – Appendix C, C-4 §84.0.2.1]",
+    "Require that no water is released or pumped off-site without Company approval. All off-site water releases must comply with legal requirements and be documented with results reported to the Company. [APPC – Appendix C, C-4 §92.1.1.7]",
+    "Require submission of a Water Discharge Management Plan as a project deliverable, describing how water will be managed and discharged across the project area including drainage systems, sediment control structures, and all discharge points. [APPC – Appendix C, C-4 §92.1.2.7]",
+    "Define flooding characteristics for this project location (100-year and 1000-year flood extents) and document how the project footprint relates to the floodplain."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Water Management Standard",
+      "summary": "Requires baseline characterisation of water conditions, optimised water use, controls on environmental flows, stormwater diversion, compliance with discharge limits, flooding risk assessment, and closure planning to minimise legacy water management obligations."
+    },
+    {
+      "framework": "IFC PS3",
+      "clause": "IFC PS3 §8",
+      "summary": "Requires identification of potential water pollution sources and design of controls to prevent pollutant pathways to receiving water bodies."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "IFC EHS General Guidelines §1.3",
+      "summary": "Requires design and management of stormwater controls to prevent sediment and pollutant runoff reaching waterways or groundwater, and defines water quality monitoring parameters, trigger levels, and escalation actions for exceedances."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "IFC EHS General Guidelines §2.9",
+      "summary": "Requires definition of water quality monitoring parameters, locations, frequency, and QA/QC requirements including trigger levels and escalation actions for water quality exceedances."
+    },
+    {
+      "framework": "TSM",
+      "clause": "TSM – Water Stewardship Protocol, Indicator WS1",
+      "summary": "Requires implementation of a site water balance to understand project water sources, uses, and discharges as a basis for water efficiency planning and risk management."
+    },
+    {
+      "framework": "TSM",
+      "clause": "TSM – Water Stewardship Protocol, Indicator WS2",
+      "summary": "Requires implementation of water use reduction and efficiency measures, tracking of abstraction volumes, and setting of targets for reducing environmental water withdrawals."
+    }
+  ]
+}

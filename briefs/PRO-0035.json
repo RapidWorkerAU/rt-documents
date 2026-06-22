@@ -1,0 +1,112 @@
+{
+  "procedure_id": "PRO-0035",
+  "document_number": "RTPR-HSE-PRO-0035",
+  "title": "Air Quality Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines requirements for managing air quality impacts from project activities including particulate and gaseous emissions, dust, and associated stressors (noise, vibration, light, odour) that may affect worker health and surrounding communities.",
+  "owns": [
+    "Emission inventory requirements",
+    "Dispersion modelling requirements",
+    "Dust suppression control requirements",
+    "Community noise limits and management",
+    "Air quality monitoring programme requirements",
+    "Associated stressors (light, vibration, odour) management"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0001 – Legal Requirements (air quality licence conditions)",
+    "RTPR-HSE-PRO-0002 – Risk Management (air quality risk assessment)",
+    "RTPR-HSE-PRO-0013 – Noise (occupational noise — community noise is here)",
+    "RTPR-HSE-PRO-0042 – Monitoring (air quality as environmental monitoring)",
+    "RTPR-HSE-PRO-0039 – Waste Control (emissions from waste management)"
+  ],
+  "referenced_by": [],
+  "requirements": [
+    {
+      "section_heading": "Emission Inventory and Baseline",
+      "tag": "[RT – RT Environment and Nature – Air Quality Standard]",
+      "text": "Require development and maintenance of emission inventories for all significant air emission sources. Require dispersion modelling to predict air quality impacts at sensitive receptors. Require monitoring networks sufficient to verify performance criteria and compliance obligations."
+    },
+    {
+      "section_heading": "Emission Inventory and Baseline",
+      "tag": "[IFC – IFC EHS General Guidelines §1.1 and §3.1]",
+      "text": "Conduct an air quality impact assessment as part of the project environmental assessment, identifying significant sources and receptors, and setting performance criteria based on WHO air quality guidelines or applicable national standards (whichever is more stringent)."
+    },
+    {
+      "section_heading": "Emission Controls",
+      "tag": "[RT – RT Environment and Nature – Air Quality Standard]",
+      "text": "Require facility and equipment controls to minimise particulate, gas, and other emissions to the lowest practicable level, applying the control hierarchy: prevent at source; minimise through design and operation; treat before release; supplementary controls as last resort."
+    },
+    {
+      "section_heading": "Emission Controls",
+      "tag": "[IFC – IFC EHS General Guidelines §1.1]",
+      "text": "Define specific dust suppression controls (road watering, chemical suppressants, vehicle speed limits, load covers, water sprays on haul roads) and review their effectiveness at defined intervals."
+    },
+    {
+      "section_heading": "Stressors — Noise, Vibration, Light and Odour",
+      "tag": "[RT – RT Environment and Nature – Air Quality Standard]",
+      "text": "Document associated stressor impacts (light, noise, odour, vibration) following risk and impact assessment considering effects on ecosystems, human health, and community wellbeing. Define controls and performance criteria for each stressor."
+    },
+    {
+      "section_heading": "Stressors — Noise, Vibration, Light and Odour",
+      "tag": "[IFC – IFC EHS General Guidelines §1.7]",
+      "text": "Manage community noise and vibration to meet WHO guidelines and applicable national standards. Implement a community complaint monitoring system for air quality and stressor impacts."
+    },
+    {
+      "section_heading": "Monitoring and Reporting",
+      "tag": "[RT – RT Environment and Nature – Air Quality Standard]",
+      "text": "Document model assumptions, uncertainty ranges, monitoring exceedances, incidents, and corrective actions. Report air quality performance to internal stakeholders annually and to external stakeholders where required."
+    },
+    {
+      "section_heading": "Monitoring and Reporting",
+      "tag": "[IFC – IFC EHS General Guidelines §1.1 and §2.9]",
+      "text": "Define air quality monitoring trigger levels and adaptive management responses for exceedances, including escalation actions and community notification thresholds."
+    },
+    {
+      "section_heading": "Monitoring and Reporting",
+      "tag": "[TSM – TSM – Climate Change Protocol]",
+      "text": "Consider cumulative and climate-related contributions to local airshed conditions in emission assessments and planning documents."
+    }
+  ],
+  "project_completion_guidance": [
+    "Develop the project emission inventory before construction commences: identify all significant emission sources (crushing, blasting, haul roads, plant stack emissions) and insert or reference the inventory.",
+    "Define the project air quality monitoring network: monitoring locations; parameters; measurement frequency; equipment types. Insert as a table.",
+    "Define the project community noise limits based on applicable permit conditions and community agreements. Insert the project-specific limits by time period (day/evening/night) and by sensitive receptor.",
+    "Define the project TARP for air quality exceedances: trigger levels for PM10, PM2.5, and other relevant parameters; escalation actions; notification requirements. Insert as a table.",
+    "[APPC – Appendix C, C-4 §92.2.4]  Upon request of the Company, install and operate real-time or depositional-type dust or emission monitoring systems. Monitoring data and reports must be provided to the Company upon request.",
+    "[APPC – Appendix C, C-4 §92.2.6]  Allow for potential to temporarily stop work or relocate activities if directed by the Company in response to predicted adverse weather conditions or monitoring result exceedances.",
+    "[APPC – Appendix C, C-4 §92.2.8]  Require active identification, assessment, and reporting of greenhouse gas emission reduction and energy efficiency opportunities identified in relation to the Works or its execution.",
+    "Define project-specific dust suppression controls for each dust-generating activity type (e.g., haul road watering frequency, load cover requirements, speed limits by road type)."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Air Quality Standard",
+      "summary": "Requires emission inventories, dispersion modelling, monitoring networks, application of the emission control hierarchy, documentation of stressor impacts, and annual reporting of air quality performance."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§1.1",
+      "summary": "Requires an air quality impact assessment identifying significant sources and receptors, setting performance criteria against WHO guidelines or national standards whichever is more stringent, defining dust suppression controls, and establishing monitoring trigger levels with adaptive management responses."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§3.1",
+      "summary": "Requires air quality impact assessment as part of the project environmental assessment to identify significant sources and receptors."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§1.7",
+      "summary": "Requires management of community noise and vibration to meet WHO guidelines and applicable national standards, and implementation of a community complaint monitoring system for air quality and stressor impacts."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.9",
+      "summary": "Requires definition of air quality monitoring trigger levels and adaptive management responses for exceedances, including escalation actions and community notification thresholds."
+    },
+    {
+      "framework": "TSM",
+      "clause": "TSM – Climate Change Protocol",
+      "summary": "Requires consideration of cumulative and climate-related contributions to local airshed conditions in emission assessments and planning documents."
+    }
+  ]
+}

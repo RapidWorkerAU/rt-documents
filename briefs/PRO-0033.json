@@ -1,0 +1,158 @@
+{
+  "procedure_id": "PRO-0033",
+  "document_number": "RTPR-HSE-PRO-0033",
+  "title": "Security Management Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for managing security risks to project personnel, property, information, and the organisation's social licence, including the ethical use of security personnel and compliance with the Voluntary Principles on Security and Human Rights.",
+  "owns": [
+    "Security risk assessment requirements",
+    "Site Security Management Plan (SMP) requirements",
+    "Security supplier qualification requirements",
+    "Armed personnel approval process",
+    "Security incident management process"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (security risk as part of project risk register)",
+    "RTPR-HSE-PRO-0004 – Training (security awareness training)",
+    "RTPR-HSE-PRO-0009 – Incident Management (security incidents reported via RTPR-HSE-PRO-0009)",
+    "RTPR-HSE-PRO-0041 – Business Resilience (security events as emergency scenarios)",
+    "RTPR-HSE-PRO-0011 – Communication (security alerts as communication channel)"
+  ],
+  "referenced_by": [],
+  "requirements": [
+    {
+      "section_heading": "Security Risk Assessment",
+      "tag": "[APPC – Appendix C, C-1 §33.1]",
+      "text": "Require a comprehensive security risk assessment covering all work locations, transportation routes, key subcontractors, and supply chain nodes. Require multi-disciplinary participation including CSP representatives. Require documentation in the project risk register and submission to the project owner within 90 days of the Effective Date. Require annual revalidation and reassessment after significant security events."
+    },
+    {
+      "section_heading": "Security Risk Assessment",
+      "tag": "[IFC – IFC PS4 §13]",
+      "text": "Ensure the security risk assessment explicitly addresses community interface risks and potential human rights issues, consistent with the Voluntary Principles on Security and Human Rights. Consider the risk of communities being adversely affected by security operations."
+    },
+    {
+      "section_heading": "Security Risk Assessment",
+      "tag": "[RT Standard]",
+      "text": "Consult the RT Group Security Standard to determine the site security risk classification and additional requirements applicable to the classification."
+    },
+    {
+      "section_heading": "Site Security Management Plan",
+      "tag": "[APPC – Appendix C, C-1 §33.2]",
+      "text": "Require development of a Site Security Management Plan (SMP) based on risk assessment outcomes, covering identified risks, controls, control owners, and a continuous improvement process. Require submission to the project owner 60 days before commencement of work. Require annual revalidation."
+    },
+    {
+      "section_heading": "Security Suppliers and Armed Personnel",
+      "tag": "[APPC – Appendix C, C-1 §33.3]",
+      "text": "Require security suppliers to be legally authorised to provide services in the jurisdiction. Require security personnel to hold appropriate training and licences, with mandatory training on Security and Human Rights per the Voluntary Principles."
+    },
+    {
+      "section_heading": "Security Suppliers and Armed Personnel",
+      "tag": "[RT Standard]",
+      "text": "Require project owner approval before deployment of any armed personnel. Document the basis for the approval, the nature of the threat requiring armed response, and the controls in place to prevent human rights violations."
+    },
+    {
+      "section_heading": "Security Suppliers and Armed Personnel",
+      "tag": "[IFC – IFC PS4 §12–14]",
+      "text": "Ensure that armed security personnel are engaged only as a last resort after other risk management measures have been assessed and found insufficient, and that their deployment is consistent with the Voluntary Principles."
+    },
+    {
+      "section_heading": "Training and Incident Management",
+      "tag": "[APPC – Appendix C, C-1 §33.6]",
+      "text": "Require all security personnel to be trained per the SMP including human rights, ethical practices, and emergency response protocols. Require refresher training after significant changes to security risks."
+    },
+    {
+      "section_heading": "Training and Incident Management",
+      "tag": "[APPC – Appendix C, C-1 §33.5]",
+      "text": "Require all security incidents to be recorded, reported, and investigated per the project HSESC Incident Management procedure. Prohibit covert or clandestine information-gathering activities. Require all information collection to be legal and ethical."
+    },
+    {
+      "section_heading": "Training and Incident Management",
+      "tag": "[APPC – Appendix C, C-1 §33.1.2]",
+      "text": "Require the security risk assessment to include consideration of community interfaces and potential human rights issues, particularly those aligned with the Voluntary Principles on Security and Human Rights."
+    },
+    {
+      "section_heading": "Training and Incident Management",
+      "tag": "[APPC – Appendix C, C-1 §33.1.4]",
+      "text": "Require engagement of a multi-disciplinary stakeholder group in the security risk assessment, including representatives from the Community and Social Performance function."
+    },
+    {
+      "section_heading": "Training and Incident Management",
+      "tag": "[APPC – Appendix C, C-1 §33.3.3]",
+      "text": "Require that all security personnel are trained and licensed, with mandatory training on security and human rights in accordance with the Voluntary Principles on Security and Human Rights."
+    },
+    {
+      "section_heading": "Training and Incident Management",
+      "tag": "[APPC – Appendix C, C-1 §33.4.1]",
+      "text": "Require prior written Company approval before the deployment of any armed security personnel. Deployment must be based on the site security risk assessment and documented with specific authority approval."
+    }
+  ],
+  "project_completion_guidance": [
+    "Complete the security risk assessment for this project and insert or reference the completed assessment. This must be submitted to the project owner within 90 days of the Effective Date.",
+    "Develop the Site Security Management Plan for this project and insert or reference it as Appendix A. The procedure defines minimum SMP content — the project team develops the plan.",
+    "Identify the Site Security Champion for this project by name and position. Insert contact details and define the escalation process to the RT Group Security function.",
+    "If security personnel (armed or unarmed) are to be engaged: confirm that the approved security supplier meets all requirements in this procedure before engagement commences.",
+    "Define the project-specific community engagement considerations that affect the security approach (e.g., presence of community members near site, local political context, heritage site proximity)."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §33.1",
+      "summary": "Requires a comprehensive security risk assessment covering all work locations, transportation routes, subcontractors, and supply chain nodes, submitted to the project owner within 90 days of the Effective Date and revalidated annually."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §33.2",
+      "summary": "Requires development of a Site Security Management Plan based on risk assessment outcomes, submitted to the project owner 60 days before commencement of work and revalidated annually."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §33.3",
+      "summary": "Requires security suppliers to be legally authorised and security personnel to hold appropriate training and licences, including mandatory training on Security and Human Rights per the Voluntary Principles."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §33.6",
+      "summary": "Requires all security personnel to be trained per the SMP including human rights, ethical practices, and emergency response protocols, with refresher training after significant changes to security risks."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §33.5",
+      "summary": "Requires all security incidents to be recorded, reported, and investigated per the project HSESC Incident Management procedure, and prohibits covert or clandestine information-gathering activities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §33.1.2",
+      "summary": "Requires the security risk assessment to include consideration of community interfaces and potential human rights issues aligned with the Voluntary Principles on Security and Human Rights."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §33.1.4",
+      "summary": "Requires engagement of a multi-disciplinary stakeholder group including the Community and Social Performance function in the security risk assessment."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §33.3.3",
+      "summary": "Requires that all security personnel are trained and licensed, with mandatory training on security and human rights in accordance with the Voluntary Principles on Security and Human Rights."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §33.4.1",
+      "summary": "Requires prior written Company approval before deployment of any armed security personnel, with deployment based on the site security risk assessment and documented with specific authority approval."
+    },
+    {
+      "framework": "IFC PS4",
+      "clause": "§13",
+      "summary": "Requires the security risk assessment to explicitly address community interface risks and potential human rights issues consistent with the Voluntary Principles on Security and Human Rights."
+    },
+    {
+      "framework": "IFC PS4",
+      "clause": "§12–14",
+      "summary": "Requires that armed security personnel are engaged only as a last resort after other risk management measures have been assessed and found insufficient, and that their deployment is consistent with the Voluntary Principles."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT Group Security Standard",
+      "summary": "Requires consultation with the RT Group Security Standard to determine site security risk classification, additional requirements applicable to that classification, and project owner approval before deployment of armed personnel."
+    }
+  ]
+}

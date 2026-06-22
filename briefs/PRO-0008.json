@@ -1,0 +1,270 @@
+{
+  "procedure_id": "PRO-0008",
+  "document_number": "RTPR-HSE-PRO-0008",
+  "title": "Working at Heights Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure applies to all work where a person could fall two metres or more — or where local legislation sets a lower threshold — and covers all platforms (fixed, mobile, temporary), fall arrest systems, MEWP operations, crane suspended workboxes, and dropped object prevention. Scaffolding erection, use, and dismantling is addressed in the standalone Scaffolding Procedure.",
+  "owns": [
+    "Height threshold definition for this project",
+    "Hierarchy of controls for working at height",
+    "Anchor point load requirements (15kN/21kN)",
+    "MEWP operational requirements and spotter triggers",
+    "DROPS programme requirements",
+    "Working at heights rescue plan requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (risk assessment for height work)",
+    "RTPR-HSE-PRO-0004 – Training (height work competency — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (height permit raised via PTW system — refer RTPR-HSE-PRO-0021 for process)",
+    "RTPR-HSE-PRO-0024 – Isolation (energy isolation before height work on plant)",
+    "RTPR-HSE-PRO-0027 – PPE (fall protection equipment requirements)",
+    "RTPR-HSE-PRO-0046 – Scaffolding (scaffold use governed by RTPR-HSE-PRO-0046, not this procedure)",
+    "RTPR-HSE-PRO-0009 – Incident Management (report height incidents via RTPR-HSE-PRO-0009)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0046 – Scaffolding references RTPR-HSE-PRO-0008 for fall protection during use",
+    "RTPR-HSE-PRO-0030 – Over Water references RTPR-HSE-PRO-0008 for height controls near water",
+    "RTPR-HSE-PRO-0047 – Commissioning references RTPR-HSE-PRO-0008 for height controls during commissioning"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Hierarchy of Controls",
+      "tag": "[RT – RT C4 – Fall from Height Standard]",
+      "text": "Require the hierarchy of controls to be applied: eliminate the need to work at height first; then engineer out through fixed platforms, guardrails, or elevated work platforms; then administrative controls including permits and JHAs; then PPE (fall arrest) only as a last resort with documented justification."
+    },
+    {
+      "section_heading": "Hierarchy of Controls",
+      "tag": "[APPC – Appendix C, C-2 §54.1.1]",
+      "text": "Require a documented Working at Heights Permit for all work at height, integrated with the site PTW system, prioritising elimination and engineered access equipment over administrative controls and PPE."
+    },
+    {
+      "section_heading": "Hierarchy of Controls",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Prioritise the use of collective protective measures (barriers, guardrails, safety nets) over individual fall protection (harnesses, lanyards) wherever collective measures are feasible."
+    },
+    {
+      "section_heading": "Fall Protection Systems and Anchor Points",
+      "tag": "[RT – RT C4 – Fall from Height Standard]",
+      "text": "Require all anchor systems (permanent and temporary) to withstand a minimum static load of 15 kN for single-person use or 21 kN for two-person use, or higher where required by local legislation or the manufacturer. Require anchors to be clearly marked with intended use, maximum users, and inspection/certification status."
+    },
+    {
+      "section_heading": "Fall Protection Systems and Anchor Points",
+      "tag": "[RT – RT C4 – Fall from Height Standard]",
+      "text": "Require full-body harness to be used and attached to an approved anchor point when working at two metres or more outside the protection of a platform with compliant handrails. Require fall protection equipment to minimise fall distances."
+    },
+    {
+      "section_heading": "Fall Protection Systems and Anchor Points",
+      "tag": "[APPC – Appendix C, C-2 §54.1.2]",
+      "text": "Define rope access requirements: equipment must meet national or international standards; operations must align with a globally recognised framework (IRATA/SPRAT or equivalent)."
+    },
+    {
+      "section_heading": "Fall Protection Systems and Anchor Points",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure anchor points are independently certified, that their load ratings are documented, and that they are inspected before each use by a competent person."
+    },
+    {
+      "section_heading": "Platform Requirements",
+      "tag": "[RT – RT C4 – Fall from Height Standard]",
+      "text": "Require all fixed, mobile, and temporary platforms to be designed by a competent person for static and dynamic loads, with load ratings displayed. Require non-slip surfaces, secured openings and voids, handrails at a minimum of 900mm from the floor, and safe access and egress."
+    },
+    {
+      "section_heading": "Platform Requirements",
+      "tag": "[APPC – Appendix C, C-2 §54.1.5]",
+      "text": "Require work platforms to incorporate dropped object prevention measures: toe boards; mesh or barricading below elevated work areas; and tool tethering requirements for all tools used at height."
+    },
+    {
+      "section_heading": "Open Edge Protection",
+      "tag": "[RT – RT C4 – Fall from Height Standard]",
+      "text": "Require a continuous physical barrier along all exposed perimeters with fall potential. Apply a risk-based approach to determine suitable edge protection for all open edges including excavations, water surfaces, and geotechnical hazards such as pit walls and windrows."
+    },
+    {
+      "section_heading": "Open Edge Protection",
+      "tag": "[RT – RT C4 – Fall from Height Standard]",
+      "text": "Prohibit personnel from sitting on, standing on, or bending over edge protection without a fall restraint or arrest system in place."
+    },
+    {
+      "section_heading": "Mobile Elevating Work Platforms (MEWPs)",
+      "tag": "[APPC – Appendix C, C-2 §54.2]",
+      "text": "Require MEWP operators to be trained, assessed as competent, and formally authorised. Require fall restraint (prioritised over arrest) attached to a certified manufacturer anchor point at all times in the basket. Require pre-use inspection against an equipment-specific checklist."
+    },
+    {
+      "section_heading": "Mobile Elevating Work Platforms (MEWPs)",
+      "tag": "[APPC – Appendix C, C-2 §54.2.2]",
+      "text": "Require secondary anti-entrapment systems (crush protection devices). Define spotter requirements when working within 30m of overhead powerlines, when MEWP movement is required, or where contact with structures is identified through risk assessment."
+    },
+    {
+      "section_heading": "Mobile Elevating Work Platforms (MEWPs)",
+      "tag": "[APPC – Appendix C, C-2 §54.2.1]",
+      "text": "Require a qualified spotter holding the same qualifications as the MWP operator to be assigned during all elevated operations, not limited to powerline proximity situations. The spotter must maintain direct visual contact with the platform and personnel at all times."
+    },
+    {
+      "section_heading": "Mobile Elevating Work Platforms (MEWPs)",
+      "tag": "[APPC – Appendix C, C-2 §54.2.4.1]",
+      "text": "Require all MEWPs mobilised to site to be fitted with an anti-crushing or anti-entrapment device. Where available, this device must be an OEM-approved pressure-sensitive system. Where an OEM pressure-sensitive device is not available, an alternative approved device must be fitted and approved by the Company representative before use on site."
+    },
+    {
+      "section_heading": "Mobile Elevating Work Platforms (MEWPs)",
+      "tag": "[APPC – Appendix C, C-2 §54.2.4.3]",
+      "text": "Require all MEWPs to have ground-level controls that allow operation of the platform from the ground, including in cases of operator entrapment in the basket."
+    },
+    {
+      "section_heading": "Mobile Elevating Work Platforms (MEWPs)",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure MEWPs are operated within their rated capacity and on ground conditions assessed as adequate for the equipment type and load."
+    },
+    {
+      "section_heading": "Crane Suspended Workboxes",
+      "tag": "[APPC – Appendix C, C-2 §54.3]",
+      "text": "Require a specific risk assessment and documented lift plan for every crane suspended workbox operation. Require the workbox to be individually identified and marked with maximum load capacity. Define operational restrictions and conditions under which workbox operations are prohibited."
+    },
+    {
+      "section_heading": "Crane Suspended Workboxes",
+      "tag": "[APPC – Appendix C, C-2 §54.3.3]",
+      "text": "Require all crane suspended workboxes to be clearly marked with: Safe Working Load (payload capacity); date of last inspection; the designation \"PB\" (personnel basket); and a unique identifying number."
+    },
+    {
+      "section_heading": "Crane Suspended Workboxes",
+      "tag": "[APPC – Appendix C, C-2 §54.3.4]",
+      "text": "Require a competent rigger in radio contact with the crane operator to ride in the man cage whenever it is occupied. Rigging equipment used for man cage operations must not be used for any other purpose. Workboxes must not be used over water."
+    },
+    {
+      "section_heading": "Crane Suspended Workboxes",
+      "tag": "[RT – RT C6 – Lifting Operations Standard]",
+      "text": "Ensure that crane suspended workbox operations meet all requirements of the cranes and lifting critical controls, including operator competency, pre-operational checks, exclusion zones, and no-person-under-suspended-load rule."
+    },
+    {
+      "section_heading": "Dropped Object Prevention",
+      "tag": "[RT – RT Falling Objects Standard]",
+      "text": "Require a Dropped Object Prevention System (DROPS) including a DROPS register. Require all tools and equipment to be secured when working at height using appropriate lanyards, tethering, or tool belts. Define exclusion zone requirements below all elevated work areas, with rated overhead protection for walkways."
+    },
+    {
+      "section_heading": "Dropped Object Prevention",
+      "tag": "[APPC – Appendix C, C-2 §54.4]",
+      "text": "Require risk assessment for securing device compatibility, load capacity (exceeding tool weight plus dynamic forces), and suitability of attachment points. Include requirements for drop mats and equipment containers for small parts."
+    },
+    {
+      "section_heading": "Dropped Object Prevention",
+      "tag": "[APPC – Appendix C, C-2 §54.4.4.2]",
+      "text": "Require that areas below elevated work activities are barricaded off, extending outward at a minimum of 15 degrees from the highest point of the elevated work area. Barricaded areas must be signposted to restrict unauthorised access and monitored by a spotter where overhead work is active."
+    },
+    {
+      "section_heading": "Dropped Object Prevention",
+      "tag": "[RT – RT Falling Objects Standard]",
+      "text": "Require classification of dropped object events using the DROPS Online Calculator for severity assessment and reporting."
+    },
+    {
+      "section_heading": "Inspection and Emergency Response",
+      "tag": "[RT – RT C4 – Fall from Height Standard]",
+      "text": "Require pre-use inspection of all fall protection equipment, ladders, non-motorised platforms, and MEWPs before every use. Require all height access equipment to be individually identifiable in an equipment register with visible inspection status."
+    },
+    {
+      "section_heading": "Inspection and Emergency Response",
+      "tag": "[RT – RT C4 – Fall from Height Standard]",
+      "text": "Require a task-specific emergency rescue plan to be in place before work at heights commences, covering emergency scenarios, rescue equipment locations, rescue method (non-entry rescue preferred), and communication procedures. Require rescue drills on a risk-based frequency."
+    },
+    {
+      "section_heading": "Inspection and Emergency Response",
+      "tag": "[APPC – Appendix C, C-2 §54.1.3]",
+      "text": "Define the post-event suspension requirements for fall arrest equipment subject to an arrest load — equipment must be removed from service immediately and inspected by the manufacturer or competent person before return to use."
+    }
+  ],
+  "project_completion_guidance": [
+    "Confirm the project height threshold — the procedure uses 2m as the default. If applicable legislation in the project jurisdiction sets a lower threshold, insert the lower figure and document the legislative reference.",
+    "Define the project DROPS register format and assign the DROPS register owner for this project.",
+    "Define the project MEWP exclusion zone approach — the procedure sets the 30m powerline trigger. For this project, identify all areas with overhead powerlines and insert a map reference or exclusion zone register.",
+    "Define the project-specific rescue planning process: who prepares rescue plans, who approves them, where they are kept, how often they are tested. The procedure requires rescue plans — the project defines the governance.",
+    "Define the project anchor system inspection and certification process: who inspects, what documentation is required, where records are kept (reference RTPR-HSE-REG-0003 via RTPR-HSE-PRO-0004)."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT C4 – Fall from Height Standard",
+      "summary": "Requires application of the hierarchy of controls for working at height, including anchor system load ratings, full-body harness requirements, platform design, open edge protection, equipment inspection, and task-specific emergency rescue planning."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT C6 – Lifting Operations Standard",
+      "summary": "Requires crane suspended workbox operations to meet all cranes and lifting critical controls including operator competency, pre-operational checks, exclusion zones, and no-person-under-suspended-load rule."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT Falling Objects Standard",
+      "summary": "Requires a Dropped Object Prevention System including a DROPS register, tool and equipment securing at height, exclusion zones below elevated work, and use of the DROPS Online Calculator for severity classification of dropped object events."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.1.1",
+      "summary": "Requires a documented Working at Heights Permit integrated with the site PTW system, prioritising elimination and engineered access equipment over administrative controls and PPE."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.1.2",
+      "summary": "Requires rope access equipment to meet national or international standards and operations to align with a globally recognised framework such as IRATA/SPRAT or equivalent."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.1.3",
+      "summary": "Requires fall arrest equipment subjected to an arrest load to be removed from service immediately and inspected by the manufacturer or a competent person before return to use."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.1.5",
+      "summary": "Requires work platforms to incorporate dropped object prevention measures including toe boards, mesh or barricading below elevated work areas, and tool tethering for all tools used at height."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.2",
+      "summary": "Requires MEWP operators to be trained, competent, and formally authorised, with fall restraint attached at all times in the basket and pre-use inspection against an equipment-specific checklist."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.2.1",
+      "summary": "Requires a qualified spotter to be assigned during all elevated MEWP operations, maintaining direct visual contact with the platform and personnel at all times."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.2.2",
+      "summary": "Requires secondary anti-entrapment systems on MEWPs and defines spotter requirements when working within 30 metres of overhead powerlines, during MEWP movement, or where contact with structures is identified through risk assessment."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.2.4.1",
+      "summary": "Requires all MEWPs to be fitted with an OEM-approved pressure-sensitive anti-crushing or anti-entrapment device, or an approved alternative where an OEM device is unavailable."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.2.4.3",
+      "summary": "Requires all MEWPs to have ground-level controls allowing platform operation from the ground in cases of operator entrapment in the basket."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.3",
+      "summary": "Requires a specific risk assessment and documented lift plan for every crane suspended workbox operation, with the workbox individually identified and marked with maximum load capacity."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.3.3",
+      "summary": "Requires crane suspended workboxes to be clearly marked with Safe Working Load, date of last inspection, the PB designation, and a unique identifying number."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.3.4",
+      "summary": "Requires a competent rigger in radio contact with the crane operator to ride in the man cage whenever it is occupied, with rigging equipment dedicated to man cage operations only and workboxes prohibited over water."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.4",
+      "summary": "Requires risk assessment for securing device compatibility and load capacity for tools used at height, including requirements for drop mats and equipment containers for small parts."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §54.4.4.2",
+      "summary": "Requires areas below elevated work activities to be barricaded off extending at a minimum of 15 degrees from the highest work point, with signage and a spotter where overhead work is active."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.1",
+      "summary": "Requires prioritisation of collective protective measures over individual fall protection, independent certification of anchor points with documented load ratings and pre-use inspection by a competent person, operation of MEWPs within rated capacity on assessed ground conditions, and enforcement of exclusion zones under and within the swing radius of crane loads for the full duration of the lift."
+    }
+  ]
+}

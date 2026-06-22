@@ -1,0 +1,201 @@
+{
+  "procedure_id": "PRO-0003",
+  "document_number": "RTPR-HSE-PRO-0003",
+  "title": "Organisational Resources and Responsibilities Procedure",
+  "management_system_element": "05 – Organisational Resources, Responsibilities & Accountabilities",
+  "preamble": "This procedure defines how HSESC roles, responsibilities, accountabilities, and resources are established and maintained across the owner-led project — covering both the RT project team and all contractor organisations operating under the project HSESC management system. In the owner-led model, RT holds the organisational accountability that in an EPCM model would sit with the EPCM contractor.",
+  "owns": [
+    "HSESC organisational structure requirements",
+    "HSESC resourcing ratios",
+    "HSESCLT composition and meeting requirements",
+    "Stop Work Authority process",
+    "HSESC Committee requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0004 – Training (HSESC team competency requirements)",
+    "RTPR-HSE-PRO-0011 – Communication (HSESCLT meeting as communication channel)",
+    "RTPR-HSE-PRO-0007 – Improvement Planning (HSESCLT as improvement driver)",
+    "RTPR-HSE-PRO-0010 – Document Control (org chart as controlled document)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0007 references HSESCLT for performance review governance",
+    "RTPR-HSE-PRO-0011 references HSESCLT meetings as a communication channel",
+    "RTPR-HSE-PRO-0044 references HSESCLT for audit governance"
+  ],
+  "requirements": [
+    {
+      "section_heading": "HSESC Organisational Structure",
+      "tag": "[APPC – Appendix C, C-1 §23.4]",
+      "text": "Require a detailed HSESC organisational chart documenting all key HSESC roles across the owner team and contractor organisations, updated whenever changes occur and maintained current for the project duration."
+    },
+    {
+      "section_heading": "HSESC Organisational Structure",
+      "tag": "[APPC – Appendix C, C-1 §23.4]",
+      "text": "Define the minimum HSESC resourcing ratio (1 HSESC professional per 50 workers across the combined project workforce), the process for justifying any alternative ratio, and the requirement for dedicated office-based HSESC resource to support site-based personnel."
+    },
+    {
+      "section_heading": "HSESC Organisational Structure",
+      "tag": "[IFC – IFC PS1 §19]",
+      "text": "Ensure the organisational capacity is sufficient to implement the ESMS, with defined roles covering assessment, management, monitoring, and stakeholder engagement functions throughout the project lifecycle."
+    },
+    {
+      "section_heading": "HSESC Organisational Structure",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH1]",
+      "text": "Require that senior management accountability for health, safety, and respectful workplace outcomes is assigned in writing to a named individual at the most senior level of the project organisation."
+    },
+    {
+      "section_heading": "Leadership and Accountability",
+      "tag": "[APPC – Appendix C, C-1 §23.2]",
+      "text": "Require that the project's most senior leader demonstrates visible HSESC leadership through regular site attendance, direct workforce engagement, and public commitment to project HSESC objectives."
+    },
+    {
+      "section_heading": "Leadership and Accountability",
+      "tag": "[APPC – Appendix C, C-1 §23.2]",
+      "text": "Define the process for recognising and acknowledging safe and environmentally responsible work behaviours across all levels of the project organisation."
+    },
+    {
+      "section_heading": "Leadership and Accountability",
+      "tag": "[ICMM – ICMM Principle 5, Performance Expectation 5.1]",
+      "text": "Implement practices that demonstrate senior leadership accountability for performance against targets for elimination of fatalities, serious injuries, and psychosocial hazards — monitored and reported against defined goals."
+    },
+    {
+      "section_heading": "Leadership and Accountability",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH1]",
+      "text": "Set safety and health targets from senior management, communicate them to all project personnel, and monitor and report performance against them at defined intervals."
+    },
+    {
+      "section_heading": "HSESC Leadership Team",
+      "tag": "[APPC – Appendix C, C-1 §23.3]",
+      "text": "Require establishment of a project HSESCLT at each significant work location, comprising senior project leadership and HSESC function representatives."
+    },
+    {
+      "section_heading": "HSESC Leadership Team",
+      "tag": "[APPC – Appendix C, C-1 §23.3]",
+      "text": "Define HSESCLT meeting frequency (monthly minimum), agenda requirements covering performance, audit findings, incident trends, corrective actions, and CRM performance; minute recording and distribution obligations; and the requirement that HSESC issues take priority at all management meetings."
+    },
+    {
+      "section_heading": "HSESC Leadership Team",
+      "tag": "[APPC – Appendix C, C-1 §24]",
+      "text": "Require the HSESCLT to actively promote Stop Work Authority (SWA), granting all personnel the unconditional right and responsibility to stop work without fear of retribution when a safety condition could result in harm. Require SWA events to be documented, reported, and shared as learning."
+    },
+    {
+      "section_heading": "Roles and Responsibilities",
+      "tag": "[APPC – Appendix C, C-1 §23.4]",
+      "text": "Require a detailed listing of HSESC roles and responsibilities for all key personnel, including interface responsibilities between the RT project team and contractor organisations, submitted within 30 days of the Effective Date."
+    },
+    {
+      "section_heading": "Roles and Responsibilities",
+      "tag": "[IFC – IFC PS1 §19]",
+      "text": "Ensure that personnel responsible for implementing the management system have the training, skills, experience, and technical capacity required for their specific roles."
+    },
+    {
+      "section_heading": "Roles and Responsibilities",
+      "tag": "[OSHA – OSHA RP 2016 – Management Leadership]",
+      "text": "Ensure supervisors at all levels understand their HSESC responsibilities and have the authority and resources necessary to fulfil them effectively."
+    },
+    {
+      "section_heading": "HSESC Committee",
+      "tag": "[APPC – Appendix C, C-1 §38.5]",
+      "text": "Require each site to have an operational HSESC committee including representatives from all work groups and contractor organisations, meeting at regular planned intervals with documented minutes available to all personnel."
+    },
+    {
+      "section_heading": "HSESC Committee",
+      "tag": "[IFC – IFC PS2 §36]",
+      "text": "Ensure workers have effective mechanisms to raise workplace concerns and that their participation in identifying and managing HSESC risks is actively supported."
+    },
+    {
+      "section_heading": "Leadership and Accountability",
+      "tag": "[APPC – Appendix C, C-1 §23.4]",
+      "text": "Require the project to submit an updated HSESC organisational chart to the Company and ensure it reflects any changes for the duration of the contract. Updates must be submitted within an agreed timeframe following any change to key HSESC personnel."
+    },
+    {
+      "section_heading": "HSESC Leadership Team",
+      "tag": "[APPC – Appendix C, C-1 §23.3]",
+      "text": "Require the HSESCLT to identify and reward personnel and teams demonstrating high standards of HSESC performance, and to ensure all HSESC concerns raised through any feedback mechanism are addressed in a timely manner."
+    },
+    {
+      "section_heading": "HSESC Leadership Team",
+      "tag": "[APPC – Appendix C, C-1 §23.3]",
+      "text": "Require the HSESCLT to regularly review and implement corrective actions from inspections, audits, incident investigations, and near-miss reports to ensure continuous improvement in HSESC performance."
+    },
+    {
+      "section_heading": "Leadership and Accountability",
+      "tag": "[APPC – Appendix C, C-6 §106.1.1]",
+      "text": "Require development of a Leadership Development Implementation Plan covering all project phases: planning, pre-mobilisation, mobilisation, execution, and demobilisation. The plan must set objectives for leadership culture aligned with Company values, define key activities to establish and sustain leadership at all levels, and include a budget — refer RTPR-HSE-PRO-0050."
+    },
+    {
+      "section_heading": "Leadership and Accountability",
+      "tag": "[APPC – Appendix C, C-6 §108.0.1]",
+      "text": "Require establishment of a Contractor Leadership Team for the project to drive the Contractor project culture. The Leadership Team must establish and maintain a charter, conduct periodic cultural assessments, develop action plans for cultural improvement, and ensure professional development and coaching of managers, superintendents, and frontline leaders — refer RTPR-HSE-PRO-0050."
+    }
+  ],
+  "project_completion_guidance": [
+    "Insert the project HSESC organisational chart. This must show RT project team HSESC roles AND the key HSESC roles within each major contractor organisation. Update before mobilisation.",
+    "Define the HSESCLT composition for this project by position title: who from the RT project team, who from each major contractor. The procedure sets the minimum requirements; the project sets the specific membership list.",
+    "Define the HSESCLT meeting schedule for this project (specific day and frequency). The procedure requires monthly minimum — the project may set a higher frequency for high-risk phases.",
+    "Confirm the Stop Work Authority communication method for this project: how is SWA trained; where are SWA cards or posters displayed; how are SWA events recorded and communicated. Insert the project-specific SWA process flowchart.",
+    "Define the HSESC Committee membership for each work location on this project, including contractor representatives. The committee is separate from the HSESCLT."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §23.2",
+      "summary": "Requires the most senior project leader to demonstrate visible HSESC leadership and defines the process for recognising safe behaviours across the project organisation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §23.3",
+      "summary": "Requires establishment of an HSESCLT at each significant work location, sets meeting frequency and agenda requirements, and mandates the promotion of Stop Work Authority."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §23.4",
+      "summary": "Requires a detailed HSESC organisational chart, defines the minimum HSESC resourcing ratio, and requires a detailed listing of roles and responsibilities submitted within 30 days of the Effective Date."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §24",
+      "summary": "Requires the HSESCLT to actively promote Stop Work Authority granting all personnel the unconditional right to stop work without fear of retribution."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.5",
+      "summary": "Requires each site to have an operational HSESC committee with representatives from all work groups and contractors, meeting at regular planned intervals with documented minutes."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §106.1.1",
+      "summary": "Requires development of a Leadership Development Implementation Plan covering all project phases with objectives, activities, budget, and schedule."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §108.0.1",
+      "summary": "Requires establishment of a Contractor Leadership Team to drive project culture through a charter, cultural assessments, action plans, and professional development."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§19",
+      "summary": "Requires organisational capacity sufficient to implement the ESMS with defined roles covering assessment, management, monitoring, and stakeholder engagement, and ensures personnel have the training, skills, and technical capacity for their roles."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "§36",
+      "summary": "Requires workers to have effective mechanisms to raise workplace concerns and that their participation in identifying and managing HSESC risks is actively supported."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "Principle 5, Performance Expectation 5.1",
+      "summary": "Requires senior leadership accountability practices for performance against targets for elimination of fatalities, serious injuries, and psychosocial hazards, monitored and reported against defined goals."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Safe, Healthy and Respectful Workplaces Protocol, Indicator SH1",
+      "summary": "Requires that senior management accountability for health, safety, and respectful workplace outcomes is assigned in writing to a named individual, and that targets are set, communicated, and monitored."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "RP 2016 – Management Leadership",
+      "summary": "Requires supervisors at all levels to understand their HSESC responsibilities and have the authority and resources necessary to fulfil them effectively."
+    }
+  ]
+}

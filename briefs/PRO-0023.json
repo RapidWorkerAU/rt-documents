@@ -1,0 +1,122 @@
+{
+  "procedure_id": "PRO-0023",
+  "document_number": "RTPR-HSE-PRO-0023",
+  "title": "Radiation Control Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for identifying, assessing, and controlling radiation hazards including ionising radiation (X-ray, gamma, beta, alpha, neutron) and non-ionising radiation (UV, laser, radiofrequency, microwave) in the project environment.",
+  "owns": [
+    "Radiation source identification and registration requirements",
+    "ALARA application process",
+    "Radiation restricted zone requirements",
+    "Dose monitoring requirements",
+    "Radiation incident emergency response"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (radiation risk assessment)",
+    "RTPR-HSE-PRO-0001 – Legal Requirements (radiation licence requirements)",
+    "RTPR-HSE-PRO-0004 – Training (radiation safety training — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (radiation work via PTW)",
+    "RTPR-HSE-PRO-0009 – Incident Management (radiation incident reporting)"
+  ],
+  "referenced_by": [],
+  "requirements": [
+    {
+      "section_heading": "Hazard Identification and Assessment",
+      "tag": "[APPC – Appendix C, C-2 §71]",
+      "text": "Require identification of all radiation sources on site including: X-ray inspection equipment; nuclear density gauges; gamma sources; UV equipment; lasers; and RF/microwave emitting plant. Require all identified radiation sources to be registered and documented."
+    },
+    {
+      "section_heading": "Hazard Identification and Assessment",
+      "tag": "[IFC – IFC EHS General Guidelines §2.6]",
+      "text": "Assess occupational radiation exposures against applicable dose limits and action levels. Manage radiation risks using the ALARA (As Low As Reasonably Achievable) principle."
+    },
+    {
+      "section_heading": "Hazard Identification and Assessment",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define site-specific radiation dose limits consistent with applicable national legislation and IAEA Basic Safety Standards, and assign a Radiation Safety Officer (or equivalent) with defined responsibilities for programme oversight and emergency response."
+    },
+    {
+      "section_heading": "Controls",
+      "tag": "[IFC – IFC EHS General Guidelines §2.6]",
+      "text": "Apply the three fundamental radiation protection principles: time (minimise exposure duration); distance (maximise distance from source); and shielding (use appropriate barriers). Define controls for each identified radiation source."
+    },
+    {
+      "section_heading": "Controls",
+      "tag": "[OSHA – OSHA 29 CFR 1910.97 / 1926.54]",
+      "text": "Define restricted zones for radiation-emitting equipment, access controls, and warning signage requirements consistent with applicable regulatory requirements."
+    },
+    {
+      "section_heading": "Controls",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the radiation dose monitoring requirements for workers with regular radiation exposure, including the type of monitoring device (film badge, TLD, electronic personal dosimeter), monitoring period, and action level that triggers enhanced controls or exposure investigation."
+    },
+    {
+      "section_heading": "Competency and Emergency Response",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the competency and licence requirements for personnel operating radiation-emitting equipment, and the emergency response requirements for radiation incidents (spills, lost sources, overexposures), including notification requirements to regulatory authorities."
+    },
+    {
+      "section_heading": "Hazard Identification and Assessment",
+      "tag": "[APPC – Appendix C, C-2 §71.2]",
+      "text": "Require risk assessment, measurement, and control of all workplace radiation hazards conducted by a competent person. Risk assessments must identify all ionising and non-ionising radiation sources and define proportionate controls."
+    },
+    {
+      "section_heading": "Hazard Identification and Assessment",
+      "tag": "[APPC – Appendix C, C-2 §71.3]",
+      "text": "Require a register documenting all radiation sources including: radiation source type; type of radiation emitted; dose rates; location; controls in place; and responsible person."
+    },
+    {
+      "section_heading": "Controls",
+      "tag": "[APPC – Appendix C, C-2 §71.4]",
+      "text": "Require establishment of restricted or controlled access areas where ionising radiation annual doses exceed 5 milli-Sieverts (mSv). Access controls must be physical and documented."
+    },
+    {
+      "section_heading": "Controls",
+      "tag": "[APPC – Appendix C, C-2 §71.6]",
+      "text": "Require development of a documented Radiation Protection Programme (RPP) where required by legal regulations or risk assessment, including exposure monitoring, dose limits, protective equipment, medical surveillance, and emergency procedures."
+    }
+  ],
+  "project_completion_guidance": [
+    "Conduct a radiation source inventory for this project before work commences. List all radiation sources expected on site (X-ray inspection equipment, density gauges, UV sources, lasers) and insert into the designated table.",
+    "Define the Radiation Safety Officer (or equivalent role) for this project — identify by name and position. This role must be confirmed before any radiation-emitting equipment is mobilised to site.",
+    "Define the project-specific dose limits and monitoring device requirements for roles with radiation exposure. Confirm compliance with applicable national legislation.",
+    "Define the project radiation incident emergency response process and notification pathway to the relevant regulatory authority."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §71",
+      "summary": "Requires identification and registration of all radiation sources on site including X-ray equipment, nuclear density gauges, gamma sources, UV equipment, lasers, and RF/microwave emitting plant."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §71.2",
+      "summary": "Requires risk assessment, measurement, and control of all workplace radiation hazards conducted by a competent person, identifying all ionising and non-ionising radiation sources."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §71.3",
+      "summary": "Requires a register documenting all radiation sources including source type, radiation emitted, dose rates, location, controls, and responsible person."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §71.4",
+      "summary": "Requires establishment of physical restricted or controlled access areas where ionising radiation annual doses exceed 5 milli-Sieverts."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §71.6",
+      "summary": "Requires development of a documented Radiation Protection Programme where required by legal regulations or risk assessment, covering exposure monitoring, dose limits, protective equipment, medical surveillance, and emergency procedures."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.6",
+      "summary": "Requires assessment of occupational radiation exposures against applicable dose limits and action levels, and application of the ALARA principle and the three fundamental radiation protection principles of time, distance, and shielding."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "29 CFR 1910.97 / 1926.54",
+      "summary": "Requires definition of restricted zones for radiation-emitting equipment, access controls, and warning signage consistent with applicable regulatory requirements."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "procedure_id": "PRO-0036",
+  "document_number": "RTPR-HSE-PRO-0036",
+  "title": "Chemically Reactive Mineral Waste Control Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines requirements for managing chemically reactive mineral wastes — including acid rock drainage (ARD), metalliferous drainage, and other reactive tailings or waste rock — to prevent environmental contamination, protect receiving water bodies, and safeguard human health.",
+  "owns": [
+    "Reactive mineral waste characterisation requirements",
+    "ARD classification methodology",
+    "Segregation requirements for reactive vs non-reactive material",
+    "Leachate and seepage monitoring requirements",
+    "Reactive waste closure design criteria"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (ARD risk assessment)",
+    "RTPR-HSE-PRO-0034 – Water Quality (water quality monitoring near reactive waste)",
+    "RTPR-HSE-PRO-0039 – Waste Control (waste classification and disposal)",
+    "RTPR-HSE-PRO-0037 – Land Disturbance (waste landform rehabilitation)",
+    "RTPR-HSE-PRO-0042 – Monitoring (geochemical monitoring programme)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0037 references RTPR-HSE-PRO-0036 for reactive waste landform rehabilitation design"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Waste Characterisation",
+      "tag": "[RT – RT Environment and Nature – Materials & Waste Standard]",
+      "text": "Require geochemical characterisation of all waste rock and tailings to identify reactive materials using Acid-Base Accounting (ABA) and kinetic testing where required. Require classification of all waste material into reactive and non-reactive streams before disposal decisions are made."
+    },
+    {
+      "section_heading": "Waste Characterisation",
+      "tag": "[IFC – IFC EHS General Guidelines §1.5]",
+      "text": "Conduct a comprehensive waste characterisation programme to identify potentially hazardous materials and set the basis for waste management design."
+    },
+    {
+      "section_heading": "Waste Characterisation",
+      "tag": "[TSM – TSM – Tailings Management Protocol, Indicator TM2]",
+      "text": "Implement site-specific tailings management systems that address geochemical characterisation of tailings and ARD potential as a core component of the tailings facility management plan."
+    },
+    {
+      "section_heading": "Segregation, Management and Containment",
+      "tag": "[RT – RT Environment and Nature – Materials & Waste Standard]",
+      "text": "Require segregation of reactive and non-reactive waste materials. Define encapsulation, co-disposal, or neutralisation requirements for reactive materials based on the geochemical characterisation. Document segregation plans and disposal locations in the waste register."
+    },
+    {
+      "section_heading": "Segregation, Management and Containment",
+      "tag": "[IFC – IFC EHS General Guidelines §1.5]",
+      "text": "Design waste containment facilities to prevent seepage reaching sensitive environmental receptors, and implement engineering controls (covers, liners, water diversion) appropriate to the waste class."
+    },
+    {
+      "section_heading": "Segregation, Management and Containment",
+      "tag": "[ICMM – ICMM – Position Statement on Mining and Protected Areas / Tailings]",
+      "text": "Manage chemically reactive mineral waste in accordance with the Global Industry Standard on Tailings Management (GISTM) where it applies to the specific tailings facility."
+    },
+    {
+      "section_heading": "Monitoring, Reporting and Closure",
+      "tag": "[RT – RT Environment and Nature – Water Management Standard]",
+      "text": "Define monitoring requirements for leachate, seepage, and receiving water quality downstream of reactive waste storage areas. Define trigger thresholds and adaptive management responses for water quality deterioration."
+    },
+    {
+      "section_heading": "Monitoring, Reporting and Closure",
+      "tag": "[TSM – TSM – Tailings Management Protocol, Indicator TM4]",
+      "text": "Conduct an annual tailings management review and maintain an Operation, Maintenance and Surveillance (OMS) manual conforming to applicable guidance."
+    },
+    {
+      "section_heading": "Monitoring, Reporting and Closure",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define and document, in consultation with a qualified geochemist, the site-specific water quality triggers for ARD-affected drainage that will initiate emergency response and enhanced controls, and the closure design criteria for reactive waste landforms."
+    }
+  ],
+  "project_completion_guidance": [
+    "Commission a geochemical characterisation programme for this project's waste rock and tailings before waste disposal decisions are made. The procedure requires this — insert the programme scope and timeline, and reference the results when available.",
+    "Define the project site-specific water quality triggers for ARD-affected drainage. These must be set in consultation with a qualified geochemist. Insert the trigger table.",
+    "Define the project waste segregation plan: where reactive material is placed; how the placement boundary is defined; how workers are informed of segregation requirements.",
+    "[APPC – Appendix C, C-4 §92.3.2]  Require that Works are conducted to minimise overall mineral waste production while maximising recovery of mineral waste types for rehabilitation and closure activities.\n[APPC – Appendix C, C-4 §92.3.5]  Require that adverse impacts related to chemically reactive mineral waste are contained within the Works area and limited to the duration of construction.\n[APPC – Appendix C, C-4 §92.3.7]  Require active management of water movement across the Works area to prevent contamination through chemically reactive mineral waste. Controls must be in place before waste rock movement commences.",
+    "Define the project closure design criteria for reactive waste landforms: what long-term water quality standard must be achieved; what monitoring confirms closure success."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Materials & Waste Standard",
+      "summary": "Requires geochemical characterisation of all waste rock and tailings using ABA and kinetic testing, classification into reactive and non-reactive streams, and segregation with encapsulation, co-disposal, or neutralisation for reactive materials."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Water Management Standard",
+      "summary": "Requires monitoring of leachate, seepage, and receiving water quality downstream of reactive waste storage areas, with defined trigger thresholds and adaptive management responses for water quality deterioration."
+    },
+    {
+      "framework": "IFC EHS Guidelines",
+      "clause": "§1.5",
+      "summary": "Requires a comprehensive waste characterisation programme to identify potentially hazardous materials and design waste containment facilities that prevent seepage reaching sensitive environmental receptors."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Tailings Management Protocol, Indicator TM2",
+      "summary": "Requires site-specific tailings management systems that address geochemical characterisation of tailings and ARD potential as a core component of the tailings facility management plan."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Tailings Management Protocol, Indicator TM4",
+      "summary": "Requires an annual tailings management review and maintenance of an Operation, Maintenance and Surveillance manual conforming to applicable guidance."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "Position Statement on Mining and Protected Areas / Tailings",
+      "summary": "Requires management of chemically reactive mineral waste in accordance with the Global Industry Standard on Tailings Management where it applies to the specific tailings facility."
+    }
+  ]
+}

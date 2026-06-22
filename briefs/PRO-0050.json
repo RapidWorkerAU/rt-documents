@@ -1,0 +1,174 @@
+{
+  "procedure_id": "PRO-0050",
+  "document_number": "RTPR-HSE-PRO-0050",
+  "title": "Leadership Development Programme Procedure",
+  "management_system_element": "05 – Organisational Resources, Responsibilities & Accountabilities",
+  "preamble": "This procedure defines requirements for developing, implementing, and sustaining a leadership culture across the owner-led project that aligns with the Company values of Care, Courage, and Curiosity. Leadership behaviours at all levels play a critical role in shaping safety culture and project outcomes. The Leadership Development Programme must be applied consistently across all project phases: planning, pre-mobilisation, mobilisation, execution, and demobilisation.",
+  "owns": [
+    "Leadership Development Implementation Plan requirements",
+    "Contractor Leadership Team charter requirements",
+    "Cultural assessment tools and methodology",
+    "Leadership development activities by project phase",
+    "Internal coaching capability requirements",
+    "Leadership programme budget and schedule"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0003 – Organisational Resources (leadership team composition and governance)",
+    "RTPR-HSE-PRO-0004 – Training (field supervisor development and LiF programme)",
+    "RTPR-HSE-PRO-0011 – Communication (pre-start meetings and toolbox talks as leadership channels)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0003 – Organisational Resources (references this procedure for leadership programme requirements)"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Leadership Development Implementation Plan",
+      "tag": "[APPC – Appendix C, C-6 §106.1.1]",
+      "text": "Require development of a Leadership Development Implementation Plan covering all project phases. The plan must set objectives for leadership culture aligned with Company values, define key activities to measure, establish, develop, and sustain leadership at all levels, include a budget, and provide a schedule of activities by phase."
+    },
+    {
+      "section_heading": "Leadership Development Implementation Plan",
+      "tag": "[APPC – Appendix C, C-6 §106.1.2]",
+      "text": "Require the plan to include: a meaningful purpose statement relating to leadership and culture; key activities mapped to each project phase; roles and responsibilities for plan delivery; resources required to deliver and participate in the plan; and a schedule of activities."
+    },
+    {
+      "section_heading": "Leadership Development Implementation Plan",
+      "tag": "[APPC – Appendix C, C-6 §106.1.3]",
+      "text": "Require the plan to be reviewed and refined in collaboration with the Project Leadership Team to ensure alignment with broader project expectations. The plan must be a living document, updated at the start of each project phase."
+    },
+    {
+      "section_heading": "Project Phases",
+      "tag": "[APPC – Appendix C, C-6 §106.2]",
+      "text": "During the Pre-mobilisation Phase, require that the Project Leadership Team and key personnel fully understand the leadership and cultural expectations for the project. This includes a formal commitment from the Contractor senior leadership and workshops or briefings to communicate leadership and cultural expectations to key personnel before mobilisation."
+    },
+    {
+      "section_heading": "Project Phases",
+      "tag": "[APPC – Appendix C, C-6 §106.3.1]",
+      "text": "During the Mobilisation Phase, require that all Contractor personnel are inducted into the project cultural expectations and understand their responsibilities in delivering leadership outcomes. Induction programmes for managers and frontline leaders must emphasise their role in leading by example and reinforcing cultural expectations."
+    },
+    {
+      "section_heading": "Project Phases",
+      "tag": "[APPC – Appendix C, C-6 §106.4.1]",
+      "text": "During the Execution Phase, require demonstration that leadership culture is embedded in day-to-day activities and that all personnel exhibit the desired attitudes and behaviours. Activities must include regular leadership engagements at pre-start meetings and toolbox talks, ongoing coaching and mentoring for frontline leaders, and periodic Leadership Team reviews to assess cultural progress."
+    },
+    {
+      "section_heading": "Project Phases",
+      "tag": "[APPC – Appendix C, C-6 §106.5.1]",
+      "text": "During the Demobilisation Phase, require that Contractor personnel continue to demonstrate desired cultural behaviours through the final stages of the project. Include exit interviews or surveys to capture effectiveness of the leadership culture, and final review workshops to identify lessons learned."
+    },
+    {
+      "section_heading": "Contractor Leadership Team",
+      "tag": "[APPC – Appendix C, C-6 §108.0.1]",
+      "text": "Require establishment of a Contractor Leadership Team for the project to drive the Contractor project culture. The Leadership Team must: align with the Project Leadership Team around expectations and priorities; periodically consider cultural challenges and develop action plans; conduct baseline and periodic cultural assessments; and provide professional development and coaching for managers, superintendents, and frontline leaders."
+    },
+    {
+      "section_heading": "Contractor Leadership Team",
+      "tag": "[APPC – Appendix C, C-6 §110.3.2.2]",
+      "text": "Require development of a collaborative Leadership Team Charter that defines the team purpose, membership, ways of working, and meeting schedule. The charter must include a meaningful purpose statement, confirmed membership representing all Contractor entities and functional areas, and a schedule for Leadership Team meetings and reviews."
+    },
+    {
+      "section_heading": "Contractor Leadership Team",
+      "tag": "[APPC – Appendix C, C-6 §108.0.6]",
+      "text": "Require that Contractor personnel are empowered to be accountable to deliver project outcomes in a way that demonstrates leadership cascading with impact down to individual task level."
+    },
+    {
+      "section_heading": "Cultural Assessment",
+      "tag": "[APPC – Appendix C, C-6 §110.3.3.1]",
+      "text": "Require inclusion of tools to measure the effectiveness of leadership, incorporating lead indicators of the health of the project culture. Tools must capture data to inform the Contractor Leadership Team in developing focus areas and action plans."
+    },
+    {
+      "section_heading": "Cultural Assessment",
+      "tag": "[APPC – Appendix C, C-6 §108.0.4]",
+      "text": "Require baseline and periodic assessment of the Contractor leadership culture at all levels to inform Leadership Team planning. Assessments must be conducted at the start of the project and at defined intervals throughout execution."
+    },
+    {
+      "section_heading": "Internal Coaching Capability",
+      "tag": "[APPC – Appendix C, C-6 §110.3.4.1]",
+      "text": "Require consideration of establishing an internal leadership coaching team focused on safety leadership and accountability. Coaches must have credibility with management through to the workforce, demonstrate personal commitment to safety culture, and be willing to try new initiatives."
+    },
+    {
+      "section_heading": "Internal Coaching Capability",
+      "tag": "[APPC – Appendix C, C-6 §110.3.4.8]",
+      "text": "Require that coaches receive initial and ongoing training and development in: facilitating discussions; presenting new ideas; and basic coaching techniques. Coaches must be used as a key resource to encourage team participation in JHA and Take 5 processes, promote active workforce participation in pre-starts, improve the quality of leadership in the field engagements, and normalise and role-model effective leadership."
+    }
+  ],
+  "project_completion_guidance": [
+    "Develop the Leadership Development Implementation Plan for this project covering all phases. The plan must include a budget and schedule. Submit to the Company for review before pre-mobilisation activities commence.",
+    "Establish the Contractor Leadership Team for this project and develop the team Charter. Confirm membership, purpose statement, meeting schedule, and ways of working before mobilisation.",
+    "Define the cultural assessment tool or methodology to be used for this project. Baseline assessment must be conducted within the first three months of execution.",
+    "Identify and appoint internal coaches for this project. Define their role, time allocation, training programme, and reporting relationship within the Leadership Team.",
+    "Define the submission evidence package demonstrating the Contractor capability to deliver the Leadership Development Programme. This must include examples of past programmes, outcomes, and lessons learned."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §106.1.1",
+      "summary": "Requires development of a Leadership Development Implementation Plan covering all project phases, with objectives aligned to Company values, a budget, and a schedule of activities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §106.1.2",
+      "summary": "Requires the implementation plan to include a purpose statement, phase-mapped activities, roles and responsibilities, required resources, and a schedule."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §106.1.3",
+      "summary": "Requires the implementation plan to be reviewed with the Project Leadership Team and maintained as a living document updated at the start of each project phase."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §106.2",
+      "summary": "Requires the Project Leadership Team and key personnel to understand leadership and cultural expectations during the Pre-mobilisation Phase, including a formal commitment from Contractor senior leadership."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §106.3.1",
+      "summary": "Requires all Contractor personnel to be inducted into project cultural expectations during the Mobilisation Phase, with manager and frontline leader inductions emphasising leading by example."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §106.4.1",
+      "summary": "Requires demonstration of embedded leadership culture during the Execution Phase through regular leadership engagements, ongoing coaching for frontline leaders, and periodic Leadership Team cultural reviews."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §106.5.1",
+      "summary": "Requires continued demonstration of desired cultural behaviours during the Demobilisation Phase, including exit interviews and final review workshops to capture lessons learned."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §108.0.1",
+      "summary": "Requires establishment of a Contractor Leadership Team to drive project culture, conduct cultural assessments, develop action plans, and provide professional development and coaching."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §108.0.4",
+      "summary": "Requires baseline and periodic assessment of Contractor leadership culture at all levels to inform Leadership Team planning throughout execution."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §108.0.6",
+      "summary": "Requires Contractor personnel to be empowered and accountable to deliver project outcomes in a way that demonstrates leadership cascading to individual task level."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §110.3.2.2",
+      "summary": "Requires development of a collaborative Leadership Team Charter defining team purpose, membership, ways of working, and meeting schedule."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §110.3.3.1",
+      "summary": "Requires inclusion of tools to measure leadership effectiveness using lead indicators of project culture health to inform Leadership Team focus areas and action plans."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §110.3.4.1",
+      "summary": "Requires consideration of establishing an internal leadership coaching team focused on safety leadership and accountability, with coaches credible across the full workforce hierarchy."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-6 §110.3.4.8",
+      "summary": "Requires coaches to receive initial and ongoing training in facilitation, presenting ideas, and coaching techniques, and to actively support JHA, Take 5, pre-start, and field leadership activities."
+    }
+  ]
+}

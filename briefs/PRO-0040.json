@@ -1,0 +1,126 @@
+{
+  "procedure_id": "PRO-0040",
+  "document_number": "RTPR-HSE-PRO-0040",
+  "title": "Management of Change Procedure",
+  "management_system_element": "11 – Management of Change",
+  "preamble": "This procedure defines requirements for assessing and managing HSESC risks associated with any change to project scope, design, organisation, activities, processes, documentation, or external factors. All changes carrying HSESC implications must be assessed before they are approved or implemented.",
+  "owns": [
+    "MoC trigger definition and scope",
+    "MoC assessment process and steps",
+    "MoC approval authority matrix",
+    "MoC communication and training requirements",
+    "MoC record requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (risk assessment within MoC)",
+    "RTPR-HSE-PRO-0004 – Training (training triggered by MoC)",
+    "RTPR-HSE-PRO-0010 – Document Control (document updates as MoC output)",
+    "RTPR-HSE-PRO-0009 – Incident Management (incidents as MoC triggers)",
+    "RTPR-HSE-PRO-0007 – Improvement Planning (MoC as improvement action)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0019 and RTPR-HSE-PRO-0020 reference RTPR-HSE-PRO-0040 for process safety and SIS changes",
+    "RTPR-HSE-PRO-0018 references RTPR-HSE-PRO-0040 for NM-A changes",
+    "RTPR-HSE-PRO-0041 references RTPR-HSE-PRO-0040 for changes to the ERP"
+  ],
+  "requirements": [
+    {
+      "section_heading": "MoC Triggers and Scope",
+      "tag": "[RT – RT – Risk Management Standard]",
+      "text": "Define the categories of change requiring a formal MoC assessment: changes to project scope, design, or engineering; changes to organisational structure or key personnel; changes to work activities, processes, or procedures; changes to legislation, permits, or approvals; and changes to the physical environment or site conditions that affect identified risks."
+    },
+    {
+      "section_heading": "MoC Triggers and Scope",
+      "tag": "[APPC – Appendix C, C-1 §26]",
+      "text": "Require Changes to be communicated to the project owner in a timely and structured manner, and the MoC record to be entered into the project action tracking system."
+    },
+    {
+      "section_heading": "MoC Triggers and Scope",
+      "tag": "[IFC – IFC PS1 §7]",
+      "text": "Ensure the management system includes a process for identifying and assessing changes that could introduce new or modified environmental and social risks, and updating risk assessments and management plans accordingly."
+    },
+    {
+      "section_heading": "MoC Assessment Process",
+      "tag": "[RT – RT – Risk Management Standard]",
+      "text": "Define MoC assessment steps: document the change; identify and assess HSESC risks using the RT 5×5 Risk Matrix; identify required controls; determine the appropriate approval authority level based on the residual risk rating; communicate the change; implement; verify; and close out."
+    },
+    {
+      "section_heading": "MoC Assessment Process",
+      "tag": "[RT – RT C1, C2 – Energy Isolation and Electrical Standards]",
+      "text": "Require that changes to safety instrumented systems, process safety controls, and critical safety devices follow an enhanced MoC process with a higher approval threshold and mandatory verification testing before return to service."
+    },
+    {
+      "section_heading": "MoC Assessment Process",
+      "tag": "[OSHA – OSHA RP 2016 – Hazard Prevention and Control]",
+      "text": "Ensure that temporary changes — which can introduce unique risks due to time pressure and unfamiliarity — are assessed with the same rigour as permanent changes, and that a defined expiry date is set for all temporary change approvals."
+    },
+    {
+      "section_heading": "Communication, Training and Records",
+      "tag": "[APPC – Appendix C, C-1 §26]",
+      "text": "Define requirements for communicating approved changes to all affected personnel before implementation. Define training requirements triggered by specific types of change. Require updates to affected documents, JHAs, and risk registers as part of change closeout."
+    },
+    {
+      "section_heading": "Communication, Training and Records",
+      "tag": "[IFC – IFC PS1 §11]",
+      "text": "Ensure that MoC records are maintained and that any corrective actions identified through the MoC process are tracked in the project action management system."
+    },
+    {
+      "section_heading": "Communication, Training and Records",
+      "tag": "[APPC – Appendix C, C-4 §91.0.1]",
+      "text": "Require that changes to the Contractor organisation, activities, processes, or documentation that may introduce new environmental risks are assessed through the MoC process. Changes affecting environmental approvals, permit conditions, or the approved project footprint must be communicated to the Company before implementation."
+    },
+    {
+      "section_heading": "Communication, Training and Records",
+      "tag": "[APPC – Appendix C, C-4 §91.0.3]",
+      "text": "Require training for all project personnel in how to identify a change that triggers the MoC process and in the change management procedures. Training must be completed before project mobilisation."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the MoC authority matrix for this project: who approves Low, Medium, and High risk MoC requests. The procedure defines thresholds by risk rating — the project assigns specific roles to each tier. Insert as a table.",
+    "Define the MoC form and tracking system for this project. The procedure requires MoC records — the project determines whether a digital system or physical form is used.",
+    "Define the temporary MoC process for this project: maximum duration of a temporary change before it must be made permanent or reversed; who approves temporary MoC extensions.",
+    "Define the project MoC communication process: how are approved changes communicated to all affected personnel; what is the maximum communication lag time."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Risk Management Standard",
+      "summary": "Requires formal MoC assessment for defined categories of change and mandates an enhanced process for changes to safety instrumented systems and critical safety devices."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT C1, C2 – Energy Isolation and Electrical Standards",
+      "summary": "Requires that changes to safety instrumented systems, process safety controls, and critical safety devices follow an enhanced MoC process with mandatory verification testing before return to service."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §26",
+      "summary": "Requires changes to be communicated to the project owner in a timely and structured manner, with the MoC record entered into the project action tracking system, and approved changes communicated to all affected personnel before implementation with updates to documents, JHAs, and risk registers as part of closeout."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §91.0.1",
+      "summary": "Requires that changes to the Contractor organisation, activities, processes, or documentation that may introduce new environmental risks are assessed through the MoC process and communicated to the Company before implementation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §91.0.3",
+      "summary": "Requires training for all project personnel in how to identify a change that triggers the MoC process and in the change management procedures, to be completed before project mobilisation."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 §7",
+      "summary": "Requires the management system to include a process for identifying and assessing changes that could introduce new or modified environmental and social risks, and updating risk assessments and management plans accordingly."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 §11",
+      "summary": "Requires that MoC records are maintained and that any corrective actions identified through the MoC process are tracked in the project action management system."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "OSHA RP 2016 – Hazard Prevention and Control",
+      "summary": "Requires that temporary changes are assessed with the same rigour as permanent changes, with a defined expiry date set for all temporary change approvals."
+    }
+  ]
+}

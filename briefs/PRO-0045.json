@@ -1,0 +1,108 @@
+{
+  "procedure_id": "PRO-0045",
+  "document_number": "RTPR-HSE-PRO-0045",
+  "title": "Management Review Procedure",
+  "management_system_element": "17 – Management Review",
+  "preamble": "This procedure defines requirements for conducting periodic management reviews of the owner-led project HSESC management system to ensure its continuing suitability, adequacy, and effectiveness — and to drive documented continuous improvement in HSESC performance.",
+  "owns": [
+    "Management review schedule (by project phase)",
+    "Management review input requirements",
+    "Management review output requirements (decisions, actions, sign-off)",
+    "Continuous improvement integration process"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0007 – Improvement Planning (operational review — distinct from formal management review)",
+    "RTPR-HSE-PRO-0042 – Monitoring (monitoring data as review input)",
+    "RTPR-HSE-PRO-0044 – Auditing (audit findings as review input)",
+    "RTPR-HSE-PRO-0009 – Incident Management (incident trends as review input)",
+    "RTPR-HSE-PRO-0003 – Org Resources (HSESCLT as management review governance)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0044 references RTPR-HSE-PRO-0045 for audit findings as management review input"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Review Schedule and Participants",
+      "tag": "[APPC – Appendix C, C-1 §41.2]",
+      "text": "Define the management review schedule aligned to project phases: Pre-mobilisation; Quarterly Execution; Commissioning Readiness; and End of Contract. Define required participants including RT project senior leadership, the HSESC Manager, functional representatives, and relevant contractor leadership."
+    },
+    {
+      "section_heading": "Review Schedule and Participants",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH1]",
+      "text": "Ensure that senior management sets safety and health targets through the management review process and reviews performance against them at each review cycle."
+    },
+    {
+      "section_heading": "Review Schedule and Participants",
+      "tag": "[ICMM – ICMM Principle 5, Performance Expectation 5.1]",
+      "text": "Include explicit review of performance against the project's goals for elimination of fatalities, serious injuries, and psychosocial hazards at each management review."
+    },
+    {
+      "section_heading": "Review Inputs",
+      "tag": "[APPC – Appendix C, C-1 §41.2 and §40]",
+      "text": "Define mandatory inputs to each management review: HSESC performance metrics (leading and lagging); audit and inspection findings; incident trends and root causes; CRM programme performance; SMM maturity assessment outcomes; community complaints and feedback; environmental performance against criteria; legal and regulatory compliance status; status of previous management review actions; and risks and opportunities since the last review."
+    },
+    {
+      "section_heading": "Review Inputs",
+      "tag": "[IFC – IFC PS1 §22]",
+      "text": "Ensure monitoring data and stakeholder feedback are incorporated into management review inputs, ensuring the review reflects real-world project performance and not only internal programme metrics."
+    },
+    {
+      "section_heading": "Review Outputs and Continuous Improvement",
+      "tag": "[RT Standard]",
+      "text": "Define required management review outputs: improvement decisions for the HSESC system; resource changes required; revisions to policies, objectives, or targets; and lessons learned. Require minutes to be recorded, distributed, and retained. Require all actions to be entered into the action tracking register with owners and due dates. Require formal sign-off by the most senior project leader."
+    },
+    {
+      "section_heading": "Review Outputs and Continuous Improvement",
+      "tag": "[IFC – IFC PS1 §11]",
+      "text": "Use management review outputs to drive systemic improvement in the management system, not only individual corrective actions. Update the risk assessment, management plans, and monitoring programmes based on management review conclusions."
+    },
+    {
+      "section_heading": "Review Outputs and Continuous Improvement",
+      "tag": "[OSHA – OSHA RP 2016 – Program Evaluation and Improvement]",
+      "text": "Evaluate the overall effectiveness of the safety and health programme during the management review, not just individual element performance, and set programme-level improvement targets for the next review period."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the management review dates for this project relative to the project programme phases. The procedure defines the minimum schedule — insert the project-specific dates.",
+    "Define the management review chair and required attendees for this project. The procedure requires senior leadership — identify by position title.",
+    "Define the management review minutes format and distribution list for this project.",
+    "Define how management review actions are tracked in the project action register (RTPR-HSE-PRO-0007 process) and how actions from one review are reported as closed at the next review."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §41.2",
+      "summary": "Requires management reviews aligned to defined project phases with specified mandatory participants and inputs including performance metrics, audit findings, incident trends, and CRM performance."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §40",
+      "summary": "Requires mandatory inputs to management review covering audit and inspection findings, performance data, and status of previous actions."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Safe, Healthy and Respectful Workplaces Protocol, Indicator SH1",
+      "summary": "Requires senior management to set safety and health targets through the management review process and review performance against them at each review cycle."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "Principle 5, Performance Expectation 5.1",
+      "summary": "Requires explicit review at each management review of performance against goals for elimination of fatalities, serious injuries, and psychosocial hazards."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§22",
+      "summary": "Requires monitoring data and stakeholder feedback to be incorporated into management review inputs so the review reflects real-world project performance."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§11",
+      "summary": "Requires management review outputs to drive systemic improvement in the management system and to update risk assessments, management plans, and monitoring programmes."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "RP 2016 – Program Evaluation and Improvement",
+      "summary": "Requires evaluation of the overall effectiveness of the safety and health programme during management review, with programme-level improvement targets set for the next review period."
+    }
+  ]
+}

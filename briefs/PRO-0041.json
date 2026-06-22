@@ -1,0 +1,203 @@
+{
+  "procedure_id": "PRO-0041",
+  "document_number": "RTPR-HSE-PRO-0041",
+  "title": "Business Resilience and Recovery Procedure",
+  "management_system_element": "12 – Business Resilience & Recovery",
+  "preamble": "This procedure defines requirements for emergency preparedness and response, business resilience, and business continuity for the owner-led project — covering all credible emergency scenarios involving project personnel, the community, the environment, property, or the project's licence to operate. The project Emergency Response Plan (ERP) is distinct from the RT Corporate Business Resilience and Recovery Programme (BRRP), with a defined and clear interface between the two.",
+  "owns": [
+    "Emergency Response Plan (ERP) requirements and structure",
+    "Medical Emergency Plan (MEP) requirements",
+    "Emergency response risk assessment workshop process",
+    "Community consultation for emergency planning",
+    "Emergency drill programme requirements",
+    "Business Resilience Team composition and activation"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (emergency scenario risk assessment)",
+    "RTPR-HSE-PRO-0006 – Fitness for Work (ERT fitness requirements)",
+    "RTPR-HSE-PRO-0004 – Training (ERT training — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0009 – Incident Management (incidents escalating to emergency — follow RTPR-HSE-PRO-0009 first)",
+    "RTPR-HSE-PRO-0040 – Management of Change (ERP updates via MoC process)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0016 references RTPR-HSE-PRO-0041 for fire emergency response",
+    "RTPR-HSE-PRO-0014 references RTPR-HSE-PRO-0041 for confined space rescue as an emergency scenario",
+    "RTPR-HSE-PRO-0030 references RTPR-HSE-PRO-0041 for water rescue as an emergency response"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Emergency Response Risk Assessment",
+      "tag": "[APPC – Appendix C, C-1 §31.4]",
+      "text": "Require an emergency response risk assessment workshop to identify, assess, and document all credible emergency scenarios before Work commences. Require the workshop report to be completed within 90 days of the Effective Date. Require community input where host communities may be affected by an emergency scenario."
+    },
+    {
+      "section_heading": "Emergency Response Risk Assessment",
+      "tag": "[TSM – TSM – Crisis Management and Communications Planning Protocol, Indicator CM1]",
+      "text": "Identify and assess facility-level crisis scenarios as part of emergency planning, ensuring that escalation to corporate-level crisis management is clearly defined."
+    },
+    {
+      "section_heading": "Emergency Response Plan (ERP)",
+      "tag": "[APPC – Appendix C, C-1 §31.4]",
+      "text": "Require development of ERPs based on the risk assessment workshop outcomes, covering all credible scenarios. Define minimum ERP content: emergency response organisation structure; emergency contact lists; roles and responsibilities; escalation levels matching incident severity; notification flowcharts; communication methods; environmental protection measures; emergency drill schedule; and training requirements."
+    },
+    {
+      "section_heading": "Emergency Response Plan (ERP)",
+      "tag": "[APPC – Appendix C, C-1 §31.4]",
+      "text": "Require scenario-specific response instructions for: personal injury incidents; fires; motor vehicle crashes; equipment damage; flooding; spills; and security events. Require integration of contractor ERPs to ensure seamless coordination across all project organisations."
+    },
+    {
+      "section_heading": "Emergency Response Plan (ERP)",
+      "tag": "[ICMM – ICMM Principle 4 – Risk Management]",
+      "text": "Develop, maintain, and test emergency response plans. Where risks to external stakeholders are significant, develop plans in collaboration with potentially affected stakeholders and consistent with established industry good practice."
+    },
+    {
+      "section_heading": "Medical Emergency Plan",
+      "tag": "[APPC – Appendix C, C-1 §32]",
+      "text": "Require a comprehensive Medical Emergency Plan (MEP) covering: first aid risk assessment; resources with locations; call-out flowcharts; transport arrangements for ill or injured; emergency telephone numbers displayed at appropriate site locations; controlled drug register; first aid equipment details; medical equipment inspection schedule; and testing frequency."
+    },
+    {
+      "section_heading": "Medical Emergency Plan",
+      "tag": "[IFC – IFC PS2 §24]",
+      "text": "Ensure that medical emergency planning accounts for the availability and accessibility of local medical infrastructure, and that the project provides appropriate first aid and medical resources where local services are inadequate."
+    },
+    {
+      "section_heading": "Community Consultation and Communications",
+      "tag": "[APPC – Appendix C, C-1 §31.3]",
+      "text": "Require identification of communities and stakeholders potentially affected by an emergency. Require community consultation in ERP development where there is potential for significant community impact. Require that all community emergency communications are in an accessible and understandable language or form."
+    },
+    {
+      "section_heading": "Community Consultation and Communications",
+      "tag": "[TSM – TSM – Crisis Management and Communications Planning Protocol, Indicator CM2]",
+      "text": "Develop and test crisis communication plans that enable timely, accurate, and transparent communication to all affected stakeholders during an emergency."
+    },
+    {
+      "section_heading": "Emergency Drills and Business Resilience Team",
+      "tag": "[APPC – Appendix C, C-1 §31.4]",
+      "text": "Require periodic testing of emergency response capabilities through simulated scenarios, with interfaces to local emergency services and community response teams. Define minimum drill frequency per scenario type. Require lessons learned from drills to be incorporated into ERP updates."
+    },
+    {
+      "section_heading": "Emergency Drills and Business Resilience Team",
+      "tag": "[RT Standard]",
+      "text": "Define the site Business Resilience Team (BRT) composition, activation criteria, and escalation process to the RT Product Group/Functional Group BRT. Confirm that the site ERP operates within the framework established by the RT Corporate BRRP."
+    },
+    {
+      "section_heading": "Emergency Drills and Business Resilience Team",
+      "tag": "[APPC – Appendix C, C-1 §31.4.1]",
+      "text": "Require explicit assessment and addressing of language and cultural barriers that could impact emergency response effectiveness. ERPs must include translated emergency materials and interpreters where needed."
+    },
+    {
+      "section_heading": "Emergency Drills and Business Resilience Team",
+      "tag": "[APPC – Appendix C, C-1 §31.5.6]",
+      "text": "Require ERPs to include communication methods for coordination with host communities where a community impact is anticipated. The ERP must identify which scenarios have potential community impact and define the community notification process."
+    },
+    {
+      "section_heading": "Emergency Drills and Business Resilience Team",
+      "tag": "[APPC – Appendix C, C-1 §31.5.7]",
+      "text": "Require ERPs to include environmental protection measures tailored to each emergency scenario. For incidents with potential environmental impact, the ERP must define specific containment, notification, and remediation steps."
+    },
+    {
+      "section_heading": "Emergency Drills and Business Resilience Team",
+      "tag": "[APPC – Appendix C, C-1 §31.5.9]",
+      "text": "Require ERPs to include response measures and instructions for security incidents. Security emergency scenarios must be included alongside safety and environmental scenarios."
+    },
+    {
+      "section_heading": "Medical Emergency Plan",
+      "tag": "[APPC – Appendix C, C-2 §32.7]",
+      "text": "Require a controlled drug register for the record of all drugs distributed within the project medical facility, recording substance, quantity, recipient, authorising medical officer, and date."
+    },
+    {
+      "section_heading": "Medical Emergency Plan",
+      "tag": "[APPC – Appendix C, C-2 §32.9]",
+      "text": "Require a medical equipment inspection schedule defining the frequency of inspection and maintenance for all medical equipment. Inspection records must be maintained and available for audit."
+    },
+    {
+      "section_heading": "Emergency Response Risk Assessment",
+      "tag": "[APPC – Appendix C, C-4 §93.0.1]",
+      "text": "Require that the emergency response risk assessment workshop includes an environmental component to demonstrate that appropriate environmental risks, controls, and response pathways are understood and incorporated into the ERP."
+    }
+  ],
+  "project_completion_guidance": [
+    "CRITICAL — Complete the Emergency Response Risk Assessment Workshop for this project and document outcomes. The ERP must be developed from these outcomes and available before Work commences. The ERP is a project deliverable separate from this procedure — insert a reference to the current ERP document.",
+    "Develop the project Medical Emergency Plan. The MEP must be specific to the project location, the local medical infrastructure available, and the project workforce size. Insert or reference the completed MEP.",
+    "Define the emergency drill schedule for this project: which scenarios; at what frequency; when in the project programme. The procedure requires testing — the project schedules the tests.",
+    "Confirm the project BRT composition and the escalation process to the RT Product Group/Functional Group BRT. Define the activation criteria specific to this project.",
+    "Define all emergency contact numbers specific to this project location: local hospital; emergency services; nearest trauma centre; project owner emergency contacts. Insert and display at all work locations."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §31.4",
+      "summary": "Requires an emergency response risk assessment workshop, development of ERPs covering all credible scenarios with defined minimum content, scenario-specific response instructions, integration of contractor ERPs, periodic drill testing, and incorporation of lessons learned into ERP updates."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §31.3",
+      "summary": "Requires identification of potentially affected communities, community consultation in ERP development, and accessible community emergency communications."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §31.4.1",
+      "summary": "Requires explicit assessment and addressing of language and cultural barriers in emergency response, including translated materials and interpreters."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §31.5.6",
+      "summary": "Requires ERPs to include communication methods for host community coordination and a defined community notification process for scenarios with community impact."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §31.5.7",
+      "summary": "Requires ERPs to include scenario-tailored environmental protection measures including containment, notification, and remediation steps for environmentally impactful incidents."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §31.5.9",
+      "summary": "Requires ERPs to include response measures and instructions for security incidents alongside safety and environmental scenarios."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §32",
+      "summary": "Requires a comprehensive Medical Emergency Plan covering first aid risk assessment, resources, call-out flowcharts, transport arrangements, emergency contacts, controlled drug register, first aid equipment, and medical equipment inspection schedule."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §32.7",
+      "summary": "Requires a controlled drug register recording substance, quantity, recipient, authorising medical officer, and date for all drugs distributed within the project medical facility."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §32.9",
+      "summary": "Requires a medical equipment inspection schedule defining inspection and maintenance frequency, with records maintained and available for audit."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §93.0.1",
+      "summary": "Requires the emergency response risk assessment workshop to include an environmental component so that environmental risks, controls, and response pathways are incorporated into the ERP."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Crisis Management and Communications Planning Protocol, Indicator CM1",
+      "summary": "Requires identification and assessment of facility-level crisis scenarios as part of emergency planning with clearly defined escalation to corporate-level crisis management."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Crisis Management and Communications Planning Protocol, Indicator CM2",
+      "summary": "Requires development and testing of crisis communication plans enabling timely, accurate, and transparent communication to all affected stakeholders during an emergency."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "Principle 4 – Risk Management",
+      "summary": "Requires emergency response plans to be developed, maintained, and tested, and where risks to external stakeholders are significant, plans must be developed in collaboration with potentially affected stakeholders."
+    },
+    {
+      "framework": "IFC PS",
+      "clause": "PS2 §24",
+      "summary": "Requires medical emergency planning to account for local medical infrastructure availability and ensure the project provides appropriate first aid and medical resources where local services are inadequate."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Business Resilience Standard",
+      "summary": "Requires definition of the site Business Resilience Team composition, activation criteria, and escalation process to the RT Product Group/Functional Group BRT, confirming the site ERP operates within the RT Corporate BRRP framework."
+    }
+  ]
+}

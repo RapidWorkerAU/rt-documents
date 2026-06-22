@@ -1,0 +1,92 @@
+{
+  "procedure_id": "PRO-0028",
+  "document_number": "RTPR-HSE-PRO-0028",
+  "title": "Barricading, Signage and Demarcation Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for establishing, maintaining, and removing temporary and permanent barricading, signage, and demarcation across all project work areas. The primary purpose is to prevent personnel, vehicles, or equipment from entering hazardous zones without authorisation.",
+  "owns": [
+    "Barricading hierarchy and when barricading is required",
+    "Solid vs temporary barricading criteria",
+    "Crane danger tag spacing requirements (max 10m)",
+    "Prohibition on rope/chain as handrail substitute",
+    "Signage standards and content requirements",
+    "Authorised entry process for barricaded areas"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (barricading as a control)",
+    "RTPR-HSE-PRO-0008 – Working at Height (edge protection requirements — barricading is one implementation)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (permit required for barricaded area access)",
+    "RTPR-HSE-PRO-0031 – Traffic Management (traffic signage as a subset of signage)",
+    "RTPR-HSE-PRO-0015 – Cranes (crane danger zone barricading)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0008 references RTPR-HSE-PRO-0028 for edge protection barricading",
+    "RTPR-HSE-PRO-0029 references RTPR-HSE-PRO-0028 for excavation barricading",
+    "RTPR-HSE-PRO-0014 references RTPR-HSE-PRO-0028 for confined space entry barricading"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Hierarchy and Barricading Plan",
+      "tag": "[APPC – Appendix C, C-2 §62]",
+      "text": "Require assessment of whether the hazard can be eliminated, substituted, or controlled through engineering measures before erecting barricading — barricading is an administrative control, not a substitute for engineering controls."
+    },
+    {
+      "section_heading": "Hierarchy and Barricading Plan",
+      "tag": "[APPC – Appendix C, C-2 §62]",
+      "text": "Require development of a Barricading Plan defining: temporary barricading requirements for working at height; excavation work; commissioning zones; crane working areas (including crane danger tags at maximum 10-metre intervals); blast exclusion zones; and confined space/manhole entries. Prohibit the use of rope or chain as a temporary barricade replacing a handrail."
+    },
+    {
+      "section_heading": "Solid Barricading Requirements",
+      "tag": "[APPC – Appendix C, C-2 §62]",
+      "text": "Specify mandatory use of solid barricading where: barricading height exceeds two metres; flooring, handrails, or fixed barriers have been removed creating an open fall hazard; holes or excavations are to remain open. Define construction and maintenance standards for solid barricading."
+    },
+    {
+      "section_heading": "Solid Barricading Requirements",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure that barricading materials are rated or suitable to withstand the forces likely to be applied in the hazardous area, including vehicle impact where applicable."
+    },
+    {
+      "section_heading": "Signage Requirements",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard]",
+      "text": "Require traffic signage for: speed limits; road rules; pedestrian walkways, crossings and restricted pathways; restricted access areas; and traffic flow and vehicle movement requirements."
+    },
+    {
+      "section_heading": "Signage Requirements",
+      "tag": "[APPC – Appendix C, C-2 §62]",
+      "text": "Define minimum signage standards including colour coding, size, language requirements, and placement heights. Require bilingual or visual (pictogram) signage where the workforce includes non-English speakers."
+    },
+    {
+      "section_heading": "Signage Requirements",
+      "tag": "[Objective Requirement]",
+      "text": "The project must develop a site-specific signage standard specifying which sign types are used for which hazards, the minimum distance at which approach signs must be placed, and the inspection and maintenance schedule for all site signage."
+    },
+    {
+      "section_heading": "Access to Barricaded Areas",
+      "tag": "[APPC – Appendix C, C-2 §62]",
+      "text": "Define the process for authorised entry into barricaded work areas, including any permit requirements or supervisor notification obligations."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the project barricading standard: approved barricading materials by scenario (e.g., approved barrier types for each application). The procedure sets minimum requirements — the project specifies the approved product types.",
+    "Define the project signage standard: approved sign formats, minimum sizes, language requirements. If non-English speaking workers are expected, define the bilingual/visual pictogram standard.",
+    "Develop the project Barricading Plan (or confirm it is addressed in the Traffic Management Plan). The procedure requires a Barricading Plan — insert or reference it.",
+    "Define the project inspection frequency and process for temporary barricading: who inspects; how often; what is the defect reporting process."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §62",
+      "summary": "Requires assessment of engineering controls before barricading, development of a Barricading Plan covering all key hazardous work scenarios, mandatory solid barricading in defined situations, minimum signage standards including bilingual or pictogram requirements, and a defined authorised entry process for barricaded areas."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.1",
+      "summary": "Requires that barricading materials are rated or suitable to withstand forces likely to be applied in the hazardous area, including vehicle impact where applicable."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT C3 – Vehicles and Driving Standard",
+      "summary": "Requires traffic signage for speed limits, road rules, pedestrian routes, restricted access areas, and vehicle movement requirements."
+    }
+  ]
+}

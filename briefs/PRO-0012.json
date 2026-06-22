@@ -1,0 +1,163 @@
+{
+  "procedure_id": "PRO-0012",
+  "document_number": "RTPR-HSE-PRO-0012",
+  "title": "Chemical and Hazardous Substances Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure applies to all chemicals and hazardous substances used, stored, or generated on the project site including dusts, fibres, mists, fumes, gases, vapours, dangerous goods, and regulated substances. It covers worker health protection, environmental spill prevention, and compliance with applicable dangerous goods legislation.",
+  "owns": [
+    "Hazardous Substances Register requirements (RTPR-HSE-REG-0014)",
+    "SDS availability requirements",
+    "Hazardous substance risk assessment process",
+    "Special controls for carcinogens/mutagens",
+    "Storage and containment requirements",
+    "PFAS prohibition and phase-out requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (risk assessment framework)",
+    "RTPR-HSE-PRO-0001 – Legal Requirements (dangerous goods legislation)",
+    "RTPR-HSE-PRO-0027 – PPE (chemical-resistant PPE requirements)",
+    "RTPR-HSE-PRO-0009 – Incident Management (chemical spill incident reporting)",
+    "RTPR-HSE-PRO-0039 – Waste Control (chemical waste disposal)",
+    "RTPR-HSE-PRO-0034 – Water Quality (spill prevention near waterways)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0039 references RTPR-HSE-PRO-0012 for hazardous material storage controls",
+    "RTPR-HSE-PRO-0016 references RTPR-HSE-PRO-0012 for flammable substance controls near hot works"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Hazardous Substances Register",
+      "tag": "[APPC – Appendix C, C-2 §66]",
+      "text": "Require a Hazardous Substances Register listing only approved substances for use on site, with minimum content: substance name; SDS reference; risk rating; approved uses; approved users; storage requirements; and disposal requirements. Require annual review."
+    },
+    {
+      "section_heading": "Hazardous Substances Register",
+      "tag": "[APPC – Appendix C, C-2 §66]",
+      "text": "Require a legally compliant Safety Data Sheet (SDS) to be available before delivery and use of any hazardous substance. Require SDSs (or an SDS database) to be readily accessible to all workers with potential exposure."
+    },
+    {
+      "section_heading": "Hazardous Substances Register",
+      "tag": "[IFC – IFC EHS General Guidelines §1.2]",
+      "text": "Identify and document all hazardous materials used on site in a materials inventory that is available to workers, emergency responders, and regulators as required."
+    },
+    {
+      "section_heading": "Risk Assessment and Controls",
+      "tag": "[RT Standard]",
+      "text": "Apply the mitigation hierarchy to hazardous substance risks: substitute safer alternatives; engineer out exposure through containment and ventilation; apply administrative controls; use PPE as a last resort."
+    },
+    {
+      "section_heading": "Risk Assessment and Controls",
+      "tag": "[APPC – Appendix C, C-2 §66]",
+      "text": "Define special controls for agents known or suspected to cause cancer, genetic DNA mutations, or reproductive harm, with action plans reviewed at least annually."
+    },
+    {
+      "section_heading": "Risk Assessment and Controls",
+      "tag": "[APPC – Appendix C, C-2 §66]",
+      "text": "Require a process to assess and implement safer alternatives to hazardous substances and to reduce both the number and volume of hazardous substances to the minimum necessary."
+    },
+    {
+      "section_heading": "Risk Assessment and Controls",
+      "tag": "[IFC – IFC PS3 §4 and EHS Guidelines §1.2]",
+      "text": "Manage hazardous materials to avoid releases to the environment and to protect worker health, using engineering controls as the primary means of managing occupational exposure."
+    },
+    {
+      "section_heading": "Storage and Containment",
+      "tag": "[RT Standard]",
+      "text": "Define storage and containment requirements including bunding, labelling, segregation of incompatible materials, and ventilation. Require physical separation of fuels, acids, organic materials, and incompatible substances."
+    },
+    {
+      "section_heading": "Storage and Containment",
+      "tag": "[RT Standard]",
+      "text": "Prohibit the underground installation of new tanks and pipelines for hazardous or high-risk materials."
+    },
+    {
+      "section_heading": "Storage and Containment",
+      "tag": "[IFC – IFC EHS General Guidelines §1.5]",
+      "text": "Design storage facilities with secondary containment sized to hold 110% of the largest single container or 25% of total stored volume, whichever is greater."
+    },
+    {
+      "section_heading": "Spill Prevention and Response",
+      "tag": "[APPC – Appendix C, C-4 §92.5.6]",
+      "text": "Require spill prevention controls (secondary containment, regular inspection of bunding integrity, emergency shutoffs) and define the spill response process by spill size and substance type including environmental notification thresholds."
+    },
+    {
+      "section_heading": "Spill Prevention and Response",
+      "tag": "[IFC – IFC EHS General Guidelines §1.2 and §3.7]",
+      "text": "Develop and test spill response procedures as part of the site emergency preparedness plan, ensuring response equipment is available and personnel are trained."
+    },
+    {
+      "section_heading": "Firefighting Foams",
+      "tag": "[RT Standard]",
+      "text": "Require fluorine-free firefighting foams to be purchased and used on site. Where legacy PFAS-containing systems are temporarily retained (due to emergency response requirements or limited disposal options), require documented justification, controls to prevent release, and a defined phase-out plan."
+    },
+    {
+      "section_heading": "Sewerage and Wastewater",
+      "tag": "[APPC – Appendix C, C-4 §92.5.5]",
+      "text": "Define sewerage and wastewater treatment, discharge standards, and monitoring requirements. Require compliance with applicable discharge licence conditions."
+    },
+    {
+      "section_heading": "Sewerage and Wastewater",
+      "tag": "[IFC – IFC EHS General Guidelines §1.3]",
+      "text": "Manage wastewater to avoid contamination of surface water, groundwater, and soils, using treatment appropriate to the waste type and discharge receiving environment."
+    }
+  ],
+  "project_completion_guidance": [
+    "Before mobilisation, populate the initial Hazardous Substances Register (RTPR-HSE-REG-0014) with all substances expected to be used on this project. This is a pre-mobilisation deliverable.",
+    "Define the SDS storage and access method for this project (e.g., digital SDS database platform, physical binder locations). Insert the access method and locations.",
+    "Define the substance approval process for this project: who has authority to approve a new substance for use; what documentation is required; what the review period is.",
+    "Identify any substances in the project scope that may fall into the carcinogen/mutagen/reproductive hazard category and confirm the annual review process and responsible role.",
+    "Define the secondary containment and bunding specifications for bulk storage areas on this project, referencing the specific storage locations."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §66",
+      "summary": "Requires a Hazardous Substances Register of approved substances with minimum content including SDS references, risk ratings, and disposal requirements, reviewed annually, with legally compliant SDSs available before delivery and use of any hazardous substance, and special controls for carcinogens, mutagens, and reproductive hazards reviewed at least annually, and a process to reduce the number and volume of hazardous substances to the minimum necessary."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §92.5.6",
+      "summary": "Requires spill prevention controls including secondary containment, bunding integrity inspection, and emergency shutoffs, and defines the spill response process by spill size and substance type including environmental notification thresholds."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §92.5.5",
+      "summary": "Requires sewerage and wastewater treatment, discharge standards, and monitoring requirements in compliance with applicable discharge licence conditions."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§1.2",
+      "summary": "Requires identification and documentation of all hazardous materials on site in a materials inventory available to workers, emergency responders, and regulators, and management of hazardous materials to avoid environmental releases and protect worker health using engineering controls as the primary means of managing occupational exposure."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§1.5",
+      "summary": "Requires storage facilities to have secondary containment sized to hold 110% of the largest single container or 25% of total stored volume, whichever is greater."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§1.3",
+      "summary": "Requires management of wastewater to avoid contamination of surface water, groundwater, and soils using treatment appropriate to the waste type and discharge receiving environment."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§3.7",
+      "summary": "Requires spill response procedures to be developed and tested as part of the site emergency preparedness plan, with response equipment available and personnel trained."
+    },
+    {
+      "framework": "IFC PS3",
+      "clause": "§4",
+      "summary": "Requires management of hazardous materials to avoid releases to the environment and to protect worker health, using engineering controls as the primary means of managing occupational exposure."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – General Requirements Standard",
+      "summary": "Requires application of the mitigation hierarchy to hazardous substance risks, prioritising substitution, engineering controls, administrative controls, and PPE as a last resort."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Materials & Waste Standard",
+      "summary": "Requires storage and containment requirements including bunding, labelling, and segregation of incompatible substances, prohibits underground installation of new tanks and pipelines for hazardous materials, and requires fluorine-free firefighting foams with documented justification and phase-out plans for any retained legacy PFAS-containing systems."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "procedure_id": "PRO-0009",
+  "document_number": "RTPR-HSE-PRO-0009",
+  "title": "Incident and Action Management Procedure",
+  "management_system_element": "14 – Incident Investigation & Action Management",
+  "preamble": "This procedure defines requirements for reporting, notifying, investigating, and actioning all incidents, near misses, and hazard observations across the owner-led project. As project owner, RT sets the incident classification system, determines the investigation methodology, and owns the corrective action process for all incidents occurring under the project management system.",
+  "owns": [
+    "Incident classification matrix (all categories)",
+    "Verbal notification timeline (1 hour)",
+    "Email notification content requirements (end of shift)",
+    "HSESC Incident Reporting Form (RTPR-HSE-REG-0020)",
+    "Investigation methodology by classification",
+    "Terms of Reference requirements",
+    "Just culture and consequence management process",
+    "Regulatory reporting obligations"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (5×5 matrix for actual and MRO classification)",
+    "RTPR-HSE-PRO-0004 – Training (investigation team competency)",
+    "RTPR-HSE-PRO-0007 – Improvement Planning (incident data as input)",
+    "RTPR-HSE-PRO-0010 – Document Control (investigation records)",
+    "RTPR-HSE-PRO-0043 – Records Management (investigation record retention)"
+  ],
+  "referenced_by": [
+    "ALL procedures reference RTPR-HSE-PRO-0009 for incident reporting — no other procedure re-states notification timelines or classification",
+    "RTPR-HSE-PRO-0042 references RTPR-HSE-PRO-0009 for incident data as monitoring input",
+    "RTPR-HSE-PRO-0044 references RTPR-HSE-PRO-0009 for audit of incident management"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Incident Classification",
+      "tag": "[RT – RT – Incident Reporting and Investigation Standard]",
+      "text": "Define all project incident categories per the RT classification matrix: First Aid Case; Near Miss; Medical Treatment Case Injury (MTCI); Lost Day Injury (LDI); Restricted Workday Injury (RWDI); Potentially Fatal Incident (PFI); Significant Potential Incident (SPI); Fatality; Property Damage; Vehicle Incident; Process Safety Incident; Environmental (Low/Medium/Significant/High); Community (Low/Medium/High); and Security Event."
+    },
+    {
+      "section_heading": "Incident Classification",
+      "tag": "[RT – RT – Incident Reporting and Investigation Standard]",
+      "text": "Require assessment of both actual outcome and Maximum Reasonable Outcome (MRO) severity using the RT 5×5 Risk Matrix for all incidents. Require dropped object events and near misses to be classified using the DROPS Online Calculator."
+    },
+    {
+      "section_heading": "Incident Classification",
+      "tag": "[IFC – IFC PS2 GN§81]",
+      "text": "Ensure that occupational injuries, illnesses, and fatalities are documented and reported consistently, and that reporting does not create perverse incentives that discourage reporting of minor injuries or near misses."
+    },
+    {
+      "section_heading": "Incident Notification Timelines",
+      "tag": "[APPC – Appendix C, C-1 §39.2]",
+      "text": "Require verbal notification to the project owner within one hour of all work-related injuries or incidents; significant injuries or fatalities involving community members; and any project-related incident affecting community safety, health, or trust."
+    },
+    {
+      "section_heading": "Incident Notification Timelines",
+      "tag": "[APPC – Appendix C, C-1 §39.2]",
+      "text": "Require initial incident details to be sent by email by end of the shift covering: date/time; location; persons involved; description; draft classification (actual and MRO); actions taken; contributing factors; relevant history; next steps; and required follow-up."
+    },
+    {
+      "section_heading": "Incident Notification Timelines",
+      "tag": "[APPC – Appendix C, C-1 §39.2]",
+      "text": "Require the HSESC Incident Reporting Form to be submitted to the project owner within 24 hours. Define the full investigation timeline matrix by incident classification (First Aid through Fatality) including Orange Banner, Terms of Reference, draft and final report due dates, and Red Banner requirements."
+    },
+    {
+      "section_heading": "Incident Investigation",
+      "tag": "[RT – RT – Incident Reporting and Investigation Standard]",
+      "text": "Require investigation methodology calibrated to incident classification: 5-Why analysis for First Aid Cases and near misses; Taproot or RCA for MTCIs, LDIs, vehicle incidents, and significant incidents; independent external investigation for fatalities. All investigations must identify system and human/behavioural root causes."
+    },
+    {
+      "section_heading": "Incident Investigation",
+      "tag": "[APPC – Appendix C, C-1 §39.5]",
+      "text": "Require a Terms of Reference to be submitted to the project owner at least 48 hours before investigation commencement. Require investigation teams to be led by project management personnel trained in RCA."
+    },
+    {
+      "section_heading": "Incident Investigation",
+      "tag": "[APPC – Appendix C, C-1 §39.3]",
+      "text": "Define mandatory investigation report content: date; site; description; persons involved; timeline; case management details; potential assessment; just culture assessment; SSE status; root cause findings; human factors; proposed corrective actions; and closeout justifications."
+    },
+    {
+      "section_heading": "Incident Investigation",
+      "tag": "[IFC – IFC PS1 §22]",
+      "text": "Use investigation data and trend analysis to evaluate the effectiveness of management controls and direct improvement of the management system."
+    },
+    {
+      "section_heading": "Just Culture and Consequence Management",
+      "tag": "[APPC – Appendix C, C-1 §39.8]",
+      "text": "Define the process for managing human behavioural non-conformances. Require actions to be proportionate, fair, and aimed at preventing recurrence. Require documentation of all non-conformance instances and actions taken. Include retraining and coaching as primary interventions."
+    },
+    {
+      "section_heading": "Just Culture and Consequence Management",
+      "tag": "[OSHA – OSHA RP 2016 – Hazard Prevention and Control]",
+      "text": "Ensure the disciplinary process does not discourage incident reporting. A just culture approach distinguishes between honest mistakes, at-risk behaviour, and reckless conduct, with differentiated responses to each."
+    },
+    {
+      "section_heading": "Action Management",
+      "tag": "[APPC – Appendix C, C-1 §41.1]",
+      "text": "Require all corrective actions to be recorded in the project action tracking register, severity-ranked (high/medium/low), assigned with due dates and owners, and reported in monthly HSESC reports with closeout status. Require verification for high-severity action closeout."
+    },
+    {
+      "section_heading": "Action Management",
+      "tag": "[IFC – IFC PS1 §11]",
+      "text": "Implement corrective actions within timeframes proportionate to severity and verify their effectiveness before formal closure."
+    },
+    {
+      "section_heading": "Regulatory Reporting",
+      "tag": "[RT – RT – Management & Compliance Standard]",
+      "text": "Require prompt reporting of all incidents and injuries to applicable Government Authorities where mandated by law. Require notification to the relevant RT corporate function. Require that copies of all governmental citations are submitted to the project leadership team."
+    }
+  ],
+  "project_completion_guidance": [
+    "CRITICAL — Insert the project-specific incident notification contact list: who receives the 1-hour verbal notification by incident type; who receives email notifications; who is the project owner notification contact. This is specific to this project and must be in place before mobilisation.",
+    "Confirm the investigation methodology approved for this project. The procedure lists options — the project must confirm which RCA methodology is approved for use, and whether an approved provider list exists for external investigations.",
+    "Insert the project-specific Terms of Reference template for formal investigations.",
+    "Define the just culture decision tool or algorithm approved for this project — some RT projects use a specific decision tree. Insert or reference here.",
+    "Insert the escalation matrix for regulatory notification: which incidents require notification to which regulatory authority in the project jurisdiction, and within what timeframe."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Incident Reporting and Investigation Standard",
+      "summary": "Requires all project incident categories to be defined per the RT classification matrix, with actual and MRO severity assessed using the RT 5×5 Risk Matrix, and investigation methodology calibrated to incident classification."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §39.2",
+      "summary": "Requires verbal notification to the project owner within one hour of incidents, end-of-shift email notification with defined content, and submission of the HSESC Incident Reporting Form within 24 hours with a full investigation timeline matrix by classification."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §39.3",
+      "summary": "Defines mandatory investigation report content including date, site, description, persons involved, timeline, case management details, potential assessment, just culture assessment, SSE status, root cause findings, human factors, proposed corrective actions, and closeout justifications."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §39.5",
+      "summary": "Requires a Terms of Reference to be submitted to the project owner at least 48 hours before investigation commencement, with investigation teams led by project management personnel trained in RCA."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §39.8",
+      "summary": "Requires the just culture and consequence management process to be documented, with actions proportionate and fair, retraining and coaching as primary interventions, and all non-conformance instances and actions taken to be recorded."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §41.1",
+      "summary": "Requires all corrective actions to be recorded in the project action tracking register, severity-ranked, assigned with due dates and owners, reported in monthly HSESC reports, and verified before high-severity action closeout."
+    },
+    {
+      "framework": "IFC PS",
+      "clause": "IFC PS2 GN§81",
+      "summary": "Requires occupational injuries, illnesses, and fatalities to be documented and reported consistently, without creating perverse incentives that discourage reporting of minor injuries or near misses."
+    },
+    {
+      "framework": "IFC PS",
+      "clause": "IFC PS1 §22",
+      "summary": "Requires investigation data and trend analysis to be used to evaluate the effectiveness of management controls and direct improvement of the management system."
+    },
+    {
+      "framework": "IFC PS",
+      "clause": "IFC PS1 §11",
+      "summary": "Requires corrective actions to be implemented within timeframes proportionate to severity and their effectiveness to be verified before formal closure."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Management & Compliance Standard",
+      "summary": "Requires prompt reporting of all incidents and injuries to applicable Government Authorities where mandated by law, notification to the relevant RT corporate function, and submission of copies of all governmental citations to the project leadership team."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "OSHA RP 2016 – Hazard Prevention and Control",
+      "summary": "Requires the disciplinary process to not discourage incident reporting, with a just culture approach that distinguishes between honest mistakes, at-risk behaviour, and reckless conduct with differentiated responses to each."
+    }
+  ]
+}

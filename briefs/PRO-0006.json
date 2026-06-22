@@ -1,0 +1,222 @@
+{
+  "procedure_id": "PRO-0006",
+  "document_number": "RTPR-HSE-PRO-0006",
+  "title": "Fitness for Work Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines the requirements for ensuring all project personnel are physically, psychologically, and behaviourally fit to safely perform their duties throughout the project. In the owner-led model, RT sets the minimum fitness for work standard for the project and all contractors must meet or exceed it.",
+  "owns": [
+    "Fitness for work medical assessment requirements",
+    "D&A testing programme requirements",
+    "Working hour limits and fatigue thresholds",
+    "Thermal stress acclimatisation requirements",
+    "Return to work process"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0001 – Legal Requirements (applicable FFW legislation)",
+    "RTPR-HSE-PRO-0003 – Org Resources (accountable role for FFW programme)",
+    "RTPR-HSE-PRO-0004 – Training (FFW awareness training)",
+    "RTPR-HSE-PRO-0009 – Incident Management (FFW-related incidents)",
+    "RTPR-HSE-PRO-0026 – Vehicles (FFW requirements for drivers)",
+    "RTPR-HSE-PRO-0042 – Monitoring (USG testing as leading indicator)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0026 references RTPR-HSE-PRO-0006 for driver fitness requirements",
+    "RTPR-HSE-PRO-0018 references RTPR-HSE-PRO-0006 for aviation personnel fitness"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Pre-placement Medical Assessments",
+      "tag": "[APPC – Appendix C, C-2 §69.1]",
+      "text": "Require pre-placement medical assessment by a licensed physician for all personnel before mobilisation to site. Define roles requiring job-specific medical examinations based on job sensitivity or physical demands. Require assessments for job transfers, ERT personnel, and return to work following injury or illness."
+    },
+    {
+      "section_heading": "Pre-placement Medical Assessments",
+      "tag": "[IFC – IFC PS2 §24 and GN§82]",
+      "text": "Ensure workers assigned to positions with heightened physical health demands have health assessments appropriate to the specific risks of those positions, and that medical confidentiality is maintained throughout."
+    },
+    {
+      "section_heading": "Pre-placement Medical Assessments",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define medical assessment categories (pre-placement, periodic, return-to-work, fitness-for-task) and the minimum health standards for each role category, documented and reviewed in consultation with the project's occupational health provider."
+    },
+    {
+      "section_heading": "Alcohol and Other Drug Requirements",
+      "tag": "[APPC – Appendix C, C-2 §69.2]",
+      "text": "Require all personnel to participate in the project drug and alcohol testing programme. Require pre-start alcohol testing (BAC of zero on automatic test, or negative on passive test, before starting work). Require non-negative drug screens to be followed by confirmatory testing reviewed by trained personnel before any action is taken."
+    },
+    {
+      "section_heading": "Alcohol and Other Drug Requirements",
+      "tag": "[APPC – Appendix C, C-2 §69.2]",
+      "text": "Define cut-off levels per AS4308 for both immunoassay screening and GC-MS confirmatory testing, and define the disciplinary process for positive results."
+    },
+    {
+      "section_heading": "Alcohol and Other Drug Requirements",
+      "tag": "[APPC – Appendix C, C-2 §69.2]",
+      "text": "List substances covered: alcohol; cannabis (including synthetic cannabinoids); opiate analgesics; hallucinogens; volatile substances; stimulants; and impairing prescription or over-the-counter medications."
+    },
+    {
+      "section_heading": "Alcohol and Other Drug Requirements",
+      "tag": "[IFC – IFC PS2 §23]",
+      "text": "Promote a safe and healthy work environment and implement controls proportionate to identified substance use risks in the project workforce and local community context."
+    },
+    {
+      "section_heading": "Alcohol and Other Drug Requirements",
+      "tag": "[APPC – Appendix C, C-2 §69.2.0.2]",
+      "text": "Require all personnel to register a blood alcohol concentration (BAC) of zero on an automatic test, or a negative result on a passive test, before starting work at any location. Pre-start alcohol testing must be conducted using an approved testing device."
+    },
+    {
+      "section_heading": "Alcohol and Other Drug Requirements",
+      "tag": "[APPC – Appendix C, C-2 §69.2.0.4]",
+      "text": "Require that a non-negative drug screen is followed up with a confirmatory test. Confirmatory test results must be reviewed by trained personnel before any disciplinary or administrative action is taken."
+    },
+    {
+      "section_heading": "Alcohol and Other Drug Requirements",
+      "tag": "[APPC – Appendix C, C-2 §69.2.1]",
+      "text": "Define the substances covered by the drug and alcohol testing programme: alcohol; cannabis including synthetic cannabinoids; opiate analgesics; hallucinogens; volatile substances; stimulants; and impairing prescription or over-the-counter medications."
+    },
+    {
+      "section_heading": "Fatigue Management",
+      "tag": "[APPC – Appendix C, C-2 §69.4]",
+      "text": "Define working hour limits: normal hours not to exceed 12 per day; work beyond 12 hours up to a maximum of 14 hours per day requires prior designated manager approval; a continuous 10-hour break is required before the next shift, excluding transport time."
+    },
+    {
+      "section_heading": "Fatigue Management",
+      "tag": "[APPC – Appendix C, C-2 §69.4]",
+      "text": "Define self-reporting requirements for personnel experiencing fatigue impairment, the process for monitoring fatigue levels, and the criteria for standing down personnel."
+    },
+    {
+      "section_heading": "Fatigue Management",
+      "tag": "[IFC – IFC PS2 §11]",
+      "text": "Ensure working hour arrangements comply with applicable national law and, where more stringent than national requirements, with Good International Industry Practice, particularly in the context of physically demanding or safety-critical roles."
+    },
+    {
+      "section_heading": "Fatigue Management",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define a fatigue risk scoring or assessment process for scheduling decisions, particularly for FIFO rosters, extended travel days, and night work. The project must set and document its own acceptable fatigue risk threshold."
+    },
+    {
+      "section_heading": "Fatigue Management",
+      "tag": "[APPC – Appendix C, C-2 §69.4.3]",
+      "text": "Define working hour limits: normal working hours must not exceed 12 hours per day. Work beyond 12 hours up to a maximum of 14 hours per day requires prior approval from a designated Contractor manager. A minimum continuous 10-hour break is required between shifts, excluding travel time."
+    },
+    {
+      "section_heading": "Thermal Stress Management",
+      "tag": "[APPC – Appendix C, C-2 §69.3]",
+      "text": "Require acclimatisation periods for new workers and personnel returning from extended leave or illness; define heat stress recognition training requirements; implement buddy system or active supervision; require hydration testing using Urine Specific Gravity (USG) per Company standards with results reported as a project leading indicator."
+    },
+    {
+      "section_heading": "Thermal Stress Management",
+      "tag": "[IFC – IFC EHS Guidelines §2.3]",
+      "text": "Identify and assess heat stress risk for outdoor work and hot process environments and implement engineering, administrative, and PPE controls to maintain core body temperature within safe limits."
+    },
+    {
+      "section_heading": "Thermal Stress Management",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define site-specific wet bulb globe temperature (WBGT) or equivalent thresholds and corresponding work-rest schedules, documented for each season and validated by the project's occupational health provider."
+    },
+    {
+      "section_heading": "Return to Work and Case Management",
+      "tag": "[APPC – Appendix C, C-1 §39.9]",
+      "text": "Define the process for safely returning personnel to work following injury or illness, including medical clearance requirements, work modification options, rehabilitation access, and case management throughout recovery."
+    },
+    {
+      "section_heading": "Return to Work and Case Management",
+      "tag": "[APPC – Appendix C, C-1 §39.9]",
+      "text": "Require project owner agreement before any contractor personnel return to work following an injury or illness, to ensure consistency of classification and case management."
+    },
+    {
+      "section_heading": "Return to Work and Case Management",
+      "tag": "[IFC – IFC PS2 §24]",
+      "text": "Ensure injured workers receive appropriate medical treatment, rehabilitation services, and are treated with demonstrated care throughout their recovery, and that return-to-work decisions are based on medical clearance not operational convenience."
+    },
+    {
+      "section_heading": "Return to Work and Case Management",
+      "tag": "[APPC – Appendix C, C-1 §39.9.2]",
+      "text": "Define case management requirements for injured personnel: medical clearance requirements and documentation of work restrictions or accommodations; a process for modifying work duties to enable the injured person to return to meaningful work; and regular review and updates to align with Company requirements and ensure continuous improvement in case management and return-to-work practices."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the project medical assessment provider and the specific pre-placement medical standard for each role category (e.g., office-based, site-based non-operational, HME operator, ERT member). Insert as a table.",
+    "Define the project D&A testing schedule: pre-placement testing; random testing frequency (% of workforce per quarter); for-cause testing triggers. These are project decisions within the bounds the procedure sets.",
+    "Define the project-specific fatigue risk scoring approach for FIFO rosters and extended travel days. The procedure sets the hour limits — the project must define how fatigue risk is assessed for scheduling decisions.",
+    "Define the WBGT thresholds and work-rest schedules specific to the project location and season. These must be validated by the project occupational health provider before the first high-temperature period.",
+    "Define the acclimatisation programme duration and supervision requirements for this project. The procedure requires one — the project sets the specific number of days and the assessment criteria."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §69.1",
+      "summary": "Requires pre-placement medical assessment by a licensed physician for all personnel before mobilisation, with job-specific examinations for sensitive roles and assessments for transfers, ERT, and return to work."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §69.2",
+      "summary": "Requires a drug and alcohol testing programme covering defined substances, with pre-start BAC testing, confirmatory testing for non-negative screens, cut-off levels per AS4308, and a defined disciplinary process."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §69.2.0.2",
+      "summary": "Requires all personnel to register zero BAC on an automatic test or a negative result on a passive test before starting work, using an approved testing device."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §69.2.0.4",
+      "summary": "Requires that a non-negative drug screen is followed by confirmatory testing reviewed by trained personnel before any disciplinary or administrative action is taken."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §69.2.1",
+      "summary": "Defines the substances covered by the drug and alcohol testing programme including alcohol, cannabis, opiates, hallucinogens, volatile substances, stimulants, and impairing medications."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §69.3",
+      "summary": "Requires acclimatisation periods, heat stress recognition training, buddy system or active supervision, and USG hydration testing reported as a project leading indicator."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §69.4",
+      "summary": "Defines working hour limits of 12 hours normal and 14 hours maximum with prior manager approval, a mandatory 10-hour continuous break between shifts excluding transport time, and self-reporting requirements for fatigue."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §69.4.3",
+      "summary": "Specifies that normal working hours must not exceed 12 hours per day, work beyond 12 hours up to 14 hours requires designated Contractor manager approval, and a minimum 10-hour break is required between shifts excluding travel."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §39.9",
+      "summary": "Requires a defined return-to-work process including medical clearance, work modification, rehabilitation access, case management, and project owner agreement before contractor personnel return following injury or illness."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §39.9.2",
+      "summary": "Requires case management including documented work restrictions, modified duties to support return to meaningful work, and regular review aligned with Company requirements."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "§24 and GN§82",
+      "summary": "Requires health assessments appropriate to the specific risks of positions with heightened physical demands and maintenance of medical confidentiality throughout."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "§23",
+      "summary": "Requires promotion of a safe and healthy work environment and implementation of controls proportionate to identified substance use risks in the workforce and local community context."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "§11",
+      "summary": "Requires working hour arrangements to comply with applicable national law and, where more stringent, with Good International Industry Practice, particularly for physically demanding or safety-critical roles."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "§24",
+      "summary": "Requires that injured workers receive appropriate medical treatment and rehabilitation, are treated with demonstrated care, and that return-to-work decisions are based on medical clearance rather than operational convenience."
+    },
+    {
+      "framework": "IFC EHS Guidelines",
+      "clause": "§2.3",
+      "summary": "Requires identification and assessment of heat stress risk for outdoor and hot process work and implementation of engineering, administrative, and PPE controls to maintain safe core body temperature."
+    }
+  ]
+}

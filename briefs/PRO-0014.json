@@ -1,0 +1,128 @@
+{
+  "procedure_id": "PRO-0014",
+  "document_number": "RTPR-HSE-PRO-0014",
+  "title": "Confined Spaces Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure applies to all work involving entry into or work near confined spaces across the owner-led project. A confined space is defined as an enclosed or partially enclosed space that: is not designed for continuous human occupancy; has restricted means of entry or exit; and contains or may develop one or more of: unsafe oxygen levels; hazardous contaminants; flammable or explosive atmospheres; or engulfment risks.",
+  "owns": [
+    "Confined space definition and classification criteria",
+    "Confined Space Register (RTPR-HSE-REG-0009)",
+    "Safe atmosphere parameters",
+    "Permit to Enter requirements (via RTPR-HSE-PRO-0021)",
+    "Atmospheric monitoring requirements",
+    "Standby person requirements",
+    "Rescue plan requirements for confined spaces"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (confined space risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (confined space competency — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (confined space entry permit raised via PTW system — refer RTPR-HSE-PRO-0021 for PTW process)",
+    "RTPR-HSE-PRO-0024 – Isolation (energy isolation before confined space entry)",
+    "RTPR-HSE-PRO-0027 – PPE (RPE and other PPE for confined space)",
+    "RTPR-HSE-PRO-0008 – Working at Height (if the confined space also involves height)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0047 – Commissioning references RTPR-HSE-PRO-0014 for confined space work during commissioning"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Classification and Register",
+      "tag": "[RT – RT C5 – Confined Space Standard]",
+      "text": "Require identification and classification of all confined spaces by a competent person. Maintain a Confined Space Register recording: unique identifier; location; classification; hazards; isolation requirements; rescue plan reference; and access status. Require each space to be locked/secured to prevent unauthorised entry and clearly signed."
+    },
+    {
+      "section_heading": "Classification and Register",
+      "tag": "[APPC – Appendix C, C-2 §56.1]",
+      "text": "Confirm that confined space classification is reviewed and updated when conditions change."
+    },
+    {
+      "section_heading": "Classification and Register",
+      "tag": "[IFC – IFC EHS General Guidelines §2.8]",
+      "text": "Ensure confined spaces are managed using a recognised confined space entry programme that addresses hazard identification, entry authorisation, and emergency response."
+    },
+    {
+      "section_heading": "Safe Atmosphere Definition",
+      "tag": "[RT – RT C5 – Confined Space Standard]",
+      "text": "Define safe oxygen levels, flammable limits, thermal limits, and airborne contaminant thresholds. Where the project standard and local legislative requirements differ, apply the more stringent."
+    },
+    {
+      "section_heading": "Safe Atmosphere Definition",
+      "tag": "[IFC – IFC EHS General Guidelines §2.8]",
+      "text": "Define acceptable levels for oxygen content (typically 19.5% to 23.5%), flammable gas (below 10% of LEL before entry), and toxic contaminants (below occupational exposure limits) as minimum criteria for entry."
+    },
+    {
+      "section_heading": "Permit to Work – Confined Space Entry",
+      "tag": "[RT – RT C5 – Confined Space Standard]",
+      "text": "Require a Confined Space Entry Permit to be completed and issued before any entry. Define all roles: Permit Officer; Permit Developer/Holder; Atmospheric Tester; Energy Isolation Officers; Standby Person; and Emergency Response Personnel. Require a task-specific risk assessment before each permit is issued."
+    },
+    {
+      "section_heading": "Permit to Work – Confined Space Entry",
+      "tag": "[APPC – Appendix C, C-2 §56.1]",
+      "text": "Define minimum permit content: space identifier; authorised entrants; energy isolation status; atmospheric test results; gas detector bump-test confirmation; rescue plan reference; standby person assignment; and entry/exit log."
+    },
+    {
+      "section_heading": "Isolation and Zero Energy",
+      "tag": "[RT – RT C5 – Confined Space Standard]",
+      "text": "Require isolation and zero-energy verification of all hazardous energy sources (chemical, mechanical, stored, electrical) before entry, using physical means (LOTO, blanking, mechanical blocking). An Energy Isolation Permit is required where isolation is necessary."
+    },
+    {
+      "section_heading": "Atmospheric Monitoring and Ventilation",
+      "tag": "[RT – RT C5 – Confined Space Standard]",
+      "text": "Require atmospheric testing before entry measuring: oxygen content; flammable/explosive atmosphere; and toxic gases, fibres, vapours, fumes, mists, or dusts exceeding occupational exposure limits. Require gas detectors to be bump-tested immediately before use with results recorded on the permit."
+    },
+    {
+      "section_heading": "Atmospheric Monitoring and Ventilation",
+      "tag": "[RT – RT C5 – Confined Space Standard]",
+      "text": "Require continuous atmospheric monitoring during entry at a frequency determined by the potential presence of hazardous substances. Require ventilation (natural, forced, or mechanical) to maintain safe atmosphere conditions. Require appropriate RPE where safe atmosphere cannot be achieved through ventilation."
+    },
+    {
+      "section_heading": "Atmospheric Monitoring and Ventilation",
+      "tag": "[IFC – IFC EHS General Guidelines §2.8]",
+      "text": "Establish and maintain adequate ventilation throughout the duration of confined space work, not only before initial entry."
+    },
+    {
+      "section_heading": "Standby Person and Entry Control",
+      "tag": "[RT – RT C5 – Confined Space Standard]",
+      "text": "Require a dedicated standby person positioned outside all entry points for the duration of every entry, with continuous communication, rescue equipment immediately available, entry/exit log maintained, and no other concurrent duties. The standby person must not enter the space to attempt rescue."
+    },
+    {
+      "section_heading": "Emergency Rescue Plan",
+      "tag": "[RT – RT C5 – Confined Space Standard]",
+      "text": "Require a task and location-specific rescue plan to be developed, verified, and communicated before every entry, covering: potential emergency scenarios; rescue equipment locations; rescue method (non-entry rescue preferred for vertical entries); and communication procedures."
+    },
+    {
+      "section_heading": "Emergency Rescue Plan",
+      "tag": "[APPC – Appendix C, C-2 §56.4]",
+      "text": "Require rescue personnel to be immediately available and briefed on the specific rescue plan, and to maintain proficiency through regular rescue drills."
+    }
+  ],
+  "project_completion_guidance": [
+    "Identify and survey all confined spaces on this project site before work commences. Populate the Confined Space Register (RTPR-HSE-REG-0009). This is a pre-mobilisation deliverable.",
+    "Define the safe atmosphere parameters for this project in the designated table. The procedure provides minimum thresholds — confirm whether local legislation requires more stringent limits and insert the applicable standard.",
+    "Define the rescue team capability for each work location: what rescue equipment is available; who is trained in rescue; how quickly the rescue team can be on site. Insert as a table by work area.",
+    "[APPC – Appendix C, C-2 §56.1.2]  Require a documented process to identify and minimise the need for confined space entry before any entry permit is raised. Elimination of the need to enter must be the first control assessed.\n[APPC – Appendix C, C-2 §56.3.3]  Require permanent signage at each entry point of all identified confined spaces stating that a confined space entry permit is required prior to entry. Signage must be maintained throughout the project.\n[APPC – Appendix C, C-2 §56.4.2]  Require that the standby person maintains communication with entrants at all times, raises the alarm in an emergency, and understands their assigned response actions. The standby person must not enter the confined space under any circumstances.",
+    "Define the gas detector calibration and bump-test recording process for this project: what system records bump tests; where records are kept; what happens when a detector fails a bump test."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT C5 – Confined Space Standard",
+      "summary": "Mandates confined space identification and classification, Confined Space Register maintenance, safe atmosphere definition, Confined Space Entry Permit requirements with defined roles, isolation and zero-energy verification, atmospheric testing and continuous monitoring, ventilation requirements, dedicated standby person requirements, and task-specific rescue plan development before every entry."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §56.1",
+      "summary": "Requires confined space classification to be reviewed and updated when conditions change, and defines minimum confined space entry permit content including space identifier, authorised entrants, energy isolation status, atmospheric test results, gas detector bump-test confirmation, rescue plan reference, standby person assignment, and entry/exit log."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §56.4",
+      "summary": "Requires rescue personnel to be immediately available and briefed on the specific rescue plan, and to maintain proficiency through regular rescue drills."
+    },
+    {
+      "framework": "IFC EHS Guidelines",
+      "clause": "§2.8",
+      "summary": "Requires confined spaces to be managed using a recognised confined space entry programme addressing hazard identification, entry authorisation, and emergency response, defines minimum acceptable atmospheric levels for oxygen content and flammable gas before entry, and requires adequate ventilation to be established and maintained throughout the duration of confined space work."
+    }
+  ]
+}

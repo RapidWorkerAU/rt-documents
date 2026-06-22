@@ -1,0 +1,153 @@
+{
+  "procedure_id": "PRO-0015",
+  "document_number": "RTPR-HSE-PRO-0015",
+  "title": "Cranes and Lifting Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure applies to all crane and lifting operations — including all crane types, hoists, rigging equipment, and any equipment used as a crane — across the owner-led project. All crane operators, riggers, dogmen, and lift supervisors (whether RT or contractor personnel) must operate in accordance with this procedure.",
+  "owns": [
+    "Lifting Equipment Register (RTPR-HSE-REG-0008)",
+    "Critical lift classification criteria",
+    "Critical lift plan minimum content",
+    "Pre-operational check requirements",
+    "Exclusion zone and no-person-under-load requirements",
+    "Crane safety device requirements",
+    "Lifting equipment inspection and certification process"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (lift risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (crane operator and rigger competency — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (lifting permits via PTW system — refer RTPR-HSE-PRO-0021)",
+    "RTPR-HSE-PRO-0024 – Isolation (energy isolation requirements for lifts near electrical plant)",
+    "RTPR-HSE-PRO-0031 – Traffic Management (crane operations and traffic interface)",
+    "RTPR-HSE-PRO-0009 – Incident Management (lifting incident reporting)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0047 – Commissioning references RTPR-HSE-PRO-0015 for lifting during commissioning",
+    "RTPR-HSE-PRO-0030 – Over Water references RTPR-HSE-PRO-0015 for lifting near/over water"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Lifting Equipment Register",
+      "tag": "[RT – RT C6 – Lifting Operations Standard]",
+      "text": "Maintain a Lifting Equipment Register covering all cranes, hoists, rigging attachments, slings rated greater than one tonne, chain blocks, and lever hoists. Minimum content: unique identifier; configuration; commissioning date; last inspection date and condition; and rated capacity/SWL."
+    },
+    {
+      "section_heading": "Lifting Equipment Register",
+      "tag": "[APPC – Appendix C, C-2 §57.1]",
+      "text": "Require that the register includes contractor-owned equipment operating on the project, not only project-owned equipment."
+    },
+    {
+      "section_heading": "Risk Assessment and Lift Planning",
+      "tag": "[RT – RT C6 – Lifting Operations Standard]",
+      "text": "Require a risk assessment for all lifts covering: complexity; environmental conditions; ground bearing capacity; proximity to hazards; equipment selection; and competency requirements."
+    },
+    {
+      "section_heading": "Risk Assessment and Lift Planning",
+      "tag": "[RT – RT C6 – Lifting Operations Standard]",
+      "text": "Define critical lift categories: multiple crane lifts; lifts over occupied facilities; lifts near energised powerlines; lifts involving personnel cages; lifts exceeding 80% of rated capacity; and lifts with limited visibility or high environmental influence. Require a documented critical lift plan for each critical lift, developed with crane drivers and rigging crews."
+    },
+    {
+      "section_heading": "Risk Assessment and Lift Planning",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure that critical lift planning includes assessment of ground conditions, crane configuration, rated capacity verification, and identification of persons within the swing radius and drop zone."
+    },
+    {
+      "section_heading": "Equipment Integrity and Safety Devices",
+      "tag": "[RT – RT C6 – Lifting Operations Standard]",
+      "text": "Require all cranes to be fitted with: anti-two-block system; load measurement/indication where lift weight is uncertain; travel alarm for overhead cranes where personnel/vehicle interaction is possible; and rated capacity information accessible to the operator. Require cranes to be inspected and certified before first use and at defined intervals. Prohibit operation with any safety device disabled or bypassed."
+    },
+    {
+      "section_heading": "Equipment Integrity and Safety Devices",
+      "tag": "[RT – RT C6 – Lifting Operations Standard]",
+      "text": "Require safety latches on all lifting hooks (unless risk-assessed alternative is in place). Require colour coding, tagging, or equivalent showing current inspection status and SWL. Require immediate removal from service of equipment with critical defects."
+    },
+    {
+      "section_heading": "Equipment Integrity and Safety Devices",
+      "tag": "[RT – RT C6 – Lifting Operations Standard]",
+      "text": "Require insulated lifting links for cranes working near energised overhead powerlines, and proximity permits defining exclusion zones and spotter duties for all crane operations near energised powerlines."
+    },
+    {
+      "section_heading": "Pre-operational Checks",
+      "tag": "[RT – RT C6 – Lifting Operations Standard]",
+      "text": "Require pre-operational safety checks before use of any crane or lifting equipment, crane-type specific, identifying defects that prevent safe operation. Prohibit operation of any crane with inoperable, defective, or overridden safety devices."
+    },
+    {
+      "section_heading": "Lift Execution",
+      "tag": "[RT – RT C6 – Lifting Operations Standard]",
+      "text": "Require all lifts to be executed per an approved plan proportionate to risk: rigging confirmed before load; capacity not exceeded; exclusion zones barricaded; no person under suspended load at any time; agreed communication confirmed between operator, rigger, and spotters; ground conditions verified as suitable; tag lines used where load steadying is required; and operator at controls while load is suspended."
+    },
+    {
+      "section_heading": "Lift Execution",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure that exclusion zones under and within the swing radius of crane loads are enforced for the full duration of the lift."
+    },
+    {
+      "section_heading": "Training and Competency",
+      "tag": "[RT – RT C6 – Lifting Operations Standard]",
+      "text": "Define competency requirements for crane operators, riggers, dogmen, and lift supervisors, with initial training, regular refresher training, and formal competency assessments. Require formal competency assessment before participating in critical lifts."
+    },
+    {
+      "section_heading": "Training and Competency",
+      "tag": "[APPC – Appendix C, C-2 §57.2]",
+      "text": "Ensure that contractor crane operators and rigging personnel meet the same competency requirements as RT project personnel, verified before mobilisation to site."
+    },
+    {
+      "section_heading": "Equipment Integrity and Safety Devices",
+      "tag": "[APPC – Appendix C, C-2 §57.2.2]",
+      "text": "Require that lifting devices and equipment are certified within the last 12 months or per local regulatory requirements, whichever is more stringent. Current certification must be available at the work site before any lifting operation commences."
+    },
+    {
+      "section_heading": "Lift Execution",
+      "tag": "[APPC – Appendix C, C-2 §57.3.2]",
+      "text": "Require that tag lines, poles, or other appropriate means are available as the primary methods to control lifted loads. Direct hand contact with a suspended load or its rigging is not permitted without specific risk assessment and permit authorisation."
+    },
+    {
+      "section_heading": "Lift Execution",
+      "tag": "[APPC – Appendix C, C-2 §57.4.3]",
+      "text": "Require that no personnel are positioned under a suspended load or in any location where they could be struck by a falling or swinging load."
+    }
+  ],
+  "project_completion_guidance": [
+    "Populate the initial Lifting Equipment Register (RTPR-HSE-REG-0008) with all cranes, hoists, and lifting equipment expected on this project before mobilisation.",
+    "Define the project critical lift approval authority: who approves critical lift plans; what is the minimum notification period to the project owner. Insert as a table.",
+    "Define the project crane proximity permit process for powerline work: who issues proximity permits; what are the approved approach distances for each voltage level relevant to this project.",
+    "Define the lift colour-coding and inspection tagging system for this project (colours and intervals). The procedure requires a visible inspection status system — the project chooses the implementation."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT C6 – Lifting Operations Standard",
+      "summary": "Sets mandatory requirements for lifting equipment registers, critical lift classification, safety device requirements, pre-operational checks, lift execution controls, and operator competency for all crane and lifting operations."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §57.1",
+      "summary": "Requires the Lifting Equipment Register to include contractor-owned equipment operating on the project, not only project-owned equipment."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §57.2",
+      "summary": "Requires contractor crane operators and rigging personnel to meet the same competency requirements as RT project personnel, verified before mobilisation to site."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §57.2.2",
+      "summary": "Requires lifting devices and equipment to be certified within the last 12 months or per local regulatory requirements, whichever is more stringent, with certification available at the work site."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §57.3.2",
+      "summary": "Requires tag lines, poles, or other appropriate means as primary methods to control lifted loads, prohibiting direct hand contact with a suspended load without specific risk assessment and permit authorisation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §57.4.3",
+      "summary": "Prohibits personnel from being positioned under a suspended load or in any location where they could be struck by a falling or swinging load."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.1",
+      "summary": "Requires critical lift planning to include assessment of ground conditions, crane configuration, rated capacity verification, and identification of persons within the swing radius and drop zone, with exclusion zones enforced for the full duration of the lift."
+    }
+  ]
+}

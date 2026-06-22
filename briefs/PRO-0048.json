@@ -1,0 +1,156 @@
+{
+  "procedure_id": "PRO-0048",
+  "document_number": "RTPR-HSE-PRO-0048",
+  "title": "Simultaneous Operations (SIMOPS) Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines requirements for identifying, planning, managing, and controlling simultaneous operations across the owner-led project. Simultaneous operations are defined as two or more work scopes occurring simultaneously in the same or adjacent areas, or involving the same or associated systems. In the owner-led model, RT holds direct responsibility for ensuring that SIMOPS risks are identified and controlled across all contractor organisations.",
+  "owns": [
+    "SIMOPS workshop requirements and process",
+    "SIMOPS Plan minimum content requirements",
+    "SIMOPS Matrix structure and Task Definitions",
+    "Restriction Tables",
+    "Conditions for work stoppage due to SIMOPS risk",
+    "Criteria for risk assessment revalidation"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (hazard analysis during SIMOPS planning and execution)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (PTW system compliance during SIMOPS)",
+    "RTPR-HSE-PRO-0040 – Management of Change (MoC when SIMOPS conditions change)",
+    "RTPR-HSE-PRO-0047 – Commissioning Safety (SIMOPS during commissioning phase)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0029 – Excavation and Penetration (SIMOPS assessment for excavation in active areas)",
+    "RTPR-HSE-PRO-0047 – Commissioning Safety (SIMOPS management during commissioning)"
+  ],
+  "requirements": [
+    {
+      "section_heading": "SIMOPS Planning and Risk Assessment",
+      "tag": "[APPC – Appendix C, C-2 §63.0.1]",
+      "text": "Require a SIMOPS workshop conducted jointly with the Company and all Contractor organisations before any phase of work where simultaneous operations are planned. The workshop must identify potential conflicts, risks, and hazards arising from concurrent activities and must produce a SIMOPS Plan before simultaneous operations commence."
+    },
+    {
+      "section_heading": "SIMOPS Planning and Risk Assessment",
+      "tag": "[APPC – Appendix C, C-2 §63.0.2]",
+      "text": "Require hazard analysis during both the planning and execution phases of all SIMOPS. As conditions change during execution, hazard analysis must be updated to reflect new interfaces and changing risk profiles."
+    },
+    {
+      "section_heading": "SIMOPS Planning and Risk Assessment",
+      "tag": "[APPC – Appendix C, C-2 §63.0.3]",
+      "text": "Require compliance with the project Permit to Work system during all SIMOPS activities. No simultaneous operation may commence without all required permits being in place and active. Where simultaneous permits overlap in the same area, the permit issuing authority must review and authorise all concurrent permits before work commences — refer RTPR-HSE-PRO-0021."
+    },
+    {
+      "section_heading": "SIMOPS Plan",
+      "tag": "[APPC – Appendix C, C-2 §63.0.4]",
+      "text": "Require a written SIMOPS Plan for all identified simultaneous operations. The plan must be prepared before work commences and maintained and updated throughout the work programme as activities, interfaces, and risk profiles change."
+    },
+    {
+      "section_heading": "SIMOPS Plan",
+      "tag": "[APPC – Appendix C, C-2 §63.0.5]",
+      "text": "Require the SIMOPS Plan to include as minimum content: identification of all concurrent work scopes and their locations; assessment of potential conflicts between simultaneous activities; applicable controls and exclusion zones for each interface; the permit issuing authority for all project phases; coordination meeting schedule; and communication protocols between work groups."
+    },
+    {
+      "section_heading": "SIMOPS Plan",
+      "tag": "[APPC – Appendix C, C-2 §63.0.6]",
+      "text": "Define conditions under which work must be stopped due to SIMOPS-related risks. Work must cease in any area where: a risk control identified in the SIMOPS Plan is not in place; activities deviate from the approved SIMOPS Plan without re-assessment; or a new interface or hazard arises that is not covered by the plan."
+    },
+    {
+      "section_heading": "SIMOPS Plan",
+      "tag": "[APPC – Appendix C, C-2 §63.0.7]",
+      "text": "Define criteria for risk assessment revalidation in response to changing SIMOPS conditions. Risk assessments must be revalidated when: the scope of any simultaneous activity changes; new work scopes are introduced into an active SIMOPS area; or an incident or near miss occurs involving a SIMOPS interface."
+    },
+    {
+      "section_heading": "SIMOPS Plan",
+      "tag": "[APPC – Appendix C, C-2 §63.0.8]",
+      "text": "Require regular SIMOPS coordination meetings between the Company and all Contractor organisations operating in areas of simultaneous activity. Meeting frequency must be proportionate to the complexity of simultaneous operations and documented in the SIMOPS Plan."
+    },
+    {
+      "section_heading": "SIMOPS Matrix",
+      "tag": "[APPC – Appendix C, C-2 §63.0.9]",
+      "text": "Require implementation of a SIMOPS Matrix for all project sites where simultaneous operations occur. The SIMOPS Matrix is a reference tool used to determine whether activities can be performed simultaneously and under what conditions."
+    },
+    {
+      "section_heading": "SIMOPS Matrix",
+      "tag": "[APPC – Appendix C, C-2 §63.1.1]",
+      "text": "Require the SIMOPS Matrix to be used in conjunction with: Task Definitions that describe each category of simultaneous activity; and Restriction Tables that define the conditions under which pairs of activities may or may not occur concurrently."
+    },
+    {
+      "section_heading": "SIMOPS Matrix",
+      "tag": "[APPC – Appendix C, C-2 §63.1.2]",
+      "text": "Require each site to develop its own Task Definitions, SIMOPS Matrix, and Restrictions Table, incorporating regulatory requirements and site-specific operational considerations. Generic matrices from previous projects are not acceptable without site-specific review and adaptation."
+    },
+    {
+      "section_heading": "SIMOPS Matrix",
+      "tag": "[APPC – Appendix C, C-2 §63.1.3]",
+      "text": "Require that any deviations from the SIMOPS Matrix or Restriction Tables are approved by the appropriate level of management before simultaneous activities proceed outside matrix parameters. Deviations must be documented and risk-assessed."
+    }
+  ],
+  "project_completion_guidance": [
+    "Identify all simultaneous operation scenarios anticipated for this project and insert into the SIMOPS Plan. Map each interface against the SIMOPS Matrix before any concurrent work commences.",
+    "Develop the site-specific SIMOPS Matrix, Task Definitions, and Restrictions Table for this project. These cannot be carried over unchanged from previous projects.",
+    "Define the SIMOPS coordination meeting schedule for this project: frequency, participants, chair, agenda template, and minutes distribution. Insert into the SIMOPS Plan.",
+    "Define the work stoppage authority and escalation process for SIMOPS-related stoppages: who can call a stop; who must be notified; and what the process is for resumption following a SIMOPS-triggered work stoppage.",
+    "Confirm the permit issuing authority arrangements for overlapping permits in SIMOPS areas. The PTW procedure owns permit types and roles — this procedure must define how simultaneous permits in the same area are coordinated and approved."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.0.1",
+      "summary": "Requires a SIMOPS workshop conducted jointly with the Company and all Contractor organisations before any phase of work where simultaneous operations are planned, producing a SIMOPS Plan before simultaneous operations commence."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.0.2",
+      "summary": "Requires hazard analysis during both the planning and execution phases of all SIMOPS, updated as conditions change during execution."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.0.3",
+      "summary": "Requires compliance with the project PTW system during all SIMOPS activities, with the permit issuing authority reviewing and authorising all concurrent permits in the same area before work commences."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.0.4",
+      "summary": "Requires a written SIMOPS Plan for all identified simultaneous operations, prepared before work commences and maintained throughout the work programme."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.0.5",
+      "summary": "Requires the SIMOPS Plan to include minimum content covering concurrent work scope identification, conflict assessment, controls and exclusion zones, permit issuing authority, coordination meeting schedule, and communication protocols."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.0.6",
+      "summary": "Defines conditions under which work must be stopped due to SIMOPS-related risks, including where controls are absent, activities deviate from the approved plan, or new unplanned hazards arise."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.0.7",
+      "summary": "Defines criteria for risk assessment revalidation when SIMOPS conditions change, including scope changes, introduction of new work scopes, or an incident or near miss involving a SIMOPS interface."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.0.8",
+      "summary": "Requires regular SIMOPS coordination meetings between the Company and all Contractor organisations in areas of simultaneous activity, with frequency proportionate to operational complexity."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.0.9",
+      "summary": "Requires implementation of a SIMOPS Matrix for all project sites where simultaneous operations occur, used as a reference tool to determine whether activities can be performed simultaneously and under what conditions."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.1.1",
+      "summary": "Requires the SIMOPS Matrix to be used in conjunction with Task Definitions and Restriction Tables that define the conditions under which pairs of activities may or may not occur concurrently."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.1.2",
+      "summary": "Requires each site to develop its own Task Definitions, SIMOPS Matrix, and Restrictions Table incorporating regulatory requirements and site-specific considerations; generic matrices from previous projects are not acceptable without site-specific review."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63.1.3",
+      "summary": "Requires that deviations from the SIMOPS Matrix or Restriction Tables are approved by the appropriate level of management before simultaneous activities proceed outside matrix parameters, and that deviations are documented and risk-assessed."
+    }
+  ]
+}

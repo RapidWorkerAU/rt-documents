@@ -1,0 +1,144 @@
+{
+  "procedure_id": "PRO-0021",
+  "document_number": "RTPR-HSE-PRO-0021",
+  "title": "Permit to Work Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines the owner-led project's Permit to Work (PTW) system — the formal authorisation mechanism that controls all work activities requiring specific risk assessment, planning, and verification before commencement. The PTW system applies to all project personnel including RT staff, all contractor organisations, and subcontractors.",
+  "owns": [
+    "PTW system structure and all permit types",
+    "Permit roles and their responsibilities",
+    "Permit lifecycle (development through closeout)",
+    "PTW status display requirements",
+    "Concurrent permit management",
+    "PTW training and authorisation requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (JHA as prerequisite to permit)",
+    "RTPR-HSE-PRO-0004 – Training (permit role competency — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0010 – Document Control (permit records)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0008, RTPR-HSE-PRO-0014, RTPR-HSE-PRO-0015, RTPR-HSE-PRO-0016, RTPR-HSE-PRO-0024, RTPR-HSE-PRO-0025, RTPR-HSE-PRO-0029, RTPR-HSE-PRO-0046, RTPR-HSE-PRO-0047 ALL reference RTPR-HSE-PRO-0021 for permit processes — none of these procedures re-state permit content"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Permit Types and Triggers",
+      "tag": "[RT – RT C1, C2, C4, C5, C6 – Multiple RT Standards]",
+      "text": "Define the following permit types and the specific conditions that trigger each: General Permit to Work; Isolation Permit; Electrical Safety Permit; Hot Works Permit; Working at Heights Permit; Excavation Permit; Penetration Permit; Confined Space Entry Permit; and Live Work Authorisation. Define which activities are excluded from the PTW system and the conditions under which exclusions apply."
+    },
+    {
+      "section_heading": "Permit Types and Triggers",
+      "tag": "[APPC – Appendix C, C-2 §60]",
+      "text": "Confirm that the PTW system has been agreed with the project owner before any work commences on site, and that the system covers all work locations across the project."
+    },
+    {
+      "section_heading": "Permit Types and Triggers",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure the PTW system covers all high-hazard non-routine work and that it provides a systematic method for planning, authorising, communicating, and monitoring high-risk work activities."
+    },
+    {
+      "section_heading": "Permit Process",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Define roles and responsibilities in the permit process: Permit Issuer/Authorised Officer; Permit Developer; Permit Holder; and workers operating under the permit. Define the permit lifecycle: development; risk assessment; authorisation; execution; suspension; extension; cancellation; and closeout."
+    },
+    {
+      "section_heading": "Permit Process",
+      "tag": "[APPC – Appendix C, C-2 §60]",
+      "text": "Define minimum permit content: specific work location; scope and duration; persons authorised; controls required; concurrent permits; PPE requirements; and emergency contacts. Require JHAs to be completed and attached to the permit before authorisation."
+    },
+    {
+      "section_heading": "Permit Process",
+      "tag": "[OSHA – OSHA RP 2016 – Hazard Prevention and Control]",
+      "text": "Ensure that every person working under a permit understands the hazards, the controls in place, and their personal responsibilities before work begins — not just the permit holder."
+    },
+    {
+      "section_heading": "PTW Status Display",
+      "tag": "[APPC – Appendix C, C-2 §60]",
+      "text": "Require a system (physical boards, electronic system, or equivalent) providing clear and immediate visibility of all active permits and their status at all work locations. Require the system to be accessible to all personnel. Define how permits removed during emergencies are designated and tracked."
+    },
+    {
+      "section_heading": "Training and Competency",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Define training and competency requirements for all permit roles. Require formal authorisation before personnel may act as a Permit Issuer or Permit Holder. Define minimum re-verification frequency for permit role competency."
+    },
+    {
+      "section_heading": "Training and Competency",
+      "tag": "[APPC – Appendix C, C-2 §60]",
+      "text": "Require that all contractor personnel who will issue, hold, or work under permits are trained in the project PTW system before commencing any permitted work."
+    },
+    {
+      "section_heading": "Permit Types and Triggers",
+      "tag": "[APPC – Appendix C, C-2 §60.0.1]",
+      "text": "The project PTW system must include as minimum permit types: General Permit to Work; Working at Heights Permit; Confined Space Entry Permit; Hot Work Permit; Excavation and Ground Penetration Permit; Electrical Work Permit; and Commissioning and Operational Permit. Additional permit types may be required based on project risk assessment."
+    },
+    {
+      "section_heading": "Permit Process",
+      "tag": "[APPC – Appendix C, C-1 §43.2.5]",
+      "text": "When performing work in Company Operational (Brownfield) areas, contractors must adhere to the Company permit-to-work system. The interface between the project PTW system and the Company operational area PTW system must be defined and agreed before any brownfield work commences."
+    },
+    {
+      "section_heading": "PTW Status Display",
+      "tag": "[APPC – Appendix C, C-1 §38.7.1]",
+      "text": "Require a PTW status display system that clearly identifies all work areas where the PTW system applies and facilitates tracking and identification of work permits by location. The system must include a method to designate permits removed during an emergency shutdown."
+    },
+    {
+      "section_heading": "PTW Status Display",
+      "tag": "[APPC – Appendix C, C-1 §38.7.3]",
+      "text": "Require that the PTW status system provides clear and immediate visibility of all active permits and their status. Physical boards, electronic systems, or other methods are acceptable, provided the status is immediately visible to all personnel in the work area."
+    }
+  ],
+  "project_completion_guidance": [
+    "CRITICAL — The PTW system must be agreed with the project owner before any work commences on site. Confirm that approval has been received and document the approval reference in this procedure.",
+    "Define the project PTW status board format and location for each work area. The procedure requires visible status display — the project determines the implementation (physical board, electronic system, or hybrid).",
+    "List all roles on this project that require PTW Issuer and PTW Holder authorisation, and confirm the authorisation process. Insert an Authorised Persons Register or reference RTPR-HSE-REG-0003.",
+    "Define the concurrent permit management process for this project: how are permits for simultaneous activities in the same area identified and coordinated; who reviews concurrent permit combinations.",
+    "Define the emergency permit removal process for this project: who can remove a permit; what documentation is required; how the work area is made safe."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT C1 – Control of Energy Standard",
+      "summary": "Requires definition of permit roles, the full permit lifecycle from development to closeout, and formal authorisation before personnel may act as Permit Issuer or Permit Holder."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT C1, C2, C4, C5, C6 – Multiple RT Standards",
+      "summary": "Requires definition of all permit types and the specific conditions that trigger each, including exclusions from the PTW system."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §60",
+      "summary": "Requires the PTW system to be agreed with the project owner before work commences, defines minimum permit content, and requires all contractor personnel to be trained in the PTW system before performing permitted work."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §60.0.1",
+      "summary": "Requires the PTW system to include as minimum the specified permit types, with additional types added based on project risk assessment."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §43.2.5",
+      "summary": "Requires that the interface between the project PTW system and any Company operational area PTW system is defined and agreed before brownfield work commences."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.7.1",
+      "summary": "Requires a PTW status display system that tracks and identifies work permits by location and includes a method to designate permits removed during an emergency shutdown."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.7.3",
+      "summary": "Requires that the PTW status system provides immediately visible permit status to all personnel in the work area."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.1",
+      "summary": "Requires the PTW system to cover all high-hazard non-routine work and provide a systematic method for planning, authorising, communicating, and monitoring high-risk work activities."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "OSHA RP 2016 – Hazard Prevention and Control",
+      "summary": "Requires that every person working under a permit understands the hazards, the controls in place, and their personal responsibilities before work begins."
+    }
+  ]
+}

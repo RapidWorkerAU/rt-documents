@@ -1,0 +1,129 @@
+{
+  "procedure_id": "PRO-0042",
+  "document_number": "RTPR-HSE-PRO-0042",
+  "title": "Monitoring and Measuring Procedure",
+  "management_system_element": "13 – Monitoring & Measuring",
+  "preamble": "This procedure defines requirements for monitoring and measuring HSESC performance across the owner-led project to verify control effectiveness, confirm compliance with performance criteria, detect changing conditions, and support adaptive management and continuous improvement.",
+  "owns": [
+    "HSESC monitoring programme scope and frequencies",
+    "Inspection programme (CCFVs, PTW checks, proof tests)",
+    "Measuring equipment calibration requirements",
+    "TARP framework requirements",
+    "Monthly HSESC report content requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (risk register as basis for monitoring programme)",
+    "RTPR-HSE-PRO-0009 – Incident Management (incident data as monitoring input)",
+    "RTPR-HSE-PRO-0007 – Improvement Planning (monitoring data as improvement input)",
+    "RTPR-HSE-PRO-0044 – Auditing (audits as part of performance assessment)",
+    "RTPR-HSE-PRO-0034, RTPR-HSE-PRO-0035, RTPR-HSE-PRO-0038 – Environmental procedures (environmental monitoring)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0007 references RTPR-HSE-PRO-0042 for performance data",
+    "RTPR-HSE-PRO-0044 references RTPR-HSE-PRO-0042 for the monitoring programme being audited"
+  ],
+  "requirements": [
+    {
+      "section_heading": "HSESC Monitoring Programme",
+      "tag": "[RT Standard]",
+      "text": "Define the scope of the project HSESC monitoring programme covering: safety performance leading and lagging indicators; occupational health and hygiene monitoring; environmental monitoring (water, air, soil, biodiversity); CRM verification performance; SMM maturity assessment; and social and community performance indicators."
+    },
+    {
+      "section_heading": "HSESC Monitoring Programme",
+      "tag": "[IFC – IFC PS1 §22]",
+      "text": "Define monitoring frequency, methodology, QA/QC requirements, responsible roles, and data recording requirements for each monitoring type. Require monitoring data to be analysed and interpreted at least annually, or at a frequency suited to operational needs and regulatory requirements."
+    },
+    {
+      "section_heading": "HSESC Monitoring Programme",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH2]",
+      "text": "Set and monitor measurable safety and health targets, reporting performance against them as part of the monthly and annual HSESC performance reporting cycle."
+    },
+    {
+      "section_heading": "Inspection Programme",
+      "tag": "[APPC – Appendix C, C-1 §40]",
+      "text": "Define the planned HSESC inspection programme covering: site inspections; equipment inspections; CRM critical control field verifications (CCFVs); PTW system compliance checks; and process safety proof tests. Define inspection frequency, required competency of inspectors, and documentation requirements."
+    },
+    {
+      "section_heading": "Inspection Programme",
+      "tag": "[RT Standard]",
+      "text": "Conduct regular workplace inspections to identify new or recurring hazards, and document findings in the project action tracking system with assigned corrective actions."
+    },
+    {
+      "section_heading": "Measuring Equipment Calibration",
+      "tag": "[RT Standard]",
+      "text": "Require all safety-critical measuring and monitoring equipment to be calibrated per manufacturer requirements, with calibration records maintained. Require gas detector bump-testing before each use with results recorded on relevant permits."
+    },
+    {
+      "section_heading": "Measuring Equipment Calibration",
+      "tag": "[IFC – IFC EHS General Guidelines §2.9]",
+      "text": "Ensure that environmental monitoring uses methods consistent with nationally or internationally recognised analytical and sampling standards, and that data quality is verified through QA/QC processes."
+    },
+    {
+      "section_heading": "Trigger Action Response Plans (TARPs)",
+      "tag": "[RT Standard]",
+      "text": "Require Trigger Action Response Plans (TARPs) for all material environmental and safety risks, specifying: trigger level; responsible role; required action; escalation path; and response timeframe. Require TARPs to be tested through drills and exercises at defined intervals."
+    },
+    {
+      "section_heading": "Trigger Action Response Plans (TARPs)",
+      "tag": "[IFC – IFC PS1 §11]",
+      "text": "Ensure that adaptive management responses to monitoring trigger events are implemented promptly and that the effectiveness of corrective actions is verified and recorded."
+    }
+  ],
+  "project_completion_guidance": [
+    "Develop the project HSESC monitoring programme as a schedule: list each monitoring type; define frequency; assign responsible roles; define the data recording method. Insert as Appendix A.",
+    "Define the project monthly HSESC report template, aligned to the RT Appendix C-8 template requirements. The procedure defines content — the project produces the formatted template.",
+    "Define the project gas detector calibration register and bump-test recording system. The procedure requires calibration records — define the project-specific record format and storage.",
+    "Develop the project TARPs for all material environmental and safety risks identified in RTPR-HSE-PRO-0002. Each TARP must be specific to this project's monitoring locations and trigger thresholds.",
+    "[APPC – Appendix C, C-1 §40.1.1]  Require that the project makes all reasonable efforts to accommodate Company HSESC audits and provides unrestricted access to facilities, equipment, materials, personnel, and records. Company audits will be conducted with a minimum of two working days notice.",
+    "[APPC – Appendix C, C-1 §40.2.1]  Require that instructions from the Company based on inspection findings are implemented within a mutually agreed timeframe. Inspection outcomes must be recorded and corrective actions tracked to ensure timely resolution.",
+    "[APPC – Appendix C, C-1 §41.3.1]  Require that HSESC metrics including objectives, targets, and KPIs are proposed by the Contractor and agreed with the Company before execution phase commences. Agreed metrics must be reported at agreed intervals.",
+    "Define the project CRM verification schedule: frequency of CCFVs by critical risk; target completion rate; reporting format to the project owner."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Management & Compliance Standard",
+      "summary": "Requires definition of the HSESC monitoring programme scope covering safety, health, environmental, CRM, SMM and social performance indicators."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – General Requirements Standard",
+      "summary": "Requires Trigger Action Response Plans for all material environmental and safety risks with defined trigger levels, actions, escalation paths and response timeframes."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT C5 – Confined Space Standard / RT C2 – Electrical Safety Standard",
+      "summary": "Requires all safety-critical measuring and monitoring equipment to be calibrated per manufacturer requirements and gas detectors to be bump-tested before each use."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §40",
+      "summary": "Requires a planned HSESC inspection programme covering site inspections, equipment inspections, CCFVs, PTW compliance checks and process safety proof tests."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§22",
+      "summary": "Requires monitoring frequency, methodology, QA/QC, responsible roles and data recording to be defined, with monitoring data analysed and interpreted at least annually."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§11",
+      "summary": "Requires adaptive management responses to monitoring trigger events to be implemented promptly and the effectiveness of corrective actions to be verified and recorded."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.9",
+      "summary": "Requires environmental monitoring to use nationally or internationally recognised analytical and sampling standards with data quality verified through QA/QC processes."
+    },
+    {
+      "framework": "TSM",
+      "clause": "TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH2",
+      "summary": "Requires measurable safety and health targets to be set and monitored, with performance reported as part of the monthly and annual HSESC performance reporting cycle."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "OSHA RP 2016 – Hazard Identification and Assessment",
+      "summary": "Requires regular workplace inspections to identify new or recurring hazards with findings documented in the project action tracking system."
+    }
+  ]
+}

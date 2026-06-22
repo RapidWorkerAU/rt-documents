@@ -1,0 +1,96 @@
+{
+  "procedure_id": "PRO-0017",
+  "document_number": "RTPR-HSE-PRO-0017",
+  "title": "Manual Tasks and Ergonomics Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines requirements for identifying, assessing, and controlling hazardous manual tasks and ergonomic risks to prevent musculoskeletal disorders (MSDs), occupational injuries, and permanent disability across the project workforce.",
+  "owns": [
+    "Manual tasks risk assessment trigger criteria",
+    "Vibration exposure limits and assessment process",
+    "Manual handling control hierarchy",
+    "MSD early intervention process"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (manual task risk assessment framework)",
+    "RTPR-HSE-PRO-0004 – Training (manual task awareness training)",
+    "RTPR-HSE-PRO-0006 – Fitness for Work (physical capacity requirements)",
+    "RTPR-HSE-PRO-0027 – PPE (manual handling PPE)",
+    "RTPR-HSE-PRO-0009 – Incident Management (MSD injury reporting)"
+  ],
+  "referenced_by": [],
+  "requirements": [
+    {
+      "section_heading": "Risk Assessment",
+      "tag": "[APPC – Appendix C, C-2 §68]",
+      "text": "Require risk assessment of workplace design, layout, practices, and procedures by a competent person. Require identification and risk assessment of manual tasks with potential to cause permanent disability, assessing internal and external forces acting on the human body."
+    },
+    {
+      "section_heading": "Risk Assessment",
+      "tag": "[IFC – IFC EHS General Guidelines §2.5]",
+      "text": "Identify manual handling hazards including: heavy or awkward loads; repetitive motions; sustained or awkward postures; hand-arm and whole-body vibration; and contact stress."
+    },
+    {
+      "section_heading": "Risk Assessment",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define a manual tasks risk assessment trigger list identifying the specific job types or task characteristics that require a formal ergonomic assessment (e.g., lifts exceeding a defined weight threshold, repetitive tasks exceeding a defined duration, work requiring sustained non-neutral postures). Thresholds must be set by the project based on the relevant jurisdiction and workforce demographics."
+    },
+    {
+      "section_heading": "Controls",
+      "tag": "[APPC – Appendix C, C-2 §68]",
+      "text": "Require use of mechanical aids, equipment, or work design changes to minimise worker exposure to heavy, awkward, or repetitive tasks, applying the hierarchy of controls before recommending PPE."
+    },
+    {
+      "section_heading": "Controls",
+      "tag": "[IFC – IFC EHS General Guidelines §2.5]",
+      "text": "Implement engineering controls (mechanical lifting aids, adjustable workstations, tool redesign) as the primary means of managing manual handling risk, supported by administrative controls (job rotation, rest breaks, pace setting) and PPE as last resort."
+    },
+    {
+      "section_heading": "Vibration",
+      "tag": "[APPC – Appendix C, C-2 §68]",
+      "text": "Identify, assess, and measure workplace vibration sources (hand-arm and whole-body) where there is potential to exceed exposure limits specified in the European Directive on Vibration (2002/44/EC) or applicable national legislation, whichever is more stringent."
+    },
+    {
+      "section_heading": "Vibration",
+      "tag": "[IFC – IFC EHS General Guidelines §2.3]",
+      "text": "Implement engineering controls (anti-vibration mountings, vibration-reducing tool handles, suspension seating) and administrative controls (exposure time limits, health surveillance) for workers with significant vibration exposure."
+    },
+    {
+      "section_heading": "Health Surveillance",
+      "tag": "[ICMM – ICMM Principle 5, Performance Expectation 5.2]",
+      "text": "Implement health surveillance programmes based on occupational exposures, including MSD symptom reporting and periodic musculoskeletal health assessments for workers in identified high-risk manual task roles."
+    },
+    {
+      "section_heading": "Health Surveillance",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define a musculoskeletal disorder early intervention process that identifies personnel with early MSD symptoms, triggers modified duties or ergonomic re-assessment, and prevents progression to permanent disability. The project must set its own early intervention threshold criteria."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the project manual tasks risk assessment trigger list — the specific task types or weight/frequency thresholds that require a formal ergonomic assessment. The procedure requires these to be set by the project. Insert as a table.",
+    "Identify any vibration-intensive equipment or tasks on this project (e.g., jackhammers, plate compactors, heavy plant with suspension issues) and define the project vibration exposure monitoring approach.",
+    "[APPC – Appendix C, C-2 §68.3]  Require identification and risk assessment of manual tasks that have the potential to cause permanent disability. Controls must be implemented and assessments must consider both internal and external risk factors including posture, force, repetition, and duration.\n[APPC – Appendix C, C-2 §68.5]  Require identification, assessment, and measurement of workplace vibration sources where there is potential to exceed applicable exposure limits. Assessment must be conducted by a competent person.\n[APPC – Appendix C, C-2 §68.6]  Require engineering or administrative controls to mitigate risks associated with manual handling, repetitive strain, and workplace vibration. Engineering controls must be considered before administrative controls and PPE.",
+    "Define the project MSD early intervention process: who assesses early symptoms; what modified duties options are available; who manages the case. Connect to the Return to Work process in RTPR-HSE-PRO-0006."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §68",
+      "summary": "Requires risk assessment of workplace design and manual tasks with potential to cause permanent disability, and controls including mechanical aids applying the hierarchy of controls."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.5",
+      "summary": "Requires identification of manual handling hazards and implementation of engineering controls as the primary means of managing manual handling risk."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.3",
+      "summary": "Requires engineering and administrative controls for workers with significant vibration exposure, including anti-vibration mountings and exposure time limits."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "Principle 5, Performance Expectation 5.2",
+      "summary": "Requires health surveillance programmes based on occupational exposures, including MSD symptom reporting and periodic musculoskeletal health assessments for high-risk roles."
+    }
+  ]
+}

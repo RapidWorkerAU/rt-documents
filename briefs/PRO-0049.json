@@ -1,0 +1,313 @@
+{
+  "procedure_id": "PRO-0049",
+  "document_number": "RTPR-HSE-PRO-0049",
+  "title": "Communities and Social Performance Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines how the owner-led project identifies, manages, monitors, and reports on social and human rights risks, impacts, and opportunities associated with the Works. The Company is singularly accountable for interfacing with external stakeholders and government authorities. Contractors operate within the boundaries and commitments established by the Company and must not engage directly with external stakeholders or make commitments to communities without prior Company approval.",
+  "owns": [
+    "CSP risk and impact management process",
+    "Stakeholder engagement protocols and restrictions",
+    "Land access obligations and controls",
+    "Community health, safety, and security requirements",
+    "CSP incident and complaint reporting requirements",
+    "Human rights due diligence obligations",
+    "Cultural heritage management requirements",
+    "Indigenous and land-connected peoples requirements",
+    "Local and Indigenous participation commitments",
+    "Social investment policy"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (social and human rights risk assessment)",
+    "RTPR-HSE-PRO-0001 – Legal Requirements (regulatory obligations including native title)",
+    "RTPR-HSE-PRO-0009 – Incident Management (CSP incident reporting timelines)",
+    "RTPR-HSE-PRO-0033 – Security Management (human rights and security interactions)",
+    "RTPR-HSE-PRO-0037 – Land Disturbance (cultural heritage site protection)",
+    "RTPR-HSE-PRO-0041 – Business Resilience (emergency response with community impact)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0033 – Security (Voluntary Principles on Security and Human Rights alignment)",
+    "RTPR-HSE-PRO-0037 – Land Disturbance (cultural heritage clearances and chance finds)",
+    "RTPR-HSE-PRO-0041 – Business Resilience (community notification in ERPs)"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Risk and Impact Management",
+      "tag": "[APPC – Appendix C, C-5 §101.1.1]",
+      "text": "Require development and maintenance of an understanding of the host community and socio-economic context in which the Works will be undertaken. This understanding must inform the CSP Management Plan and all community-facing activities throughout the project."
+    },
+    {
+      "section_heading": "Risk and Impact Management",
+      "tag": "[APPC – Appendix C, C-5 §101.1.2]",
+      "text": "Require implementation of processes and systems to identify, manage, monitor, and report to the Company on social and human rights risks, impacts, and opportunities associated with the Works. Social risks must be integrated into the project risk register — refer RTPR-HSE-PRO-0002."
+    },
+    {
+      "section_heading": "Risk and Impact Management",
+      "tag": "[APPC – Appendix C, C-5 §101.1.3]",
+      "text": "Require appropriate mitigations to manage material risks and impacts caused by or directly linked to the Works, and track and report on their implementation to the Company at agreed intervals."
+    },
+    {
+      "section_heading": "Consultation and Engagement",
+      "tag": "[APPC – Appendix C, C-5 §101.2.1]",
+      "text": "Require that the Contractor does not engage with the media under any circumstances. All media requests must be forwarded directly to the Company without response."
+    },
+    {
+      "section_heading": "Consultation and Engagement",
+      "tag": "[APPC – Appendix C, C-5 §101.2.2]",
+      "text": "Require that no project-related information is disclosed to third parties and no direct engagement occurs with external stakeholders without prior approval from the Company."
+    },
+    {
+      "section_heading": "Consultation and Engagement",
+      "tag": "[APPC – Appendix C, C-5 §101.2.3]",
+      "text": "Require that all approaches by external stakeholders are captured in a register and communicated to the Company. The register must record the date, nature of approach, organisation or individual making contact, and the referral action taken."
+    },
+    {
+      "section_heading": "Consultation and Engagement",
+      "tag": "[APPC – Appendix C, C-5 §101.2.4]",
+      "text": "Require that no verbal or written commitments, or implied commitments, are made to local communities or authorities without prior consultation with and approval from the Company."
+    },
+    {
+      "section_heading": "Consultation and Engagement",
+      "tag": "[APPC – Appendix C, C-5 §101.2.6]",
+      "text": "Require a clear protocol on the use of social media that expressly forbids disclosure of sensitive or confidential project information by all Contractor personnel and subcontractors."
+    },
+    {
+      "section_heading": "Land Access",
+      "tag": "[APPC – Appendix C, C-5 §101.3.1]",
+      "text": "Require that all Works are limited to the project area that the Company has, in writing, authorised for Contractor use. Work outside authorised areas is prohibited."
+    },
+    {
+      "section_heading": "Land Access",
+      "tag": "[APPC – Appendix C, C-5 §101.3.3]",
+      "text": "Where access to land outside the project area becomes necessary, require a formal written request to the Company including a clear rationale, alternatives considered, and risks and impacts identified. Work outside the project area may not commence without written Company approval."
+    },
+    {
+      "section_heading": "Land Access",
+      "tag": "[APPC – Appendix C, C-5 §101.3.5]",
+      "text": "Require that no independent voluntary or compulsory land acquisition, compensation, or resettlement is undertaken by the Contractor without the written consent of the Company."
+    },
+    {
+      "section_heading": "Land Access",
+      "tag": "[APPC – Appendix C, C-5 §101.3.7]",
+      "text": "Require that communities retain safe access to their lands and assets during the Works. Any proposed loss of or change to community access must be approved by the Company and communicated to affected communities in advance of any change taking effect."
+    },
+    {
+      "section_heading": "Community Health, Safety, and Security",
+      "tag": "[APPC – Appendix C, C-5 §101.4.2]",
+      "text": "Require an assessment of potential community health, safety, and security risks arising from the Works. The assessment must consider: increased traffic or vehicle exposure in community areas; dust, noise, vibration, and light impacts on communities; access restrictions that affect community movements; and any activities that could create hazards for community members."
+    },
+    {
+      "section_heading": "Community Health, Safety, and Security",
+      "tag": "[APPC – Appendix C, C-5 §101.4.4]",
+      "text": "Require identification of emergency event scenarios that have the potential to impact host communities and emergency response planning in coordination with local disaster response entities. Community-impacting emergency scenarios must be incorporated into the project ERP — refer RTPR-HSE-PRO-0041."
+    },
+    {
+      "section_heading": "CSP Incidents and Complaints",
+      "tag": "[APPC – Appendix C, C-5 §101.5.1]",
+      "text": "Require immediate reporting to the Company of any unplanned social impacts or incidents arising from the Works, including dust or noise exceedances, disturbance to community land or heritage, and any conflict or grievance involving community members or project personnel."
+    },
+    {
+      "section_heading": "CSP Incidents and Complaints",
+      "tag": "[APPC – Appendix C, C-5 §101.5.2]",
+      "text": "Require reporting to the Company of all grievances received, in line with the timing requirements of RTPR-HSE-PRO-0009 and on approved Company templates for capture in the Company business solution. Grievance records must be retained and made available for review."
+    },
+    {
+      "section_heading": "Human Rights",
+      "tag": "[APPC – Appendix C, C-5 §101.6.1]",
+      "text": "Require compliance with the Company Supplier Code of Conduct and all applicable laws directed to criminalising, regulating, or preventing modern slavery. The Contractor must take active steps to identify and address modern slavery risks in its own operations and supply chain."
+    },
+    {
+      "section_heading": "Human Rights",
+      "tag": "[APPC – Appendix C, C-5 §101.6.2]",
+      "text": "Require respect for human rights and reasonable steps to prevent and address involvement in abuses of internationally recognised human rights, including in accordance with the United Nations Guiding Principles on Business and Human Rights."
+    },
+    {
+      "section_heading": "Human Rights",
+      "tag": "[APPC – Appendix C, C-5 §101.6.4]",
+      "text": "Require provision for, or cooperation in, remediation for any adverse human rights impacts the Contractor is deemed to have caused or contributed to, in line with the UN Guiding Principles on Business and Human Rights."
+    },
+    {
+      "section_heading": "Cultural Heritage Management",
+      "tag": "[APPC – Appendix C, C-5 §101.7.1]",
+      "text": "Require operation within the bounds of any cultural heritage management plans provided by the Company. Works must not proceed in areas of cultural heritage significance without written Company authorisation."
+    },
+    {
+      "section_heading": "Cultural Heritage Management",
+      "tag": "[APPC – Appendix C, C-5 §101.7.3]",
+      "text": "Require provision of relevant cultural heritage training to all personnel, subcontractors, and visitors to ensure the Works are managed in a culturally responsible manner, preventing harm to cultural values, heritage sites, and community relationships."
+    },
+    {
+      "section_heading": "Cultural Heritage Management",
+      "tag": "[APPC – Appendix C, C-5 §101.7.6]",
+      "text": "Require adherence to the Company Chance Find Procedure, including regular communication of the procedure to all personnel and subcontractors. All personnel must be trained in the Chance Find Procedure before commencing any ground disturbance activities."
+    },
+    {
+      "section_heading": "Cultural Heritage Management",
+      "tag": "[APPC – Appendix C, C-5 §101.7.7]",
+      "text": "Require that work stops and the Company is notified immediately upon locating any item of potential cultural significance including artefacts, fossils, objects of antiquity, or items of anthropological or archaeological interest — refer RTPR-HSE-PRO-0037 for ground disturbance requirements."
+    },
+    {
+      "section_heading": "Local and Indigenous Participation",
+      "tag": "[APPC – Appendix C, C-5 §101.9.1]",
+      "text": "Require development and implementation of a proactive policy for opportunities for local and Indigenous peoples in delivering the Works. Details of this policy must be included in the CSP Management Plan and submitted to the Company for review before project mobilisation."
+    },
+    {
+      "section_heading": "Local and Indigenous Participation",
+      "tag": "[APPC – Appendix C, C-5 §101.9.2]",
+      "text": "Require setting of targets, in agreement with the Company and appropriate to the socio-economic context, for local and Indigenous participation in employment, training, and procurement opportunities. Targets must be measurable and reported on at agreed intervals."
+    },
+    {
+      "section_heading": "Local and Indigenous Participation",
+      "tag": "[APPC – Appendix C, C-5 §101.9.5]",
+      "text": "Require tracking and reporting of participation performance data to the Company, including identification of any barriers to achieving targets or objectives and proposed remediation actions."
+    },
+    {
+      "section_heading": "Local and Indigenous Participation",
+      "tag": "[APPC – Appendix C, C-5 §101.10.1]",
+      "text": "Require that no independent donations, sponsorships, projects, or programmes with host communities or local businesses are committed to or initiated without prior approval from the Company."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the CSP risk profile for this project based on the specific host community context, socio-economic environment, and presence of Indigenous or land-connected peoples. This assessment must be completed before mobilisation.",
+    "Appoint a trained and competent professional to manage CSP issues for this project, with the right level of authority and skills relevant to the socio-economic context and scope. Document the appointment in the project organisational chart.",
+    "Develop the CSP Management Plan for this project, covering all sub-elements of this procedure. Submit to the Company for review before project mobilisation.",
+    "Confirm the local and Indigenous participation targets for this project in agreement with the Company. Insert the agreed targets into this procedure and the CSP Management Plan.",
+    "Define the cultural heritage management approach for this project based on Company-provided cultural heritage clearances, heritage surveys, and any applicable heritage management plans. Insert or reference the project Chance Find Procedure here."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.1.1",
+      "summary": "Requires development and maintenance of an understanding of the host community and socio-economic context to inform the CSP Management Plan and all community-facing activities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.1.2",
+      "summary": "Requires implementation of processes and systems to identify, manage, monitor, and report on social and human rights risks, impacts, and opportunities associated with the Works."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.1.3",
+      "summary": "Requires appropriate mitigations to manage material risks and impacts caused by or directly linked to the Works, tracked and reported to the Company at agreed intervals."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.2.1",
+      "summary": "Requires that the Contractor does not engage with the media under any circumstances and forwards all media requests directly to the Company."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.2.2",
+      "summary": "Prohibits disclosure of project-related information to third parties or direct engagement with external stakeholders without prior Company approval."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.2.3",
+      "summary": "Requires that all approaches by external stakeholders are captured in a register and communicated to the Company, recording the date, nature of approach, and referral action taken."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.2.4",
+      "summary": "Prohibits verbal or written commitments to local communities or authorities without prior consultation with and approval from the Company."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.2.6",
+      "summary": "Requires a clear social media protocol that forbids disclosure of sensitive or confidential project information by all Contractor personnel and subcontractors."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.3.1",
+      "summary": "Requires that all Works are limited to the project area the Company has authorised in writing, prohibiting work outside authorised areas."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.3.3",
+      "summary": "Requires a formal written request to the Company before any work outside the project area commences, including rationale, alternatives considered, and risks and impacts identified."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.3.5",
+      "summary": "Prohibits independent voluntary or compulsory land acquisition, compensation, or resettlement by the Contractor without written Company consent."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.3.7",
+      "summary": "Requires that communities retain safe access to their lands and assets during the Works, with any proposed change to community access approved by the Company and communicated to affected communities in advance."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.4.2",
+      "summary": "Requires an assessment of potential community health, safety, and security risks arising from the Works, covering traffic exposure, dust and noise impacts, access restrictions, and other community hazards."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.4.4",
+      "summary": "Requires identification of emergency event scenarios that may impact host communities and emergency response planning in coordination with local disaster response entities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.5.1",
+      "summary": "Requires immediate reporting to the Company of any unplanned social impacts or incidents arising from the Works, including grievances or conflicts involving community members."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.5.2",
+      "summary": "Requires reporting of all grievances received to the Company in line with incident reporting timing requirements, on approved Company templates, with records retained and available for review."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.6.1",
+      "summary": "Requires compliance with the Company Supplier Code of Conduct and applicable modern slavery laws, including active steps to identify and address modern slavery risks in operations and supply chains."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.6.2",
+      "summary": "Requires respect for human rights and reasonable steps to prevent involvement in abuses of internationally recognised human rights, in accordance with the UN Guiding Principles on Business and Human Rights."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.6.4",
+      "summary": "Requires provision for or cooperation in remediation for any adverse human rights impacts the Contractor is deemed to have caused or contributed to, in line with the UN Guiding Principles on Business and Human Rights."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.7.1",
+      "summary": "Requires operation within the bounds of Company-provided cultural heritage management plans, prohibiting works in areas of cultural heritage significance without written Company authorisation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.7.3",
+      "summary": "Requires provision of cultural heritage training to all personnel, subcontractors, and visitors to prevent harm to cultural values, heritage sites, and community relationships."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.7.6",
+      "summary": "Requires adherence to the Company Chance Find Procedure, with regular communication of the procedure to all personnel and training before any ground disturbance activities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.7.7",
+      "summary": "Requires immediate work stoppage and Company notification upon locating any item of potential cultural significance including artefacts, fossils, or items of archaeological interest."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.9.1",
+      "summary": "Requires development and implementation of a proactive policy for local and Indigenous participation opportunities, included in the CSP Management Plan and submitted to the Company before mobilisation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.9.2",
+      "summary": "Requires setting of measurable targets for local and Indigenous participation in employment, training, and procurement, agreed with the Company and reported at agreed intervals."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.9.5",
+      "summary": "Requires tracking and reporting of local and Indigenous participation performance data to the Company, including identification of barriers to targets and proposed remediation actions."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-5 §101.10.1",
+      "summary": "Prohibits independent donations, sponsorships, or community programmes from being committed to or initiated without prior Company approval."
+    }
+  ]
+}

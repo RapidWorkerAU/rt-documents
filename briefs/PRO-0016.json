@@ -1,0 +1,97 @@
+{
+  "procedure_id": "PRO-0016",
+  "document_number": "RTPR-HSE-PRO-0016",
+  "title": "Hot Works Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "Hot work is defined as any process that can act as a source of ignition when flammable or explosive materials are present, or that poses a fire hazard regardless of flammable material presence, including: welding; soldering; grinding; cutting; brazing; and burning.",
+  "owns": [
+    "Hot work definition and trigger activities",
+    "Hazardous area designation process",
+    "Hot Works Permit requirements (via RTPR-HSE-PRO-0021)",
+    "Gas detection requirements for hot work",
+    "Fire protection and fire watch requirements",
+    "Hot work on in-service equipment controls"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (hot work risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (hot work competency)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (hot works permit raised via PTW system — refer RTPR-HSE-PRO-0021 for process)",
+    "RTPR-HSE-PRO-0012 – Chemicals (flammable substance controls)",
+    "RTPR-HSE-PRO-0022 – SIMOPS (hot work SIMOPS assessment)",
+    "RTPR-HSE-PRO-0009 – Incident Management (fire/explosion incident reporting)",
+    "RTPR-HSE-PRO-0041 – Business Resilience (fire emergency response — refer to ERP)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0047 – Commissioning references RTPR-HSE-PRO-0016 for hot work controls during commissioning"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Hazard Area Designation and Permit",
+      "tag": "[APPC – Appendix C, C-2 §64]",
+      "text": "Require designation of hazardous areas identifying where hot work presents a fire or explosion risk. Require a Hot Works Permit (within the site PTW system) for all hot work activities, with minimum content: location; work description; safe welding area classification; gas detection pre-work results; fire protection measures confirmed in place; fire watch assignment; and permit duration."
+    },
+    {
+      "section_heading": "Hazard Area Designation and Permit",
+      "tag": "[IFC – IFC EHS General Guidelines §3.3]",
+      "text": "Ensure that fire prevention, detection, and suppression systems are in place and maintained, and that hot work control procedures are integrated with the site emergency response plan."
+    },
+    {
+      "section_heading": "Gas Detection",
+      "tag": "[APPC – Appendix C, C-2 §64]",
+      "text": "Require monitoring for flammable gases and vapours before and during all hot work activities. Define gas detection equipment requirements, bump-testing frequency, calibration requirements, and the action level (below 10% LEL) at which hot work must be suspended."
+    },
+    {
+      "section_heading": "Gas Detection",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the continuous monitoring requirements for hot work in areas where gas accumulation could recur during the task (e.g., near process equipment, drains, or enclosed spaces), specifying the monitoring frequency and the criteria for suspending and re-assessing work."
+    },
+    {
+      "section_heading": "Fire Protection",
+      "tag": "[APPC – Appendix C, C-2 §64]",
+      "text": "Define minimum fire protection requirements: suitable fire extinguishers (correct class for the hazard); fire watch assignment during work and for a defined period after completion; cleared combustible material zones; and spark/slag containment."
+    },
+    {
+      "section_heading": "Fire Protection",
+      "tag": "[IFC – IFC EHS General Guidelines §3.3]",
+      "text": "Ensure that the fire watch is maintained for sufficient time after work ends to confirm that no latent ignition source remains. Define the minimum post-work fire watch period based on risk assessment."
+    },
+    {
+      "section_heading": "Hot Work on In-Service Equipment",
+      "tag": "[APPC – Appendix C, C-2 §64]",
+      "text": "Define specific controls for hot work on or adjacent to tanks, vessels, or piping that may contain or have contained flammable, toxic, or reactive materials, including: isolation and purging requirements; atmospheric testing confirming absence of flammable or toxic content; and written risk assessment and authorisation process."
+    },
+    {
+      "section_heading": "Hot Work on In-Service Equipment",
+      "tag": "[RT Standard]",
+      "text": "Ensure that all energy sources associated with in-service equipment subject to hot work are formally isolated and verified at zero energy before work commences, using the site LOTO procedure."
+    },
+    {
+      "section_heading": "SIMOPS Interface",
+      "tag": "[APPC – Appendix C, C-2 §63]",
+      "text": "Require that hot work in proximity to other project activities is assessed through the project SIMOPS process. Define conditions under which hot work is classed as a prohibited combination in the SIMOPS Matrix and must be suspended."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the project-specific hazardous area designations before work commences. Identify all areas of the site where hot work is prohibited, restricted, or requires elevated controls, and insert a site map reference or area list.",
+    "Define the gas detection equipment approved for use on this project and the action levels that trigger work suspension. Different projects may have different equipment fleets — specify approved devices.",
+    "Define the fire watch duration requirement for this project after hot work completion. The procedure requires one — set the project minimum (e.g., 30 minutes for standard work; 60 minutes for work on or near insulated surfaces).",
+    "Define the project approval process for hot work on in-service equipment: who must approve; what documentation is required before work commences."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §64",
+      "summary": "Requires hazardous area designation, a Hot Works Permit with defined minimum content, gas detection before and during hot work with a 10% LEL suspension threshold, minimum fire protection measures including fire watch, and specific controls for hot work on in-service equipment containing flammable or toxic materials."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§3.3",
+      "summary": "Requires that fire prevention, detection, and suppression systems are in place and maintained, that hot work procedures are integrated with the site emergency response plan, and that the fire watch is maintained for sufficient time after work ends to confirm no latent ignition source remains."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT C1 – Control of Energy Standard",
+      "summary": "Requires that all energy sources associated with in-service equipment subject to hot work are formally isolated and verified at zero energy before work commences, using the site LOTO procedure."
+    }
+  ]
+}

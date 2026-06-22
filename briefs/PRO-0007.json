@@ -1,0 +1,164 @@
+{
+  "procedure_id": "PRO-0007",
+  "document_number": "RTPR-HSE-PRO-0007",
+  "title": "Management Improvement Planning Procedure",
+  "management_system_element": "04 – Management Improvement Planning",
+  "preamble": "This procedure defines how the owner-led project analyses HSESC performance, identifies improvement opportunities across all domains, develops targeted improvement plans, and tracks actions to closure. Continuous improvement is not optional in this management system — it is a core performance expectation against which the project will be assessed.",
+  "owns": [
+    "Performance review schedule and minimum content",
+    "HSESC KPI framework and minimum leading/lagging indicators",
+    "Corrective and preventive action severity classification",
+    "Lessons learned sharing process"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0003 – Org Resources (HSESCLT as review governance body)",
+    "RTPR-HSE-PRO-0009 – Incident Management (incident data as review input)",
+    "RTPR-HSE-PRO-0042 – Monitoring (monitoring data as review input)",
+    "RTPR-HSE-PRO-0044 – Auditing (audit findings as review input)",
+    "RTPR-HSE-PRO-0045 – Management Review (formal management review vs operational review distinction)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0045 references RTPR-HSE-PRO-0007 for operational performance data",
+    "RTPR-HSE-PRO-0042 references RTPR-HSE-PRO-0007 for leading indicator targets"
+  ],
+  "requirements": [
+    {
+      "section_heading": "HSESC Performance Reviews",
+      "tag": "[APPC – Appendix C, C-1 §40.2]",
+      "text": "Define HSESC Performance Review frequency across project phases: Pre-mobilisation; Quarterly Execution; Commissioning Readiness; and End of Contract. Define minimum content: leading and lagging indicator review; audit findings; incident trends; CRM performance; SMM maturity; community feedback; environmental performance; legal compliance status; and status of previous actions."
+    },
+    {
+      "section_heading": "HSESC Performance Reviews",
+      "tag": "[APPC – Appendix C, C-1 §40.2]",
+      "text": "Require that both positive outcomes and improvement opportunities are captured as lessons learned, and that lessons are actively shared across all contractor organisations on the project."
+    },
+    {
+      "section_heading": "HSESC Performance Reviews",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH2]",
+      "text": "Set and monitor measurable safety and health targets for continuous improvement, reporting progress against targets as a core component of each performance review."
+    },
+    {
+      "section_heading": "HSESC Performance Reviews",
+      "tag": "[ICMM – ICMM Principle 5, Performance Expectation 5.1]",
+      "text": "Monitor performance continuously for the elimination of workplace fatalities, serious injuries, and psychosocial hazards, and use performance data to drive documented improvement actions."
+    },
+    {
+      "section_heading": "HSESC Metrics and KPIs",
+      "tag": "[APPC – Appendix C, C-1 §41.3]",
+      "text": "Define a suite of agreed HSESC KPIs including both leading (proactive) and lagging (reactive) indicators. Require that KPIs are clear, specific, and measurable, and reported to the relevant project authority at agreed intervals."
+    },
+    {
+      "section_heading": "HSESC Metrics and KPIs",
+      "tag": "[IFC – IFC PS1 §22]",
+      "text": "Define quantitative indicators of environmental and social performance that can be monitored consistently over the project lifecycle and used to assess the effectiveness of management controls."
+    },
+    {
+      "section_heading": "HSESC Metrics and KPIs",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define its minimum leading indicator targets (e.g., CRM verification completion rate; pre-start meeting completion rate; hazard observation rate per 100 workers; training completion rate) and establish these as project performance commitments before site mobilisation."
+    },
+    {
+      "section_heading": "Corrective and Preventive Action",
+      "tag": "[APPC – Appendix C, C-1 §41.1]",
+      "text": "Define a process for recording, tracking, and closing out all corrective and preventive actions from audits, inspections, incident investigations, hazard observations, MoC assessments, and community engagement. Require severity ranking (high/medium/low), assigned due dates and owners, and monthly closeout reports."
+    },
+    {
+      "section_heading": "Corrective and Preventive Action",
+      "tag": "[IFC – IFC PS1 §11]",
+      "text": "Ensure that corrective actions are implemented within timeframes proportionate to the severity of the finding, and that their effectiveness is verified before the action is formally closed."
+    },
+    {
+      "section_heading": "Corrective and Preventive Action",
+      "tag": "[OSHA – OSHA RP 2016 – Program Evaluation and Improvement]",
+      "text": "Use multiple data sources — inspection findings, near miss reports, hazard observations, incident data, and leading indicators — to identify systemic programme deficiencies and direct improvement efforts at root causes rather than individual events."
+    },
+    {
+      "section_heading": "Lessons Learned and Continuous Improvement",
+      "tag": "[APPC – Appendix C, C-1 §41.2]",
+      "text": "Define how lessons learned from incidents, investigations, near misses, audits, and inspections are captured, shared across all project contractor organisations, and incorporated into procedures, JHAs, training materials, and risk registers."
+    },
+    {
+      "section_heading": "Lessons Learned and Continuous Improvement",
+      "tag": "[IFC – IFC PS1 §7]",
+      "text": "Ensure that adaptive management actions — triggered by unexpected impacts, changed conditions, or monitoring exceedances — are recorded and tracked to verify effectiveness."
+    },
+    {
+      "section_heading": "Corrective and Preventive Action",
+      "tag": "[APPC – Appendix C, C-1 §41.1.7]",
+      "text": "Require that the action tracking register includes actions from community engagement processes, complaints, and incidents or events affecting the community. These actions must be tracked and resolved within the same system as all other HSESC corrective actions, with resolution incorporated into broader risk management and mitigation measures."
+    },
+    {
+      "section_heading": "HSESC Metrics and KPIs",
+      "tag": "[APPC – Appendix C, C-8 §1.0.1]",
+      "text": "Require the monthly HSESC Contractor Report to be submitted no later than the first Friday of each month, using the Company-approved template. The content of the monthly report must be agreed with the Company before the first submission. The report may be submitted as a standalone document or as part of an aligned project reporting framework."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the specific project KPI targets before mobilisation. The procedure lists minimum required indicators — the project must set the numerical targets (e.g., minimum hazard observation rate per 100 workers per month; CRM verification completion % target). Insert as a table.",
+    "Define the project performance review schedule with specific dates relative to the project programme phases.",
+    "Define the project action severity classification thresholds: what makes an action 'high' vs 'medium' vs 'low' for this project context.",
+    "Define how lessons learned are shared with contractor organisations on this project (distribution mechanism, meeting, portal). The procedure requires it — the project implements it."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §40.2",
+      "summary": "Requires HSESC performance reviews at defined project phase intervals with specified minimum content including leading and lagging indicators, audit findings, incident trends, CRM performance, and lessons learned sharing across all contractor organisations."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §41.3",
+      "summary": "Requires a suite of agreed HSESC KPIs covering both leading and lagging indicators, reported to the relevant project authority at agreed intervals."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §41.1",
+      "summary": "Requires a process for recording, tracking, and closing out all corrective and preventive actions with severity ranking, assigned owners, due dates, and monthly closeout reports."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §41.2",
+      "summary": "Requires lessons learned from incidents, investigations, near misses, audits, and inspections to be captured, shared across all contractor organisations, and incorporated into procedures, JHAs, training materials, and risk registers."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §41.1.7",
+      "summary": "Requires the action tracking register to include actions from community engagement processes and community-affecting incidents, tracked and resolved within the same system as all other HSESC corrective actions."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-8 §1.0.1",
+      "summary": "Requires the monthly HSESC Contractor Report to be submitted no later than the first Friday of each month using the Company-approved template, with content agreed before first submission."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Safe, Healthy and Respectful Workplaces Protocol, Indicator SH2",
+      "summary": "Requires measurable safety and health targets to be set and monitored for continuous improvement, with progress reported as a core component of each performance review."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "Principle 5, Performance Expectation 5.1",
+      "summary": "Requires continuous monitoring of performance against goals for elimination of workplace fatalities, serious injuries, and psychosocial hazards, with performance data used to drive documented improvement actions."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§22",
+      "summary": "Requires definition of quantitative indicators of environmental and social performance that can be monitored consistently over the project lifecycle to assess the effectiveness of management controls."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§11",
+      "summary": "Requires corrective actions to be implemented within timeframes proportionate to finding severity and their effectiveness to be verified before formal closure."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§7",
+      "summary": "Requires adaptive management actions triggered by unexpected impacts, changed conditions, or monitoring exceedances to be recorded and tracked to verify effectiveness."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "RP 2016 – Program Evaluation and Improvement",
+      "summary": "Requires use of multiple data sources to identify systemic programme deficiencies and direct improvement efforts at root causes rather than individual events."
+    }
+  ]
+}

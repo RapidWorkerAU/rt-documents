@@ -1,0 +1,157 @@
+{
+  "procedure_id": "PRO-0013",
+  "document_number": "RTPR-HSE-PRO-0013",
+  "title": "Noise Exposure Control Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for identifying, assessing, and controlling workplace noise hazards to prevent noise-induced hearing loss (NIHL) and to meet the project's obligations to workers and surrounding communities. Both occupational exposure and community noise impact are addressed.",
+  "owns": [
+    "Noise exposure limits (85/82 dB(A))",
+    "Noise assessment requirements and baseline process",
+    "Hearing protection area designation process",
+    "Audiometric testing programme requirements",
+    "Community noise limits and management"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (noise risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (hearing conservation training — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0027 – PPE (hearing protection selection and fit testing)",
+    "RTPR-HSE-PRO-0042 – Monitoring (noise monitoring as environmental monitoring)",
+    "RTPR-HSE-PRO-0009 – Incident Management (noise-related illness reporting)"
+  ],
+  "referenced_by": [],
+  "requirements": [
+    {
+      "section_heading": "Noise Assessment and Baseline",
+      "tag": "[APPC – Appendix C, C-2 §67]",
+      "text": "Require a noise assessment conducted by a competent person to identify areas of high noise exposure before work commences. Require establishment of a noise baseline and definition of when re-assessment is required (new plant, scope changes, following incidents)."
+    },
+    {
+      "section_heading": "Noise Assessment and Baseline",
+      "tag": "[IFC – IFC EHS General Guidelines §2.3]",
+      "text": "Assess occupational noise exposure using recognised measurement methods (e.g., ISO 9612) and compare against applicable occupational exposure limits."
+    },
+    {
+      "section_heading": "Occupational Exposure Limits",
+      "tag": "[APPC – Appendix C, C-2 §67]",
+      "text": "Define maximum permissible exposure limits: 85 dB(A) averaged over an eight-hour period; 140 dB(C) peak. For 12-hour shifts: reduce the average limit to 82 dB(A) and define a ceiling of 115 dB(C). Require that personnel are not exposed to more than 82/85 dB(A) at the ear while wearing hearing protection, verified through fit testing where hearing protection is a critical control."
+    },
+    {
+      "section_heading": "Occupational Exposure Limits",
+      "tag": "[IFC – IFC EHS General Guidelines §2.3, Table 2.3.1]",
+      "text": "Where national standards are less stringent than the World Bank EHS Guideline limits (85 dB(A) time-weighted average over eight hours; 140 dB(C) peak), apply the EHS Guideline limits."
+    },
+    {
+      "section_heading": "Controls and Hearing Protection Areas",
+      "tag": "[APPC – Appendix C, C-2 §67]",
+      "text": "Define hearing protection areas with appropriate signage. Apply the noise control hierarchy: eliminate or substitute noisy plant; engineer controls (barriers, enclosures, isolation mounts); administrative controls (scheduling, job rotation, exposure time limits); then hearing protection as last resort. Define design criteria to reduce noise exposure in procurement and modification of plant and equipment."
+    },
+    {
+      "section_heading": "Controls and Hearing Protection Areas",
+      "tag": "[IFC – IFC EHS General Guidelines §2.3]",
+      "text": "Implement hearing protection programmes that include selection of appropriate hearing protection (type and attenuation class), correct fitting instruction, and a hearing protection fit testing programme where it is a critical control."
+    },
+    {
+      "section_heading": "Monitoring and Health Surveillance",
+      "tag": "[APPC – Appendix C, C-2 §67]",
+      "text": "Require an ongoing noise monitoring programme verifying compliance with exposure limits. Define monitoring frequency, methodology, and documentation requirements."
+    },
+    {
+      "section_heading": "Monitoring and Health Surveillance",
+      "tag": "[ICMM – ICMM Principle 5, Performance Expectation 5.2]",
+      "text": "Implement health surveillance (audiometric testing) at defined intervals for all workers regularly exposed to noise above action levels, as part of the broader health surveillance and risk-based monitoring programme."
+    },
+    {
+      "section_heading": "Monitoring and Health Surveillance",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define audiometric testing frequency, the minimum audiometric test standard (including baseline and periodic testing), the threshold shift criteria that trigger enhanced controls, and the referral pathway for workers with identified hearing deterioration."
+    },
+    {
+      "section_heading": "Community Noise",
+      "tag": "[RT Standard]",
+      "text": "Assess and document noise impacts on surrounding communities and ecosystems following risk and impact assessment. Implement controls to maintain noise levels within approved or agreed limits at the project boundary and at sensitive receptors."
+    },
+    {
+      "section_heading": "Community Noise",
+      "tag": "[IFC – IFC EHS General Guidelines §1.7]",
+      "text": "Manage community noise exposure to meet WHO and national guidelines for noise, with specific consideration for sensitive receptors such as schools, hospitals, and residential areas."
+    },
+    {
+      "section_heading": "Occupational Exposure Limits",
+      "tag": "[APPC – Appendix C, C-2 §16.7]",
+      "text": "Require that personnel are not exposed to more than 82 dB(A) or 85 dB(A) at the ear while wearing hearing protection as determined by the applicable regulatory requirement. Compliance with this limit must be verified periodically through noise monitoring at the ear level."
+    },
+    {
+      "section_heading": "Occupational Exposure Limits",
+      "tag": "[APPC – Appendix C, C-2 §16.8]",
+      "text": "Require a noise monitoring programme to ensure personnel do not exceed an average of 85 dB(A) over an eight-hour period and peak noise levels do not exceed 140 dB(C). Monitoring results must be recorded and reported."
+    },
+    {
+      "section_heading": "Occupational Exposure Limits",
+      "tag": "[APPC – Appendix C, C-2 §67.1.1]",
+      "text": "For sites operating 12-hour shifts, reduce the average noise exposure limit to 82 dB(A). The ceiling noise level remains at 115 dB(C). This reduction applies to all personnel working 12-hour shifts regardless of employer organisation."
+    },
+    {
+      "section_heading": "Controls and Hearing Protection Areas",
+      "tag": "[APPC – Appendix C, C-2 §16.5]",
+      "text": "Require noise emission specifications to be a factor in equipment procurement decisions. Design criteria must reduce noise exposure risk in the purchase, construction, or modification of fixed and mobile workplace equipment."
+    }
+  ],
+  "project_completion_guidance": [
+    "Commission a baseline noise assessment for this project before work commences. The procedure requires one — insert the assessment findings or a reference to the baseline assessment report when available.",
+    "Define the hearing protection areas for this project based on the noise assessment. Insert a site map showing designated hearing protection areas, or reference the noise area designation register.",
+    "Define the project audiometric testing schedule: which roles require baseline testing; testing intervals; the approved testing provider for this project.",
+    "Define community noise limits for this project based on applicable permit conditions or agreements with surrounding stakeholders. Insert the project-specific limits and monitoring locations."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §67",
+      "summary": "Requires noise assessment by a competent person before work commences, defines maximum permissible exposure limits for 8-hour and 12-hour shifts, requires hearing protection areas with signage, and mandates an ongoing noise monitoring programme."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §16.7",
+      "summary": "Requires that exposure at the ear while wearing hearing protection does not exceed 82 or 85 dB(A) as determined by applicable regulatory requirements, verified by periodic monitoring."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §16.8",
+      "summary": "Requires a noise monitoring programme ensuring personnel do not exceed 85 dB(A) averaged over eight hours or 140 dB(C) peak, with results recorded and reported."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §67.1.1",
+      "summary": "Requires reduction of the average noise exposure limit to 82 dB(A) for all personnel working 12-hour shifts, with a ceiling of 115 dB(C)."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §16.5",
+      "summary": "Requires noise emission specifications to be included in equipment procurement decisions to reduce noise exposure risk."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.3",
+      "summary": "Requires occupational noise exposure to be assessed using recognised measurement methods and compared against applicable exposure limits, and mandates hearing protection programmes including selection, fitting instruction, and fit testing."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.3, Table 2.3.1",
+      "summary": "Requires application of World Bank EHS Guideline noise limits where national standards are less stringent."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§1.7",
+      "summary": "Requires management of community noise exposure to meet WHO and national guidelines, with specific consideration for sensitive receptors."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "Principle 5, Performance Expectation 5.2",
+      "summary": "Requires implementation of health surveillance including audiometric testing at defined intervals for workers regularly exposed to noise above action levels."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Air Quality Standard",
+      "summary": "Requires assessment and documentation of noise impacts on surrounding communities and ecosystems, with controls to maintain noise levels within approved or agreed limits at the project boundary and sensitive receptors."
+    }
+  ]
+}

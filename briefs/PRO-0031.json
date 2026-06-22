@@ -1,0 +1,133 @@
+{
+  "procedure_id": "PRO-0031",
+  "document_number": "RTPR-HSE-PRO-0031",
+  "title": "Traffic Management Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for managing all vehicle and pedestrian traffic on and around the owner-led project site — covering HME, light vehicles, mass transport vehicles, pedestrians, and public road interfaces. It is supported by site-specific Traffic Management Plans and Traffic Control Plans developed under this procedure.",
+  "owns": [
+    "Traffic Management Plan and TCP requirements",
+    "Physical segregation standards",
+    "Road design and maintenance requirements",
+    "Level crossing requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (traffic risk assessment)",
+    "RTPR-HSE-PRO-0026 – Vehicles (vehicle specifications and driver requirements — refer RTPR-HSE-PRO-0026)",
+    "RTPR-HSE-PRO-0028 – Barricading (traffic barricading and signage — refer RTPR-HSE-PRO-0028)",
+    "RTPR-HSE-PRO-0015 – Cranes (crane operations and traffic interface)",
+    "RTPR-HSE-PRO-0009 – Incident Management (traffic incident reporting)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0026 references RTPR-HSE-PRO-0031 for traffic management planning"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Traffic Management Plan and TCP",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard]",
+      "text": "Require development of a site Traffic Management Plan (TMP) before work commences, defining: site traffic rules; speed limits; HME and light vehicle operating areas; pedestrian routes; and interface with public roads. Require a Traffic Control Plan (TCP) as the operational-level document for day-to-day traffic control activities."
+    },
+    {
+      "section_heading": "Traffic Management Plan and TCP",
+      "tag": "[APPC – Appendix C, C-2 §52.6]",
+      "text": "Require both plans to be regularly reviewed and updated when site conditions, scope, or equipment fleet change."
+    },
+    {
+      "section_heading": "Segregation",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard – Critical Control]",
+      "text": "Require physical segregation between PME, pedestrians, and other vehicles as the preferred control — installed to an appropriate standard, regularly inspected, and maintained in good working condition. Where physical segregation is not possible, document alternative separation controls (50m/160ft exclusion zones, dedicated pedestrian crossings, positive communication protocols)."
+    },
+    {
+      "section_heading": "Segregation",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard]",
+      "text": "Define requirements for vertical segregation and exclusion zones where simultaneous activities occur at different elevations in the same work area."
+    },
+    {
+      "section_heading": "Road Design and Maintenance",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard – Critical Control]",
+      "text": "Require all roads to be designed and constructed by a competent person, considering: the operating characteristics of vehicles using the roads; road types (pit ramps, haul roads, load/dump areas, plant roads); and layout features that maintain visibility in all directions and reduce 4-way intersections."
+    },
+    {
+      "section_heading": "Road Design and Maintenance",
+      "tag": "[RT – RT C3 – Vehicles and Driving Standard]",
+      "text": "Require a documented road inspection and maintenance schedule. Define requirements for berms and windrows in pit environments."
+    },
+    {
+      "section_heading": "Level Crossings",
+      "tag": "[RT – RT Rail Safety Standard – Critical Control]",
+      "text": "Where rail lines cross road surfaces on site, require level crossings to minimise collision risk through: minimising the number of crossings; ensuring sufficient visibility or active protection (boom gates); eliminating traffic obstruction risks; warning signage; and defined audible warning requirements for rail vehicles. Where requirements cannot be met, require a documented mitigation process."
+    },
+    {
+      "section_heading": "Mass Transport and SIMOPS Interface",
+      "tag": "[APPC – Appendix C, C-2 §53.1]",
+      "text": "Define specific requirements for mass transport vehicle operations including driver competency and authorisation, high-risk journey JMP requirements, vehicle safety standards, and IVMS requirements."
+    },
+    {
+      "section_heading": "Mass Transport and SIMOPS Interface",
+      "tag": "[APPC – Appendix C, C-2 §63]",
+      "text": "Require traffic management to be considered in the SIMOPS assessment process and define how traffic management interfaces with blasting, crane, and other concurrent operations."
+    },
+    {
+      "section_heading": "Road Design and Maintenance",
+      "tag": "[APPC – Appendix C, C-2 §52.6.1]",
+      "text": "Require assessment of all vehicle activity to determine potential interactions between vehicles, pedestrians, and track or rail operations. Controls must be implemented to prevent inadvertent contact, including physical segregation and designated pedestrian routes."
+    },
+    {
+      "section_heading": "Road Design and Maintenance",
+      "tag": "[APPC – Appendix C, C-2 §52.6.2]",
+      "text": "Require that no vehicle or person approaches heavy mobile equipment without first establishing positive contact with the operator. This applies to all interactions, not only overtaking situations."
+    },
+    {
+      "section_heading": "Road Design and Maintenance",
+      "tag": "[APPC – Appendix C, C-2 §52.6.3]",
+      "text": "Where overtaking is permitted on site, require the driver to establish positive contact with the operator of the vehicle being overtaken before any overtaking manoeuvre commences."
+    }
+  ],
+  "project_completion_guidance": [
+    "Develop the site Traffic Management Plan and Traffic Control Plan for this project before work commences. The procedure defines the minimum content — the project team develops the actual plans and inserts or references them here.",
+    "Define the project speed limits for each site area and the enforcement mechanism. The procedure requires speed limits — the project determines the specific limits by area based on risk assessment.",
+    "If this project has rail level crossings: define the project-specific level crossing management process, including traffic control during train movements.",
+    "Define the road inspection schedule and maintenance standard for this project: inspection frequency by road type; defect reporting; repair response times."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT C3 – Vehicles and Driving Standard",
+      "summary": "Requires site traffic management planning, physical segregation between PME and pedestrians, competent road design and maintenance, and positive communication protocols for vehicle interactions."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT Rail Safety Standard",
+      "summary": "Requires level crossings where rail lines cross road surfaces to minimise collision risk through visibility, active protection, warning signage, and audible warnings for rail vehicles."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §52.6",
+      "summary": "Requires both the Traffic Management Plan and Traffic Control Plan to be regularly reviewed and updated when site conditions, scope, or equipment fleet change."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §53.1",
+      "summary": "Requires specific operational controls for mass transport vehicles including driver competency, journey management plans, vehicle safety standards, and in-vehicle monitoring systems."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63",
+      "summary": "Requires traffic management to be integrated into the SIMOPS assessment process and defines how traffic interfaces with blasting, crane, and other concurrent operations."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §52.6.1",
+      "summary": "Requires assessment of all vehicle activity to determine potential interactions between vehicles, pedestrians, and track or rail operations, with controls to prevent inadvertent contact."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §52.6.2",
+      "summary": "Requires that no vehicle or person approaches heavy mobile equipment without first establishing positive contact with the operator."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §52.6.3",
+      "summary": "Requires the driver to establish positive contact with the operator of the vehicle being overtaken before any overtaking manoeuvre commences where overtaking is permitted on site."
+    }
+  ]
+}

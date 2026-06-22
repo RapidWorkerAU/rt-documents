@@ -1,0 +1,227 @@
+{
+  "procedure_id": "PRO-0047",
+  "document_number": "RTPR-HSE-PRO-0047",
+  "title": "Commissioning Safety Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "Commissioning represents one of the highest-risk phases of any capital project. It involves the transition from a construction environment to an operational environment, the energisation of systems and equipment for the first time, and the simultaneous operation of construction and live systems in the same area. This procedure defines how commissioning safety is planned, authorised, and controlled across the owner-led project — and governs the specific interface between the project team and the operations team as operational control of systems is transferred.",
+  "owns": [
+    "Commissioning risk assessment workshop requirements",
+    "Pre-commissioning plan requirements and A-list/B-list defect management",
+    "Commissioning boundary demarcation system",
+    "Commissioning-specific induction requirements",
+    "Authority-to-energise process",
+    "Safety system pre-commissioning and proof testing requirements",
+    "Commissioning SIMOPS requirements",
+    "Handover to operations process and sign-off authority"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (commissioning risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (commissioning-specific induction — refer RTPR-HSE-PRO-0004)",
+    "RTPR-HSE-PRO-0019 – Process Safety (safety-critical system pre-commissioning)",
+    "RTPR-HSE-PRO-0020 – Functional Safety (SIS proof testing before commissioning)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (commissioning work via PTW — refer RTPR-HSE-PRO-0021; dual authority zone management)",
+    "RTPR-HSE-PRO-0024 – Isolation (commissioning isolation management — refer RTPR-HSE-PRO-0024)",
+    "RTPR-HSE-PRO-0025 – Electrical Safety (electrical commissioning — refer RTPR-HSE-PRO-0025)",
+    "RTPR-HSE-PRO-0008 – Working at Height (height work during commissioning)",
+    "RTPR-HSE-PRO-0014 – Confined Space (confined space work during commissioning)",
+    "RTPR-HSE-PRO-0022 – SIMOPS (commissioning SIMOPS assessment)",
+    "RTPR-HSE-PRO-0041 – Business Resilience (commissioning emergency scenarios in ERP)",
+    "RTPR-HSE-PRO-0009 – Incident Management (commissioning incident reporting via RTPR-HSE-PRO-0009)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0048 – SIMOPS (SIMOPS during commissioning phase)",
+    "RTPR-HSE-PRO-0048 – SIMOPS (SIMOPS management during commissioning)"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Purpose, Scope and Commissioning Risk Assessment",
+      "tag": "[APPC – Appendix C, C-1 §44.1 and §44.2]",
+      "text": "Define commissioning as the phase during which systems and equipment are activated and tested for the first time, including pre-commissioning (cleaning, flushing, testing); mechanical completion verification; commissioning (energisation and functional testing); performance testing; and handover to operations. Confirm that all HSESC requirements of the management system remain in force during commissioning."
+    },
+    {
+      "section_heading": "Purpose, Scope and Commissioning Risk Assessment",
+      "tag": "[APPC – Appendix C, C-1 §44.1]",
+      "text": "Require a Commissioning Risk Assessment Workshop to be conducted jointly by the project team and operations team before commissioning activities begin, identifying and documenting commissioning-specific risks that are distinct from construction risks."
+    },
+    {
+      "section_heading": "Purpose, Scope and Commissioning Risk Assessment",
+      "tag": "[IFC – IFC EHS General Guidelines §4.2]",
+      "text": "Identify and assess all significant OHS risks associated with commissioning activities, including: first energisation of systems; testing of safety systems; simultaneous operation of live systems adjacent to construction activities; and the transition of personnel from construction roles to operational roles."
+    },
+    {
+      "section_heading": "Purpose, Scope and Commissioning Risk Assessment",
+      "tag": "[ICMM – ICMM Principle 5, Performance Expectation 5.1]",
+      "text": "Ensure that fatality risk management (critical control identification and verification) is applied with the same rigour during commissioning as during construction — recognising that commissioning introduces new fatality scenarios not present during construction."
+    },
+    {
+      "section_heading": "Pre-commissioning Plans and Handover Preparation",
+      "tag": "[APPC – Appendix C, C-1 §44.1]",
+      "text": "Require development of pre-commissioning plans covering: tie-in points for brownfield projects; isolation and energisation sequences; testing methodology; minimum system completeness criteria before energisation; and sign-off requirements from both the construction and operations teams before any system proceeds to commissioning."
+    },
+    {
+      "section_heading": "Pre-commissioning Plans and Handover Preparation",
+      "tag": "[RT Standard]",
+      "text": "Require completion of punch-listing and defect resolution processes before any system is considered mechanically complete and ready for pre-commissioning, with outstanding safety-related items on an 'A-list' (prohibitive to energisation) and non-safety items on a 'B-list' (to be resolved within an agreed period post-energisation)."
+    },
+    {
+      "section_heading": "Pre-commissioning Plans and Handover Preparation",
+      "tag": "[IFC – IFC EHS General Guidelines §4.2]",
+      "text": "Verify that all safety systems required for the protection of workers and the environment are tested and commissioned before the process systems they protect are energised or placed in service."
+    },
+    {
+      "section_heading": "Pre-commissioning Plans and Handover Preparation",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the minimum documentation package required to be complete before any system can be declared mechanically complete and proceed to pre-commissioning — including as-built drawings, equipment test certificates, SIS proof test records, and regulatory inspection certificates. This package must be approved by both the construction manager and the commissioning manager."
+    },
+    {
+      "section_heading": "Isolation and Energisation Management",
+      "tag": "[RT Standard]",
+      "text": "Require that all commissioning energisation activities are authorised through the site PTW system. Require that energy isolation plans are updated to reflect the evolving boundary between energised and non-energised systems as commissioning progresses. Require that isolation boundaries are clearly demarcated and communicated to all personnel."
+    },
+    {
+      "section_heading": "Isolation and Energisation Management",
+      "tag": "[RT Standard]",
+      "text": "Require a specific electrical commissioning plan for each new electrical system, documenting: the energisation sequence; isolation boundary at each step; zero-energy verification requirements; and competency requirements for personnel performing or supervising energisation."
+    },
+    {
+      "section_heading": "Isolation and Energisation Management",
+      "tag": "[APPC – Appendix C, C-1 §44.2]",
+      "text": "Define the process for managing the transition of permits and authority from the construction permit system to the operations permit system, including how dual-authority zones (where both construction and operations work is occurring simultaneously) are managed."
+    },
+    {
+      "section_heading": "Isolation and Energisation Management",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define a colour-coded or equivalent demarcation system for commissioning boundaries (e.g., red/yellow/green zones corresponding to 'live — no access without operations authority'; 'pre-commissioning in progress — controlled access'; 'construction — standard controls apply'), with the system communicated to all project personnel before commissioning begins."
+    },
+    {
+      "section_heading": "SIMOPS During Commissioning",
+      "tag": "[APPC – Appendix C, C-1 §44.2 and C-2 §63]",
+      "text": "Require all simultaneous activities during commissioning (construction work adjacent to live systems) to be assessed through the project SIMOPS process, using an updated SIMOPS Matrix that reflects the changed hazard profile of a commissioning environment — specifically the presence of energised plant, process fluids, rotating equipment, and control systems."
+    },
+    {
+      "section_heading": "SIMOPS During Commissioning",
+      "tag": "[APPC – Appendix C, C-1 §44.2]",
+      "text": "Define the interface between the commissioning team and remaining construction contractors in terms of: permit-to-work authority; exclusion zone management around live commissioning systems; communication protocols; and escalation pathways for SIMOPS conflicts."
+    },
+    {
+      "section_heading": "SIMOPS During Commissioning",
+      "tag": "[IFC – IFC EHS General Guidelines §4.2]",
+      "text": "Ensure that construction workers who have not been specifically inducted into the commissioning environment are prohibited from accessing live commissioning areas, and that clear physical and administrative separation is maintained."
+    },
+    {
+      "section_heading": "Personnel Transition and Commissioning-Specific Induction",
+      "tag": "[APPC – Appendix C, C-1 §29.6]",
+      "text": "Require all personnel transitioning from construction roles to commissioning roles, or working in areas where commissioning is occurring, to complete a commissioning-specific induction before entering commissioning areas. The induction must cover: the changed risk profile of the commissioning environment; identification of live systems and demarcation boundaries; commissioning PTW and SIMOPS requirements; emergency response in a commissioning context; and the specific hazards associated with first energisation of the system types involved."
+    },
+    {
+      "section_heading": "Personnel Transition and Commissioning-Specific Induction",
+      "tag": "[RT Standard]",
+      "text": "Define additional competency requirements for personnel involved in electrical commissioning activities, including arc flash risk awareness, high-voltage energisation supervision requirements, and emergency electrical isolation procedures specific to the equipment being commissioned."
+    },
+    {
+      "section_heading": "Personnel Transition and Commissioning-Specific Induction",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the minimum commissioning team composition and competency requirements — including the specific qualifications required for the Commissioning Manager, Responsible Commissioning Engineer, and Operations Representative — before commissioning activities begin. These requirements must be documented and approved by both the project owner and the operations team."
+    },
+    {
+      "section_heading": "Safety System Pre-Commissioning and Testing",
+      "tag": "[RT Standard]",
+      "text": "Require that all Safety Instrumented Systems (SIS), emergency shutdown systems, pressure relief devices, fire and gas detection systems, and other safety-critical systems are pre-commissioned and proof-tested before the process systems they protect are energised or brought into service."
+    },
+    {
+      "section_heading": "Safety System Pre-Commissioning and Testing",
+      "tag": "[APPC – Appendix C, C-1 §44.1]",
+      "text": "Require documented test records for each safety-critical system confirming: design intent; test methodology; pass/fail result; any defects found and their resolution; and the name and qualifications of the person who conducted and verified the test."
+    },
+    {
+      "section_heading": "Safety System Pre-Commissioning and Testing",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define an authority-to-energise process requiring a named sign-off from both the Commissioning Manager and the plant operations representative before any safety-critical system is energised for the first time. A written record of this approval must be retained as a permanent project record."
+    },
+    {
+      "section_heading": "Commissioning Emergency Preparedness",
+      "tag": "[APPC – Appendix C, C-1 §31.4]",
+      "text": "Require the Emergency Response Plan to be updated before commissioning begins to address commissioning-specific scenarios: process fluid releases; first-fire incidents; loss of control system function; and inadvertent energisation of isolated systems. Require commissioning-specific emergency drills to be conducted before full-scale commissioning commences."
+    },
+    {
+      "section_heading": "Commissioning Emergency Preparedness",
+      "tag": "[IFC – IFC EHS General Guidelines §4.2]",
+      "text": "Ensure emergency response arrangements account for the changed environment of a commissioning site — including the availability of operations-trained personnel for specific emergency response roles, updated chemical inventory, updated emergency contact details for operations staff, and verified access routes in the commissioning area."
+    },
+    {
+      "section_heading": "Commissioning Emergency Preparedness",
+      "tag": "[IFC – IFC EHS General Guidelines §3.7]",
+      "text": "Review and update the Medical Emergency Plan to account for the new hazard scenarios introduced by commissioning, including process-specific first aid and medical response requirements."
+    },
+    {
+      "section_heading": "Handover to Operations",
+      "tag": "[APPC – Appendix C, C-1 §44.1]",
+      "text": "Define a formal handover process between the project team and the operations team covering: transfer of permits and isolation authority; transfer of as-built documentation; transfer of safety system test records; outstanding defect register status; transition of emergency response authority; and the process for resolving any defects discovered during the handover period."
+    },
+    {
+      "section_heading": "Handover to Operations",
+      "tag": "[RT Standard]",
+      "text": "Require that the handover package for each system includes: confirmation that all A-list safety defects are resolved; SIS proof test records; updated P&IDs reflecting the as-built configuration; updated Pressure Equipment Register; and updated Confined Space Register to reflect commissioned plant."
+    },
+    {
+      "section_heading": "Handover to Operations",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the authority level required to formally accept and sign off the handover of each system from the project team to the operations team, and the process for resolving disputed handover items — specifying who has the final authority to accept a system with outstanding defects and the conditions under which such acceptance is permissible."
+    }
+  ],
+  "project_completion_guidance": [
+    "CRITICAL — The commissioning risk assessment workshop must be scheduled and conducted jointly with the operations team before commissioning begins. Insert the planned workshop date and the list of required participants (both project team and operations team).",
+    "Define the project commissioning boundary demarcation system before commissioning begins: the colour-coding scheme; how boundaries are physically marked; how the boundaries are communicated to all personnel on site. This is a project-specific implementation decision.",
+    "Define the authority-to-energise process for this project: who must sign the authority-to-energise for each system; what documentation must be complete before sign-off is permitted; where the signed authority-to-energise records are retained.",
+    "Define the project handover package minimum requirements: what documents must be complete before a system can be formally transferred to operations. The procedure defines the categories — the project confirms the specific documents.",
+    "Identify the Operations Representative for this project who must be involved in commissioning activities from the risk assessment workshop through to final handover. Insert their name and position.",
+    "Define the commissioning PTW authority transition process: at what point does the operations team assume PTW authority for commissioned systems; how is the dual-authority zone managed in the interim."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §44.1 and §44.2",
+      "summary": "Defines commissioning phases, requires all HSESC management system requirements to remain in force during commissioning, and mandates a joint commissioning risk assessment workshop before commissioning activities begin."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §44.1",
+      "summary": "Requires pre-commissioning plans covering tie-in points, isolation and energisation sequences, system completeness criteria, and joint construction and operations sign-off before any system proceeds to commissioning."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §44.2",
+      "summary": "Requires management of the transition of permit and PTW authority from the construction system to the operations system, including the management of dual-authority zones during simultaneous construction and commissioning activities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §63",
+      "summary": "Requires all simultaneous activities during commissioning to be assessed through the project SIMOPS process using a SIMOPS Matrix updated to reflect the changed hazard profile of a commissioning environment."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §29.6",
+      "summary": "Requires a commissioning-specific induction for all personnel transitioning from construction roles to commissioning roles or working in areas where commissioning is occurring, covering the changed risk profile and commissioning-specific controls."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §31.4",
+      "summary": "Requires the Emergency Response Plan to be updated before commissioning begins to address commissioning-specific emergency scenarios, and commissioning-specific emergency drills to be conducted before full-scale commissioning commences."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§4.2",
+      "summary": "Requires identification and assessment of all significant OHS risks associated with commissioning activities and ensures construction workers not inducted into the commissioning environment are prohibited from accessing live commissioning areas."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§3.7",
+      "summary": "Requires the Medical Emergency Plan to be reviewed and updated to account for new hazard scenarios introduced by commissioning, including process-specific first aid and medical response requirements."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "Principle 5, Performance Expectation 5.1",
+      "summary": "Requires that fatality risk management through critical control identification and verification is applied with the same rigour during commissioning as during construction, recognising that commissioning introduces new fatality scenarios."
+    }
+  ]
+}

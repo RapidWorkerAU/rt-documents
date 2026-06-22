@@ -1,0 +1,87 @@
+{
+  "procedure_id": "PRO-0032",
+  "document_number": "RTPR-HSE-PRO-0032",
+  "title": "Tools and Equipment Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for ensuring all tools and equipment used on the owner-led project are fit for purpose, properly maintained, inspected, and compliant with applicable safety standards — including a clear statement of what is banned and what requires approval before use.",
+  "owns": [
+    "Banned items list (absolute prohibition)",
+    "Restricted items list (requires approval)",
+    "Equipment inspection and certification requirements",
+    "Tool securing requirements at height (references RTPR-HSE-PRO-0008 DROPS programme)"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0008 – Working at Height (DROPS programme — tool securing at height via RTPR-HSE-PRO-0008)",
+    "RTPR-HSE-PRO-0004 – Training (equipment inspection competency)",
+    "RTPR-HSE-PRO-0009 – Incident Management (defective equipment incidents)",
+    "RTPR-HSE-REG-0010 – Electrical Equipment Register (quarterly inspection records)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0008 references RTPR-HSE-PRO-0032 for the banned/restricted items list"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Inspection and Certification",
+      "tag": "[APPC – Appendix C, C-2 §61.1]",
+      "text": "Require all lifting equipment including cranes, hooks, and slings to hold a valid and recognised test certificate for safe operation, with certificates available to the project owner on request."
+    },
+    {
+      "section_heading": "Inspection and Certification",
+      "tag": "[APPC – Appendix C, C-2 §61.1]",
+      "text": "Require quarterly inspection and tagging of all portable electrical equipment by a certified electrician. Record in a register: equipment identification number; inspection date; certifier's name; and next inspection due date. Colour-code equipment to indicate acceptable/not acceptable for use."
+    },
+    {
+      "section_heading": "Inspection and Certification",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Establish a systematic pre-use inspection process for all safety-critical tools and equipment, and a defect management process that removes unsafe items from service immediately."
+    },
+    {
+      "section_heading": "Banned Items",
+      "tag": "[APPC – Appendix C, C-2 §61.2.1]",
+      "text": "The following items are banned on the project site and must not be used under any circumstances: man-made (improvised) tools; over-centre type binders; 9-inch (230mm) angle grinders; sit harnesses (waist-only); Saferight auto-stop rope descender/brake; and manual torque multipliers."
+    },
+    {
+      "section_heading": "Restricted Items",
+      "tag": "[APPC – Appendix C, C-2 §61.2.2]",
+      "text": "The following items are restricted and require documented project owner approval before use: open-bladed knives (including Stanley knives); skiving knives; unsecured scaffold hammer frogs; powered nail guns (explosive or pneumatic); hydro blasting equipment; personal music devices with headphones; handheld demolition/quick-cut saws; double-pointed podgy bars; and hardened steel sledgehammers."
+    },
+    {
+      "section_heading": "Defect Management and Tool Securing",
+      "tag": "[RT Standard]",
+      "text": "Require all tools used at height to be secured using appropriate lanyards, tethering systems, or tool belts to prevent dropped objects. Reference requirements in the Working at Heights Procedure for DROPS programme compliance."
+    },
+    {
+      "section_heading": "Defect Management and Tool Securing",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define a tool and equipment defect reporting process including the isolation tag system, the repair/replace decision authority, and the re-inspection requirement before an item is returned to service."
+    }
+  ],
+  "project_completion_guidance": [
+    "Confirm whether the project has any additional banned or restricted items beyond the standard list in this procedure. Some project locations or specific scopes of work may require additional prohibitions. Insert any project-specific additions.",
+    "Define the project equipment approval process for restricted items: who has the authority to approve; what documentation is required; how approval is recorded and communicated to the workforce.",
+    "Define the project equipment defect tag system: approved tag design; where defective equipment is quarantined; who authorises return to service.",
+    "Confirm the quarterly electrical equipment inspection schedule for this project and the approved inspector (certified electrician) arrangement."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §61.1",
+      "summary": "Requires all lifting equipment to hold valid test certificates and all portable electrical equipment to be inspected and tagged quarterly by a certified electrician, with records maintained in a register."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §61.2.1",
+      "summary": "Prohibits specific tools and equipment on project sites under any circumstances, including improvised tools, over-centre binders, 9-inch angle grinders, sit harnesses, Saferight auto-stop rope descenders, and manual torque multipliers."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §61.2.2",
+      "summary": "Restricts certain items from use without documented project owner approval, including open-bladed knives, powered nail guns, hydro blasting equipment, personal music devices with headphones, handheld demolition saws, double-pointed podgy bars, and hardened steel sledgehammers."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.1",
+      "summary": "Requires a systematic pre-use inspection process for all safety-critical tools and equipment and a defect management process that removes unsafe items from service immediately."
+    }
+  ]
+}

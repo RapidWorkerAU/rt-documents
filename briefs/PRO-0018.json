@@ -1,0 +1,90 @@
+{
+  "procedure_id": "PRO-0018",
+  "document_number": "RTPR-HSE-PRO-0018",
+  "title": "Aviation Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure applies to all aviation activities associated with the owner-led project: commercial air travel; chartered aircraft (fixed and rotary wing); RPAS/drone operations; and management of any owned or operated airfields and helicopter landing sites. It must be read in conjunction with the Flight Safety Foundation Basic Aviation Risk Standard (BARS).",
+  "owns": [
+    "Nominated Manager – Aviation (NM-A) requirements and delegates",
+    "Aviation risk assessment requirements",
+    "Commercial air travel booking requirements (TMC, List 1/2 airlines)",
+    "Charter aircraft approval requirements (BARS)",
+    "RPAS operating requirements",
+    "Airfield and HLS management requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (aviation risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (NM-A training requirements — documented in RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0006 – Fitness for Work (aviation personnel fitness requirements)",
+    "RTPR-HSE-PRO-0009 – Incident Management (aviation incident reporting)",
+    "RTPR-HSE-PRO-0040 – Management of Change (NM-A/delegate changes via MoC)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0026 – Vehicles references RTPR-HSE-PRO-0018 for integration of ground transport with aviation"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Nominated Manager – Aviation and Risk Assessment",
+      "tag": "[RT – RT C7 – Aviation Standard]",
+      "text": "Require appointment of a Nominated Manager – Aviation (NM-A) in writing, with sufficient authority, Flight Safety Foundation MCAR training, RT Group aviation training, at least one delegate, and a Management of Change process for personnel changes."
+    },
+    {
+      "section_heading": "Nominated Manager – Aviation and Risk Assessment",
+      "tag": "[RT – RT C7 – Aviation Standard]",
+      "text": "Require a risk assessment in consultation with experienced aviation personnel before any aviation activity. Require activity-specific risk assessments before new aviation operations. Require existing assessments to be reviewed at least every two years."
+    },
+    {
+      "section_heading": "Nominated Manager – Aviation and Risk Assessment",
+      "tag": "[RT – RT C7 – Aviation Standard]",
+      "text": "Document aviation management arrangements including: NM-A details and delegates; aviation activity types; applicable BARS standards and critical controls; and assurance processes. Review annually or when the risk profile changes materially."
+    },
+    {
+      "section_heading": "Commercial Air Travel",
+      "tag": "[RT – RT C7 – Aviation Standard]",
+      "text": "Require all commercial air travel to be booked through the RT designated Travel Management Company on List 1 (unrestricted) approved airlines. List 2 airlines permitted only where a List 1 airline does not service the route. Non-approved airline travel requires Group Aviation Risk review and Managing Director or higher approval."
+    },
+    {
+      "section_heading": "Charter Aircraft",
+      "tag": "[RT – RT C7 – Aviation Standard]",
+      "text": "Require all charter operators to hold current Group approval and BARS registration (comprehensive stream). Where BARS registration does not cover the specific aircraft type or operation, require a documented review by a Group-approved competent aviation specialist. For non-BARS operators, require a BARS gap analysis by an approved specialist. Require long-term contracted operations (greater than 6 months) to be governed by a written contract including BARS compliance clauses."
+    },
+    {
+      "section_heading": "RPAS Operations",
+      "tag": "[RT – RT C7 – Aviation Standard]",
+      "text": "Require RPAS operators to hold current Group approval, operate per BARS and applicable regulations, hold all required permits, and implement controls to ensure separation with manned aviation and other RPAS."
+    },
+    {
+      "section_heading": "RPAS Operations",
+      "tag": "[APPC – Appendix C, C-2 §58.2]",
+      "text": "Define pre-use inspection requirements: battery charge; firmware current; rotor and propeller function. Require exclusion zones during take-off and landing. Prohibit operations during adverse weather exceeding RPAS limitations. Require flight plans covering proximity to powerlines, infrastructure, personnel, and birdlife. Verify and document personnel competency before operations."
+    },
+    {
+      "section_heading": "Airfield and HLS Management",
+      "tag": "[RT – RT C7 – Aviation Standard]",
+      "text": "Require owned/operated airfields and HLS to meet ICAO Annex 14 standards and national requirements, including: AWOS or trained weather observer; visual slope guidance; qualified responsible personnel; PCO/HLO; bird control; emergency preparedness; and a current management plan covering inspection, calibration, and maintenance."
+    },
+    {
+      "section_heading": "Airfield and HLS Management",
+      "tag": "[RT – RT C7 – Aviation Standard]",
+      "text": "Require annual review of all owned/operated airfields by a Group-approved competent aviation specialist."
+    }
+  ],
+  "project_completion_guidance": [
+    "Appoint the NM-A in writing for this project and confirm delegate appointments. Insert the NM-A name, position, training currency, and delegate details into the designated section of this procedure.",
+    "Complete the aviation activity inventory for this project: list all aviation activities that will occur (commercial travel, charter, RPAS, airfield/HLS operations) and the applicable BARS standard for each.",
+    "For RPAS operations: define the specific RPAS types approved for this project, the flight approval process, and the exclusion zones for this project's site layout.",
+    "For any owned/operated airfields or HLS on this project: complete the airfield/HLS management plan and insert or reference it here."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT C7 – Aviation Standard",
+      "summary": "Requires appointment of a Nominated Manager – Aviation, risk assessments before aviation activities, approved airline and charter operator requirements, RPAS Group approval, and ICAO Annex 14 compliance for owned airfields and HLS."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §58.2",
+      "summary": "Requires pre-use inspection of RPAS, exclusion zones during operations, prohibition of operations in adverse weather, flight planning covering hazards, and documented personnel competency verification."
+    }
+  ]
+}

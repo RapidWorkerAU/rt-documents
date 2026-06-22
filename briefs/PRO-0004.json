@@ -1,0 +1,191 @@
+{
+  "procedure_id": "PRO-0004",
+  "document_number": "RTPR-HSE-PRO-0004",
+  "title": "Training, Competency and Awareness Procedure",
+  "management_system_element": "06 - Training, Competency & Awareness",
+  "preamble": "This procedure defines how the project ensures all personnel — RT project team, all contractor organisations, and visitors — have the knowledge, skills, and formal competency required to perform their work safely and in compliance with HSESC requirements. RT, as project owner, sets the minimum training standard and is responsible for verifying competency across the entire project workforce.",
+  "owns": [
+    "Training Matrix and Competency Register (RTPR-HSE-REG-0003)",
+    "Training programme structure and minimum content",
+    "Induction programme requirements and phase transition triggers",
+    "SSE programme definition and thresholds",
+    "VOC process requirements",
+    "Training record retention requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0001 – Legal Requirements (licence and certification requirements)",
+    "RTPR-HSE-PRO-0003 – Org Resources (roles requiring specific competency)",
+    "RTPR-HSE-PRO-0010 – Document Control (training record storage)",
+    "RTPR-HSE-PRO-0043 – Records Management (retention periods for training records)"
+  ],
+  "referenced_by": [
+    "ALL procedures reference RTPR-HSE-PRO-0004 for competency verification and record keeping",
+    "RTPR-HSE-PRO-0008, RTPR-HSE-PRO-0014, RTPR-HSE-PRO-0015, RTPR-HSE-PRO-0021, RTPR-HSE-PRO-0024, RTPR-HSE-PRO-0025, RTPR-HSE-PRO-0046 have specific competency requirements that are documented in RTPR-HSE-REG-0003"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Training Needs Analysis and Programme",
+      "tag": "[APPC – Appendix C, C-1 §29.2]",
+      "text": "Require a training needs analysis for all roles before commencement of work, and a training programme developed and available within 30 days of the Effective Date, addressing regional challenges including availability of third-party training providers."
+    },
+    {
+      "section_heading": "Training Needs Analysis and Programme",
+      "tag": "[APPC – Appendix C, C-1 §29.2]",
+      "text": "Require training materials to match workforce language and literacy levels. Where English is not the first language, require translated materials, interpreters, or localised programmes."
+    },
+    {
+      "section_heading": "Training Needs Analysis and Programme",
+      "tag": "[IFC – IFC PS1 §20]",
+      "text": "Ensure training addresses the specific measures and actions required under the project management system, including the methods required to implement those actions competently."
+    },
+    {
+      "section_heading": "Training Needs Analysis and Programme",
+      "tag": "[IFC – IFC PS2 GN§80]",
+      "text": "Provide OHS training to all workers on relevant aspects of their daily work, including emergency arrangements. Provide briefings to visitors and third parties accessing project premises."
+    },
+    {
+      "section_heading": "Training Needs Analysis and Programme",
+      "tag": "[ICMM – ICMM Principle 5, Performance Expectation 5.2]",
+      "text": "Provide workers with training in accordance with their responsibilities for physical and psychological health and safety, and implement health surveillance and risk-based monitoring programmes based on occupational exposures."
+    },
+    {
+      "section_heading": "Training Needs Analysis and Programme",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH4]",
+      "text": "Conduct risk-based training for all employees, contractors, and visitors and foster a culture of safety through ongoing awareness activities including training on psychological safety and respectful workplace conduct."
+    },
+    {
+      "section_heading": "Competency Assurance",
+      "tag": "[APPC – Appendix C, C-1 §29.3]",
+      "text": "Define the process for competency development, initial assessment, re-verification, and ongoing assurance. Require VOC by an independent registered training organisation where available, with an approved alternative process where RTOs are unavailable."
+    },
+    {
+      "section_heading": "Competency Assurance",
+      "tag": "[APPC – Appendix C, C-1 §29.3]",
+      "text": "Require identification of all high-risk work tasks that specifically require VOC. Competency must be formally documented and linked to authorisation before personnel may perform the task."
+    },
+    {
+      "section_heading": "Competency Assurance",
+      "tag": "[OSHA – OSHA RP 2016 – Education and Training]",
+      "text": "Verify training outcomes — not just attendance — to ensure personnel can demonstrate understanding and application of safe work practices before authorisation."
+    },
+    {
+      "section_heading": "Induction and Orientation",
+      "tag": "[APPC – Appendix C, C-1 §29.6]",
+      "text": "Require site-specific induction to be completed by all personnel before commencing work. Require tailored inductions for each project phase transition: engineering to construction; construction to commissioning; commissioning to handover to operations."
+    },
+    {
+      "section_heading": "Induction and Orientation",
+      "tag": "[APPC – Appendix C, C-1 §29.6]",
+      "text": "Require induction content to cover community, cultural, and heritage context, including behavioural expectations and commitments to local and Indigenous communities."
+    },
+    {
+      "section_heading": "Induction and Orientation",
+      "tag": "[IFC – IFC PS7 §12]",
+      "text": "Where Indigenous Peoples are present in the project area, require cultural awareness training content to be developed in collaboration with those communities and delivered to all personnel who interact with, or make decisions affecting, Indigenous Peoples."
+    },
+    {
+      "section_heading": "Induction and Orientation",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define and document a visitor orientation process specifying minimum content, maximum duration, and a visitor identification system (e.g., visitor access badge or coloured hard hat). The project must set its own minimum standard appropriate to the site risk profile."
+    },
+    {
+      "section_heading": "Short Service Employee Programme",
+      "tag": "[APPC – Appendix C, C-1 §29.7]",
+      "text": "Define a programme for personnel with less than three months' experience in the same job type, requiring: visual identification (e.g., coloured hard hats, badges); assigned experienced mentors; close supervision with structured feedback; tailored training for literacy and language challenges; and a monitoring and reporting framework."
+    },
+    {
+      "section_heading": "Short Service Employee Programme",
+      "tag": "[IFC – IFC PS2 GN§80]",
+      "text": "Ensure workers new to specific hazards receive targeted training and closer supervision until competency is demonstrated through observation and assessment."
+    },
+    {
+      "section_heading": "Field Supervisor Development",
+      "tag": "[APPC – Appendix C, C-1 §29.4 and C-6]",
+      "text": "Define a field supervisor training and mentoring programme addressing HSESC leadership skills, Leadership in Field (LiF) principles, and cultural and regional challenges."
+    },
+    {
+      "section_heading": "Field Supervisor Development",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH4]",
+      "text": "Train supervisors to model safe behaviour, identify psychosocial hazards, and foster a respectful workplace environment in their teams."
+    },
+    {
+      "section_heading": "Records",
+      "tag": "[RT Standard]",
+      "text": "Maintain a Training Matrix and Competency Register for all personnel capturing: required training; completed training; assessment outcomes; authorisation levels; and re-verification due dates."
+    },
+    {
+      "section_heading": "Records",
+      "tag": "[IFC – IFC PS2 GN§80]",
+      "text": "Retain training records and make them available for audit purposes."
+    }
+  ],
+  "project_completion_guidance": [
+    "CRITICAL — Insert the project Training Matrix as a table in this procedure or as Appendix A. The matrix must list every role on the project and all required training/competency by that role. All other procedures reference this document for competency requirements.",
+    "Confirm the project induction content for each phase. The procedure defines what phases require specific inductions — the project must develop the actual induction content and reference it here.",
+    "Define the SSE identification method for this project (e.g., specific coloured hard hat, SSE badge design, buddy assignment process). This is a project decision — insert the chosen method.",
+    "Where local VOC providers are not available, define the in-house alternative competency assessment process approved for this project. The procedure requires this is formally approved — document the approval here.",
+    "Insert the project-specific induction attendance record process and the visitor orientation badge/identification system."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §29.2",
+      "summary": "Requires a training needs analysis for all roles before commencement of work and a training programme available within 30 days of the Effective Date, with materials matching workforce language and literacy levels."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§20",
+      "summary": "Requires training to address the specific measures and actions required under the project management system, including the methods needed to implement those actions competently."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "GN§80",
+      "summary": "Requires OHS training for all workers on relevant aspects of their daily work including emergency arrangements, briefings for visitors, targeted training for workers new to specific hazards, and retention of training records for audit purposes."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "Principle 5, Performance Expectation 5.2",
+      "summary": "Requires workers to be trained in accordance with their responsibilities for physical and psychological health and safety, and implementation of health surveillance and risk-based monitoring programmes based on occupational exposures."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Safe, Healthy and Respectful Workplaces Protocol, Indicator SH4",
+      "summary": "Requires risk-based training for all employees, contractors, and visitors, ongoing awareness activities including psychological safety and respectful workplace conduct, and supervisor training to model safe behaviour and identify psychosocial hazards."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §29.3",
+      "summary": "Requires a defined competency development, assessment, re-verification and assurance process, VOC by an independent registered training organisation where available, and formal documentation of competency linked to authorisation for high-risk tasks."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "RP 2016 – Education and Training",
+      "summary": "Requires verification of training outcomes rather than attendance alone, to ensure personnel can demonstrate understanding and application of safe work practices before authorisation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §29.6",
+      "summary": "Requires site-specific induction before commencing work, tailored inductions at each project phase transition, and induction content covering community, cultural, and heritage context."
+    },
+    {
+      "framework": "IFC PS7",
+      "clause": "§12",
+      "summary": "Where Indigenous Peoples are present, requires cultural awareness training content to be developed in collaboration with those communities and delivered to all personnel who interact with or make decisions affecting Indigenous Peoples."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §29.7",
+      "summary": "Requires a Short Service Employee programme for personnel with less than three months experience in the same job type, including visual identification, assigned mentors, close supervision, tailored training, and a monitoring and reporting framework."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §29.4 and C-6",
+      "summary": "Requires a field supervisor training and mentoring programme addressing HSESC leadership skills, Leadership in Field principles, and cultural and regional challenges."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Management & Compliance Standard",
+      "summary": "Requires maintenance of a Training Matrix and Competency Register for all personnel capturing required training, completed training, assessment outcomes, authorisation levels, and re-verification due dates."
+    }
+  ]
+}

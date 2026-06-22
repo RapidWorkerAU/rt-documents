@@ -1,0 +1,130 @@
+{
+  "procedure_id": "PRO-0051",
+  "document_number": "RTPR-HSE-PRO-0051",
+  "title": "Explosives Management Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines requirements for the safe storage, transport, handling, use, and management of explosives and explosive-related materials on or for the owner-led project. All explosives-related work requires prior authorisation. The Contractor must comply with all local rules and regulations governing explosives, and all explosives activities must be conducted by competent and authorised personnel holding current statutory licences.",
+  "owns": [
+    "Explosives management plan requirements",
+    "Transport requirements (to site and on-site)",
+    "On-site manufacture and mixing controls",
+    "Misfire management process",
+    "Emergency response plan for explosive incidents",
+    "Reconciliation, transfer, and quality control requirements",
+    "Explosives record-keeping requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0001 – Legal Requirements (explosives licences and regulatory approvals)",
+    "RTPR-HSE-PRO-0002 – Risk Management (blast exclusion zone risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (shot firer and explosives handler competency)",
+    "RTPR-HSE-PRO-0009 – Incident Management (explosives incident reporting)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (blasting permit within PTW system)",
+    "RTPR-HSE-PRO-0028 – Barricading (blast exclusion zone barricading)",
+    "RTPR-HSE-PRO-0041 – Business Resilience (emergency response for explosive incidents)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0028 – Barricading (blast exclusion zone requirements)",
+    "RTPR-HSE-PRO-0039 – Hazardous Materials (explosives as dangerous goods)"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Regulatory Compliance and Authorisation",
+      "tag": "[APPC – Appendix C, C-2 §59.1.1]",
+      "text": "Require that all explosives licences and regulatory approvals required by Applicable Laws are obtained before any explosives are transported to, stored on, or used at the project site. Copies of all licences must be held on site and provided to the Company upon request. Require compliance with all local rules and regulations governing explosives throughout the life of the project — refer RTPR-HSE-PRO-0001."
+    },
+    {
+      "section_heading": "Regulatory Compliance and Authorisation",
+      "tag": "[APPC – Appendix C, C-4 §92.5.3.1]",
+      "text": "Require that all dangerous goods storage areas including explosives, ammonium nitrate, and detonators are assessed, approved, and appropriately licensed in accordance with Applicable Laws before use."
+    },
+    {
+      "section_heading": "Explosives Management Plan",
+      "tag": "[APPC – Appendix C, C-2 §59.1]",
+      "text": "Require development and maintenance of an Explosives Management Plan covering all phases of explosives activity on the project. The plan must address as a minimum: transport of explosives to site and on-site movement; storage of explosives and detonators; controlled access to explosive storage areas; on-site manufacture and mixing where applicable; handling and preparation for use; blast design and initiation; management of misfires; reconciliation, transfer of ownership, and quality control; record-keeping; and emergency response."
+    },
+    {
+      "section_heading": "Transport",
+      "tag": "[APPC – Appendix C, C-2 §59.1.1]",
+      "text": "Require that all transport of explosives to site and on-site movement complies with applicable dangerous goods transport regulations. Vehicles transporting explosives must be appropriate for the load, equipped with required safety equipment, operated by competent and licenced personnel, and covered by a documented transport risk assessment. Explosives and detonators must be transported separately in compliance with regulatory separation requirements."
+    },
+    {
+      "section_heading": "Storage",
+      "tag": "[APPC – Appendix C, C-2 §59.1]",
+      "text": "Require that all explosive magazines and storage areas are constructed, positioned, and operated in compliance with Applicable Laws. Access must be restricted to authorised personnel only. A daily stock reconciliation must be conducted, with any discrepancy reported immediately to the Company and relevant regulatory authority."
+    },
+    {
+      "section_heading": "On-Site Manufacture and Mixing",
+      "tag": "[APPC – Appendix C, C-2 §59.1.4]",
+      "text": "Where on-site manufacture or mixing of explosives is conducted, require a specific risk assessment and documented procedure approved by a competent person before commencement. On-site manufacture must comply with all applicable regulatory requirements and licencing conditions."
+    },
+    {
+      "section_heading": "Misfire Management",
+      "tag": "[APPC – Appendix C, C-2 §59.1.6]",
+      "text": "Require a documented misfire management procedure defining: the immediate response to a suspected or confirmed misfire; minimum waiting times before re-entry; the process for dealing with misfired holes; competency requirements for personnel managing misfires; and mandatory reporting to the Company and relevant regulatory authority."
+    },
+    {
+      "section_heading": "Reconciliation and Record-Keeping",
+      "tag": "[APPC – Appendix C, C-2 §59.1.9]",
+      "text": "Require daily reconciliation of all explosives and detonators: quantity received; quantity used; quantity remaining in storage. Transfer of ownership must be documented with signed records. Quality control records must be maintained for all products. All explosives records must be retained for a minimum of five years or as required by Applicable Laws."
+    },
+    {
+      "section_heading": "Incident Reporting",
+      "tag": "[APPC – Appendix C, C-2 §59.2.1]",
+      "text": "Require that all incidents or deviations from the approved explosives process are reported and investigated in line with Company requirements — refer RTPR-HSE-PRO-0009. Explosives-related incidents must also be reported to the relevant regulatory authority within the timeframes required by Applicable Laws."
+    },
+    {
+      "section_heading": "Emergency Response",
+      "tag": "[APPC – Appendix C, C-2 §59.3.1]",
+      "text": "Require a specific emergency response plan for potential explosive incident scenarios. Emergency scenarios must include as a minimum: unplanned detonation; misfire; explosives theft or loss; explosives vehicle accident; and fire in or near explosive storage. The emergency response plan must be tested before explosives are brought to site — refer RTPR-HSE-PRO-0041."
+    }
+  ],
+  "project_completion_guidance": [
+    "Confirm whether explosives are within scope for this project. If yes, identify all explosives activities planned, the types of explosives and detonators to be used, and the quantities. Insert into the Explosives Management Plan.",
+    "Identify and document all regulatory licences and approvals required for explosives activities in the project jurisdiction. Confirm that all licences are in place before any explosives are transported to site. Insert licence numbers and expiry dates into this procedure.",
+    "Develop the site-specific Explosives Management Plan for this project covering all sections required by this procedure. Submit to the Company for review before any explosives are brought to site.",
+    "Confirm the misfire management procedure for this project, including the competency requirements for personnel authorised to manage misfires in the specific regulatory jurisdiction.",
+    "Confirm the explosives emergency response scenarios and integrate them into the project ERP — refer RTPR-HSE-PRO-0041. Test the explosives emergency response before explosives arrive on site."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §59.1.1",
+      "summary": "Requires all explosives licences and regulatory approvals to be obtained before any explosives are transported to, stored on, or used at the project site, and requires compliance with all local rules and regulations governing explosives throughout the life of the project."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-4 §92.5.3.1",
+      "summary": "Requires that all dangerous goods storage areas including explosives, ammonium nitrate, and detonators are assessed, approved, and appropriately licensed in accordance with Applicable Laws before use."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §59.1",
+      "summary": "Requires development and maintenance of an Explosives Management Plan covering all phases of explosives activity on the project, including transport, storage, manufacture, blast design, misfire management, reconciliation, record-keeping, and emergency response."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §59.1.4",
+      "summary": "Requires a specific risk assessment and documented procedure approved by a competent person before any on-site manufacture or mixing of explosives commences, with compliance with all applicable regulatory requirements and licencing conditions."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §59.1.6",
+      "summary": "Requires a documented misfire management procedure covering immediate response, minimum waiting times, process for dealing with misfired holes, competency requirements, and mandatory reporting to the Company and relevant regulatory authority."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §59.1.9",
+      "summary": "Requires daily reconciliation of all explosives and detonators with signed transfer records, quality control records for all products, and retention of all explosives records for a minimum of five years or as required by Applicable Laws."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §59.2.1",
+      "summary": "Requires that all incidents or deviations from the approved explosives process are reported and investigated in line with Company requirements, and that explosives-related incidents are also reported to the relevant regulatory authority within the timeframes required by Applicable Laws."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §59.3.1",
+      "summary": "Requires a specific emergency response plan for explosive incident scenarios covering unplanned detonation, misfire, theft or loss, vehicle accident, and fire in or near explosive storage, tested before explosives are brought to site."
+    }
+  ]
+}

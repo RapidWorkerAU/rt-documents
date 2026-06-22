@@ -1,0 +1,197 @@
+{
+  "procedure_id": "PRO-0011",
+  "document_number": "RTPR-HSE-PRO-0011",
+  "title": "Communication and Consultation Procedure",
+  "management_system_element": "09 – Communication & Consultation",
+  "preamble": "This procedure defines how HSESC information is communicated internally across the project, how workforce consultation is structured, and how HSESC issues are raised and resolved — across all project participants including RT project staff and all contractor organisations. It does not address external community consultation, which is covered in the Communities, Social Performance and Human Rights related procedures.",
+  "owns": [
+    "Communication channel definitions and minimum frequencies",
+    "Pre-start meeting minimum content and Pre-Start Board requirements",
+    "Toolbox meeting minimum content",
+    "HSESC Notice Board mandatory content",
+    "Employee involvement requirements",
+    "Issue resolution flowchart"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0003 – Org Resources (HSESCLT and committee as communication channels)",
+    "RTPR-HSE-PRO-0002 – Risk Management (JHAs communicated at pre-start)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (permits referenced at pre-start)",
+    "RTPR-HSE-PRO-0004 – Training (induction as communication mechanism)",
+    "RTPR-HSE-PRO-0007 – Improvement Planning (corrective actions communicated via toolbox)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0003 references RTPR-HSE-PRO-0011 for HSESCLT meeting requirements",
+    "RTPR-HSE-PRO-0007 references RTPR-HSE-PRO-0011 for lessons learned communication channels"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Internal Communication Channels",
+      "tag": "[APPC – Appendix C, C-1 §38]",
+      "text": "Define all project HSESC communication channels and their minimum frequency: pre-start meetings (every shift); toolbox meetings (regular basis); HSESCLT meetings (monthly); HSESC committee meetings (regular planned intervals); notice boards (continuously updated); and HSESC alerts and bulletins."
+    },
+    {
+      "section_heading": "Internal Communication Channels",
+      "tag": "[APPC – Appendix C, C-1 §38]",
+      "text": "Define the process for disseminating Company-issued HSESC incident notifications (orange and red alerts) and lessons learned across all contractor organisations on the project within defined timeframes."
+    },
+    {
+      "section_heading": "Internal Communication Channels",
+      "tag": "[IFC – IFC PS2 GN§80]",
+      "text": "Ensure communication accounts for language and literacy barriers — providing translated or visual materials, interpreters, or localised formats where required."
+    },
+    {
+      "section_heading": "Pre-Start Meetings",
+      "tag": "[APPC – Appendix C, C-1 §38.2]",
+      "text": "Require a pre-start meeting at the commencement of every shift, facilitated by the responsible supervisor for each discipline/work group, covering: status of handed-over works and residual risks; internal/external safety notices; outline of work task requirements; HSE matters; approved JHAs and work methods; and interfaces with other contractors or community. Require meetings to be conducted at the physical work location."
+    },
+    {
+      "section_heading": "Pre-Start Meetings",
+      "tag": "[APPC – Appendix C, C-1 §30.1]",
+      "text": "Confirm that no new task commences without a pre-start meeting. Require use of the project Pre-Start Board or equivalent structured format. Require that language and literacy barriers are addressed."
+    },
+    {
+      "section_heading": "Pre-Start Meetings",
+      "tag": "[OSHA – OSHA RP 2016 – Worker Participation]",
+      "text": "Ensure pre-start meetings are genuinely participatory — not one-way briefings — allowing workers to raise concerns, ask questions, and suggest improvements before work commences."
+    },
+    {
+      "section_heading": "Toolbox Meetings",
+      "tag": "[APPC – Appendix C, C-1 §38.3]",
+      "text": "Require regular toolbox meetings between personnel and their supervisors covering: hazards identified from inspections or observations; SWA outcomes and investigation findings; environmental hazards; and recognition and reward. Define minimum content and frequency requirements."
+    },
+    {
+      "section_heading": "HSESC Notice Boards",
+      "tag": "[APPC – Appendix C, C-1 §38.6]",
+      "text": "Require designated HSESC notice boards at prominent positions on all sites, displaying: current HSESC performance metrics; active alerts and notices; SWA process (prominently displayed); and workforce recognition highlights."
+    },
+    {
+      "section_heading": "Employee Involvement",
+      "tag": "[APPC – Appendix C, C-1 §38.1]",
+      "text": "Require workforce involvement in: constructability reviews; HAZID/Level 2 risk workshops; health risk assessments; hazard register development; HSESC training delivery; incident investigations; and CRM and SMM programme activities."
+    },
+    {
+      "section_heading": "Employee Involvement",
+      "tag": "[IFC – IFC PS2 §36]",
+      "text": "Provide workers with a mechanism to raise concerns about occupational health and safety conditions — including anonymous mechanisms where culturally appropriate — and ensure they face no adverse consequences for doing so."
+    },
+    {
+      "section_heading": "Employee Involvement",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH4]",
+      "text": "Foster a culture of safety through ongoing awareness activities and by ensuring workers at all levels understand their rights and responsibilities under the project HSESC management system."
+    },
+    {
+      "section_heading": "Issue Resolution",
+      "tag": "[APPC – Appendix C, C-1 §38.8]",
+      "text": "Define an HSESC issue resolution process with a clear escalation pathway: initial reporting; consultation involving HSESC representatives; escalation thresholds and timelines; and closeout documentation. Ensure the process is transparent and accessible to all personnel."
+    },
+    {
+      "section_heading": "Issue Resolution",
+      "tag": "[IFC – IFC PS2 §36]",
+      "text": "Ensure workers have access to effective grievance mechanisms through which concerns about working conditions and HSESC matters can be raised and resolved without fear of retaliation."
+    },
+    {
+      "section_heading": "PTW Status Display Requirements",
+      "tag": "[APPC – Appendix C, C-1 §38.7.1]",
+      "text": "Require a PTW status display system that clearly identifies all work areas where the PTW system applies and facilitates tracking and identification of work permits by location. The system must include a method to designate permits removed during an emergency shutdown."
+    },
+    {
+      "section_heading": "PTW Status Display Requirements",
+      "tag": "[APPC – Appendix C, C-1 §38.7.3]",
+      "text": "Require that the PTW status system provides clear and immediate visibility of all active permits and their status. Physical boards, electronic systems, or other methods are acceptable, provided the status is immediately visible to all personnel in the work area."
+    },
+    {
+      "section_heading": "Issue Resolution",
+      "tag": "[APPC – Appendix C, C-1 §38.8.1]",
+      "text": "Require a documented HSESC issue resolution process incorporating an escalation pathway and maintaining a consultative approach. HSESC representatives must be consulted and actively involved in the resolution process, and the resolution process must be transparent and accessible to all personnel."
+    },
+    {
+      "section_heading": "Issue Resolution",
+      "tag": "[APPC – Appendix C, C-1 §38.8.3]",
+      "text": "Require a flowchart illustrating the HSESC issue resolution process through four stages: initial reporting; consultation; escalation; and closeout."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the project Pre-Start Board format and confirm the approved board design for this project. The procedure requires a Pre-Start Board — the project must procure and install boards at all work locations before work commences.",
+    "Define the project toolbox meeting schedule (minimum frequency for each work group type) and the toolbox meeting record form.",
+    "Define the HSESC Notice Board locations for each work area on this project. The procedure requires prominent placement — insert a site map showing board locations or a list by area.",
+    "Define the issue resolution escalation flowchart specific to this project: who receives issues raised, what the resolution timeframe is at each level, and when the project owner is notified.",
+    "Define language and literacy requirements for this project workforce. If non-English speaking workers are expected, define the interpreter/translation arrangements."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38",
+      "summary": "Defines all project HSESC communication channels, their minimum frequencies, and the process for disseminating Company-issued incident notifications and lessons learned across contractor organisations."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.1",
+      "summary": "Requires workforce involvement in constructability reviews, HAZID workshops, health risk assessments, hazard register development, HSESC training, incident investigations, and CRM and SMM programme activities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.2",
+      "summary": "Requires a pre-start meeting at every shift commencement facilitated by the responsible supervisor, covering residual risks, safety notices, task requirements, approved JHAs, and contractor interfaces, conducted at the physical work location."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §30.1",
+      "summary": "Confirms no new task commences without a pre-start meeting and requires use of the project Pre-Start Board or equivalent structured format with language and literacy barriers addressed."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.3",
+      "summary": "Requires regular toolbox meetings covering hazards from inspections or observations, SWA outcomes, investigation findings, environmental hazards, and recognition and reward."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.6",
+      "summary": "Requires designated HSESC notice boards at prominent positions on all sites displaying current performance metrics, active alerts, the SWA process, and workforce recognition highlights."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.7.1",
+      "summary": "Requires a PTW status display system that identifies all work areas where the PTW system applies, tracks permits by location, and includes a method to designate permits removed during an emergency shutdown."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.7.3",
+      "summary": "Requires the PTW status system to provide clear and immediate visibility of all active permits and their status, using physical boards, electronic systems, or other methods visible to all personnel."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.8",
+      "summary": "Requires a documented HSESC issue resolution process with a clear escalation pathway covering initial reporting, consultation, escalation thresholds and timelines, and closeout documentation."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.8.1",
+      "summary": "Requires a documented issue resolution process incorporating an escalation pathway and consultative approach with active involvement of HSESC representatives."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §38.8.3",
+      "summary": "Requires a flowchart illustrating the HSESC issue resolution process through four stages: initial reporting, consultation, escalation, and closeout."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "GN§80",
+      "summary": "Requires communication to account for language and literacy barriers by providing translated or visual materials, interpreters, or localised formats where required."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "§36",
+      "summary": "Requires workers to have mechanisms to raise occupational health and safety concerns including anonymous mechanisms where culturally appropriate, access to effective grievance mechanisms, and protection from adverse consequences for doing so."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Safe, Healthy and Respectful Workplaces Protocol, Indicator SH4",
+      "summary": "Requires fostering a culture of safety through ongoing awareness activities and ensuring workers at all levels understand their rights and responsibilities under the project HSESC management system."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "RP 2016 – Worker Participation",
+      "summary": "Requires pre-start meetings to be genuinely participatory, allowing workers to raise concerns, ask questions, and suggest improvements before work commences."
+    }
+  ]
+}

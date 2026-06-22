@@ -1,0 +1,126 @@
+{
+  "procedure_id": "PRO-0019",
+  "document_number": "RTPR-HSE-PRO-0019",
+  "title": "Process Safety Procedure",
+  "management_system_element": "10 - Operational Control",
+  "preamble": "This procedure defines requirements for managing process safety risks — the risks of unplanned releases of hazardous materials, energy, or substances that could cause multiple fatalities or catastrophic damage. In the owner-led project context, process safety risks arise during construction (e.g., working near existing plant, commissioning of new systems) and must be actively managed.",
+  "owns": [
+    "Process hazard identification requirements",
+    "Critical safety system identification and SIL classification basis",
+    "Safeguard bypass authorisation process",
+    "Mechanical integrity programme requirements",
+    "Process safety incident classification (Tier 1/2/3)"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (HAZOP as a risk assessment tool)",
+    "RTPR-HSE-PRO-0020 – Functional Safety (SIS testing and maintenance)",
+    "RTPR-HSE-PRO-0021 – Permit to Work (work on process systems via PTW)",
+    "RTPR-HSE-PRO-0024 – Isolation (energy isolation for process systems)",
+    "RTPR-HSE-PRO-0040 – Management of Change (process changes via MoC)",
+    "RTPR-HSE-PRO-0009 – Incident Management (process safety event reporting)",
+    "RTPR-HSE-PRO-0047 – Commissioning (safety system commissioning)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0047 – Commissioning references RTPR-HSE-PRO-0019 for safety-critical system pre-commissioning requirements"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Process Hazard Identification",
+      "tag": "[RT – RT – Process Safety Standard]",
+      "text": "Require process hazard analysis (HAZOP or equivalent) for all processes and systems involving hazardous materials above threshold quantities or with significant energy content. Define when HAZOP studies are required: new design; modifications; at defined lifecycle milestones."
+    },
+    {
+      "section_heading": "Process Hazard Identification",
+      "tag": "[IFC – IFC PS3 §8]",
+      "text": "Identify all process units and operations with potential for hazardous releases, and document the hazard identification methodology and findings as part of the project risk assessment process."
+    },
+    {
+      "section_heading": "Process Hazard Identification",
+      "tag": "[ICMM – ICMM Principle 4 – Risk Management]",
+      "text": "Implement risk-based controls to prevent and mitigate process-related incidents, applying the hierarchy of controls with engineering safeguards as the primary means of risk reduction."
+    },
+    {
+      "section_heading": "Critical Safety Systems",
+      "tag": "[RT – RT – Process Safety Standard]",
+      "text": "Require identification of all critical safety systems and controls (Safety Instrumented Systems, pressure relief devices, containment systems). Require validation and verification that critical safety systems are designed, installed, and functioning as intended before any process is brought into service."
+    },
+    {
+      "section_heading": "Critical Safety Systems",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Include all safety-critical pressure relief devices, rupture discs, and containment systems in the mechanical integrity and inspection programme."
+    },
+    {
+      "section_heading": "Critical Safety Systems",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define and document which systems are classified as safety-critical, assign a Safety Integrity Level (SIL) or equivalent risk-based classification to each, and document the basis for that classification. The project must set this classification before commissioning activities begin."
+    },
+    {
+      "section_heading": "Safeguard Bypass Management",
+      "tag": "[RT – RT – Process Safety Standard]",
+      "text": "Require a formal authorisation process for defeating or bypassing any process safety device, including: a risk assessment before bypass; documented compensating controls; time limits on bypass duration; approval at an appropriate authority level; and active tracking and reporting of all active bypasses."
+    },
+    {
+      "section_heading": "Safeguard Bypass Management",
+      "tag": "[IFC – IFC PS1 §9]",
+      "text": "Ensure that any bypassing of safety-critical controls is managed through the project Management of Change process and communicated to all affected personnel."
+    },
+    {
+      "section_heading": "Mechanical Integrity",
+      "tag": "[RT – RT C1 – Control of Energy Standard]",
+      "text": "Define mechanical integrity requirements for process vessels, piping, pressure relief systems, and safety-critical equipment, including risk-based inspection programmes aligned to equipment criticality and operating conditions."
+    },
+    {
+      "section_heading": "Mechanical Integrity",
+      "tag": "[IFC – IFC EHS General Guidelines §2.8]",
+      "text": "Document inspection results, defect management procedures, and the criteria for when defective equipment must be removed from service or repaired before continued operation."
+    },
+    {
+      "section_heading": "Process Safety Incident Management",
+      "tag": "[RT – RT – Process Safety Standard]",
+      "text": "Define process safety incident classifications (Tier 1, 2, and 3 per API RP 754 or equivalent) and their reporting requirements. Require RCA investigations for all Tier 1 and 2 events. Require process safety event data to be captured, trended, and reported as part of HSESC performance reporting."
+    },
+    {
+      "section_heading": "Process Safety Incident Management",
+      "tag": "[IFC – IFC PS3 §8]",
+      "text": "Ensure that process safety incidents trigger an environmental and social impact assessment update where a release could have affected communities or the environment."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define which systems on this project require HAZOP analysis, and at what project stage each HAZOP must be completed. For brownfield projects, confirm whether existing HAZOP studies are current or require revalidation.",
+    "Develop the Safety-Critical Systems Register for this project: list each system, its classification (SIL or equivalent), the basis for the classification, and the proof test interval. This is a pre-commissioning deliverable.",
+    "Define the bypass authority matrix for this project: which safety devices can be bypassed with supervisor approval; which require HSESC Manager approval; which require project director approval. Insert as a table.",
+    "Define the project mechanical integrity inspection programme schedule for all pressure equipment and safety-critical systems. Link to the Pressure Equipment Register (RTPR-HSE-REG-0013)."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Process Safety Standard",
+      "summary": "Requires process hazard analysis, identification and validation of critical safety systems, a formal safeguard bypass authorisation process, and process safety incident classification and reporting per API RP 754 or equivalent."
+    },
+    {
+      "framework": "RT Standard",
+      "clause": "RT C1 – Control of Energy Standard",
+      "summary": "Requires inclusion of safety-critical pressure relief devices and containment systems in the mechanical integrity programme, and defines mechanical integrity requirements for process vessels, piping, and safety-critical equipment."
+    },
+    {
+      "framework": "IFC PS3",
+      "clause": "IFC PS3 §8",
+      "summary": "Requires identification of all process units with potential for hazardous releases, documentation of hazard identification methodology, and an environmental and social impact assessment update following process safety incidents that may affect communities or the environment."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 §9",
+      "summary": "Requires that any bypassing of safety-critical controls is managed through the Management of Change process and communicated to all affected personnel."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "IFC EHS General Guidelines §2.8",
+      "summary": "Requires documentation of inspection results, defect management procedures, and criteria for removing defective equipment from service or repairing it before continued operation."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "ICMM Principle 4 – Risk Management",
+      "summary": "Requires implementation of risk-based controls to prevent and mitigate process-related incidents, applying the hierarchy of controls with engineering safeguards as the primary means of risk reduction."
+    }
+  ]
+}

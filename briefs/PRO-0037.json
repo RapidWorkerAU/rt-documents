@@ -1,0 +1,120 @@
+{
+  "procedure_id": "PRO-0037",
+  "document_number": "RTPR-HSE-PRO-0037",
+  "title": "Land Disturbance Control and Rehabilitation Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines requirements for managing land disturbance and vegetation clearance, and for progressively rehabilitating disturbed land through to final closure. It applies from the earliest project works through to post-closure.",
+  "owns": [
+    "► Land disturbance approval process",
+    "► Pre-disturbance topsoil recovery requirements",
+    "► Vegetation clearance controls",
+    "► Progressive rehabilitation requirements and criteria",
+    "► Site demobilisation rehabilitation requirements"
+  ],
+  "references": [
+    "► RTPR-HSE-PRO-0001 – Legal Requirements (disturbance approvals and permits)",
+    "► RTPR-HSE-PRO-0002 – Risk Management (disturbance impact assessment)",
+    "► RTPR-HSE-PRO-0038 – Biodiversity (pre-clearance surveys and fauna management)",
+    "► RTPR-HSE-PRO-0034 – Water Quality (stormwater controls during rehabilitation)",
+    "► RTPR-HSE-PRO-0036 – Reactive Waste (reactive landform rehabilitation)",
+    "► RTPR-HSE-PRO-0042 – Monitoring (rehabilitation performance monitoring)"
+  ],
+  "referenced_by": [
+    "► RTPR-HSE-PRO-0038 references RTPR-HSE-PRO-0037 for habitat rehabilitation"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Regulatory Compliance and Pre-disturbance Requirements",
+      "tag": "[RT – RT Environment and Nature – Biodiversity Standard]",
+      "text": "Require compliance with all regulatory requirements and permit conditions for land disturbance, including EIS/ERMP commitments. Require a land disturbance approval procedure aligning with approved work areas and land use zones, with heritage and environmental protection measures in place before any disturbance commences."
+    },
+    {
+      "section_heading": "Regulatory Compliance and Pre-disturbance Requirements",
+      "tag": "[RT – RT Environment and Nature – Biodiversity Standard]",
+      "text": "Require topsoil and suitable growth media to be recovered from safely accessible areas before disturbance and stored appropriately for later rehabilitation use. Define storage location, handling requirements, and maximum stockpile height."
+    },
+    {
+      "section_heading": "Regulatory Compliance and Pre-disturbance Requirements",
+      "tag": "[IFC – IFC PS6 §14]",
+      "text": "Identify and protect areas of high biodiversity value and apply the mitigation hierarchy to minimise habitat disturbance and loss."
+    },
+    {
+      "section_heading": "Vegetation Management and Minimal Footprint",
+      "tag": "[RT – RT Environment and Nature – Biodiversity Standard]",
+      "text": "Require all disturbance to be confined to approved roads and nominated work areas. Define vegetation clearance controls including survey and marking of retained vegetation and disturbance boundaries. Require seed collection and storage programmes for locally-provenant species where specified."
+    },
+    {
+      "section_heading": "Vegetation Management and Minimal Footprint",
+      "tag": "[RT – RT Environment and Nature – Biodiversity Standard]",
+      "text": "Require progressive rehabilitation concurrent with disturbance, managing the project footprint to be consistent with mine plans, budgets, and closure assumptions."
+    },
+    {
+      "section_heading": "Vegetation Management and Minimal Footprint",
+      "tag": "[ICMM – ICMM Principle 7 – Conservation of Biodiversity]",
+      "text": "Contribute to the conservation of biodiversity through the application of integrated approaches to land-use planning and through the implementation of appropriate mine closure strategies."
+    },
+    {
+      "section_heading": "Monitoring and Progressive Rehabilitation",
+      "tag": "[RT – RT Environment and Nature – Biodiversity Standard]",
+      "text": "Define soil erosion monitoring requirements, monitoring of drainage line and watercourse impacts, and trigger thresholds with corrective actions for erosion or sedimentation exceedances."
+    },
+    {
+      "section_heading": "Monitoring and Progressive Rehabilitation",
+      "tag": "[RT – RT Environment and Nature – Biodiversity Standard]",
+      "text": "Define quantitative and independently verifiable rehabilitation performance criteria. Require stakeholder engagement in design of land use outcomes. Require monitoring and reporting against rehabilitation criteria at defined intervals."
+    },
+    {
+      "section_heading": "Monitoring and Progressive Rehabilitation",
+      "tag": "[IFC – IFC PS6 §15]",
+      "text": "Implement monitoring programmes to track rehabilitation success against defined performance criteria and implement adaptive management where criteria are not being met."
+    },
+    {
+      "section_heading": "Demobilisation and Closure",
+      "tag": "[RT – RT Environment and Nature – Biodiversity Standard]",
+      "text": "Define rehabilitation requirements at site demobilisation covering: landform reinstatement; revegetation; infrastructure removal; waste removal; and verification that all disturbance is remediated to agreed standards."
+    },
+    {
+      "section_heading": "Demobilisation and Closure",
+      "tag": "[ICMM – ICMM Principle 6 – Environmental Performance]",
+      "text": "Plan and design for closure in consultation with relevant authorities and stakeholders. Implement measures to address closure-related environmental and social aspects, and make financial provision to enable agreed closure and post-closure commitments to be realised."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the project land use zones and approved work areas. Insert a site map showing the approved disturbance boundary, no-go zones, heritage protection areas, and rehabilitation priority areas.",
+    "Define the project rehabilitation performance criteria — quantitative, measurable, and independently verifiable. These must be agreed with the relevant regulatory authority and inserted before disturbance commences.",
+    "Define the project topsoil salvage areas and storage requirements: where topsoil is stored; maximum storage height; protection from erosion and weed invasion during storage.",
+    "Define the project progressive rehabilitation schedule: which areas are targeted for rehabilitation in each calendar year; what the annual rehabilitation target area is.",
+    "[APPC – Appendix C, C-4 §92.4.3.4]  Require immediate cessation of work and notification to the Company upon discovery of fossils, artefacts, or items of cultural or archaeological significance. All necessary actions must be taken to prevent damage or disturbance until the Company provides written direction.",
+    "[APPC – Appendix C, C-4 §92.4.3.6]  Require immediate cessation of work and notification to the Company if significant flora, fauna, ecosystems, or unexpected water sources are discovered. Work must not resume until the Company provides written direction.",
+    "[APPC – Appendix C, C-4 §92.4.4.9]  Require use of equipment fitted with a Company-approved high-precision GPS guidance system for vegetation clearing near permitted boundaries or heritage areas.",
+    "[APPC – Appendix C, C-4 §92.4.6.5]  Require submission of a Rehabilitation and Closure Plan as a project deliverable, addressing closure and rehabilitation of all disturbed areas, success criteria, and post-rehabilitation monitoring requirements.",
+    "Define the project demobilisation rehabilitation plan and insert before demobilisation begins."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT Environment and Nature – Biodiversity Standard",
+      "summary": "Requires compliance with disturbance approvals, pre-disturbance topsoil recovery, vegetation clearance controls, progressive rehabilitation, erosion monitoring, quantitative rehabilitation performance criteria, and demobilisation rehabilitation requirements."
+    },
+    {
+      "framework": "IFC PS6",
+      "clause": "IFC PS6 §14",
+      "summary": "Requires identification and protection of areas of high biodiversity value and application of the mitigation hierarchy to minimise habitat disturbance and loss."
+    },
+    {
+      "framework": "IFC PS6",
+      "clause": "IFC PS6 §15",
+      "summary": "Requires implementation of monitoring programmes to track rehabilitation success against defined performance criteria and adaptive management where criteria are not being met."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "ICMM Principle 7 – Conservation of Biodiversity",
+      "summary": "Requires contribution to conservation of biodiversity through integrated land-use planning and implementation of appropriate mine closure strategies."
+    },
+    {
+      "framework": "ICMM",
+      "clause": "ICMM Principle 6 – Environmental Performance",
+      "summary": "Requires planning and designing for closure in consultation with relevant authorities and stakeholders, implementing closure measures, and making financial provision to realise agreed closure and post-closure commitments."
+    }
+  ]
+}

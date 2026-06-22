@@ -1,0 +1,155 @@
+{
+  "procedure_id": "PRO-0010",
+  "document_number": "RTPR-HSE-PRO-0010",
+  "title": "Documentation and Document Control Procedure",
+  "management_system_element": "08 - Documentation & Document Control",
+  "preamble": "This procedure defines how HSESC documents are created, reviewed, approved, distributed, controlled, revised, and retained across the owner-led project management system. All RT project team members and contractor organisations operating under the system are subject to this procedure.",
+  "owns": [
+    "Document hierarchy and tier definitions",
+    "Document numbering and naming convention for this project",
+    "Document Register format (RTPR-HSE-REG-0002)",
+    "Approval authority matrix by document type",
+    "Version control requirements",
+    "Deliverables Schedule format and submission timelines",
+    "Record retention schedule by category"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0043 – Records Management (for retention and disposal of records produced under this system)",
+    "RTPR-HSE-PRO-0003 – Org Resources (approval authority by role)"
+  ],
+  "referenced_by": [
+    "ALL procedures are subject to RTPR-HSE-PRO-0010 — each procedure header references this",
+    "RTPR-HSE-PRO-0043 references RTPR-HSE-PRO-0010 for the record types that require retention management"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Document Hierarchy and Identification",
+      "tag": "[RT Standard]",
+      "text": "Define the four-tier document hierarchy: Tier 1 Policies; Tier 2 Plans and Standards; Tier 3 Procedures and Protocols; Tier 4 Forms, Registers, and Records. Require all documents to have a unique document number, revision number, and review date."
+    },
+    {
+      "section_heading": "Document Hierarchy and Identification",
+      "tag": "[APPC – Appendix C, C-1 §45]",
+      "text": "Require a Document Register to be maintained tracking all controlled documents, current revision status, owner, and review date. Define the document naming and numbering convention."
+    },
+    {
+      "section_heading": "Document Hierarchy and Identification",
+      "tag": "[IFC – IFC PS1 §6]",
+      "text": "Ensure that key management commitments — including policies, management plans, and monitoring commitments — are documented and accessible to relevant project participants and stakeholders."
+    },
+    {
+      "section_heading": "Preparation, Review and Approval",
+      "tag": "[RT Standard]",
+      "text": "Define the roles responsible for drafting, reviewing, and approving each document type within the four-tier hierarchy. Require review by the HSESC Manager and approval at the appropriate authority level before issuance."
+    },
+    {
+      "section_heading": "Preparation, Review and Approval",
+      "tag": "[APPC – Appendix C, C-1 §45]",
+      "text": "Define which documents require project owner approval and which may be approved internally, consistent with the contractual requirements of the project."
+    },
+    {
+      "section_heading": "Preparation, Review and Approval",
+      "tag": "[RT Standard]",
+      "text": "Ensure procedures and safe work documentation are written at the language and literacy level of the workforce that will use them, with visual aids or translations where required."
+    },
+    {
+      "section_heading": "Version Control and Distribution",
+      "tag": "[RT Standard]",
+      "text": "Define version control requirements including what constitutes a major versus minor revision. Require superseded documents to be clearly identified and removed from all points of use. Require all personnel to have ready access to current versions of applicable HSESC documentation."
+    },
+    {
+      "section_heading": "Version Control and Distribution",
+      "tag": "[IFC – IFC PS1 §6]",
+      "text": "Ensure that environmental and social management documentation is accessible to affected communities where disclosure is required by applicable performance standards or permit conditions."
+    },
+    {
+      "section_heading": "Deliverables Schedule",
+      "tag": "[APPC – Appendix C, C-1 §22.4]",
+      "text": "Require preparation and maintenance of an HSESC Deliverables Schedule tracking all required submissions, due dates, responsible persons, and submission and approval status. The schedule must be available to the project owner and updated continuously."
+    },
+    {
+      "section_heading": "Record Retention",
+      "tag": "[RT Standard]",
+      "text": "Define minimum record retention periods by category: electrical equipment inspection records (minimum 5 years); incident investigation records (per classification and legislative requirements); explosives records (minimum 5 years or life of mine); environmental monitoring datasets (life of asset); training and competency records (employment period plus defined post-employment period)."
+    },
+    {
+      "section_heading": "Record Retention",
+      "tag": "[IFC – IFC PS1 §22]",
+      "text": "Retain monitoring data and management records for the life of the project, ensuring they are owned by the company, stored on authorised systems, and accessible for future regulatory or assurance purposes."
+    },
+    {
+      "section_heading": "Record Retention",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define a secure records disposal process for records that have reached their retention expiry, and must document the disposal event including what was destroyed, the authority who approved disposal, and the date."
+    },
+    {
+      "section_heading": "Deliverables Schedule",
+      "tag": "[APPC – Appendix C, C-1 §22.4.1]",
+      "text": "Require preparation of an HSESC Contract Deliverables Schedule tracking all required HSESC submissions, aligned with the requirements of Appendix C-9 and the project programme. The schedule must record due dates, responsible persons, and submission and approval status, and must be updated continuously throughout the project."
+    },
+    {
+      "section_heading": "Document Hierarchy and Identification",
+      "tag": "[APPC – Appendix C, C-1 §45.0.5]",
+      "text": "Require identification, review, and incorporation of external origin documents relevant to the project into the document control system. External origin documents include applicable legislation, regulatory guidance, permits, approvals, consent conditions, and Company standards and guidelines."
+    },
+    {
+      "section_heading": "Version Control and Distribution",
+      "tag": "[APPC – Appendix C, C-1 §45.0.7]",
+      "text": "Require a defined process for the timely removal and archiving of obsolete documents from all points of issue and use. Obsolete documents must be clearly identified as such if retained for reference, and removed from all active distribution systems."
+    }
+  ],
+  "project_completion_guidance": [
+    "CRITICAL — Define the document numbering convention for this project. All 47 procedures need a project-specific document number in addition to the system reference number. Define the convention and insert the full Document Register (RTPR-HSE-REG-0002) before any documents are issued.",
+    "Define the approval authority matrix for this project: who can approve Tier 1 (Policies), Tier 2 (Plans), Tier 3 (Procedures), and Tier 4 (Registers) documents. Insert as a table.",
+    "Define which documents require submission to the project owner for approval vs which are internally approved. Check the project Deliverables Schedule.",
+    "Insert the project-specific Deliverables Schedule (RTPR-HSE-REG-0002) with all submission due dates confirmed against the project programme.",
+    "Confirm any project-specific record retention requirements that exceed the minimum periods set in this procedure — some project jurisdictions have longer legislative retention requirements."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "RT – Management & Compliance Standard",
+      "summary": "Requires a four-tier document hierarchy, unique document identification, defined approval roles, version control, and minimum record retention periods by category."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §45",
+      "summary": "Requires a Document Register tracking all controlled documents, defines which documents require project owner approval, and requires preparation and maintenance of an HSESC Deliverables Schedule."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §22.4",
+      "summary": "Requires preparation and maintenance of an HSESC Deliverables Schedule tracking all required submissions, due dates, responsible persons, and submission and approval status."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §22.4.1",
+      "summary": "Requires preparation of an HSESC Contract Deliverables Schedule aligned with Appendix C-9 and the project programme, updated continuously throughout the project."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §45.0.5",
+      "summary": "Requires identification, review, and incorporation of external origin documents into the document control system, including legislation, permits, and Company standards."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §45.0.7",
+      "summary": "Requires a defined process for timely removal and archiving of obsolete documents from all points of issue and use."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 §6",
+      "summary": "Requires that key management commitments are documented, accessible to relevant project participants, and disclosed to affected communities where required by applicable performance standards or permit conditions."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "IFC PS1 §22",
+      "summary": "Requires monitoring data and management records to be retained for the life of the project, owned by the company, stored on authorised systems, and accessible for future regulatory or assurance purposes."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "OSHA RP 2016 – Management Leadership",
+      "summary": "Requires that procedures and safe work documentation are written at the language and literacy level of the workforce that will use them, with visual aids or translations where required."
+    }
+  ]
+}

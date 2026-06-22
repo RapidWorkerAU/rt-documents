@@ -1,0 +1,128 @@
+{
+  "procedure_id": "PRO-0030",
+  "document_number": "RTPR-HSE-PRO-0030",
+  "title": "Working Over Water and Marine Vetting Activities Procedure",
+  "management_system_element": "10 – Operational Control",
+  "preamble": "This procedure defines requirements for all work on, near, or over water bodies, including: work on wharves, jetties, and bridges; vessel operations; personnel transfers; near-water vehicle and PME operations; occupational diving; and marine vetting of vessels used for project activities. 'Near water' is defined as working within 1.5 metres of the water's edge where there is risk of immersion, or within two metres of an unguarded edge above water.",
+  "owns": [
+    "Near-water definition (1.5m/2m thresholds)",
+    "Water rescue plan requirements",
+    "PFD requirements (ISO 12402 certification)",
+    "Vessel certification and vetting requirements",
+    "Mooring equipment register requirements (RTPR-HSE-REG-0016)",
+    "Ship boarding and access requirements",
+    "Occupational diving requirements",
+    "Marine biosecurity requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (near-water risk assessment)",
+    "RTPR-HSE-PRO-0004 – Training (water rescue competency, diving competency — RTPR-HSE-REG-0003)",
+    "RTPR-HSE-PRO-0008 – Working at Height (height controls on structures over water)",
+    "RTPR-HSE-PRO-0009 – Incident Management (water-related incident reporting)",
+    "RTPR-HSE-PRO-0041 – Business Resilience (water rescue as emergency response scenario)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0046 – Scaffolding references RTPR-HSE-PRO-0030 for scaffold over water requirements"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Risk Assessment and Structure Design",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard]",
+      "text": "Require a risk assessment for all near-water work covering: fixed and temporary structures; natural and constructed landforms; vessel operations; personnel transfers; diving activities; and vehicle/PME near water. Require assessment of environmental conditions (weather, tides, vessel movements, ice) as part of planning for each near-water activity."
+    },
+    {
+      "section_heading": "Risk Assessment and Structure Design",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard]",
+      "text": "Require structures over or near water to be engineered for: stable, non-slip, drainable surfaces; adequate static and dynamic load capacity; edge protection (guardrails at minimum 900mm, mid-rails, toe-boards); and emergency access and egress for rapid recovery of an immersed person."
+    },
+    {
+      "section_heading": "Access Control and Edge Protection",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard – Critical Control]",
+      "text": "Require access to water-risk zones to be limited to authorised personnel, with physical controls (barriers, self-closing or locked gates, covers), clear signage, and a defined inspection and maintenance programme for all access controls."
+    },
+    {
+      "section_heading": "Access Control and Edge Protection",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard – Critical Control]",
+      "text": "Require a continuous physical barrier (berm, guardrail, or engineered equivalent) at all water-adjacent work areas. Require guardrails of at minimum 900mm on docks, pontoons, walkways, and platforms. Define berm construction requirements and mandatory event-triggered inspection requirements (heavy rainfall, pumping/dewatering events)."
+    },
+    {
+      "section_heading": "Personal Flotation Devices",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard – Critical Control]",
+      "text": "Require all personnel working within two metres of an unprotected edge adjacent to water to wear an approved PFD. Require PFDs to be ISO 12402 certified, appropriate for the specific water conditions, selected by risk assessment (including during scaffold erection/dismantling over water), inspected pre-use, and maintained per manufacturer requirements."
+    },
+    {
+      "section_heading": "Personal Flotation Devices",
+      "tag": "[IFC – IFC EHS General Guidelines §2.1]",
+      "text": "Ensure that PFDs are compatible with other PPE being worn (e.g., harness systems) and that their use does not introduce additional rescue complications."
+    },
+    {
+      "section_heading": "Water Rescue Plan",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard – Critical Control]",
+      "text": "Require a water rescue plan for all areas where personnel work near water, covering: roles; immediate rescue actions; emergency communication; site and activity-specific hazards (depth, currents, hypothermia, fauna); and rescue equipment immediately accessible at all near-water work locations and inspected at least quarterly."
+    },
+    {
+      "section_heading": "Water Rescue Plan",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard]",
+      "text": "Require only trained and authorised personnel to perform water rescues. Require annual water rescue drills (or more frequently per site risk assessment or legislative requirements)."
+    },
+    {
+      "section_heading": "Vessel Requirements and Marine Vetting",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard]",
+      "text": "Require all vessels to be approved by a competent person with current third-party certification and compliance with all statutory regulations in the area of operation. Define maintenance requirements and require passenger and non-crew safety briefings before all marine journeys."
+    },
+    {
+      "section_heading": "Vessel Requirements and Marine Vetting",
+      "tag": "[APPC – Appendix C, C-2 §53.4.1]",
+      "text": "Define marine biosecurity requirements for vessels: hull inspection and management of biofouling; controlled movement of ballast water; and vessel equipment cleaning protocols to prevent introduction of invasive species."
+    },
+    {
+      "section_heading": "Vessel Requirements and Marine Vetting",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define a marine vessel vetting process specifying the minimum certification, maintenance, and safety equipment standards for all vessel types used on the project, and the process for approving and documenting vessel suitability before first use."
+    },
+    {
+      "section_heading": "Mooring, Berthing, and Ship Access",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard – Critical Control]",
+      "text": "Require documented Mooring System or Line Management processes, and require mooring equipment to be inspected, certified, load-rated, and recorded in a mooring equipment register. Require task-specific exclusion zones during all mooring line handling. Require trained and competent personnel for all mooring operations with positive communications between shore and vessel."
+    },
+    {
+      "section_heading": "Mooring, Berthing, and Ship Access",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard – Critical Control]",
+      "text": "Require ship boarding access systems to be certified, WLL-marked, edge-protected (guardrails at minimum 900mm), inspected before use, and include immediate water rescue capability at the boarding point whenever access systems are in use over water."
+    },
+    {
+      "section_heading": "Occupational Diving",
+      "tag": "[RT – RT – Managing Work on/near/over Water Standard]",
+      "text": "Require diving personnel to hold relevant statutory training, competence, and medical clearances. Require a Dive Plan developed and approved by a competent person. Require propeller guards for relevant vessels, use of buoys and markers, and appropriate dive flags."
+    },
+    {
+      "section_heading": "Occupational Diving",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define the minimum dive team composition for each type of diving activity (surface supply, SCUBA, commercial saturation) and the conditions under which occupational diving is prohibited (e.g., current speed, visibility, water temperature thresholds), to be documented in the project Dive Plan standard."
+    }
+  ],
+  "project_completion_guidance": [
+    "Conduct a near-water risk assessment specific to this project's geographic context before near-water work commences. Insert or reference the completed assessment.",
+    "Define the water rescue team capability for this project: who is trained; what rescue equipment is staged at each near-water location; what is the maximum response time. Insert as a table by work area.",
+    "If vessels are used on this project: complete the vessel vetting process for each vessel before first use. Define the project vessel register and insert the completed vetting records or a reference to them.",
+    "If occupational diving occurs on this project: define the project dive plan approval authority and the minimum dive team composition for each type of diving operation.",
+    "Define the PFD inspection and maintenance schedule for this project and the process for recording pre-use inspections."
+  ],
+  "external_sources": [
+    {
+      "framework": "RT Standard",
+      "clause": "Managing Work on/near/over Water Standard",
+      "summary": "Sets mandatory requirements for risk assessment, structure design, access control, edge protection, PFDs, water rescue planning, vessel requirements, mooring systems, ship boarding access, and occupational diving for all work on, near, or over water."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-2 §53.4.1",
+      "summary": "Requires marine biosecurity controls for vessels including hull inspection, biofouling management, ballast water control, and vessel equipment cleaning to prevent introduction of invasive species."
+    },
+    {
+      "framework": "IFC EHS General Guidelines",
+      "clause": "§2.1",
+      "summary": "Requires that PFDs are compatible with other PPE being worn and that their use does not introduce additional rescue complications."
+    }
+  ]
+}

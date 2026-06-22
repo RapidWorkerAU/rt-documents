@@ -1,0 +1,189 @@
+{
+  "procedure_id": "PRO-0005",
+  "document_number": "RTPR-HSE-PRO-0005",
+  "title": "Supplier and Contractor Management Procedure",
+  "management_system_element": "07 – Supplier & Contractor Management",
+  "preamble": "This procedure defines how the owner-led project selects, onboards, monitors, and manages the HSESC performance of all contractor organisations and suppliers. In the owner-led model, RT carries direct responsibility for ensuring that all parties working under the project management system meet the HSESC standards established for the project — this cannot be delegated to an EPCM intermediary.",
+  "owns": [
+    "Contractor HSESC pre-qualification criteria",
+    "Contractor onboarding HSESC requirements",
+    "Contractor compliance monitoring process",
+    "Supplier HSESC due diligence requirements"
+  ],
+  "references": [
+    "RTPR-HSE-PRO-0002 – Risk Management (risk-based approach to contractor requirements)",
+    "RTPR-HSE-PRO-0004 – Training (contractor training requirements)",
+    "RTPR-HSE-PRO-0009 – Incident Management (contractor incident reporting obligations)",
+    "RTPR-HSE-PRO-0010 – Document Control (contractor plan submission and approval)",
+    "RTPR-HSE-PRO-0041 – Business Resilience (contractor ERP integration)"
+  ],
+  "referenced_by": [
+    "RTPR-HSE-PRO-0003 references RTPR-HSE-PRO-0005 for contractor HSESC governance",
+    "RTPR-HSE-PRO-0044 references RTPR-HSE-PRO-0005 for contractor audit scope"
+  ],
+  "requirements": [
+    {
+      "section_heading": "Pre-qualification and Selection",
+      "tag": "[APPC – Appendix C, C-1 §22.5]",
+      "text": "Require that all proposed contractor organisations are evaluated for HSESC performance capability before award, with a documented evaluation provided to the relevant project authority. Reserve the right to review and approve contractor selection on HSESC grounds."
+    },
+    {
+      "section_heading": "Pre-qualification and Selection",
+      "tag": "[APPC – Appendix C, C-1 §22.5]",
+      "text": "Define the minimum HSESC criteria used in contractor evaluation: safety record and frequency rates; management system maturity; training and competency capability; incident history; and demonstrated CRM programme capability."
+    },
+    {
+      "section_heading": "Pre-qualification and Selection",
+      "tag": "[IFC – IFC PS1 §21 and Guidance Note §GN36]",
+      "text": "Ensure that the scope of HSESC requirements communicated to contractors is proportionate to the risks associated with their scope of work — high-risk scopes require more extensive HSESC obligations than low-risk administrative scopes."
+    },
+    {
+      "section_heading": "Pre-qualification and Selection",
+      "tag": "[TSM – TSM – Safe, Healthy and Respectful Workplaces Protocol, Indicator SH1]",
+      "text": "Confirm that accountability for the safety and health performance of contracted workers is retained at the project owner level and not treated as solely the contractor's responsibility."
+    },
+    {
+      "section_heading": "HSESC Requirements Communication and Alignment",
+      "tag": "[APPC – Appendix C, C-1 §22.5]",
+      "text": "Require that all applicable HSESC requirements are communicated to contractor organisations as part of the onboarding process, and that contractor HSESC plans are aligned with the project HSESC management system before work commences."
+    },
+    {
+      "section_heading": "HSESC Requirements Communication and Alignment",
+      "tag": "[IFC – IFC PS1 Guidance Note §GN33]",
+      "text": "Embed HSESC obligations in contractual terms, including requirements for compliance with the project HSESC management system, participation in audits and inspections, and mandatory incident reporting."
+    },
+    {
+      "section_heading": "HSESC Requirements Communication and Alignment",
+      "tag": "[APPC – Appendix C, C-1 §22.5]",
+      "text": "Require contractor Emergency Response Plans to be integrated into the project ERP so that response is seamlessly coordinated across all organisations on site."
+    },
+    {
+      "section_heading": "Ongoing Monitoring and Compliance",
+      "tag": "[APPC – Appendix C, C-1 §34]",
+      "text": "Require monitoring of contractor HSESC compliance through regular performance reviews and inspections. Document all compliance activities including selection, onboarding, and inspection records."
+    },
+    {
+      "section_heading": "Ongoing Monitoring and Compliance",
+      "tag": "[IFC – IFC PS2 §25]",
+      "text": "Establish policies and procedures for managing and monitoring the performance of contracted workers in relation to the requirements of this management system."
+    },
+    {
+      "section_heading": "Ongoing Monitoring and Compliance",
+      "tag": "[OSHA – OSHA RP 2016 – Multiemployer Worksites]",
+      "text": "Define the project's role as the controlling employer — responsible for ensuring that all contractors comply with HSESC requirements and that contractor workers are protected from hazards created by any employer on the site."
+    },
+    {
+      "section_heading": "Ongoing Monitoring and Compliance",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define a contractor HSESC performance rating process that triggers escalating responses to non-compliance — from corrective action plans through to work suspension — with defined thresholds for each escalation level. The project must set and document these thresholds based on the project risk profile."
+    },
+    {
+      "section_heading": "Supplier Management",
+      "tag": "[APPC – Appendix C, C-1 §22.6]",
+      "text": "Identify and manage HSESC risks associated with procurement of materials, equipment, services, and labour. Suppliers are outside the Appendix C framework but must be addressed through a dedicated HSESC risk management approach for procurement activities."
+    },
+    {
+      "section_heading": "Supplier Management",
+      "tag": "[IFC – IFC PS2 §27–30]",
+      "text": "Identify primary supply chain risks and, where there are significant occupational health and safety issues associated with suppliers, establish processes to address those risks proportionate to the level of supply chain control."
+    },
+    {
+      "section_heading": "Supplier Management",
+      "tag": "[Objective Requirement]",
+      "text": "The project must define minimum HSESC due diligence requirements for high-risk suppliers (e.g., hazardous materials, explosives, scaffolding systems, lifting equipment), specifying the information to be collected, assessed, and documented before procurement approval."
+    },
+    {
+      "section_heading": "Ongoing Monitoring and Compliance",
+      "tag": "[APPC – Appendix C, C-1 §22.6.1]",
+      "text": "Suppliers of products and/or services are excluded from the Appendix C framework. A separate HSESC risk management approach must be developed for procurement activities, identifying and managing HSESC risks associated with the procurement of materials, equipment, services, and labour."
+    },
+    {
+      "section_heading": "Ongoing Monitoring and Compliance",
+      "tag": "[APPC – Appendix C, C-1 §22.3.1]",
+      "text": "Require preparation and implementation of an HSESC Execution Readiness Plan for all locations where work is performed, agreed with the Company before work commences. The plan must demonstrate that all HSESC systems, personnel, permits, training, and resources are in place and verified before any contractor mobilises to site."
+    },
+    {
+      "section_heading": "Ongoing Monitoring and Compliance",
+      "tag": "[APPC – Appendix C, C-1 §34.1]",
+      "text": "Require that all Appendix C requirements are communicated to subcontractors as part of the onboarding process, and that all subcontractor HSESC plans are aligned with the project HSESCMP and meet Company expectations before work commences."
+    },
+    {
+      "section_heading": "Ongoing Monitoring and Compliance",
+      "tag": "[APPC – Appendix C, C-1 §34.3]",
+      "text": "Require monitoring of subcontractor compliance with HSESC requirements through regular performance reviews and inspections. Document all subcontractor HSESC compliance activities including selection, onboarding, and inspection records."
+    }
+  ],
+  "project_completion_guidance": [
+    "Define the contractor HSESC pre-qualification scorecard for this project — the minimum score required for approval, and the criteria weighting. The procedure defines the categories; the project sets the specific criteria and thresholds.",
+    "List the specific deliverables each contractor must submit before mobilisation and insert submission due dates relative to the project programme. Reference the project Deliverables Schedule (RTPR-HSE-REG-0002).",
+    "Define the contractor HSESC non-compliance escalation matrix: what triggers a verbal warning vs written notice vs suspension of work. The procedure requires this to be documented — insert the project-specific matrix.",
+    "List the key suppliers for this project with elevated HSESC risk (e.g., explosives, scaffolding systems, heavy lift contractors) and define the specific due diligence requirements for each category."
+  ],
+  "external_sources": [
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §22.5",
+      "summary": "Requires documented HSESC evaluation of all proposed contractors before award, defines minimum evaluation criteria, and requires contractor HSESC plans to be aligned with the project management system before work commences, including integration of contractor ERPs."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §22.6",
+      "summary": "Requires a dedicated HSESC risk management approach for procurement of materials, equipment, services, and labour, as suppliers are outside the Appendix C framework."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §22.6.1",
+      "summary": "Confirms that suppliers are excluded from the Appendix C framework and requires a separate HSESC risk management approach for all procurement activities."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §22.3.1",
+      "summary": "Requires preparation and implementation of an HSESC Execution Readiness Plan for all locations where work is performed, agreed with the Company before work commences."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §34",
+      "summary": "Requires monitoring of contractor HSESC compliance through regular performance reviews and inspections, with all compliance activities documented."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §34.1",
+      "summary": "Requires that all Appendix C requirements are communicated to subcontractors during onboarding and that subcontractor HSESC plans are aligned with the project HSESCMP before work commences."
+    },
+    {
+      "framework": "Appendix C",
+      "clause": "C-1 §34.3",
+      "summary": "Requires monitoring of subcontractor compliance with HSESC requirements through regular performance reviews and inspections, with all compliance activities documented."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "§21 and Guidance Note §GN36",
+      "summary": "Requires that HSESC obligations communicated to contractors are proportionate to the risks of their scope of work, with high-risk scopes requiring more extensive obligations."
+    },
+    {
+      "framework": "IFC PS1",
+      "clause": "Guidance Note §GN33",
+      "summary": "Requires HSESC obligations to be embedded in contractual terms, including compliance with the project management system, participation in audits, and mandatory incident reporting."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "§25",
+      "summary": "Requires policies and procedures for managing and monitoring the performance of contracted workers in relation to the project management system requirements."
+    },
+    {
+      "framework": "IFC PS2",
+      "clause": "§27–30",
+      "summary": "Requires identification of primary supply chain risks and, where significant OHS issues exist with suppliers, processes to address those risks proportionate to the level of supply chain control."
+    },
+    {
+      "framework": "TSM",
+      "clause": "Safe, Healthy and Respectful Workplaces Protocol, Indicator SH1",
+      "summary": "Requires that accountability for the safety and health performance of contracted workers is retained at the project owner level."
+    },
+    {
+      "framework": "OSHA",
+      "clause": "RP 2016 – Multiemployer Worksites",
+      "summary": "Defines the project's role as the controlling employer, responsible for ensuring all contractors comply with HSESC requirements and that contractor workers are protected from hazards created by any employer on site."
+    }
+  ]
+}
