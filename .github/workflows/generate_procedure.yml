@@ -1,0 +1,108 @@
+name: 02 - Generate Procedure Document
+
+on:
+  workflow_dispatch:
+    inputs:
+      procedure_id:
+        description: 'Procedure ID to generate (e.g. PRO-0001)'
+        required: true
+        default: 'PRO-0001'
+      triggered_by:
+        description: 'What triggered this run (orchestrate or manual)'
+        required: false
+        default: 'manual'
+
+jobs:
+  generate:
+    name: Generate ${{ github.event.inputs.procedure_id }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install anthropic python-docx
+
+      - name: Check brief exists
+        run: |
+          PROC_ID="${{ github.event.inputs.procedure_id }}"
+          BRIEF_FILE="briefs/${PROC_ID}.json"
+          if [ ! -f "$BRIEF_FILE" ]; then
+            echo "ERROR: Brief file not found: $BRIEF_FILE"
+            echo "Run the orchestrate workflow first to extract briefs."
+            exit 1
+          fi
+          echo "Brief found: $BRIEF_FILE"
+
+      - name: Check example procedure exists
+        run: |
+          if [ -f "inputs/example_procedure.docx" ]; then
+            echo "Style reference found: inputs/example_procedure.docx"
+          else
+            echo "WARNING: inputs/example_procedure.docx not found."
+            echo "Generation will proceed without a style reference."
+            echo "Add your completed RM procedure as inputs/example_procedure.docx for best results."
+          fi
+
+      - name: Generate procedure document
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/generate_procedure.py \
+            --procedure-id "${{ github.event.inputs.procedure_id }}" \
+            --brief-dir briefs/ \
+            --template-dir template/ \
+            --output-dir outputs/ \
+            --inputs-dir inputs/
+
+      - name: Commit generated document
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add outputs/
+          git diff --staged --quiet || git commit -m "feat: generate ${{ github.event.inputs.procedure_id }} [skip ci]"
+          git push
+
+      - name: Determine next procedure
+        id: next_proc
+        run: |
+          python scripts/get_next_procedure.py \
+            --current "${{ github.event.inputs.procedure_id }}" \
+            --brief-dir briefs/
+
+      - name: Trigger next procedure generation
+        if: ${{ steps.next_proc.outputs.next_id != 'DONE' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const nextId = '${{ steps.next_proc.outputs.next_id }}';
+            if (!nextId || nextId === 'DONE') {
+              console.log('All procedures generated. Pipeline complete.');
+              return;
+            }
+            console.log(`Triggering generation for: ${nextId}`);
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'generate_procedure.yml',
+              ref: 'main',
+              inputs: {
+                procedure_id: nextId,
+                triggered_by: 'chain'
+              }
+            });
+
+      - name: Pipeline complete
+        if: ${{ steps.next_proc.outputs.next_id == 'DONE' }}
+        run: |
+          echo "============================================"
+          echo "All procedures have been generated."
+          echo "Check the outputs/ folder in the repository."
+          echo "============================================"
