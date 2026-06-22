@@ -48,7 +48,6 @@ jobs:
           else
             echo "WARNING: inputs/example_procedure.docx not found."
             echo "Generation will proceed without a style reference."
-            echo "Add your completed RM procedure as inputs/example_procedure.docx for best results."
           fi
 
       - name: Generate procedure document
@@ -68,6 +67,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add outputs/
           git diff --staged --quiet || git commit -m "feat: generate ${{ github.event.inputs.procedure_id }} [skip ci]"
+          git pull --rebase
           git push
 
       - name: Determine next procedure
