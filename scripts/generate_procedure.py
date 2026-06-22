@@ -605,10 +605,40 @@ def build_traceability(doc, n, brief):
 
 # ── Claude generation ─────────────────────────────────────────────────────────
 
+def _call_claude(client, system, prompt, label=""):
+    """Make a single Claude API call with retry logic. Returns parsed JSON."""
+    for attempt in range(3):
+        try:
+            response = client.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=16000,
+                system=system,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            raw = response.content[0].text.strip()
+            raw = re.sub(r"^```(?:json)?\s*", "", raw)
+            raw = re.sub(r"\s*```$", "", raw)
+            return json.loads(raw)
+        except json.JSONDecodeError as e:
+            print(f"  JSON error {label} attempt {attempt+1}: {e}")
+            if attempt < 2:
+                time.sleep(5)
+            else:
+                raise
+        except Exception as e:
+            print(f"  API error {label} attempt {attempt+1}: {e}")
+            if attempt < 2:
+                time.sleep(10)
+            else:
+                raise
+
+
 def generate_content(client, brief, example_text):
     """
-    Call Claude to generate all procedure body content, using the example
-    procedure as a direct style, structure, and tone reference.
+    Generate procedure body content across two API calls to avoid token limits.
+    Call 1: body sections (the large content).
+    Call 2: definitions and references (small, fast).
+    Results are merged into one dict before document assembly.
     """
 
     requirements_text = "\n".join(
@@ -628,7 +658,55 @@ def generate_content(client, brief, example_text):
         "procedure content. Output only valid JSON — no markdown, no code fences, no commentary."
     )
 
-    prompt = f"""Generate the complete body content for this procedure:
+    style_block = f"""════════════════════════════════════════════════════════
+STYLE REFERENCE — EXAMPLE PROCEDURE
+════════════════════════════════════════════════════════
+The following is the full text of a completed procedure from the same management system.
+Match its structure, heading depth, sentence patterns, paragraph length, table formats,
+INSERT placeholder usage, and content density exactly — but written for the new topic.
+
+Key patterns to replicate:
+1. Each Level-1 section starts with a 25-35 word intro stating what the section covers.
+2. Each Level-2 section starts with a 15-25 word intro stating what the subsection defines.
+3. Paragraphs are 2-4 sentences. No single-sentence paragraphs except lead-ins.
+4. Tables are pre-filled: fixed rows for standard content, [INSERT:] rows for project data.
+5. INSERT placeholders are embedded inside sentences — never as standalone lines.
+6. Orange suggested content provides a concrete default the project may keep or change.
+7. Bullet lists always have a lead-in sentence ending with a colon.
+8. Impersonal voice throughout — subject is always a role, system, or document.
+
+EXAMPLE PROCEDURE TEXT:
+{example_text}
+════════════════════════════════════════════════════════"""
+
+    content_item_spec = """Content item types for 'content' arrays:
+
+Paragraph:
+  {"type": "paragraph", "text": "<text>", "suggested": false}
+  Set suggested: true for orange best-practice text the project may modify.
+
+INSERT placeholder:
+  {"type": "insert", "field": "<field name>", "hint": "<short hint>"}
+
+Bullet list:
+  {"type": "bullet_list", "lead": "<lead-in sentence ending with colon>", "items": [
+    "<bullet text>",
+    {"text": "<suggested bullet>", "suggested": true},
+    {"insert": true, "field": "<field name>"}
+  ]}
+
+Table:
+  {"type": "table", "caption": "<optional caption>", "suggested": false,
+    "headers": ["<col>", "<col>"],
+    "rows": [["<cell>", "<cell>"], ["[INSERT: value]", "[INSERT: value]"]]
+  }
+
+Instruction box (use sparingly):
+  {"type": "instruction_box", "text": "<instruction text>"}"""
+
+    # ── Call 1: body sections ─────────────────────────────────────────────────
+    print("  Call 1/2: generating body sections...")
+    sections_prompt = f"""Generate the body sections for this procedure:
 
 PROCEDURE: {brief['procedure_id']} — {brief['title']}
 Document number: {brief['document_number']}
@@ -637,39 +715,20 @@ Management system element: {brief['management_system_element']}
 THIS DOCUMENT OWNS:
 {owns_text}
 
-THIS DOCUMENT REFERENCES (cross-reference, do not repeat):
+THIS DOCUMENT REFERENCES (cross-reference only — do not repeat content):
 {refs_text}
 
 REQUIREMENTS TO ADDRESS (every one must appear in the output):
 {requirements_text}
 
-PROJECT COMPLETION GUIDANCE (embed these as [INSERT:] placeholders in the relevant sections):
+PROJECT COMPLETION GUIDANCE (embed as [INSERT:] placeholders in the relevant sections):
 {pcg_text}
 
-════════════════════════════════════════════════════════
-STYLE REFERENCE — EXAMPLE PROCEDURE
-════════════════════════════════════════════════════════
-The following is the full text of a completed procedure from the same management system.
-Match its structure, heading depth, sentence patterns, paragraph length, table formats,
-INSERT placeholder usage, and content density exactly — but written for the new topic above.
+{style_block}
 
-Key patterns to replicate from the example:
-1. Each Level-1 section starts with a 25-35 word intro stating what the section covers.
-2. Each Level-2 section starts with a 15-25 word intro stating what the subsection defines or sets out.
-3. Paragraphs are 2-4 sentences. No single-sentence paragraphs except for lead-ins.
-4. Tables are pre-filled: fixed rows for standard content, [INSERT:] rows for project-specific data.
-5. INSERT placeholders are embedded inside sentences — never as standalone lines.
-6. Orange suggested content provides a concrete default value the project may keep or change.
-7. Bullet lists always have a lead-in sentence ending with a colon.
-8. Roles in Section 2 have the same 4-column layout as the example.
-9. Section 17 traceability table rows are pre-populated with the source requirements.
-10. Impersonal voice throughout — subject is always a role, system, or document.
+{content_item_spec}
 
-EXAMPLE PROCEDURE TEXT:
-{example_text}
-════════════════════════════════════════════════════════
-
-Return a JSON object with this exact structure:
+Return ONLY this JSON — nothing else:
 
 {{
   "sections": [
@@ -678,86 +737,73 @@ Return a JSON object with this exact structure:
       "intro": "<25-35 word introduction>",
       "subsections": [
         {{
-          "title": "<Level-2 subsection title, or empty string if none>",
+          "title": "<Level-2 title, or empty string>",
           "intro": "<15-25 word introduction, or empty string>",
           "level3": [
             {{
-              "title": "<Level-3 subsection title>",
-              "number": <integer — the x.y.z number>,
-              "content": [ <content items — see below> ]
+              "title": "<Level-3 title>",
+              "number": <integer>,
+              "content": [ <content items> ]
             }}
           ],
-          "content": [ <content items — see below> ]
+          "content": [ <content items> ]
         }}
       ]
     }}
-  ],
-  "definitions": [
-    {{"term": "<acronym or term>", "definition": "<definition>"}}
-  ],
-  "references": [
-    {{"document": "<title>", "reference": "<number or standard>", "type": "<Internal procedure | External RT | External framework>"}}
   ]
 }}
 
-Content item types (use these objects in 'content' arrays):
-
-Paragraph:
-  {{"type": "paragraph", "text": "<text>", "suggested": false}}
-  Set suggested: true for orange best-practice text the project may modify.
-
-INSERT placeholder:
-  {{"type": "insert", "field": "<field name>", "hint": "<short hint>"}}
-
-Bullet list:
-  {{"type": "bullet_list", "lead": "<lead-in sentence ending with colon>", "items": [
-    "<bullet text>",
-    {{"text": "<suggested bullet>", "suggested": true}},
-    {{"insert": true, "field": "<field name>"}}
-  ]}}
-
-Table:
-  {{"type": "table", "caption": "<optional table caption>", "suggested": false,
-    "headers": ["<col>", "<col>"],
-    "rows": [["<cell>", "<cell>"], ["[INSERT: value]", "[INSERT: value]"]]
-  }}
-
-Instruction box (use sparingly — only for deletable instructions):
-  {{"type": "instruction_box", "text": "<instruction text>"}}
-
 RULES:
-- Every requirement in the brief must be covered in the sections output.
-- Do not invent requirements not in the brief or owned by referenced documents.
-- Definitions must cover every acronym used in the sections.
-- References must include every internal procedure cross-referenced in the sections.
-- The standard cross-reference phrase for PTW is: "raise a permit via the site PTW system before commencing work, refer RTPR-HSE-PRO-0021."
-- The standard cross-reference phrase for incident reporting is: "report all incidents and near misses per the project incident classification and notification requirements, refer RTPR-HSE-PRO-0009."
+- Every requirement must be addressed. Do not omit any.
+- Do not reproduce content owned by referenced documents — cross-reference instead.
+- Standard PTW cross-reference: "raise a permit via the site PTW system before commencing work, refer RTPR-HSE-PRO-0021."
+- Standard incident cross-reference: "report all incidents and near misses per the project incident classification and notification requirements, refer RTPR-HSE-PRO-0009."
 - Return only valid JSON."""
 
-    for attempt in range(3):
-        try:
-            response = client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=8000,
-                system=system,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            raw = response.content[0].text.strip()
-            raw = re.sub(r"^```(?:json)?\s*", "", raw)
-            raw = re.sub(r"\s*```$", "", raw)
-            return json.loads(raw)
-        except json.JSONDecodeError as e:
-            print(f"  JSON error attempt {attempt+1}: {e}")
-            if attempt < 2:
-                time.sleep(5)
-            else:
-                raise
-        except Exception as e:
-            print(f"  API error attempt {attempt+1}: {e}")
-            if attempt < 2:
-                time.sleep(10)
-            else:
-                raise
+    sections_result = _call_claude(client, system, sections_prompt, label="sections")
+
+    # ── Call 2: definitions and references ────────────────────────────────────
+    print("  Call 2/2: generating definitions and references...")
+
+    # Summarise what sections were generated so Claude can produce matching definitions
+    section_titles = [s.get("title", "") for s in sections_result.get("sections", [])]
+    section_summary = ", ".join(section_titles)
+
+    defsrefs_prompt = f"""Generate the definitions and references for this procedure.
+
+PROCEDURE: {brief['procedure_id']} — {brief['title']}
+
+The procedure body covers these sections: {section_summary}
+
+It references these documents:
+{refs_text}
+
+Return ONLY this JSON — nothing else:
+
+{{
+  "definitions": [
+    {{"term": "<acronym or term used in the procedure>", "definition": "<clear definition>"}}
+  ],
+  "references": [
+    {{"document": "<full document title>", "reference": "<document number or standard>", "type": "<Internal procedure | External RT | External framework>"}}
+  ]
+}}
+
+RULES:
+- definitions must cover every acronym and technical term used in the procedure sections above.
+- Always include: HSESC, RT, ALARP, JHA, PTW, SWMS, MoC, PCG, PPE where relevant to the topic.
+- references must include every internal procedure cross-referenced in the body sections.
+- Always include as references: RT Risk Management Standard, Appendix C C-1, and any IFC/ICMM standards relevant to the topic.
+- Return only valid JSON."""
+
+    defsrefs_result = _call_claude(client, system, defsrefs_prompt, label="defs+refs")
+
+    # ── Merge results ─────────────────────────────────────────────────────────
+    return {
+        "sections": sections_result.get("sections", []),
+        "definitions": defsrefs_result.get("definitions", []),
+        "references": defsrefs_result.get("references", []),
+    }
 
 
 # ── Document assembly ─────────────────────────────────────────────────────────
