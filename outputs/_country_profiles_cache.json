@@ -1539,5 +1539,739 @@
       ],
       "recommended_approach": "Documents should be calibrated to reflect a mature, well-regulated jurisdiction with a green baseline compliance profile. Reference the Mining Act 1978 (WA), WHS Regulations 2022, and Environmental Protection Act 1986 (WA) as primary legislative anchors. Acknowledge the July 2025 structural reform and reference successor agencies (Department of Mines, Petroleum and Exploration; Department of Local Government, Industry Regulation and Safety) where relevant. For Rhodes Ridge specifically, documents should note the active EPA referral and pre-approval status, and flag native title as a key approvals dependency. Rehabilitation and closure planning documents should reflect EPA's heightened Pilbara-specific scrutiny and cumulative effects requirements. Health and safety documentation should align with MSMS requirements and PCBU duty frameworks under WHS Regulations 2022. Given the jurisdictional maturity, documents can assume a sophisticated regulatory audience and should be precise, evidence-based, and condition-specific rather than general in nature."
     }
+  },
+  "QLD": {
+    "sources": [
+      {
+        "claim": "osh_legislation",
+        "source_name": "Mining and Quarrying Safety and Health Act 1999 (Qld)",
+        "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1999-040",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Mining and Quarrying Safety and Health Regulation 2017 (Qld)",
+        "url": "https://www.legislation.qld.gov.au/view/pdf/inforce/current/sl-2017-0166",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Work Health and Safety Act 2011 (Qld)",
+        "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2011-018",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Resources Safety and Health Act 2020 (Qld)",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Resources Safety and Health Legislation Amendment Act 2024 (Qld)",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Explosives Act 1999 (Qld)",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Radiation Safety Act 1999 (Qld)",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Coal Mining Safety and Health Act 1999 (Qld)",
+        "url": "https://www.legislation.qld.gov.au/view/html/inforce/2025-06-01/act-1999-039",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "osh_legislation",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "osh_legislation",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Environmental Protection Act 1994 (Qld)",
+        "url": "https://www.legislation.qld.gov.au/view/whole/html/current/act-1994-062",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Mineral Resources Act 1989 (Qld)",
+        "url": "https://www.legislation.qld.gov.au/view/pdf/inforce/current/act-1989-110",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Environment Protection and Biodiversity Conservation Act 1999 (Cth)",
+        "url": "https://www.riotinto.com/en/operations/anz/weipa",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Planning Act 2016 (Qld)",
+        "url": "https://queenslandlawhandbook.org.au/the-queensland-law-handbook/living-and-working-in-society/laws-affecting-the-environment/mining/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://www.legislation.qld.gov.au/view/whole/html/current/act-1994-062",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-approves-us180-million-norman-creek-project-securing-long-term-future-for-amrun-bauxite-operations-on-queenslands-cape-york-peninsula",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Strong and Sustainable Resource Communities Act 2017 (Qld)",
+        "url": "https://www.legislation.qld.gov.au/view/pdf/current/act-2017-028",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Comalco Act 1957 (Qld)",
+        "url": "https://en.wikipedia.org/wiki/Weipa_Town",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Local Government Act 2009 (Qld)",
+        "url": "https://www.weipatownauthority.com.au/your-wta/local-laws-policies",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Anti-Discrimination Act 1991 (Qld)",
+        "url": "https://www.statedevelopment.qld.gov.au/coordinator-general/strong-and-sustainable-resource-communities",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "State Development and Public Works Organisation Act 1971 (Qld)",
+        "url": "https://www.statedevelopment.qld.gov.au/coordinator-general/strong-and-sustainable-resource-communities/requirements-for-large-resource-projects",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Environmental Protection Act 1994 (Qld)",
+        "url": "https://www.statedevelopment.qld.gov.au/coordinator-general/strong-and-sustainable-resource-communities/requirements-for-large-resource-projects",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://www.statedevelopment.qld.gov.au/__data/assets/pdf_file/0017/17405/social-impact-assessment-guideline-july-2025.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Human Rights Act 2019 (Qld)",
+        "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2019-005",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.justice.qld.gov.au/about-us/human-rights",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Mining and Quarrying Safety and Health Act 1999 (Qld)",
+        "url": "https://www.legislation.qld.gov.au/view/whole/html/current/act-1999-040",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Mining and Quarrying Safety and Health Regulation 2017 (Qld)",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Resources Safety and Health Legislation Amendment Act 2024 (Qld)",
+        "url": "https://www.rshq.qld.gov.au/about-us/what-we-do/-the-resources-safety-and-health-legislation-amendment-act-2024",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Resources Safety and Health Queensland and Other Legislation Amendment Act 2026 (Qld)",
+        "url": "https://www.rshq.qld.gov.au/about-us/what-we-do",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Coal Mining Safety and Health Act 1999 (Qld)",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Coal Mining Safety and Health Regulation 2017 (Qld)",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Explosives Act 1999 (Qld)",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Radiation Safety Act 1999 (Qld)",
+        "url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Australian Indigenous Security Service (AISS)",
+        "url": "https://aissecurity.com.au/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Cape York Protection Pty Ltd",
+        "url": "https://capeyorkprotection.com.au",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "MSS Security",
+        "url": "https://msssecurity.com.au/services/mine-protection-officers/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Wilson Security",
+        "url": "https://www.wilsonsecurity.com.au/about-us/our-history/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      }
+    ],
+    "development_classification": {
+      "classification": "First World/OECD",
+      "hdi_rank": "Not available",
+      "hdi_source_url": null,
+      "notes": "Queensland, Australia is a First World/OECD jurisdiction. Mining and petroleum development at Weipa/Norman Creek (Cape York Peninsula) is classified as Accepted Development under the Queensland Planning Act 2016 by operation of Schedule 6 of the Planning Regulation 2017, meaning no development application or approval under the Planning Act is required for mining activities themselves. However, this does not mean unregulated: mining is assessed under the Mineral Resources Act 1989 (Qld) (requiring a Mining Lease) and the Environmental Protection Act 1994 (Qld) (requiring an Environmental Authority). Non-mining ancillary built works within the Weipa Town boundary are Assessable Development under the Planning Act 2016, assessed by the Weipa Town Authority. For HSESC compliance, the applicable regulatory regime is state and Commonwealth law rather than local planning schemes, with Rio Tinto operating under Mining Leases ML7024 and ML6024 and corresponding Environmental Authorities. High standards of environmental, safety, and community compliance are expected consistent with an OECD jurisdiction."
+    },
+    "osh_legislation": {
+      "has_dedicated_osh_law": true,
+      "legislation": [
+        {
+          "name": "Mining and Quarrying Safety and Health Act 1999 (Qld)",
+          "year": "1999",
+          "regulator": "Resources Safety and Health Queensland (RSHQ)",
+          "regulator_url": "https://www.rshq.qld.gov.au/about-us/what-we-do",
+          "source_url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1999-040",
+          "verified": true,
+          "notes": "Primary OSH legislation applicable to the Weipa/Norman Creek Amrun bauxite mine operations. Covers surface mineral/metalliferous mines. Amended by the Resources Safety and Health Legislation Amendment Act 2024 (effective 1 September 2024), introducing requirements for SSE on-site presence, expanded contractor definitions, contractor induction/training, SHMS display, ROC worker provisions, Principal Hazard Management Plans, and critical controls."
+        },
+        {
+          "name": "Mining and Quarrying Safety and Health Regulation 2017 (Qld)",
+          "year": "2017",
+          "regulator": "Resources Safety and Health Queensland (RSHQ)",
+          "regulator_url": "https://www.rshq.qld.gov.au/about-us/what-we-do",
+          "source_url": "https://www.legislation.qld.gov.au/view/pdf/inforce/current/sl-2017-0166",
+          "verified": true,
+          "notes": "Subordinate regulation to the Mining and Quarrying Safety and Health Act 1999 (Qld). Provides detailed requirements for mining and quarrying safety and health compliance at operations such as Amrun/Norman Creek."
+        },
+        {
+          "name": "Work Health and Safety Act 2011 (Qld)",
+          "year": "2011",
+          "regulator": "Resources Safety and Health Queensland (RSHQ)",
+          "regulator_url": "https://www.rshq.qld.gov.au/about-us/what-we-do",
+          "source_url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2011-018",
+          "verified": true,
+          "notes": "General work health and safety legislation in Queensland. May apply to activities at the Norman Creek/Amrun site that fall outside the specific scope of the Mining and Quarrying Safety and Health Act 1999."
+        },
+        {
+          "name": "Resources Safety and Health Act 2020 (Qld)",
+          "year": "2020",
+          "regulator": "Resources Safety and Health Queensland (RSHQ)",
+          "regulator_url": "https://www.rshq.qld.gov.au/about-us/what-we-do",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+          "verified": true,
+          "notes": "Established RSHQ as a statutory body with a CEO reporting directly to the responsible Minister. Passed by Queensland parliament on 17 March 2020. Amended in May 2026 to establish a governing board for strategic leadership and independent oversight."
+        },
+        {
+          "name": "Resources Safety and Health Legislation Amendment Act 2024 (Qld)",
+          "year": "2024",
+          "regulator": "Resources Safety and Health Queensland (RSHQ)",
+          "regulator_url": "https://www.rshq.qld.gov.au/about-us/what-we-do",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+          "verified": true,
+          "notes": "Effective 1 September 2024. Amended the Mining and Quarrying Safety and Health Act 1999, Coal Mining Safety and Health Act 1999, Explosives Act 1999, and Petroleum and Gas (Production and Safety) Act 2004. Key changes include SSE location requirements, expanded contractor definitions, contractor induction obligations, SHMS display requirements, ROC worker provisions, critical controls implementation, and updated Principal Hazard Management Plan requirements. Addresses recommendations from the Brady Review and the Coal Mining Board of Inquiry into the Grosvenor mine explosion."
+        },
+        {
+          "name": "Explosives Act 1999 (Qld)",
+          "year": "1999",
+          "regulator": "Resources Safety and Health Queensland (RSHQ)",
+          "regulator_url": "https://www.rshq.qld.gov.au/about-us/what-we-do",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+          "verified": true,
+          "notes": "Applies to explosive-related activities at mining sites including Amrun/Norman Creek. RSHQ regulates explosives including fireworks in Queensland."
+        },
+        {
+          "name": "Radiation Safety Act 1999 (Qld)",
+          "year": "1999",
+          "regulator": "Resources Safety and Health Queensland (RSHQ)",
+          "regulator_url": "https://www.rshq.qld.gov.au/about-us/what-we-do",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+          "verified": true,
+          "notes": "May apply to specific activities at the Amrun/Norman Creek site involving radiation safety."
+        },
+        {
+          "name": "Coal Mining Safety and Health Act 1999 (Qld)",
+          "year": "1999",
+          "regulator": "Resources Safety and Health Queensland (RSHQ)",
+          "regulator_url": "https://www.rshq.qld.gov.au/about-us/what-we-do",
+          "source_url": "https://www.legislation.qld.gov.au/view/html/inforce/2025-06-01/act-1999-039",
+          "verified": true,
+          "notes": "Not directly applicable to Amrun/Norman Creek bauxite operations (surface mineral mine, not coal). Included for reference as it was also amended by the Resources Safety and Health Legislation Amendment Act 2024 and shares parallel provisions relevant to understanding the broader Queensland mining OSH framework."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Brady Review recommendations on mining fatalities",
+          "evidence_of_application": "The Resources Safety and Health Legislation Amendment Act 2024 addressed recommendations from the Brady Review of mining fatalities, resulting in legislative changes to the Mining and Quarrying Safety and Health Act 1999 applicable to Amrun/Norman Creek.",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards"
+        },
+        {
+          "framework": "Queensland Coal Mining Board of Inquiry recommendations (Grosvenor mine explosion)",
+          "evidence_of_application": "Recommendations from the Coal Mining Board of Inquiry into the Grosvenor coal mine explosion were incorporated into the Resources Safety and Health Legislation Amendment Act 2024, including the requirement for critical controls in safety and health management systems for all mineral mines and quarries, including Amrun/Norman Creek.",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards"
+        }
+      ],
+      "gap_summary": "The research findings do not explicitly identify gaps in domestic law coverage for the Weipa/Norman Creek operations. The findings note that other laws may apply to specific activities (e.g., Explosives Act 1999, Radiation Safety Act 1999) but do not detail what specific activities or risks may fall outside existing legislative frameworks. The 2025 independent review into the effectiveness of Queensland's resources safety and health regulatory model (announced 2 April 2025) and the subsequent Resources Safety and Health Queensland and Other Legislation Amendment Bill 2026 (introduced 3 March 2026) suggest that regulators identified governance and regulatory effectiveness gaps, though the specific substantive coverage gaps identified by that review are not detailed in the available findings. The research also does not address how federal (Commonwealth) OSH obligations or native title/land access frameworks interact with state mining safety legislation at the Weipa/Norman Creek site."
+    },
+    "environmental_legislation": {
+      "has_dedicated_env_law": true,
+      "legislation": [
+        {
+          "name": "Environmental Protection Act 1994 (Qld)",
+          "year": "1994",
+          "regulator": "Department of Environment, Tourism, Science and Innovation (Queensland)",
+          "source_url": "https://www.legislation.qld.gov.au/view/whole/html/current/act-1994-062",
+          "verified": true,
+          "notes": "Primary state environmental law. Regulates environmental impacts of mining as an environmentally relevant activity (ERA). Requires an environmental authority (EA) for each mining tenement. A mining lease cannot be granted without a valid EA. Covers watercourse diversions relevant to Norman Creek, public notification processes, financial assurance and chain of responsibility amendments."
+        },
+        {
+          "name": "Mineral Resources Act 1989 (Qld)",
+          "year": "1989",
+          "regulator": "Department of Natural Resources and Mines (Queensland)",
+          "source_url": "https://www.legislation.qld.gov.au/view/pdf/inforce/current/act-1989-110",
+          "verified": true,
+          "notes": "Governs mining tenure and royalty system. Regulates exploration permits, mineral development licences and mining leases (including ML 7024 and ML 7031 relevant to Weipa/Amrun/Norman Creek). Provides miners with access rights to land for exploration and extraction. Current as at 1 August 2025."
+        },
+        {
+          "name": "Nature Conservation Act 1992 (Qld)",
+          "year": "1992",
+          "regulator": null,
+          "source_url": null,
+          "verified": true,
+          "notes": "Provides the framework for the creation and management of protected areas on land including national parks, conservation parks, resources reserves, nature refuges, coordinated conservation areas, wilderness areas, world heritage management areas, international agreement areas, and protected areas. Applicable to Cape York Peninsula region. Source URL not fully captured in findings."
+        },
+        {
+          "name": "Environment Protection and Biodiversity Conservation Act 1999 (Cth)",
+          "year": "1999",
+          "regulator": "Commonwealth (Federal) Government of Australia",
+          "source_url": "https://www.riotinto.com/en/operations/anz/weipa",
+          "verified": true,
+          "notes": "Commonwealth environmental law applicable to the Amrun bauxite mine and Norman Creek project. Rio Tinto references EPBC Approval 2010/5642 for survey data collected by the Amrun Project. Approval number indicates federal assessment was conducted for the project."
+        },
+        {
+          "name": "Planning Act 2016 (Qld)",
+          "year": "2016",
+          "regulator": "Queensland Government",
+          "source_url": "https://queenslandlawhandbook.org.au/the-queensland-law-handbook/living-and-working-in-society/laws-affecting-the-environment/mining/",
+          "verified": true,
+          "notes": "Noted as not applicable to mining and petroleum development in Queensland; mining is regulated separately under the Mineral Resources Act 1989 and Environmental Protection Act 1994 rather than the Planning Act 2016."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Ecologically Sustainable Development (ESD)",
+          "evidence_of_application": "The object of the Environmental Protection Act 1994 (Qld) explicitly incorporates ecologically sustainable development, aiming to protect Queensland's environment while allowing development that improves total quality of life and maintains ecological processes on which life depends.",
+          "source_url": "https://www.legislation.qld.gov.au/view/whole/html/current/act-1994-062"
+        },
+        {
+          "framework": "Cultural Heritage Consultation (Indigenous Rights)",
+          "evidence_of_application": "Several critical approvals for the Norman Creek project remain pending, including completion of cultural heritage consultation with the Wik Waya Traditional Owners, indicating application of indigenous cultural heritage protection frameworks.",
+          "source_url": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-approves-us180-million-norman-creek-project-securing-long-term-future-for-amrun-bauxite-operations-on-queenslands-cape-york-peninsula"
+        }
+      ],
+      "gap_summary": "The findings report was truncated before completing the description of the Nature Conservation Act 1992 (Qld), and no source URL was captured for that Act. No explicit reference was made to the Aboriginal Cultural Heritage Act 2003 (Qld) or the Native Title Act 1993 (Cth), despite cultural heritage consultation with Wik Waya Traditional Owners being noted as a pending approval requirement. Water legislation (e.g., Water Act 2000 (Qld)) is not referenced despite the Norman Creek project involving watercourse diversions requiring RPEQ certification. The specific conditions of Environmental Authority EA for ML 7024 and ML 7031 are not detailed. No information is provided on any state or federal biodiversity offsets requirements or details of the EPBC 2010/5642 approval conditions."
+    },
+    "community_social_legislation": {
+      "has_dedicated_csl_law": true,
+      "legislation": [
+        {
+          "name": "Strong and Sustainable Resource Communities Act 2017 (Qld)",
+          "year": "2017",
+          "regulator": "Queensland Department of State Development (Coordinator-General)",
+          "source_url": "https://www.legislation.qld.gov.au/view/pdf/current/act-2017-028",
+          "verified": true,
+          "notes": "Primary social/community legislation for large resource projects in Queensland. Requires social impact assessments, prohibits 100% FIFO workforce arrangements, mandates local employment and anti-discrimination provisions for projects requiring an EIS with 100+ workers. Applied to 71 large resource projects. Covers the Weipa/Cape York mining region."
+        },
+        {
+          "name": "Comalco Act 1957 (Qld)",
+          "year": "1957",
+          "regulator": "Weipa Town Authority (subsidiary of RTA Weipa Pty Ltd)",
+          "source_url": "https://en.wikipedia.org/wiki/Weipa_Town",
+          "verified": true,
+          "notes": "Governs the unique administrative structure of Weipa Town as a Special Bauxite Mining Lease of approximately 3,860 square kilometres. Establishes Rio Tinto's obligation to administer the town through the Weipa Town Authority rather than an elected local government council."
+        },
+        {
+          "name": "Local Government Act 2009 (Qld)",
+          "year": "2009",
+          "regulator": "Queensland Department of Local Government, Racing and Multicultural Affairs",
+          "source_url": "https://www.weipatownauthority.com.au/your-wta/local-laws-policies",
+          "verified": true,
+          "notes": "Weipa Town Authority local laws have been updated in line with the Queensland model developed under this Act, covering administration, roads, public amenity, signage and environmental nuisance. The Weipa Town Authority is not a true local government as defined by this Act due to its corporate structure."
+        },
+        {
+          "name": "Anti-Discrimination Act 1991 (Qld)",
+          "year": "1991",
+          "regulator": "Queensland Human Rights Commission",
+          "source_url": "https://www.statedevelopment.qld.gov.au/coordinator-general/strong-and-sustainable-resource-communities",
+          "verified": true,
+          "notes": "Applies alongside the SSRC Act to all large resource projects. Makes it an offence to discriminate against residents of nearby regional communities in recruitment or termination. Complaints can be lodged with the Queensland Human Rights Commission."
+        },
+        {
+          "name": "State Development and Public Works Organisation Act 1971 (Qld)",
+          "year": "1971",
+          "regulator": "Queensland Coordinator-General",
+          "source_url": "https://www.statedevelopment.qld.gov.au/coordinator-general/strong-and-sustainable-resource-communities/requirements-for-large-resource-projects",
+          "verified": true,
+          "notes": "One of the two pathways under which the SSRC Act's mandatory social impact assessment requirements are triggered for large resource projects subject to an environmental impact statement."
+        },
+        {
+          "name": "Environmental Protection Act 1994 (Qld)",
+          "year": "1994",
+          "regulator": "Queensland Department of Environment and Science",
+          "source_url": "https://www.statedevelopment.qld.gov.au/coordinator-general/strong-and-sustainable-resource-communities/requirements-for-large-resource-projects",
+          "verified": true,
+          "notes": "Second pathway under which the SSRC Act's mandatory social impact assessment requirements are triggered. Large resource projects holding a site-specific environmental authority with 100 or more workers are also subject to SSRC Act provisions."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Social Impact Assessment (SIA)",
+          "evidence_of_application": "The SSRC Act 2017 mandates SIA for all large resource projects subject to an EIS. SIA covers identification, analysis, assessment, management and monitoring of positive and negative social impacts, including a recruitment hierarchy prioritising local and regional communities. A Social Impact Assessment Guideline was issued in July 2025.",
+          "source_url": "https://www.statedevelopment.qld.gov.au/__data/assets/pdf_file/0017/17405/social-impact-assessment-guideline-july-2025.pdf"
+        }
+      ],
+      "gap_summary": "No legislation or regulatory instrument specifically naming 'Norman Creek' in the context of mining community social obligations was found. Norman Creek is a waterway in the Weipa region and falls under the broader Weipa/Cape York legislative framework. The Weipa Town Authority operates under the Comalco Act 1957 rather than the Local Government Act 2009, creating governance gaps around loan and budget requirements, GST on rates, land development, and town boundary changes. As of 2016, normalisation of Weipa into a standard local government authority remained unresolved. The region's narrow economic base (mining contributes over half of GRP) and FIFO workforce dynamics were the principal drivers for the SSRC Act 2017, but no Norman Creek-specific community benefit or social obligation instrument was identified."
+    },
+    "human_rights_frameworks": {
+      "has_domestic_human_rights_law": true,
+      "legislation_or_constitution": [
+        {
+          "name": "Human Rights Act 2019 (Qld)",
+          "year": "2019",
+          "source_url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2019-005",
+          "verified": true,
+          "notes": "Fully commenced 1 January 2020. Protects 23 internationally recognised human rights including right to life (s.16), right to equality (s.15), rights of children (s.26), right to privacy (s.25), right to property (s.24), and cultural rights of Aboriginal and Torres Strait Islander peoples (s.28). Imposes obligations on public entities under s.58. Private companies may opt in under s.60. Directly applicable to mining approvals in Queensland including Weipa/Norman Creek/Amrun context. Key jurisprudence in Waratah Coal v Youth Verdict (2022) confirmed Land Court must consider human rights impacts when assessing mining tenure and environmental approvals."
+        }
+      ],
+      "international_conventions_ratified": [
+        {
+          "convention": "No international conventions were specifically identified or confirmed as ratified in the research findings for this jurisdiction/context",
+          "ratified": false,
+          "source_url": null
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "UN-recognised internationally recognised human rights (as incorporated into the Human Rights Act 2019 (Qld))",
+          "evidence_of_application": "The Human Rights Act 2019 (Qld) explicitly protects 23 internationally recognised human rights, reflecting international human rights standards within Queensland state law. The Act's objective includes promoting dialogue about human rights consistent with international norms.",
+          "source_url": "https://www.justice.qld.gov.au/about-us/human-rights"
+        }
+      ],
+      "modern_slavery_risk": "Medium — The Weipa/Norman Creek region involves large-scale industrial bauxite mining in a remote area of Queensland with significant First Nations populations. While Australia has national modern slavery legislation, the findings do not specifically identify modern slavery risks or incidents at the site. However, remote location, fly-in fly-out workforce arrangements, reliance on contract labour supply chains, and the presence of vulnerable Indigenous communities in proximity to operations are contextual factors that elevate risk above Low. No specific evidence of modern slavery practices was found in the research.",
+      "gap_summary": "1. No international conventions (e.g. ILO conventions, UNDRIP, ICCPR) were specifically confirmed as ratified or applied in the findings, leaving a gap in international treaty-level protections documented for this site. 2. Rio Tinto, as the private operator of the Weipa/Amrun/Norman Creek operations, is not captured by the Human Rights Act 2019 (Qld) as a public entity and no evidence was found that it has opted in under s.60, meaning direct statutory human rights obligations do not apply to the company. 3. Remedy under the Human Rights Act is limited — there is no standalone cause of action; complaints must piggyback on independent grounds of unlawfulness such as judicial review, which may restrict access to justice for affected communities. 4. The QHRC case note URL in the findings was incomplete and could not be verified. 5. No modern slavery-specific framework, assessment or audit was identified for the Norman Creek project or the broader Amrun operations. 6. No evidence of free, prior and informed consent (FPIC) processes or outcomes specific to the Norman Creek access project approval (August 2025) was documented in the findings."
+    },
+    "security_frameworks": {
+      "has_private_security_regulation": true,
+      "legislation": [
+        {
+          "name": "Mining and Quarrying Safety and Health Act 1999 (Qld)",
+          "year": "1999",
+          "source_url": "https://www.legislation.qld.gov.au/view/whole/html/current/act-1999-040",
+          "verified": true,
+          "notes": "Primary safety and health legislation for open-cut metalliferous/mineral operations such as the Weipa/Norman Creek bauxite mine. Governs safety and health management systems (SHMS), site access controls, contractor definitions (including security contractors), site senior executive requirements, and risk management obligations."
+        },
+        {
+          "name": "Mining and Quarrying Safety and Health Regulation 2017 (Qld)",
+          "year": "2017",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+          "verified": true,
+          "notes": "Supporting regulation to the MQSHA 1999, providing detailed compliance requirements for mine safety and health management at Queensland mining and quarrying operations."
+        },
+        {
+          "name": "Resources Safety and Health Legislation Amendment Act 2024 (Qld)",
+          "year": "2024",
+          "source_url": "https://www.rshq.qld.gov.au/about-us/what-we-do/-the-resources-safety-and-health-legislation-amendment-act-2024",
+          "verified": true,
+          "notes": "Amended the MQSHA 1999 and related acts effective 1 September 2024. Key changes include: expanded contractor definitions covering all employment arrangements including labour hire and service providers (applicable to security contractors); site senior executive proximity requirements; clarification of remote operating centre (ROC) worker roles within the SHMS; introduction of enforceable undertakings as an alternative to prosecution; and new incident reporting and management structure notification requirements."
+        },
+        {
+          "name": "Resources Safety and Health Queensland and Other Legislation Amendment Act 2026 (Qld)",
+          "year": "2026",
+          "source_url": "https://www.rshq.qld.gov.au/about-us/what-we-do",
+          "verified": true,
+          "notes": "Established the RSHQ Board to provide strategic leadership, guidance and independent oversight of Resources Safety and Health Queensland."
+        },
+        {
+          "name": "Coal Mining Safety and Health Act 1999 (Qld)",
+          "year": "1999",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+          "verified": true,
+          "notes": "Not the primary applicable act for Weipa/Norman Creek (which is an open-cut bauxite operation), but listed as part of Queensland's broader mine safety legislative framework and amended by the 2024 Amendment Act for ROC and contractor provisions."
+        },
+        {
+          "name": "Coal Mining Safety and Health Regulation 2017 (Qld)",
+          "year": "2017",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+          "verified": true,
+          "notes": "Supporting regulation to the Coal Mining Safety and Health Act 1999. Not the primary applicable regulation for Weipa/Norman Creek but part of Queensland's resources safety legislative framework."
+        },
+        {
+          "name": "Explosives Act 1999 (Qld)",
+          "year": "1999",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+          "verified": true,
+          "notes": "Governs the use, storage and handling of explosives at mine sites, with direct security and safety implications for operations such as Weipa/Norman Creek bauxite mining."
+        },
+        {
+          "name": "Radiation Safety Act 1999 (Qld)",
+          "year": "1999",
+          "source_url": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+          "verified": true,
+          "notes": "Applies where radiation sources are used in specific mining activities. Listed as an additional safety and health obligation for Queensland mine operators."
+        }
+      ],
+      "voluntary_principles_applied": null,
+      "vp_evidence_url": null,
+      "conflict_risk_level": "Low — The Weipa/Norman Creek area on Cape York Peninsula, Queensland, Australia is a stable, low-conflict jurisdiction operating under Australian federal and Queensland state law. No evidence of armed conflict, civil unrest, or high security threat was identified in the findings. The primary risks are occupational safety and health related, not conflict-related.",
+      "gap_summary": "1. No dedicated private security regulation specific to mining sites in Queensland was identified; security contractor oversight is subsumed within broader SHMS and contractor definition frameworks under the MQSHA 1999 as amended in 2024. 2. No evidence was found of Rio Tinto applying the Voluntary Principles on Security and Human Rights specifically to the Weipa/Norman Creek project, though Rio Tinto is a signatory at the corporate level. 3. The findings do not include a dedicated security management plan or community security protocol for Norman Creek. 4. The SHMS section on site access and security integration (Section 5) was cut off in the source findings, leaving a gap in understanding the full scope of SHMS-based access control requirements. 5. No information was found on Queensland-specific private security licensing requirements (e.g., under the Security Providers Act 1993 (Qld)) as applied to mine site security personnel at Weipa/Norman Creek."
+    },
+    "safety_equipment_availability": {
+      "overall_rating": "Limited Availability",
+      "ppe_availability": "PPE availability in the Weipa/Norman Creek region is governed by the Mining and Quarrying Safety and Health Act 1999 and the Mining and Quarrying Safety and Health Regulation 2017 (Section 62), enforced by Resources Safety & Health Queensland (RSHQ). Required PPE includes respiratory protective equipment (RPE) such as disposable masks, reusable canister-type masks, powered air purifying (PAPR) and air-supplied respirators, hearing protection for noise-exposed workers (e.g. drillers), coveralls, goggles, gloves (particularly for NORM exposure relevant to bauxite mining), and dust monitoring equipment per AS 3640 and AS 2985. PPE must be task-appropriate and workers must be trained and fit-tested. While regulatory requirements are well-defined, the remote location of Weipa (800km north of Cairns) and the active development phase of Norman Creek means local availability is primarily tied to Rio Tinto/Amrun site supply chains rather than general commercial availability.",
+      "specialist_equipment_notes": "Specialist safety equipment referenced includes: respiratory protective equipment (RPE) across four categories (disposable, reusable canister, PAPR, air-supplied) per RSHQ guidance; first aid and trauma kits; basic life support facilities; engineering controls integrated into plant design for dust management; health surveillance facilities for dust and NORM exposure. A 19km haul road, camp accommodation and communications tower are under construction at Norman Creek, suggesting on-site infrastructure for safety equipment storage and deployment is being established but not yet fully operational. Full construction is targeted for completion in 2028. No specific information found on cranes, MEWPs, gas detection, or fall arrest equipment availability locally.",
+      "import_feasibility": "No specific data found in the research findings regarding import costs, customs processes, or lead times for safety equipment into the Weipa/Norman Creek region. The remote location approximately 800km north of Cairns and the active development phase of the Norman Creek project (first production targeted 2027, full construction 2028) suggest that logistics for specialist equipment would require significant lead times and supply chain planning, likely coordinated through Rio Tinto's existing Amrun supply infrastructure.",
+      "known_specific_gaps": [
+        "Research findings were truncated and did not provide complete information on on-site first aid and emergency response resource availability",
+        "No specific local commercial suppliers of safety equipment identified in Weipa township",
+        "No data on cranes, MEWPs, gas detection equipment or fall arrest systems availability locally",
+        "Norman Creek infrastructure (including safety support facilities) not yet fully constructed — completion targeted 2028",
+        "No data on import feasibility, cost or lead times for specialist safety equipment to the region"
+      ],
+      "source_urls": [
+        "https://www.riotinto.com/en/news/releases/2025/rio-tinto-approves-us180-million-norman-creek-project-securing-long-term-future-for-amrun-bauxite-operations-on-queenslands-cape-york-peninsula",
+        "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/legislation-standards",
+        "https://www.rshq.qld.gov.au/about-us/what-we-do",
+        "https://lawcompliance.com.au/queensland-enhances-mine-safety-regulations/",
+        "https://www.legislation.qld.gov.au/view/html/inforce/current/sl-2017-0166",
+        "https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/qld/consol_reg/maqsahr2017443/",
+        "https://classic.austlii.edu.au/au/legis/qld/consol_reg/cmsahr2017333/s64.html",
+        "https://www.rshq.qld.gov.au/__data/assets/pdf_file/0005/240566/guidance-note-mineral-exploration-safety.pdf",
+        "https://www.business.qld.gov.au/industries/mining-energy-water/resources/safety-health/mining/hazards/dust/legislation",
+        "https://www.rshq.qld.gov.au/__data/assets/pdf_file/0018/240336/qgl1-guideline.pdf"
+      ],
+      "confidence": "Low"
+    },
+    "training_providers": {
+      "has_national_training_framework": true,
+      "framework_name": "Australian Skills Quality Authority (ASQA) National Vocational Education and Training (VET) Framework",
+      "registered_providers_available": true,
+      "mining_specific_training": "Multiple RTOs deliver mining-specific training in or servicing the Weipa/Norman Creek region. Civil Safety (RTO 32381) offers nationally accredited mining supervisor courses including G189, G1, G2, G3, G7, refresher training, High-Risk Work licences, and Verification of Competencies (VOCs) from a confirmed physical Weipa office. Training and Personnel Australia (RTO 41096) delivers the G189 Mine Supervisor course plus safety compliance, operational management, leadership, and communication training from a confirmed Weipa office. TAFE Queensland (RTO 0275) has a longstanding collaboration with Rio Tinto Weipa for specialised skills training and supports apprenticeships via block release to Cairns. MRAEL operates as a Group Training Organisation facilitating apprenticeship host employer arrangements at Weipa.",
+      "internationally_recognised_certs_available": false,
+      "cert_examples": [],
+      "workforce_literacy_rate": null,
+      "source_urls": [
+        "https://civilsafety.edu.au/training-facilities/weipa",
+        "https://www.westerncapechamber.com.au/directory",
+        "https://www.tpaustralia.com.au/",
+        "https://weipa-qld.openinghours24au.com/training-and-personnel-australia-tpa",
+        "https://www.facebook.com/TrainingPersonnelAustralia.TPA/",
+        "https://www.tpaustralia.com.au/courses/g189-training/",
+        "https://tafeqld.edu.au/courses/study-areas/infrastructure-and-transport/infrastructure/resources-and-mining",
+        "https://training.gov.au/organisation/details/0275",
+        "https://www.mrael.com.au/",
+        "https://www.livehire.com/careers/mrael/job/BCE9A/7FUYJG7XVW/apprenti"
+      ],
+      "gap_summary": "No internationally recognised certifications (e.g. IOSH, NEBOSH, ICAM, BOSIET) were identified as locally available. No standalone TAFE campus exists in Weipa; TAFE Queensland delivers via Cairns campus or outreach/blended modes, limiting access for some learners. Workforce literacy rate data is not available in the findings. Allied health, legal, disability, and youth support training is largely delivered by visiting or fly-in/fly-out providers rather than permanent local services. Specialist or higher-level qualifications beyond diploma level are unlikely to be available locally. Trainer availability for niche areas (e.g. Rural Ops, Agriculture, Conservation, Ecosystem Management) is noted as a gap, with FIFO arrangements required.",
+      "confidence": "Medium"
+    },
+    "security_companies": {
+      "reputable_providers_available": true,
+      "notable_providers": [
+        {
+          "name": "Australian Indigenous Security Service (AISS)",
+          "international": false,
+          "human_rights_certified": null,
+          "notes": "Local Weipa office at 51 Circular Way, Weipa QLD 4874. Operating in North Queensland since 2001, incorporated 2007. Services include static guarding, access control, crowd control, and mobile patrols. Specialises in remote communities and isolated camps. Experience in construction industry WHS. Only confirmed provider with a physical street address directly in Weipa.",
+          "source_url": "https://aissecurity.com.au/"
+        },
+        {
+          "name": "Cape York Protection Pty Ltd",
+          "international": false,
+          "human_rights_certified": null,
+          "notes": "Based on Thursday Island, QLD. QLD Security Firm (Class 1) Licence No. 4712526. SPAAL Member #GM4526. Services include mobile patrols, alarm response, physical security, and drug & alcohol testing. Focused on Cape York Peninsula and Torres Strait Islands remote communities. Committed to indigenous employment. Newer entrant, established approximately 2024.",
+          "source_url": "https://capeyorkprotection.com.au"
+        },
+        {
+          "name": "MSS Security",
+          "international": false,
+          "human_rights_certified": null,
+          "notes": "National operator with confirmed active presence at Weipa Airport. Workforce of over 6,000 employees with infrastructure in every state and territory. Specialist Mine Protection Officers (MPOs) for mine access control and emergency response. Established FIFO/DIDO workforce management and remote/regional office network. Tailored SOPs for energy and resources sector sites. QLD office in Eight Mile Plains, Brisbane.",
+          "source_url": "https://msssecurity.com.au/services/mine-protection-officers/"
+        },
+        {
+          "name": "Wilson Security",
+          "international": false,
+          "human_rights_certified": null,
+          "notes": "Verified Rio Tinto contractor with approximately 100 staff across 24 Rio Tinto sites covering remote villages, townships, airports and gatehouses including 24/7 control room operations. QLD office at 3/423 Nudgee Road, Hendra QLD 4011. Phone: 1300 945 766. Confirmed capability in remote geographic region management. No specific Weipa or Cape York address confirmed.",
+          "source_url": "https://www.wilsonsecurity.com.au/about-us/our-history/"
+        }
+      ],
+      "armed_security_regulation": "Regulated — Australia operates under state-based licensing frameworks. Queensland requires security firms and individuals to hold licences under the Security Providers Act 1993 (QLD). Cape York Protection holds QLD Security Firm (Class 1) Licence No. 4712526. Armed security is permitted under specific licence categories but is strictly regulated. No evidence of unregulated or prohibited armed security in this jurisdiction.",
+      "conflict_risk_to_security_operations": "Low",
+      "gap_summary": "No providers were identified with explicit human rights certifications. Cape York Protection is a newer company (est. ~2024) with limited operational track record. Wilson Security's presence is confirmed for Rio Tinto operations broadly but no specific Weipa or Norman Creek site address is confirmed. No providers were identified as operating directly at the Norman Creek expansion site, though demand is expected to grow significantly given the US$180 million Rio Tinto investment with construction through 2028. Limited information available on pricing, contract availability, or current capacity constraints in the region.",
+      "confidence": "Medium"
+    },
+    "socioeconomic_context": {
+      "poverty_rate": "Not explicitly stated in findings; however, Indigenous communities (approximately 19.8% of Weipa population, ~60% of Cape York Peninsula population) face significant employment barriers including mechanisation and FIFO preferences limiting mining participation, suggesting elevated socioeconomic disadvantage relative to national averages",
+      "poverty_source_url": "https://en.wikipedia.org/wiki/Weipa_Town",
+      "basic_sanitation_access": "Not available in findings",
+      "sanitation_source_url": null,
+      "clean_water_access": "Not available in findings",
+      "water_source_url": null,
+      "healthcare_system_quality": "Not explicitly described in findings; the region is deeply remote, approximately 850 road kilometres from Cairns, with roads becoming impassable during the wet season (November–April), implying significant constraints on healthcare access and emergency services",
+      "infectious_disease_risk": "Tropical savanna climate with heavy monsoon season (November–April) and high annual rainfall (up to 2,000+ mm in parts of Cape York Peninsula) creates conditions conducive to tropical infectious diseases; specific diseases not named in findings but remote tropical environment suggests risks including mosquito-borne illnesses common to Far North Queensland",
+      "local_workforce_skill_level": "Mixed; Rio Tinto's Weipa operations support a 1,900-strong workforce including 25% Indigenous employees and 26% women, indicating some local skilled workforce participation; however, Indigenous residents face employment barriers from mechanisation and FIFO preferences, and population is dominated by mining-related occupations with workforce largely driven by net migration from urban Queensland centres",
+      "infrastructure_quality": "Limited and seasonally constrained; roads and water crossings become impassable during wet season, with rivers rising quickly; region is approximately 850 road kilometres and 580 air kilometres from Cairns; Norman Creek project includes construction of a 19-km haul road, camp accommodation, and a communications tower, suggesting existing infrastructure gaps; Port of Weipa supports large-scale bauxite export; Rio Tinto operates rail networks and power stations on-site",
+      "corruption_perception_index": "Not available in findings",
+      "cpi_source_url": null,
+      "overall_context_summary": "Weipa and the Norman Creek area on Cape York Peninsula constitute a remote, tropical, mining-dominated economy anchored almost entirely by Rio Tinto's large-scale bauxite operations, which produce over 35 million tonnes annually and contribute approximately A$2 billion to the national economy. The region's population of roughly 4,097 in Weipa town and approximately 18,000 across Cape York Peninsula is characterised by significant Indigenous presence (~60% on the peninsula), employment disparities, and deep geographic isolation exacerbated by seasonal wet-season inaccessibility. Rio Tinto's approved $180-million Norman Creek access project and potential future Kangwinan expansion signal continued long-term industrial investment, extending regional mining operations toward mid-century."
+    },
+    "overall_compliance_maturity": {
+      "rag_rating": "G",
+      "rag_rationale": "Queensland demonstrates a highly mature, multi-layered compliance framework for mining operations. The regulatory environment is legislatively dense and actively evolving, with recent reforms including the Resources Safety and Health Legislation Amendment Act 2024 introducing enforceable undertakings, the EPOLA Act 2024 strengthening environmental enforcement powers, and the transition to the Progressive Rehabilitation and Closure Plan (PRCP) framework. Rio Tinto's Amrun operation at Weipa/Norman Creek is subject to this robust state framework, including mandatory Environmental Authority requirements under the EP Act 1994, the Financial Provisioning Scheme under the MERFP Act 2018, and RSHQ inspection and audit programs with both announced and unannounced components targeting 10-20% unannounced inspections. The Norman Creek access project (US$180M investment, first production targeted 2027) and the Kangwinan feasibility study indicate significant forward compliance obligations. Minor amber signals include: three worker fatalities in 2024-25 indicating incident-free performance remains a challenge, and an independent assessment identifying gaps in RSHQ governance structures regarding incident data collection and enforcement consistency. Overall, the jurisdiction rates Green given the density and currency of its legislative framework, active regulatory reform, independent oversight mechanisms, and operator-level commitment to progressive rehabilitation.",
+      "key_strengths": [
+        "Multi-layered, legislatively dense Queensland mining compliance framework including MQSHA 1999, EP Act 1994, and MERFP Act 2018",
+        "Recent legislative modernisation via Resources Safety and Health Legislation Amendment Act 2024 and EPOLA Act 2024, demonstrating active regulatory evolution",
+        "Introduction of enforceable undertakings as an alternative to prosecution — a first for Queensland's resources sector",
+        "Mandatory Environmental Authority (EA) requirement for all mining activities under the EP Act 1994",
+        "Progressive Rehabilitation and Closure Plan (PRCP) framework operational since November 2022, with Queensland Mine Rehabilitation Commissioner appointed since 2021",
+        "Financial Provisioning Scheme (FPS) established under MERFP Act 2018, ensuring financial assurance for rehabilitation liabilities",
+        "RSHQ inspection program includes unannounced inspections (10-20% of total), guided by a formal Compliance and Enforcement Policy",
+        "Use of advanced compliance monitoring tools including data analytics, satellite imagery, audits, and inspections by the Department of the Environment",
+        "Annual regulator performance evaluation against the Regulator Performance Framework reported to the Queensland Productivity Commission",
+        "Rio Tinto's Amrun operation is a large, established operator with significant long-term investment horizon (Norman Creek to 2027+, Kangwinan feasibility underway), indicating sustained compliance obligations and incentives"
+      ],
+      "key_barriers": [
+        "Three worker fatalities in Queensland's resources industry in 2024-25, indicating that incident-free performance remains an ongoing challenge despite a mature framework",
+        "Independent assessment identified gaps between RSHQ's current oversight mechanisms and industry best practices, particularly regarding incident data collection and enforcement consistency across different mining operations",
+        "Complexity and density of the multi-agency regulatory framework (RSHQ, DETSI, NRMMRRD, EP Act, MQSHA) may create compliance coordination challenges for operators",
+        "Significant future-state compliance obligations arising from the Norman Creek access project (first production 2027, full construction 2028) and potential Kangwinan expansion, requiring proactive compliance planning at scale",
+        "Remote location of Weipa/Cape York Peninsula may present practical challenges for regulatory inspection frequency and emergency response",
+        "East Weipa mine cessation in 2024 creates concurrent rehabilitation and closure compliance obligations alongside active new development"
+      ],
+      "recommended_approach": "Documents prepared for this jurisdiction should reflect a high-compliance, high-scrutiny operating environment. Legal and procedural references should cite the current Queensland legislative suite explicitly (MQSHA 1999, EP Act 1994, MERFP Act 2018, RSHQ Compliance and Enforcement Policy, EPOLA Act 2024 amendments). Given active regulatory reform, documents should include version-control provisions and periodic review triggers aligned with legislative updates. Environmental Authority conditions, PRCP obligations, and FPS financial provisioning requirements should be treated as non-negotiable baseline requirements rather than aspirational targets. Safety management documentation should acknowledge the enforceable undertakings regime and SSE on-site requirements. For the Norman Creek and Kangwinan project contexts, documents should be calibrated to address greenfield and expansion compliance obligations alongside operational compliance, including pre-construction environmental assessment, progressive rehabilitation staging, and community and Indigenous stakeholder engagement requirements relevant to Cape York Peninsula. Risk registers should flag the identified RSHQ governance gaps and fatality history as active risk areas requiring heightened attention."
+    }
   }
 }
