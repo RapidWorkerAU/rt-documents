@@ -2273,5 +2273,805 @@
       ],
       "recommended_approach": "Documents prepared for this jurisdiction should reflect a high-compliance, high-scrutiny operating environment. Legal and procedural references should cite the current Queensland legislative suite explicitly (MQSHA 1999, EP Act 1994, MERFP Act 2018, RSHQ Compliance and Enforcement Policy, EPOLA Act 2024 amendments). Given active regulatory reform, documents should include version-control provisions and periodic review triggers aligned with legislative updates. Environmental Authority conditions, PRCP obligations, and FPS financial provisioning requirements should be treated as non-negotiable baseline requirements rather than aspirational targets. Safety management documentation should acknowledge the enforceable undertakings regime and SSE on-site requirements. For the Norman Creek and Kangwinan project contexts, documents should be calibrated to address greenfield and expansion compliance obligations alongside operational compliance, including pre-construction environmental assessment, progressive rehabilitation staging, and community and Indigenous stakeholder engagement requirements relevant to Cape York Peninsula. Risk registers should flag the identified RSHQ governance gaps and fatality history as active risk areas requiring heightened attention."
     }
+  },
+  "AR": {
+    "sources": [
+      {
+        "claim": "osh_legislation",
+        "source_name": "Argentine Constitution — Article 14 bis",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-19587-17612",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Law No. 19,587 — Occupational Hygiene and Safety Law (Ley de Higiene y Seguridad en el Trabajo)",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-19587-17612",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Decree No. 351/1979 — Regulatory Decree of Law 19,587",
+        "url": "https://www.plb.gba.gov.ar/archivos/comisasep/marco_normativo/Ley%2019587%20y%20Dec%20Reg%20351-79.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Law No. 24,557 — Occupational Risks Law (Ley de Riesgos del Trabajo — LRT)",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-24557-27971/actualizacion",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Decree No. 249/2007 — Reglamento de Higiene y Seguridad para la Actividad Minera (Mining Hygiene and Safety Regulation)",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/decreto-249-2007-126637/texto",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Argentine National Constitution — Articles 41 & 124 (Reformed 1994)",
+        "url": "https://www.energymonitor.ai/sectors/extractive-industries/lithium-in-argentina-how-to-make-it-sustainable/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Argentine Mining Code (AMC) — National Law 1919 (as amended)",
+        "url": "https://www.argentina.gob.ar/sites/default/files/mining_in_argentina_0.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Law 24,585 — Environmental Protection for Mining Activity",
+        "url": "https://www.iea.org/policies/15989-law-24585-by-which-the-mining-code-is-amended-to-incorporate-environmental-provisions",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "General Environmental Law 25,675",
+        "url": "https://practiceguides.chambers.com/practice-guides/mining-2025/argentina",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Law 24,051 — Hazardous Waste Management",
+        "url": "https://www.lawgratis.com/blog-detail/environmental-laws-at-argentina",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "National Law 25,688 — Regime of Environmental Management of Water",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0301420719305525",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Glacier Protection Law 26,639 — Minimum Standards for Preservation of Glaciers and Periglacial Environments",
+        "url": "https://www.lexology.com/library/detail.aspx?g=456cc64f-4ec7-4478-8a16-8898aa799c0f",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Federal Mining Agreement — Law 24,228",
+        "url": "https://www.argentina.gob.ar/sites/default/files/mining_in_argentina_0.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Mining Investment Law — Law 24,196",
+        "url": "https://www.argentina.gob.ar/sites/default/files/mining_in_argentina_0.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://practiceguides.chambers.com/practice-guides/mining-2025/argentina",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "ILO Convention No. 169 (Indigenous and Tribal Peoples Convention) — Law 24,071",
+        "url": "https://www.dialogue.earth/en/business/24733-communities-challenge-lithium-production-in-argentina/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "UN Declaration on the Rights of Indigenous Peoples (UNDRIP)",
+        "url": "https://indianlaw.org/story/57thUNHRCAdvocacy",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "National Constitution of Argentina — Article 75, Section 17 (1994 Reform)",
+        "url": "https://pdba.georgetown.edu/Constitutions/Argentina/argen94_e.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Law 24,585 — Environmental Amendment to the Mining Code",
+        "url": "https://www.iea.org/policies/15989-law-24585-by-which-the-mining-code-is-amended-to-incorporate-environmental-provisions",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://farn.org.ar/en/supreme-court-landmark-case-environmental-indigenous-rights-argentina/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://indianlaw.org/story/57thUNHRCAdvocacy",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://farn.org.ar/en/supreme-court-landmark-case-environmental-indigenous-rights-argentina/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "National Constitution of Argentina (1994 Reform) — Article 41",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/13642987.2019.1677617",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "National Constitution of Argentina (1994 Reform) — Article 75, point 17",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/13642987.2019.1677617",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "National Constitution of Argentina (1994 Reform) — Article 124",
+        "url": "https://fund.ar/en/publicacion/socio-environmental-governance-of-lithium-mining/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "General Environmental Law (Ley General del Ambiente — LGA)",
+        "url": "https://fund.ar/en/publicacion/socio-environmental-governance-of-lithium-mining/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Mining Code (Código de Minería)",
+        "url": "https://fund.ar/en/publicacion/socio-environmental-governance-of-lithium-mining/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ilo.org/media/340331/download",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/indigenous-peoples/consultation-and-free-prior-and-informed-consent-fpic",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.fidh.org/en/issues/business-human-rights-environment/lithium-triangle-scramble-transition-minerals-endangers-human-rights-south-america",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://indianlaw.org/news/57th-un-human-rights-council-session-",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://ewsdata.rightsindevelopment.org/projects/IFC-49112/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://idbinvest.org/sites/default/files/2023-12/Q&A%20Sal%20de%20Vida%20181223.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Ley de Seguridad Interior No. 24.059",
+        "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/60012/norma.htm",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Decree 1002/1999 — Private Security Services Regulatory Framework",
+        "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/60012/norma.htm",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Decree-Law No. 15,385/1944 — Border Security Zone Requirements",
+        "url": "https://practiceguides.chambers.com/practice-guides/mining-2023/argentina",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Buenos Aires Province Law 12,297 — Private Security Reference Model",
+        "url": "https://www.mseg.gba.gov.ar/areas/dirprovsegpriv/normativa/ley_12297.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Jujuy Decree N°7592/11 — Lithium Strategic Mineral Declaration",
+        "url": "https://goodelectronics.org/wp-content/uploads/sites/3/2019/05/DOC_LITHIUM_ENGLISH.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "SECURION (SECAR Security Group S.A.)",
+        "url": "https://securionglobal.com/en/142-2/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Prosegur Argentina",
+        "url": "https://www.prosegur.com/en/media/article/press/prosegur-security-refuerza-su-compromiso-con-la-seguridad-en-argentina-con-la-inauguracion-de-un-nuevo-isoc-en-buenos-aires",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "G4S Argentina (G4S Soluciones de Seguridad S.A.)",
+        "url": "https://www.g4s.com/es-ar/sectores/mineria",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Cóndor Seguridad Privada",
+        "url": "https://saltamining.com/contenido/5289/un-emprendedor-de-la-puna-creo-una-empresa-de-seguridad-y-brinda-servicios-a-las",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      }
+    ],
+    "development_classification": {
+      "classification": "Second World / Non-OECD",
+      "hdi_rank": "Not available",
+      "hdi_source_url": null,
+      "notes": "Argentina is classified as a middle-income, Non-OECD country (Second World category). The Rincón and Sal de Vida lithium projects are located in remote, high-altitude Puna region (Salta and Catamarca provinces respectively). For HSESC compliance, this classification means heightened scrutiny is required around: indigenous community rights and free prior informed consultation (as evidenced by the July 2025 Olacapato public hearing for Rincón), environmental impact assessment requirements under provincial and national Argentine law, water management in the arid Puna environment, worker health and safety at elevations of 3,660–4,100 m asl, and supply chain due diligence given Argentina's evolving regulatory framework including the newly implemented RIGI incentive regime. IFC Performance Standards and Equator Principles are likely applicable given multilateral financing involvement (IDB Invest noted for Sal de Vida). Local labour standards, community grievance mechanisms, and biodiversity protection in the high-altitude wetland/salar ecosystems are key HSESC risk areas."
+    },
+    "osh_legislation": {
+      "has_dedicated_osh_law": true,
+      "legislation": [
+        {
+          "name": "Argentine Constitution — Article 14 bis",
+          "year": "1853",
+          "regulator": "National Government of Argentina",
+          "regulator_url": "https://www.argentina.gob.ar",
+          "source_url": "https://www.argentina.gob.ar/normativa/nacional/ley-19587-17612",
+          "verified": true,
+          "notes": "Constitutional foundation establishing the right to work in safe and healthy conditions as a fundamental right. Applies across all territory including Puna region mining operations."
+        },
+        {
+          "name": "Law No. 19,587 — Occupational Hygiene and Safety Law (Ley de Higiene y Seguridad en el Trabajo)",
+          "year": "1972",
+          "regulator": "Superintendency of Occupational Risks (SRT)",
+          "regulator_url": "https://www.argentina.gob.ar",
+          "source_url": "https://www.argentina.gob.ar/normativa/nacional/ley-19587-17612",
+          "verified": true,
+          "notes": "Core national OSH law applicable to all establishments and operations across the entire territory of Argentina, including Rincon (Salta) and Sal de Vida (Puna region). Article 5(h) expressly addresses tasks that are very difficult, hazardous, or determinants of premature aging or exhaustion and/or performed in unhealthy places or environments — directly applicable to high-altitude remote Puna mine sites (3,400–4,600 m ASL). Supplemented by Decree 351/79 and Decree 1338/96, though Decree 351/79 was superseded for mining by Decree 249/2007."
+        },
+        {
+          "name": "Decree No. 351/1979 — Regulatory Decree of Law 19,587",
+          "year": "1979",
+          "regulator": "Superintendency of Occupational Risks (SRT)",
+          "regulator_url": "https://www.argentina.gob.ar",
+          "source_url": "https://www.plb.gba.gov.ar/archivos/comisasep/marco_normativo/Ley%2019587%20y%20Dec%20Reg%20351-79.pdf",
+          "verified": true,
+          "notes": "Regulatory decree implementing Law 19,587. Covers physical environmental conditions, ventilation, thermal load, pressure, humidity, lighting and chemical exposure limits. Superseded for mining activities by Decree 249/2007, except where Decree 249/2007 expressly refers back to it. Limited residual applicability to Rincon and Sal de Vida operations."
+        },
+        {
+          "name": "Law No. 24,557 — Occupational Risks Law (Ley de Riesgos del Trabajo — LRT)",
+          "year": "1995",
+          "regulator": "Superintendency of Occupational Risks (SRT)",
+          "regulator_url": "https://www.argentina.gob.ar",
+          "source_url": "https://www.argentina.gob.ar/normativa/nacional/ley-24557-27971/actualizacion",
+          "verified": true,
+          "notes": "Primary legal framework for workplace health and safety risk management and compensation in Argentina. Mandates employers to secure coverage from Occupational Risk Insurers (ART). ARTs are responsible for prevention, workplace hazard management, and compensation for occupational illnesses. Employers must notify the ART within 24–48 hours of a workplace accident. Operates a no-fault compensation system. Applies to all mining operations including Rincon and Sal de Vida. Secondary source: https://servicios.infoleg.gob.ar/infolegInternet/verNorma.do?id=27971"
+        },
+        {
+          "name": "Decree No. 249/2007 — Reglamento de Higiene y Seguridad para la Actividad Minera (Mining Hygiene and Safety Regulation)",
+          "year": "2007",
+          "regulator": "Superintendency of Occupational Risks (SRT)",
+          "regulator_url": "https://www.argentina.gob.ar",
+          "source_url": "https://www.argentina.gob.ar/normativa/nacional/decreto-249-2007-126637/texto",
+          "verified": true,
+          "notes": "The single most important OSH instrument for Rincon (Salta) and all Puna mining operations including Sal de Vida. Sanctioned 20 March 2007, published in Boletín Oficial No. 31122 on 23 March 2007. Applicable to all mining activity as described in Articles 2 to 5 of the Mining Code, mandatory across the entire territory of Argentina. Supersedes Decree 351/79 for mining activities except where expressly referenced. Contains 191 articles across 7 titles covering underground mining, open-cut mining, and radioactive material mining. Covers general duties, occupational hygiene and safety services, occupational medical services, Joint Health and Safety Committees, training, general prevention measures, infrastructure services, first aid, contaminants, installations, machines and equipment, signage, explosives, electrical installations, and transport of personnel. SRT is the national enforcement authority. Recognises special characteristics of mining risks and environments. Additional sources: https://servicios.infoleg.gob.ar/infolegInternet/verNorma.do?id=126637 and https://www.aomaosam.org.ar/aoma/pdf/decreto-249-07.pdf"
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": null,
+          "evidence_of_application": null,
+          "source_url": null
+        }
+      ],
+      "gap_summary": "No specific standalone national legislation exists for lithium mining in Argentina; lithium is governed by the general mining regulatory regime under Decree 249/2007 and Law 19,587. The research findings do not identify specific provisions addressing high-altitude physiological risks (e.g., acute mountain sickness, hypoxia) at Puna elevations of 3,400–4,600 m ASL within the national framework, nor brine-specific or lithium-specific chemical exposure standards. Provincial OSH and environmental layers from Salta, Jujuy, and Catamarca add procedural requirements but are not detailed in the findings. No global frameworks (e.g., ILO conventions, ISO 45001) are referenced or confirmed as formally applied in the source material provided. The research findings do not address remote-site emergency response, helicopter evacuation protocols, or telecommunications requirements specific to Puna isolation conditions."
+    },
+    "environmental_legislation": {
+      "has_dedicated_env_law": true,
+      "legislation": [
+        {
+          "name": "Argentine National Constitution — Articles 41 & 124 (Reformed 1994)",
+          "year": "1994",
+          "regulator": "National Congress / Provincial Governments",
+          "source_url": "https://www.energymonitor.ai/sectors/extractive-industries/lithium-in-argentina-how-to-make-it-sustainable/",
+          "verified": true,
+          "notes": "Article 124 grants provinces original ownership of natural resources; Article 41 establishes minimum national environmental protection standards. Bedrock of mining and environmental governance in Argentina."
+        },
+        {
+          "name": "Argentine Mining Code (AMC) — National Law 1919 (as amended)",
+          "year": "1887",
+          "regulator": "National Congress / Provincial Enforcement Authorities",
+          "source_url": "https://www.argentina.gob.ar/sites/default/files/mining_in_argentina_0.pdf",
+          "verified": true,
+          "notes": "Foundational mining legislation applicable to all mining activities including lithium. Amended by Laws 24,196, 24,224, 24,228, 24,498, and 24,585. Provinces regulate procedures in accordance with the Code."
+        },
+        {
+          "name": "Law 24,585 — Environmental Protection for Mining Activity",
+          "year": "1995",
+          "regulator": "Provincial Enforcement Authorities",
+          "source_url": "https://www.iea.org/policies/15989-law-24585-by-which-the-mining-code-is-amended-to-incorporate-environmental-provisions",
+          "verified": true,
+          "notes": "Amended the Mining Code to incorporate environmental protection provisions. Requires submission of an Environmental Impact Report (EIR) prior to each phase of mining activity (prospecting, exploration, exploitation). Provincial authority issues an Environmental Impact Statement (EIS) valid for two years, with mandatory updates every two years. Applies to Rincon (Salta) and Sal de Vida (Puna region) lithium projects."
+        },
+        {
+          "name": "General Environmental Law 25,675",
+          "year": "2002",
+          "regulator": "National and Provincial Environmental Authorities",
+          "source_url": "https://practiceguides.chambers.com/practice-guides/mining-2025/argentina",
+          "verified": true,
+          "notes": "One of the two most relevant minimum environmental standards laws for the mining industry. Requires environmental insurance for any company conducting activities that might involve risk to the environment. Applies to lithium mining projects in the Puna region."
+        },
+        {
+          "name": "Law 24,051 — Hazardous Waste Management",
+          "year": "1992",
+          "regulator": "National and Provincial Environmental Authorities",
+          "source_url": "https://www.lawgratis.com/blog-detail/environmental-laws-at-argentina",
+          "verified": true,
+          "notes": "Regulates generation, transportation, storage, and disposal of hazardous waste. Sets standards for industrial waste management to prevent pollution and harm to human health. Relevant to lithium brine extraction operations."
+        },
+        {
+          "name": "National Law 25,688 — Regime of Environmental Management of Water",
+          "year": "2002",
+          "regulator": "National and Provincial Water Authorities",
+          "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0301420719305525",
+          "verified": true,
+          "notes": "Regulates water resources at the federal level. Particularly complex in application to lithium brine mining as brines are legally considered both water and mineral resources, creating regulatory overlap and an 'administrative labyrinth' in Argentina."
+        },
+        {
+          "name": "Glacier Protection Law 26,639 — Minimum Standards for Preservation of Glaciers and Periglacial Environments",
+          "year": "2010",
+          "regulator": "IANIGLA (Argentine Institute for Snow, Ice and Environmental Sciences) / Provincial Governments (post-2026 reform)",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=456cc64f-4ec7-4478-8a16-8898aa799c0f",
+          "verified": true,
+          "notes": "Prohibits mining exploration and exploitation activities that negatively affect glaciers and periglacial environments. Critically relevant to Puna region lithium projects (Sal de Vida, Rincon) given their high-altitude location. A 2026 reform shifted decision-making power from IANIGLA to provincial governments, raising concerns about inconsistent environmental oversight. Glacial reserves in northwest Argentina have shrunk by 17% in the last decade."
+        },
+        {
+          "name": "Federal Mining Agreement — Law 24,228",
+          "year": "1993",
+          "regulator": "National Congress / Provincial Governments",
+          "source_url": "https://www.argentina.gob.ar/sites/default/files/mining_in_argentina_0.pdf",
+          "verified": true,
+          "notes": "Part of the suite of laws amending the Argentine Mining Code. Establishes federal-provincial coordination framework for mining regulation."
+        },
+        {
+          "name": "Mining Investment Law — Law 24,196",
+          "year": "1993",
+          "regulator": "National Congress / Provincial Governments",
+          "source_url": "https://www.argentina.gob.ar/sites/default/files/mining_in_argentina_0.pdf",
+          "verified": true,
+          "notes": "Part of the suite of laws amending the Argentine Mining Code. Governs investment conditions for mining activities in Argentina."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Minimum Environmental Standards Legislation (National Minimum Standards Framework)",
+          "evidence_of_application": "Argentina's national minimum environmental standards framework — comprising General Environmental Law 25,675 and Glacier Protection Law 26,639 — applies to all mining activities including lithium extraction at Rincon and Sal de Vida. Provinces must meet or exceed these standards.",
+          "source_url": "https://practiceguides.chambers.com/practice-guides/mining-2025/argentina"
+        }
+      ],
+      "gap_summary": "Several significant regulatory gaps and complexities are identified: (1) Dual legal classification of lithium brines as both water and mineral resources creates jurisdictional overlap between mining and water law, resulting in regulatory ambiguity and an 'administrative labyrinth'. (2) The 2026 reform of the Glacier Protection Law decentralises glacier protection oversight from the national scientific body (IANIGLA) to provincial governments, raising concerns about inconsistent environmental oversight in the Puna region where lithium projects are concentrated. (3) While provinces are empowered to enact complementary environmental regulation, the research findings do not detail specific Salta or Jujuy/Catamarca provincial legislation applicable to Rincon and Sal de Vida beyond the national framework, representing an information gap. (4) The findings are truncated and may not capture the full 2026 glacier law reform provisions. (5) No specific indigenous consultation or Free, Prior and Informed Consent (FPIC) framework legislation is referenced, despite the Puna region having significant indigenous communities. (6) Water allocation frameworks specific to brine extraction in the salt pans remain legally ambiguous, with provincial water codes (Salta, Jujuy) insufficiently differentiated from standard water use regulations."
+    },
+    "community_social_legislation": {
+      "has_dedicated_csl_law": false,
+      "legislation": [
+        {
+          "name": "ILO Convention No. 169 (Indigenous and Tribal Peoples Convention) — Law 24,071",
+          "year": "1992",
+          "regulator": "National Congress of Argentina / ILO",
+          "source_url": "https://www.dialogue.earth/en/business/24733-communities-challenge-lithium-production-in-argentina/",
+          "verified": true,
+          "notes": "Ratified by Argentina in 1992 via Law 24,071; entered into force July 2001. Requires Free Prior and Informed Consent (FPIC) before projects affecting indigenous territories and resources. Consistently invoked by Puna communities in the context of lithium mining at Rincón and Sal de Vida. Communities have criticized consultation processes as non-compliant with ILO 169 intercultural requirements."
+        },
+        {
+          "name": "UN Declaration on the Rights of Indigenous Peoples (UNDRIP)",
+          "year": "2007",
+          "regulator": "United Nations / Argentine State",
+          "source_url": "https://indianlaw.org/story/57thUNHRCAdvocacy",
+          "verified": true,
+          "notes": "Argentina voted in support of UNDRIP. Recognizes indigenous rights to communal property, self-determination, and decision-making authority over lands and resources. Violations of Articles 3, 4, 19, and 26 alleged in context of provincial constitutional reforms and lithium exploitation without FPIC."
+        },
+        {
+          "name": "National Constitution of Argentina — Article 75, Section 17 (1994 Reform)",
+          "year": "1994",
+          "regulator": "National Congress of Argentina",
+          "source_url": "https://pdba.georgetown.edu/Constitutions/Argentina/argen94_e.html",
+          "verified": true,
+          "notes": "Primary domestic source of indigenous rights. Mandates recognition of indigenous ethnic and cultural pre-existence, community land ownership, legal capacity of communities, and participation in decisions related to natural resources. Argentine courts have applied this article to require indigenous participation in mining decisions affecting land and way of life."
+        },
+        {
+          "name": "National Mining Code (Law 1919, as amended)",
+          "year": "1886",
+          "regulator": "Secretariat of Mining / Provincial Mining Authorities",
+          "source_url": null,
+          "verified": true,
+          "notes": "Governs rights, obligations and procedures for exploration, exploitation and use of mineral substances in Argentina. Sets the legal framework between the state and mining operators. Does not prescribe community consultation or social benefit-sharing requirements beyond EIA — the community/social layer is left to provinces and international instruments."
+        },
+        {
+          "name": "Law 24,585 — Environmental Amendment to the Mining Code",
+          "year": "1995",
+          "regulator": "Secretariat of Mining / Provincial Environmental Authorities",
+          "source_url": "https://www.iea.org/policies/15989-law-24585-by-which-the-mining-code-is-amended-to-incorporate-environmental-provisions",
+          "verified": true,
+          "notes": "Introduced environmental obligations for mining operators including mandatory Environmental Impact Assessment (EIA) submission before initiating any activity, and requirement to mitigate or restore damages caused by mining activities. Does not specifically address community consultation or FPIC."
+        },
+        {
+          "name": "General Environmental Law (Law 25,675)",
+          "year": "2002",
+          "regulator": "National and Provincial Environmental Authorities",
+          "source_url": null,
+          "verified": true,
+          "notes": "Federal minimum environmental standard. Mandates public participation as a mandatory stage during EIA approval for projects with significant adverse environmental effects. Requires provinces to institutionalize consultation procedures or public hearings prior to authorization of natural resource exploitation projects. Applicable to lithium mining at Rincón and Sal de Vida."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "ILO Convention No. 169 — Free Prior and Informed Consent (FPIC)",
+          "evidence_of_application": "Indigenous communities in the Puna region, including those near Salinas Grandes and Laguna de Guayatayoc spanning Jujuy and Salta, have consistently invoked ILO 169 and FPIC requirements in challenges to lithium mining projects. Communities have criticized existing consultation processes as non-compliant with ILO 169 intercultural requirements. A 2019 legal action filed by these communities with FARN reached the Argentine Supreme Court, which declared itself competent to intervene on grounds including violations of the right to consultation and FPIC.",
+          "source_url": "https://farn.org.ar/en/supreme-court-landmark-case-environmental-indigenous-rights-argentina/"
+        },
+        {
+          "framework": "UN Declaration on the Rights of Indigenous Peoples (UNDRIP)",
+          "evidence_of_application": "Argentina recognized indigenous community rights to communal property and self-determination under UNDRIP. Violations of Articles 3, 4, 19, and 26 have been alleged in connection with provincial constitutional reforms implemented within the framework of national lithium exploitation policy, carried out without FPIC. Advocacy was brought before the 57th UN Human Rights Council session.",
+          "source_url": "https://indianlaw.org/story/57thUNHRCAdvocacy"
+        },
+        {
+          "framework": "Inter-American Human Rights System (American Convention on Human Rights / Inter-American Court of Human Rights)",
+          "evidence_of_application": "In 2020, the Inter-American Court of Human Rights ordered the Argentine government to strengthen legal protections for indigenous communities in the Puna region. Communities from the Salinas Grandes and Laguna de Guayatayoc basin filed an action alleging violations of collective rights including consultation and FPIC in connection with lithium and borate mining projects, which subsequently triggered Argentine Supreme Court intervention.",
+          "source_url": "https://farn.org.ar/en/supreme-court-landmark-case-environmental-indigenous-rights-argentina/"
+        }
+      ],
+      "gap_summary": "Argentina lacks a single dedicated community and social legislation law for mining projects. The regulatory framework is fragmented across international treaties, the federal constitution, and provincial legislation, with no unified national law specifically governing FPIC, community benefit-sharing, or social impact assessment for lithium mining. The National Mining Code (Law 1919) and its environmental amendment (Law 24,585) do not prescribe community consultation or social benefit-sharing requirements beyond EIA, leaving these obligations to be inferred from international instruments (ILO 169, UNDRIP) and Article 75(17) of the Constitution. Provincial authorities hold primary jurisdiction over consultation processes, leading to inconsistent application and enforcement across Salta and Catamarca. Indigenous communities have widely criticized existing consultation processes as failing to meet ILO 169 intercultural standards, and the Inter-American Court of Human Rights found legal protections insufficient as of 2020. The absence of a dedicated national FPIC or community social legislation law creates significant legal uncertainty and ongoing conflict risk for the Rincón and Sal de Vida projects."
+    },
+    "human_rights_frameworks": {
+      "has_domestic_human_rights_law": true,
+      "legislation_or_constitution": [
+        {
+          "name": "National Constitution of Argentina (1994 Reform) — Article 41",
+          "year": "1994",
+          "source_url": "https://www.tandfonline.com/doi/abs/10.1080/13642987.2019.1677617",
+          "verified": true,
+          "notes": "Enshrines the right to a healthful, balanced environment fit for human development as a collective constitutional right. Enables individual citizens to pursue legal actions for environmental protection affecting broader public interests."
+        },
+        {
+          "name": "National Constitution of Argentina (1994 Reform) — Article 75, point 17",
+          "year": "1994",
+          "source_url": "https://www.tandfonline.com/doi/abs/10.1080/13642987.2019.1677617",
+          "verified": true,
+          "notes": "Requires the state to recognise the ethnic and cultural pre-existence of indigenous peoples of Argentina and community property rights. Marked a constitutional turning point for indigenous rights in the 1990s."
+        },
+        {
+          "name": "National Constitution of Argentina (1994 Reform) — Article 124",
+          "year": "1994",
+          "source_url": "https://fund.ar/en/publicacion/socio-environmental-governance-of-lithium-mining/",
+          "verified": true,
+          "notes": "Establishes that natural resources belong to the provinces, creating a federal-provincial split in resource governance. Mining policy is set nationally via the Mining Code, but provincial governments retain control over natural resources and local mining oversight."
+        },
+        {
+          "name": "General Environmental Law (Ley General del Ambiente — LGA)",
+          "year": null,
+          "source_url": "https://fund.ar/en/publicacion/socio-environmental-governance-of-lithium-mining/",
+          "verified": true,
+          "notes": "Requires environmental impact assessments (EIA) before authorising any activity with significant potential environmental or quality-of-life impacts. EIA triggers FPIC requirements at the exploration stage. Provincial governments designate the responsible public office for EIA analysis and authorisation."
+        },
+        {
+          "name": "Mining Code (Código de Minería)",
+          "year": null,
+          "source_url": "https://fund.ar/en/publicacion/socio-environmental-governance-of-lithium-mining/",
+          "verified": true,
+          "notes": "National legislation governing mining policy, enacted by the National Congress. Coexists with provincial regulations. Structured to attract private investment with large tax breaks and limited royalties."
+        }
+      ],
+      "international_conventions_ratified": [
+        {
+          "convention": "ILO Convention No. 169 on Indigenous and Tribal Peoples",
+          "ratified": true,
+          "source_url": "https://www.ilo.org/media/340331/download"
+        },
+        {
+          "convention": "UN Declaration on the Rights of Indigenous Peoples (UNDRIP)",
+          "ratified": true,
+          "source_url": "https://www.ohchr.org/en/indigenous-peoples/consultation-and-free-prior-and-informed-consent-fpic"
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "ILO Convention No. 169 — Free, Prior and Informed Consent (FPIC)",
+          "evidence_of_application": "ILO Convention 169 is a legally binding instrument ratified by Argentina. Argentine courts have recognised indigenous peoples' special cultural and spiritual relationship with land as recognised by this Convention. However, in practice, communities in the high Andean salt flats (including the Puna region covering Rincón and Sal de Vida) have not had projects reviewed with them to obtain their consent, have not shared in benefits, nor been compensated for ecosystem damage, constituting a gap between ratification and implementation.",
+          "source_url": "https://www.fidh.org/en/issues/business-human-rights-environment/lithium-triangle-scramble-transition-minerals-endangers-human-rights-south-america"
+        },
+        {
+          "framework": "UN Declaration on the Rights of Indigenous Peoples (UNDRIP) — Articles 3, 4, 19, 26",
+          "evidence_of_application": "UNDRIP requires states to consult and cooperate in good faith with indigenous peoples through their own representative institutions to obtain free, prior and informed consent before adopting measures that may affect them. Failures to implement FPIC at Puna region lithium projects directly violate Articles 3, 4, 19, and 26 of UNDRIP.",
+          "source_url": "https://indianlaw.org/news/57th-un-human-rights-council-session-"
+        },
+        {
+          "framework": "IFC Performance Standards (IFC PS) — Salar del Rincón Project",
+          "evidence_of_application": "The Salar del Rincón Project (Rincón) is linked to IFC financing (IFC Project #49112), indicating IFC Performance Standards apply to the project, including requirements on indigenous peoples, environmental and social assessment, and community engagement.",
+          "source_url": "https://ewsdata.rightsindevelopment.org/projects/IFC-49112/"
+        },
+        {
+          "framework": "IDB Invest Environmental and Social Standards — Sal de Vida Project",
+          "evidence_of_application": "IDB Invest is associated with the Sal de Vida project, as evidenced by a published Q&A document. IDB Invest applies its own environmental and social framework including FPIC requirements for projects affecting indigenous communities.",
+          "source_url": "https://idbinvest.org/sites/default/files/2023-12/Q&A%20Sal%20de%20Vida%20181223.pdf"
+        }
+      ],
+      "modern_slavery_risk": "High — The Salar del Rincón and Sal de Vida projects operate in extremely remote, high-altitude locations (3,725m and 4,100m ASL respectively) in the Puna region, far from urban centres and regulatory oversight, conditions that elevate risks of labour exploitation and coercive recruitment. Argentina's provincial mining governance is structured to attract private investment with limited royalties and large tax breaks, reducing accountability. Indigenous communities in the region have been systematically excluded from FPIC processes, denied benefit-sharing, and not compensated for ecosystem damage despite ILO 169 ratification — indicators of structural marginalisation that correlates with heightened modern slavery risk. The combination of weak enforcement of national minimum standards at the provincial level, geographic isolation, migrant and informal labour patterns common in extractive industries in the Puna, and documented gaps between constitutional protections and on-the-ground implementation collectively support a High risk classification.",
+      "gap_summary": "Significant implementation gaps exist between Argentina's strong formal human rights and indigenous rights framework and actual practice at both project sites. Key gaps include: (1) FPIC non-compliance — despite ratification of ILO Convention 169 and endorsement of UNDRIP, indigenous communities in the Puna region (covering both Rincón and Sal de Vida areas) have not had projects reviewed with them, have not obtained free, prior and informed consent, have not shared in project benefits, and have not been compensated for ecosystem damage; (2) Federal-provincial governance tension — while the General Environmental Law sets national minimum EIA and FPIC standards, provincial governments (Salta, Catamarca) control mining oversight and are structured to prioritise investment attraction over environmental and social protection, with limited royalties and tax breaks reducing accountability levers; (3) EIA and FPIC procedural gaps — although EIA is legally required and triggers FPIC at the exploration stage, enforcement and meaningful community participation in EIA processes at remote high-altitude sites is inconsistent; (4) Benefit-sharing absence — no documented mechanisms ensuring indigenous communities receive equitable benefit-sharing from lithium extraction at either project; (5) Modern slavery and labour monitoring gaps — no specific modern slavery legislation or supply chain due diligence law identified in the findings for Argentina; and (6) Ecosystem and water rights — both projects sit in fragile closed-basin ecosystems critical to indigenous livelihoods, with no documented evidence of legally binding water rights or ecosystem protections specific to these salars beyond general constitutional and EIA frameworks."
+    },
+    "security_frameworks": {
+      "has_private_security_regulation": true,
+      "legislation": [
+        {
+          "name": "Ley de Seguridad Interior No. 24.059",
+          "year": "1992",
+          "source_url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/60012/norma.htm",
+          "verified": true,
+          "notes": "Argentina's foundational national-level security law governing coordination between federal and provincial security forces. Private security operates as a subordinate and complementary activity to public security."
+        },
+        {
+          "name": "Decree 1002/1999 — Private Security Services Regulatory Framework",
+          "year": "1999",
+          "source_url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/60012/norma.htm",
+          "verified": true,
+          "notes": "Issued 10 September 1999. Establishes a regulatory framework on the provision of private security services, investigations, surveillance, and custody over persons and/or property at the national level. Applied within the framework of National Weapons and Explosives Law No. 20,429 and Interior Security Law No. 24,059."
+        },
+        {
+          "name": "National Weapons and Explosives Law No. 20,429",
+          "year": "1973",
+          "source_url": null,
+          "verified": true,
+          "notes": "Referenced in Decree 1002/1999 as part of the overarching framework governing private security services, firearms, and controlled materials in Argentina."
+        },
+        {
+          "name": "Decree-Law No. 15,385/1944 — Border Security Zone Requirements",
+          "year": "1944",
+          "source_url": "https://practiceguides.chambers.com/practice-guides/mining-2023/argentina",
+          "verified": true,
+          "notes": "Establishes that acquisition, rental, or lease of real estate in border security zones by foreign companies requires prior government approval. Relevant to Puna operations near Chilean and Bolivian borders. Mining concessions are exempt but surface land transactions are not."
+        },
+        {
+          "name": "Buenos Aires Province Law 12,297 — Private Security Reference Model",
+          "year": null,
+          "source_url": "https://www.mseg.gba.gov.ar/areas/dirprovsegpriv/normativa/ley_12297.pdf",
+          "verified": true,
+          "notes": "Reference model only — not applicable to Salta or Jujuy directly. Illustrates consistent principles across Argentine provinces: private security must adhere to reasonableness, graduality, and non-intervention in political/labor/union/religious conflicts. Private security is complementary and subordinate to provincial state security."
+        },
+        {
+          "name": "Jujuy Decree N°7592/11 — Lithium Strategic Mineral Declaration",
+          "year": "2011",
+          "source_url": "https://goodelectronics.org/wp-content/uploads/sites/3/2019/05/DOC_LITHIUM_ENGLISH.pdf",
+          "verified": true,
+          "notes": "Jujuy Province declared lithium a strategic resource via this decree. Enables provincial state-owned mining companies to hold mining rights and develop them in association with private investors. Has indirect implications for security governance and oversight of mining operations."
+        }
+      ],
+      "voluntary_principles_applied": false,
+      "vp_evidence_url": null,
+      "conflict_risk_level": "Medium — The Puna region sits along the Argentine-Chilean and Argentine-Bolivian borders, triggering border security zone regulations (Decree-Law 15,385/1944) that add regulatory complexity for foreign-owned operators. The federal/provincial regulatory split creates governance ambiguity, as no standalone consolidated private security law was found for Salta or Jujuy provinces specifically. Lithium's declaration as a strategic resource in Jujuy introduces heightened state interest and potential for labor, indigenous community, or political tensions, which private security personnel are explicitly prohibited from intervening in under Argentine law.",
+      "gap_summary": "1. No publicly available, standalone consolidated private security law was identified for Salta Province or Jujuy Province specifically — operators must contact each province's Secretaría de Seguridad directly to confirm current authorization and licensing requirements. 2. No evidence found of Voluntary Principles on Security and Human Rights (VPs) being formally adopted or applied by operators in the Rincon or Sal de Vida project areas. 3. The findings were cut off before completing Section 4.1 on Gendarmería Nacional Argentina (GNA), leaving the role of federal border security forces in Puna mining operations undocumented. 4. No information found on specific municipal-level security requirements for the Salar del Rincón (Salta) or Salar del Hombre Muerto (Catamarca/Jujuy border) areas. 5. No company-specific security codes of conduct, third-party audits, or human rights due diligence disclosures were identified in the findings."
+    },
+    "safety_equipment_availability": {
+      "overall_rating": "Limited Availability",
+      "ppe_availability": "PPE availability is governed by national Law No. 19,587 and Decree No. 249/2007, which mandate employers to supply and maintain personal protective equipment across all mining operations in Argentina. Rio Tinto, as operator of both Rincon and Sal de Vida, is subject to these obligations. However, the projects are located in remote, high-altitude (3,500–4,000+ m ASL), hyper-arid Puna region locations, which constrains local commercial availability of PPE. No specific local supplier data or PPE stock levels were identified in the findings.",
+      "specialist_equipment_notes": "Decree No. 249/2007 mandates mining-specific health and safety services including blast safety, explosives handling by trained personnel, and hygiene and safety programs directed by qualified specialists. The Mining Safety Program must be prepared by a Hygiene and Safety Manager. Occupational Risk Insurers (ARTs) must provide advisory services for safety plan preparation. No specific data on availability of cranes, MEWPs, gas detection equipment, or fall arrest systems at these project sites was identified in the findings. The remote Puna location and high altitude present logistical challenges for specialist equipment access.",
+      "import_feasibility": "No specific data on import costs, customs procedures, or lead times for safety equipment was identified in the findings. Argentina operates under national customs regulations, and the projects are subject to the RIGI (Large Investment Incentive Regime) at Rincon, which may offer some import facilitation. The remote location in the Puna region would extend effective lead times for imported equipment beyond standard Argentine import timelines.",
+      "known_specific_gaps": [
+        "No specific local safety equipment suppliers identified in the Puna/Puna adjacent region",
+        "No lithium-project-specific safety equipment regulatory framework exists in Argentina; obligations derive only from general mining and occupational safety law",
+        "Emergency drill and rescue equipment requirements may vary by province (Salta vs Catamarca) and are not uniformly regulated at national level",
+        "High altitude (3,500–4,000+ m ASL) and remote hyper-arid conditions create logistical constraints on equipment availability and maintenance",
+        "Annual inspection minimum at provincial level may result in infrequent verification of safety equipment compliance"
+      ],
+      "source_urls": [
+        "https://servicios.infoleg.gob.ar/infolegInternet/anexos/125000-129999/126637/norma.htm",
+        "https://www.argentina.gob.ar/normativa/nacional/decreto-249-2007-126637",
+        "https://www.argentina.gob.ar/srt"
+      ],
+      "confidence": "Low"
+    },
+    "training_providers": {
+      "has_national_training_framework": true,
+      "framework_name": "Provincial Plan for Sustainable Mining Development 2030 (Education Axis No. 1)",
+      "registered_providers_available": true,
+      "mining_specific_training": "Specialist mining education is available through UNJu's Escuela de Minas 'Dr. Horacio Carrillo' (offering Técnico Minero, Técnico Químico, and Técnico en Informática specialisations across a 6-year Ciclo Básico/Superior structure), and through the Centro de Formación Virtual Universitario de Olacapato (a partnership between the Salta Government, Municipality of San Antonio de los Cobres, UCASAL, Rio Tinto Rincón Litio, and Puna Mining, active since 2024). Additional technical and entrepreneurship training is delivered by Puna Mining S.A. in Olacapato and Pocitos in partnership with Banco Macro, INTI, and local municipalities. Minera Santa Rita runs structured internship programs at its Campo Quijano and Olacapato industrial plants for secondary and tertiary students. Rio Tinto's Rincón project commits to technical training aligned with advanced processing technologies and quality control systems.",
+      "internationally_recognised_certs_available": false,
+      "cert_examples": [],
+      "workforce_literacy_rate": null,
+      "source_urls": [
+        "https://www.ifc.org/en/pressroom/2026/ifc-partners-with-rio-tinto-on-rinc-n-lithium-project",
+        "https://www.riotinto.com/en/operations/south-america/rincon",
+        "https://idbinvest.org/en/projects/rincon-lithium-greenfield-project-argentina",
+        "https://produccionsalta.gob.ar/fuerte-impulso-a-la-formacion-universitaria-en-olacapato/",
+        "https://punamining.com.ar/en/2023/09/26/capacitacion-para-emprendedores-de-olacapato/",
+        "https://santaritasrl.com/language/en/social-responsibility/"
+      ],
+      "gap_summary": "No evidence found of internationally recognised certifications (e.g. IOSH, NEBOSH, ICAM, BOSIET) being available locally in the Puna region. Workforce literacy rates for the Puna/NOA corridor are not reported in the findings. Specific curriculum details, graduate output numbers, and training capacity figures for most providers are absent. No registered provider directory or national-level mining training registry is documented. The Sal de Vida project (Catamarca) lacks specific training provider information beyond its geographic proximity to the NOA lithium corridor ecosystem. Details on high-altitude or specialist lithium-processing certifications are not documented.",
+      "confidence": "Medium"
+    },
+    "security_companies": {
+      "reputable_providers_available": true,
+      "notable_providers": [
+        {
+          "name": "SECURION (SECAR Security Group S.A.)",
+          "international": false,
+          "human_rights_certified": false,
+          "notes": "Largest national private security company with over 30 years of operation in Argentina. ISO 9001:2015 certified. Former Securitas AB affiliate, now a Certified Partner of Securitas for Argentina. Has 9,000 employees and national monitoring infrastructure including satellite monitoring, autonomous robotics, and remote-site mining capability. Operates under NFPA, UL and FM Global standards. A historical bribery complaint was filed against the former Securitas Argentina SA entity; the company was subsequently acquired by Argentine capital and rebranded as Securion, with new management stated to be unconnected to alleged improper payments. No specific contracts confirmed at Rincón or Sal de Vida.",
+          "source_url": "https://securionglobal.com/en/142-2/"
+        },
+        {
+          "name": "Prosegur Argentina",
+          "international": true,
+          "human_rights_certified": false,
+          "notes": "Leading international security company operating in Argentina for over 30 years. Operates an iSOC in Buenos Aires monitoring over 5,000 installations and 600+ customers across banking, mining, oil & gas, energy, logistics, and retail. Manages 15,000 cameras, 350,000+ alarms and GPS signals, and conducts 10,000 virtual rounds per month. Part of a global network of 14 interconnected iSOC centres. Has explicit mining and oil & gas client base documented in Argentina. Provincial licensing in Salta and/or Jujuy would be required for armed on-site operations. No specific contracts confirmed at Rincón or Sal de Vida.",
+          "source_url": "https://www.prosegur.com/en/media/article/press/prosegur-security-refuerza-su-compromiso-con-la-seguridad-en-argentina-con-la-inauguracion-de-un-nuevo-isoc-en-buenos-aires"
+        },
+        {
+          "name": "G4S Argentina (G4S Soluciones de Seguridad S.A.)",
+          "international": true,
+          "human_rights_certified": false,
+          "notes": "Global Tier 1 security firm with a dedicated mining vertical and extensive experience in mining security across Latin America. Legally registered in Argentina as G4S SOLUCIONES DE SEGURIDAD S.A. (CUIT 30-54948651-3), with activity coding 801090 (Security and Investigation Services). Confirmed present and legally authorised to operate in all provinces of Argentina, including confirmed provincial tax registration in Salta. Most explicitly documented mining specialisation of any national-scale provider in Argentina. No specific contracts confirmed at Rincón or Sal de Vida.",
+          "source_url": "https://www.g4s.com/es-ar/sectores/mineria"
+        },
+        {
+          "name": "Cóndor Seguridad Privada",
+          "international": false,
+          "human_rights_certified": false,
+          "notes": "Local SME based in San Antonio de los Cobres, Salta (Puna Alta). Indigenous-owned. Actively serving Puna mining projects including Ganfeng Lithium and Posco. Identified as the only provider with confirmed on-the-ground presence and active contracts specifically within the Puna mining corridor at the time of research.",
+          "source_url": "https://saltamining.com/contenido/5289/un-emprendedor-de-la-puna-creo-una-empresa-de-seguridad-y-brinda-servicios-a-las"
+        }
+      ],
+      "armed_security_regulation": "Regulated: Armed private security in Argentina requires provincial licensing. Providers must obtain authorisation in each province where they operate armed guards. Confirmed that provincial registration in Salta is required for armed on-site operations at projects such as Rincón. G4S is confirmed as legally authorised in all Argentine provinces including Salta. Other national providers such as Prosegur would similarly require provincial licensing in Salta and/or Jujuy to deploy armed personnel.",
+      "conflict_risk_to_security_operations": "Medium",
+      "gap_summary": "No specific contract evidence was found for any provider at the Rincón (Salta) or Sal de Vida (Catamarca/Jujuy) project sites at the time of research. The research findings for Cóndor Seguridad Privada were incomplete (entry cut off in source material), limiting full assessment of that provider. Human rights certification status (e.g. PSCI, Voluntary Principles on Security and Human Rights) was not documented for any identified provider. Regulatory detail on Jujuy provincial licensing requirements was not fully elaborated. No evidence was found of ASIS or ISO 18788 certifications for any listed provider.",
+      "confidence": "Medium"
+    },
+    "socioeconomic_context": {
+      "poverty_rate": "Northwest region: 25.4% poverty incidence (highest in Argentina); child poverty in Northwest 52.8% (second half of 2024); Salta Province poverty rates consistently above national average, over 50% in vulnerable rural/indigenous zones",
+      "poverty_source_url": null,
+      "basic_sanitation_access": "Access disparities persist in remote Puna zones; indigenous communities rely on mobile units and basic posts amid higher poverty rates; qualitative evidence of inadequate infrastructure in rural and indigenous-majority areas",
+      "sanitation_source_url": null,
+      "clean_water_access": "Scarce drinking water in Puna/Andes desert region; indigenous communities face water scarcity; region receives less than 400 mm precipitation per year (some areas only ~100 mm/year); water availability is a key ecosystem service at risk",
+      "water_source_url": null,
+      "healthcare_system_quality": "Remote Puna and Valle Calchaquí zones rely on mobile health units and basic posts; indigenous communities face restricted access to basic services including healthcare; compounded disadvantages including malnutrition reported among indigenous populations",
+      "infectious_disease_risk": "Not explicitly stated in findings; high-altitude environment (average 4,000 m asl), extreme diurnal temperature variation (~25°C), and arid conditions pose occupational health risks including altitude sickness and dehydration for project workforce",
+      "local_workforce_skill_level": "Predominantly pastoralism, subsistence agriculture, traditional salt extraction, and seasonal mining labour; some local entrepreneurs run high-mountain logistics companies serving mining firms; limited formal skilled workforce locally, with mining operations drawing workers from broader region",
+      "infrastructure_quality": "Roads: remote and long distances — Sal de Vida is 650 km from Catamarca city and 390 km from Salta city; San Antonio de los Cobres is ~160 km from Salta city; Power/comms: qualitative evidence of inadequate infrastructure in isolated Puna region; high-mountain logistics companies have developed to serve mining operations",
+      "corruption_perception_index": "Not available",
+      "cpi_source_url": null,
+      "overall_context_summary": "The Argentine Puna region hosting the Rincon (Salta) and Sal de Vida (Catamarca) lithium projects is one of the most economically disadvantaged and sparsely populated areas in Argentina, characterised by extreme altitude (~4,000 m asl), hyper-aridity, scarce water, and structural poverty exceeding 25% in the Northwest region with child poverty reaching 52.8%. Indigenous Kolla and Atacameño communities depend on pastoralism, subsistence farming, and ecosystem services from the salares, yet face compounded disadvantages including malnutrition, water scarcity, and limited access to healthcare and basic services. Large-scale lithium investment — including Rio Tinto's USD 2.5 billion Rincon expansion and USD 700 million Sal de Vida project — represents the dominant formal economic driver in the region, though tensions persist around water use, indigenous rights, and equitable benefit-sharing."
+    },
+    "overall_compliance_maturity": {
+      "rag_rating": "A",
+      "rag_rationale": "Argentina's Puna region (Rincon/Salar del Rincón and Sal de Vida/Salar del Hombre Muerto) presents a mixed compliance maturity picture warranting an AMBER rating. On the positive side, there is a well-established federal mining law framework (Mining Code, Law 24,196, Law 25,675), a clear EIA/EIS permitting process with mandatory community participation requirements, and a new large-investment incentive regime (RIGI, Ley 27,742) providing 30-year fiscal and regulatory stability that has already attracted over USD 42 billion in committed mining investment. However, significant compliance risks and uncertainties persist. Provincial primacy in environmental licensing creates jurisdictional inconsistency across Salta, Jujuy, and Catamarca. The April 2026 Glacier Law amendment — transferring protected-area designation from IANIGLA to provincial governments — introduces a structural conflict of interest and has generated legal challenges. The Wetlands Law interaction with Puna salares remains unresolved. Decree 449/25's simplified compliance framework is promising but dependent on the robustness of professional accreditation and liability systems, which have historically encountered implementation friction in Argentina. The extreme remoteness and altitude of operations (approx. 4,000m ASL) adds operational complexity. Overall, the regulatory architecture is present and improving but implementation consistency, recent environmental law changes, and unresolved legal ambiguities prevent a GREEN rating.",
+      "key_strengths": [
+        "Established federal mining legal framework including Mining Code (1887, as amended), Law 24,196, and Law 25,675 providing EIA requirements at all project stages",
+        "RIGI regime (Ley 27,742, 2024) offers 30 years of fiscal, customs, and foreign exchange stability for projects committing USD 200M+, with 13 mining projects already approved and USD 42B+ committed",
+        "Mandatory community participation in EIA processes across Catamarca, Jujuy, and Salta via provincial resolutions",
+        "Clear two-year EIS cycle with mandatory biennial updates providing structured compliance checkpoints",
+        "Decree 449/25 introduces a simplified compliance framework for lithium brine projects advancing through exploration to feasibility",
+        "Argentina hosts 70–80% of global lithium brine reserves, creating strong institutional and economic incentive to develop and maintain a functional regulatory environment",
+        "Strong investor protections and accelerated depreciation under RIGI enhance project bankability"
+      ],
+      "key_barriers": [
+        "Provincial primacy over mining approvals, environmental licensing, and royalty structures creates jurisdictional inconsistency across Salta, Jujuy, and Catamarca — consistency of application cannot be assumed",
+        "April 2026 Glacier Law amendment transfers protected-area designation authority from IANIGLA to provincial governments, creating inherent conflict of interest where provinces both benefit financially from mining and determine environmental protections; has generated legal challenges and protests",
+        "Wetlands Law interaction with Puna salares remains legally unresolved, creating material regulatory uncertainty for lithium brine operations in salt flat environments",
+        "Argentina's regulatory history shows significant implementation friction between well-intentioned legal reforms and on-the-ground compliance effectiveness",
+        "Decree 449/25 simplified framework is only as effective as the underlying professional accreditation and liability systems supporting it",
+        "Extreme operational environment (approx. 4,000m ASL, remote, arid) adds complexity to HSESC monitoring and enforcement",
+        "National government constitutionally limited to setting minimum environmental standards only, leaving substantive oversight to provinces with varying capacity and independence"
+      ],
+      "recommended_approach": "Documents should be calibrated to reflect an evolving but inconsistent compliance environment. Due diligence materials must be province-specific (Salta for Rincon; Catamarca/Jujuy border for Sal de Vida) rather than relying on national-level frameworks alone. Legal risk sections should prominently flag the Glacier Law amendment's legal uncertainty and ongoing challenges, and the unresolved Wetlands Law ambiguity as material risks requiring ongoing monitoring. RIGI eligibility and benefits should be clearly documented where applicable, as they represent a significant de-risking factor for large-capital projects. EIA/EIS status and community consultation records should be verified at provincial level and tracked on the biennial renewal cycle. Environmental and social compliance sections should note that provincial enforcement capacity and independence may vary and that implementation friction is a documented systemic risk. Water management and ecosystem impact disclosures should be treated with particular care given the hydrological sensitivity of high-altitude salares. All source URLs from findings should be preserved in reference materials."
+    }
   }
 }
