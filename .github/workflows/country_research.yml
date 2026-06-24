@@ -4,15 +4,31 @@ on:
   workflow_dispatch:
     inputs:
       jurisdictions:
-        description: 'Comma-separated jurisdictions to research (leave blank for all)'
+        description: 'Comma-separated jurisdiction IDs to research (leave blank for all)'
         required: false
         default: 'all'
+      skip_research:
+        description: 'Skip Phase 1 jurisdiction research (use cache only)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+      skip_matrix:
+        description: 'Skip Phase 2 compliance matrix (use cache only)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 jobs:
   research:
     name: Research and Build Sourcebook
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 360
 
     steps:
       - name: Checkout repository
@@ -27,24 +43,68 @@ jobs:
         run: |
           pip install anthropic openpyxl
 
-      - name: Run country research
+      - name: Phase 1 — Research jurisdictions
+        if: ${{ github.event.inputs.skip_research != 'true' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python scripts/research_countries.py \
             --brief-dir briefs/ \
             --output-dir outputs/ \
-            --jurisdictions "${{ github.event.inputs.jurisdictions }}"
+            --jurisdictions "${{ github.event.inputs.jurisdictions }}" \
+            --phase 1
 
-      - name: Commit sourcebook
+      - name: Commit Phase 1 cache
+        if: ${{ github.event.inputs.skip_research != 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add outputs/_country_profiles_cache.json
+          git diff --staged --quiet || git commit -m "chore: save country profiles cache after Phase 1 [skip ci]"
+          git pull --rebase
+          git push
+
+      - name: Phase 2 — Compliance matrix
+        if: ${{ github.event.inputs.skip_matrix != 'true' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/research_countries.py \
+            --brief-dir briefs/ \
+            --output-dir outputs/ \
+            --jurisdictions "${{ github.event.inputs.jurisdictions }}" \
+            --phase 2
+
+      - name: Commit Phase 2 cache
+        if: ${{ github.event.inputs.skip_matrix != 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add outputs/_compliance_matrix_cache.json
+          git diff --staged --quiet || git commit -m "chore: save compliance matrix cache after Phase 2 [skip ci]"
+          git pull --rebase
+          git push
+
+      - name: Phase 3+4 — Versioning analysis and Excel build
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/research_countries.py \
+            --brief-dir briefs/ \
+            --output-dir outputs/ \
+            --jurisdictions "${{ github.event.inputs.jurisdictions }}" \
+            --phase 34
+
+      - name: Commit final sourcebook
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
           git add outputs/
-          git diff --staged --quiet || git commit -m "feat: update HSESC country compliance sourcebook [skip ci]"
+          git diff --staged --quiet || git commit -m "feat: HSESC country compliance sourcebook complete [skip ci]"
           git pull --rebase
           git push
 
       - name: Done
-        run: |
-          echo "Sourcebook complete. Check outputs/ folder."
+        run: echo "Sourcebook complete. Pull outputs/HSESC_Country_Compliance_Sourcebook.xlsx"

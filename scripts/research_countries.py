@@ -1029,95 +1029,95 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--brief-dir",     required=True)
     parser.add_argument("--output-dir",    required=True)
-    parser.add_argument("--jurisdictions", default="all",
-                        help="Comma-separated jurisdiction IDs to research, or 'all'")
+    parser.add_argument("--jurisdictions", default="all")
+    parser.add_argument("--phase",         default="all",
+                        help="Phase to run: 1, 2, 34, or all")
     args = parser.parse_args()
 
     os.makedirs(args.output_dir, exist_ok=True)
-
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-    # Filter jurisdictions if requested
     requested = [j.strip().upper() for j in args.jurisdictions.split(",")]
-    if "ALL" in requested:
-        jurs_to_research = JURISDICTIONS
-    else:
-        jurs_to_research = [j for j in JURISDICTIONS if j["id"] in requested]
+    jurs_to_research = JURISDICTIONS if "ALL" in requested else         [j for j in JURISDICTIONS if j["id"] in requested]
 
-    # Load procedure registry
     procedures = load_procedures(args.brief_dir)
     procedures = load_ms_elements(args.brief_dir, procedures)
     print(f"Loaded {len(procedures)} procedures from registry")
 
-    # ── Phase 1: Research each jurisdiction ───────────────────────────────────
-    profiles = {}
-    profiles_path = os.path.join(args.output_dir, "_country_profiles_cache.json")
+    run_p1  = args.phase in ("1", "all")
+    run_p2  = args.phase in ("2", "all")
+    run_p34 = args.phase in ("34", "all")
 
-    # Load cached profiles if they exist (allows resume)
+    profiles_path = os.path.join(args.output_dir, "_country_profiles_cache.json")
+    matrix_path   = os.path.join(args.output_dir, "_compliance_matrix_cache.json")
+
+    # ── Phase 1: Research each jurisdiction ──────────────────────────────────
+    profiles = {}
     if os.path.exists(profiles_path):
         with open(profiles_path, "r", encoding="utf-8") as f:
             profiles = json.load(f)
         print(f"Loaded {len(profiles)} cached profiles")
 
-    for jur in jurs_to_research:
-        jid = jur["id"]
-        if jid in profiles:
-            print(f"  SKIP {jid} — already researched")
-            continue
-        print(f"\nResearching {jur['name']}...")
-        profile = research_jurisdiction_profile(client, jur)
-        if profile:
-            profiles[jid] = profile
-            print(f"  Done — {len(profile.get('sources', []))} sources")
-        else:
-            profiles[jid] = {"_research_failed": True}
-            print(f"  FAILED — placeholder written")
-
-        # Save cache after each jurisdiction
-        with open(profiles_path, "w", encoding="utf-8") as f:
-            json.dump(profiles, f, indent=2, ensure_ascii=False)
-
-        time.sleep(3)
+    if run_p1:
+        remaining = [j for j in jurs_to_research if j["id"] not in profiles]
+        print(f"Phase 1: {len(remaining)} jurisdiction(s) to research ({len(profiles)} cached)")
+        for i, jur in enumerate(jurs_to_research):
+            jid = jur["id"]
+            if jid in profiles:
+                print(f"  SKIP {jid} — cached")
+                continue
+            print(f"\n  [{i+1}/{len(jurs_to_research)}] Researching {jur['name']}...")
+            profile = research_jurisdiction_profile(client, jur)
+            profiles[jid] = profile if profile else {"_research_failed": True}
+            status = len(profile.get("sources", [])) if profile else "FAILED"
+            print(f"  Done: {status} sources")
+            with open(profiles_path, "w", encoding="utf-8") as f:
+                json.dump(profiles, f, indent=2, ensure_ascii=False)
+            time.sleep(2)
+        print(f"Phase 1 complete. {len(profiles)} profiles saved.")
+    else:
+        print("Phase 1: skipped — using cache")
 
     # ── Phase 2: Compliance matrix ────────────────────────────────────────────
-    print("\nBuilding compliance matrix...")
     compliance_matrix = {}
-    matrix_path = os.path.join(args.output_dir, "_compliance_matrix_cache.json")
-
     if os.path.exists(matrix_path):
         with open(matrix_path, "r", encoding="utf-8") as f:
             compliance_matrix = json.load(f)
-        print(f"Loaded {len(compliance_matrix)} cached procedure assessments")
+        print(f"\nLoaded {len(compliance_matrix)} cached procedure assessments")
 
-    for proc in procedures:
-        pid = proc["id"]
-        if pid in compliance_matrix:
-            print(f"  SKIP {pid}")
-            continue
-        print(f"  Assessing {pid}: {proc['title'][:50]}...")
-        result = research_procedure_compliance(client, proc, JURISDICTIONS, profiles)
-        if result:
-            compliance_matrix[pid] = result
-        else:
-            compliance_matrix[pid] = {"_assessment_failed": True, "jurisdictions": {}}
-        time.sleep(2)
+    if run_p2:
+        remaining_procs = [p for p in procedures if p["id"] not in compliance_matrix]
+        print(f"Phase 2: {len(remaining_procs)} procedure(s) to assess ({len(compliance_matrix)} cached)")
+        for i, proc in enumerate(procedures):
+            pid = proc["id"]
+            if pid in compliance_matrix:
+                continue
+            print(f"  [{i+1}/{len(procedures)}] {pid}: {proc['title'][:45]}...")
+            result = research_procedure_compliance(client, proc, JURISDICTIONS, profiles)
+            compliance_matrix[pid] = result if result else                 {"_assessment_failed": True, "jurisdictions": {}}
+            time.sleep(1)
+            if (i + 1) % 5 == 0:
+                with open(matrix_path, "w", encoding="utf-8") as f:
+                    json.dump(compliance_matrix, f, indent=2, ensure_ascii=False)
+                print(f"    Checkpoint: {i+1} procedures complete")
+        with open(matrix_path, "w", encoding="utf-8") as f:
+            json.dump(compliance_matrix, f, indent=2, ensure_ascii=False)
+        print(f"Phase 2 complete. {len(compliance_matrix)} assessments saved.")
+    else:
+        print("Phase 2: skipped — using cache")
 
-        # Save cache every 5 procedures
-        if len(compliance_matrix) % 5 == 0:
-            with open(matrix_path, "w", encoding="utf-8") as f:
-                json.dump(compliance_matrix, f, indent=2, ensure_ascii=False)
-
-    with open(matrix_path, "w", encoding="utf-8") as f:
-        json.dump(compliance_matrix, f, indent=2, ensure_ascii=False)
+    if not run_p34:
+        print("Phases 3+4 skipped.")
+        return
 
     # ── Phase 3: Versioning analysis ─────────────────────────────────────────
-    print("\nRunning versioning analysis...")
+    print("\nPhase 3: versioning analysis...")
     versioning = research_versioning(client, procedures, compliance_matrix)
 
     # ── Phase 4: Build Excel workbook ────────────────────────────────────────
-    print("\nBuilding Excel workbook...")
+    print("\nPhase 4: building Excel workbook...")
     wb = openpyxl.Workbook()
-    wb.remove(wb.active)  # Remove default sheet
+    wb.remove(wb.active)
 
     ws1 = wb.create_sheet("1. Country Profiles")
     build_tab1_country_profiles(ws1, JURISDICTIONS, profiles)
@@ -1138,7 +1138,6 @@ def main():
     output_path = os.path.join(args.output_dir, "HSESC_Country_Compliance_Sourcebook.xlsx")
     wb.save(output_path)
     print(f"\nSourcebook saved: {output_path}")
-
 
 if __name__ == "__main__":
     main()
