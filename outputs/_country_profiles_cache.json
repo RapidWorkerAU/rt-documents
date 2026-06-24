@@ -3073,5 +3073,661 @@
       ],
       "recommended_approach": "Documents should be calibrated to reflect an evolving but inconsistent compliance environment. Due diligence materials must be province-specific (Salta for Rincon; Catamarca/Jujuy border for Sal de Vida) rather than relying on national-level frameworks alone. Legal risk sections should prominently flag the Glacier Law amendment's legal uncertainty and ongoing challenges, and the unresolved Wetlands Law ambiguity as material risks requiring ongoing monitoring. RIGI eligibility and benefits should be clearly documented where applicable, as they represent a significant de-risking factor for large-capital projects. EIA/EIS status and community consultation records should be verified at provincial level and tracked on the biennial renewal cycle. Environmental and social compliance sections should note that provincial enforcement capacity and independence may vary and that implementation friction is a documented systemic risk. Water management and ecosystem impact disclosures should be treated with particular care given the hydrological sensitivity of high-altitude salares. All source URLs from findings should be preserved in reference materials."
     }
+  },
+  "CA": {
+    "sources": [
+      {
+        "claim": "osh_legislation",
+        "source_name": "Act Respecting Occupational Health and Safety (LSST / AOHS) — CQLR c S-2.1",
+        "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/s-2.1",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "An Act to Modernise the Occupational Health and Safety System (Bill 59) — SQ 2021",
+        "url": "https://www.blg.com/-/media/insights/2025/documents/blg-le-adoption-qc-bill-59-en.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "An Act to Prevent and Fight Psychological Harassment and Sexual Violence in the Workplace (Bill 42) — SQ 2024, c 4",
+        "url": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-s-2.1/latest/cqlr-c-s-2.1.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Regulation Respecting Occupational Health and Safety in Mines — CQLR c S-2.1, r.14",
+        "url": "https://www.canlii.org/en/qc/laws/regu/cqlr-c-s-2.1-r-14/latest/cqlr-c-s-2.1-r-14.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "osh_legislation",
+        "url": "https://www.amq-inc.com/en/mining-industry/health-and-safety",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Mining Act (CQLR, c. M-13.1)",
+        "url": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-m-13.1/latest/cqlr-c-m-13.1.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Bill 63 — An Act to amend the Mining Act and other provisions",
+        "url": "https://mcmillan.ca/insights/publications/significant-changes-to-the-quebec-mining-regime-are-now-in-force/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Authorization for Impact-Causing Exploration Work (ATI) Regulation",
+        "url": "https://www.bba.ca/publications/the-quebec-mining-sector-a-new-regulatory-requirement-as-of-may-2024",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Environment Quality Act (EQA) (CQLR, c. Q-2)",
+        "url": "http://legisquebec.gouv.qc.ca/en/ShowDoc/cs/Q-2",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Regulation respecting mineral substances other than petroleum, natural gas and brine",
+        "url": "https://mrnf.gouv.qc.ca/en/mines/mining-reclamation/legislative-provisions/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://www.bcf.ca/en/thought-leadership/case-studies/mining-law-reform-in-quebec/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "James Bay and Northern Québec Agreement (JBNQA)",
+        "url": "https://www.cngov.ca/wp-content/uploads/2023/09/jbnqa-1.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Agreement Respecting a New Relationship Between the Cree Nation and the Government of Quebec (Paix des Braves)",
+        "url": "https://en.wikipedia.org/wiki/Agreement_Respecting_a_New_Relationship_Between_the_Cree_Nation_and_the_Government_of_Quebec",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Agreement on Governance in the Eeyou Istchee James Bay Territory",
+        "url": "https://cngov.ca/governance-structure/legislation/agreements/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Act Giving Effect to the Agreement on Cree Nation Governance (Cree Nation Governance Agreement)",
+        "url": "https://cngov.ca/governance-structure/legislation/agreements/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Environmental Quality Act (Quebec) — Chapter II (COMEX provisions)",
+        "url": "https://comexqc.ca/en/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://comexqc.ca/en/fiches-de-projet/projet-whabouchi-developpement-exploitation-dun-gisement-spodumene-territoire-baie-james/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://www.canada.ca/en/impact-assessment-agency/corporate/james-bay-northern-quebec-agreement.html",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://cngov.ca/governance-structure/legislation/agreements/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Section 35 of the Constitution Act, 1982",
+        "url": "https://www.canada.ca/en/campaign/critical-minerals-in-canada/regulations-for-critical-minerals-development.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "United Nations Declaration on the Rights of Indigenous Peoples Act (Bill C-15)",
+        "url": "https://en.wikipedia.org/wiki/United_Nations_Declaration_on_the_Rights_of_Indigenous_Peoples_Act_(Canada)",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "James Bay and Northern Quebec Agreement (JBNQA)",
+        "url": "https://www.canada.ca/en/impact-assessment-agency/corporate/james-bay-northern-quebec-agreement.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Impact Assessment Act (IAA) / Canadian Environmental Assessment Act (CEAA 2012)",
+        "url": "https://iaac-aeic.gc.ca/050/evaluations/document/153132",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.cngov.ca/news-issues/current-issues/undrip-and-bill-c-15/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.canada.ca/en/department-justice/news/2021/12/government-of-canada-advances-implementation-of-the-united-nations-declaration-on-the-rights-of-indigenous-peoples-act.html",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Impact Assessment Act (IAA) / Canadian Environmental Assessment Act, 2012",
+        "url": "https://iaac-aeic.gc.ca/050/evaluations/proj/80021",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Explosives Act (Canada)",
+        "url": "https://natural-resources.canada.ca/minerals-mining/explosives-fireworks-ammunition/explosives/explosives-act-regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Explosives Regulations, 2013 (SOR/2024-77 as most recently amended)",
+        "url": "https://natural-resources.canada.ca/minerals-mining/explosives-fireworks-ammunition/explosives/explosives-act-regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Québec Explosives Act (CQLR, c. E-22)",
+        "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/E-22",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "GardaWorld",
+        "url": "https://www.garda.com/sites/default/files/2017-06/Rio_Tinto_Aluminerie_Quebec.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      }
+    ],
+    "development_classification": {
+      "classification": "First World / OECD",
+      "hdi_rank": "Not available",
+      "hdi_source_url": null,
+      "notes": "Quebec, Canada is a mature, high-functioning First World OECD jurisdiction with a well-established dual federal-provincial regulatory framework. For HSESC compliance, this means: strong statutory environmental and social protections apply (Quebec Mining Act as reformed by Bill 63 adopted November 2024, and federal Impact Assessment Act 2019); mandatory Indigenous consultation obligations exist under the James Bay and Northern Quebec Agreement (JBNQA) and the new Impact Exploration Authorization (ATI) regime effective May 2024; Whabouchi Mine holds all core environmental approvals (JBNQA authorization September 2015, General Certificate of Authorization under CEAA 2012) but is currently in a paused/care-and-maintenance state pending Rio Tinto's strategic evaluation of spodumene supply options (Galaxy vs Whabouchi) expected to conclude in first half of 2026; high standards of regulatory transparency, accountability, and enforceable Indigenous rights apply throughout; HSESC requirements will reflect a high-compliance baseline consistent with Canadian federal and Quebec provincial norms."
+    },
+    "osh_legislation": {
+      "has_dedicated_osh_law": true,
+      "legislation": [
+        {
+          "name": "Act Respecting Occupational Health and Safety (LSST / AOHS) — CQLR c S-2.1",
+          "year": "1979",
+          "regulator": "CNESST (Commission des normes, de l'équité, de la santé et de la sécurité du travail)",
+          "regulator_url": "https://www.cnesst.gouv.qc.ca/en",
+          "source_url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/s-2.1",
+          "verified": true,
+          "notes": "Core provincial OSH legislation applicable to Nemaska Lithium Whabouchi Mine, Bécancour Conversion Facility, and AP60 aluminum smelter. Establishes employer obligations to protect health, safety, and physical and psychological integrity of workers. Amended by Bill 59 (2021) and Bill 42 (2024)."
+        },
+        {
+          "name": "Act Respecting Industrial Accidents and Occupational Diseases (LATMP / AIAOD) — CQLR c A-3.001",
+          "year": null,
+          "regulator": "CNESST (Commission des normes, de l'équité, de la santé et de la sécurité du travail)",
+          "regulator_url": "https://www.cnesst.gouv.qc.ca/en",
+          "source_url": null,
+          "verified": true,
+          "notes": "Governs compensation, financing, and rehabilitation for employment injuries. Complements the LSST by dealing with the consequences of occupational accidents and diseases. Applicable to all Quebec operations including Whabouchi Mine, Bécancour, and AP60."
+        },
+        {
+          "name": "An Act to Modernise the Occupational Health and Safety System (Bill 59) — SQ 2021",
+          "year": "2021",
+          "regulator": "CNESST (Commission des normes, de l'équité, de la santé et de la sécurité du travail)",
+          "regulator_url": "https://www.cnesst.gouv.qc.ca/en",
+          "source_url": "https://www.blg.com/-/media/insights/2025/documents/blg-le-adoption-qc-bill-59-en.pdf",
+          "verified": true,
+          "notes": "First major reform to Quebec OSH in nearly 40 years, passed September 30, 2021. Final provisions came into force October 1, 2025 via Order in Council 1154-2025. Requires employers with 20+ workers to implement prevention programmes; smaller establishments must maintain action plans. Mandates health and safety committees, registers of contaminants/hazardous substances updated every three years, and integration of psychosocial risk prevention. Applies to all Quebec operations."
+        },
+        {
+          "name": "An Act to Prevent and Fight Psychological Harassment and Sexual Violence in the Workplace (Bill 42) — SQ 2024, c 4",
+          "year": "2024",
+          "regulator": "CNESST (Commission des normes, de l'équité, de la santé et de la sécurité du travail)",
+          "regulator_url": "https://www.cnesst.gouv.qc.ca/en",
+          "source_url": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-s-2.1/latest/cqlr-c-s-2.1.html",
+          "verified": true,
+          "notes": "Amends the LSST. Assented to 2024-03-27. Strengthens obligations to prevent and address psychological harassment and sexual violence in the workplace. Applicable to all Quebec operations including mining and industrial facilities."
+        },
+        {
+          "name": "Regulation Respecting Occupational Health and Safety in Mines — CQLR c S-2.1, r.14",
+          "year": null,
+          "regulator": "CNESST (Commission des normes, de l'équité, de la santé et de la sécurité du travail)",
+          "regulator_url": "https://www.cnesst.gouv.qc.ca/en",
+          "source_url": "https://www.canlii.org/en/qc/laws/regu/cqlr-c-s-2.1-r-14/latest/cqlr-c-s-2.1-r-14.html",
+          "verified": true,
+          "notes": "Key sector-specific regulation for the Whabouchi Mine site. Applies to both open-pit and underground mining operations. Requires engineer-certified plans and specifications before excavation work. Mandates modular miner training (Modules 1, 2, 3, 4, 5, and 7 of the Centre de services scolaire de l'Or-et-des-Bois program) for all underground mine workers. Sets PPE and site safety requirements."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "ILO Modular Miner Training Standards (referenced via Quebec Mining Association compliance context)",
+          "evidence_of_application": "The Quebec Mining Association (QMA) has established compulsory modular training programs for mine workers aligned with the Regulation Respecting Occupational Health and Safety in Mines. These training obligations for underground mines reflect internationally recognized competency-based safety training principles.",
+          "source_url": "https://www.amq-inc.com/en/mining-industry/health-and-safety"
+        }
+      ],
+      "gap_summary": "The findings do not detail coverage of: (1) federal Canada Labour Code obligations, which may apply to any federally regulated activities on-site; (2) specific environmental legislation (e.g., Quebec Environment Quality Act or federal Impact Assessment Act) governing the Whabouchi Mine or Bécancour facility beyond OSH; (3) Cree Nation / Indigenous land rights and free, prior and informed consent (FPIC) requirements under the James Bay and Northern Quebec Agreement or UNDRIP as applied to the Whabouchi Mine in Eeyou Istchee; (4) security-specific legislation or regulations applicable to the facilities; (5) community relations or social licence obligations under Quebec or federal law; (6) specific regulations governing the AP60 aluminum smelter beyond the general provincial OSH framework; and (7) transportation of dangerous goods or hazardous materials regulations applicable to lithium compounds produced at Bécancour."
+    },
+    "environmental_legislation": {
+      "has_dedicated_env_law": true,
+      "legislation": [
+        {
+          "name": "Mining Act (CQLR, c. M-13.1)",
+          "year": "1987",
+          "regulator": "Ministère des Ressources naturelles et des Forêts (MRNF)",
+          "source_url": "https://www.canlii.org/en/qc/laws/stat/cqlr-c-m-13.1/latest/cqlr-c-m-13.1.html",
+          "verified": true,
+          "notes": "Primary statute governing mineral exploration and extraction in Quebec. Governs Nemaska Lithium's Whabouchi Mine and Bécancour Conversion Facility. Requires rehabilitation and restoration plans and financial guarantees for mine closure. Significantly amended by Bill 63 (assented to November 29, 2024), which abolished the 2,000 metric ton BAPE threshold, introduced provisions on critical and strategic minerals, and enabled Indigenous community agreements on land boundaries."
+        },
+        {
+          "name": "Bill 63 — An Act to amend the Mining Act and other provisions",
+          "year": "2024",
+          "regulator": "Ministère des Ressources naturelles et des Forêts (MRNF)",
+          "source_url": "https://mcmillan.ca/insights/publications/significant-changes-to-the-quebec-mining-regime-are-now-in-force/",
+          "verified": true,
+          "notes": "Presented to the National Assembly on May 28, 2024; assented to on November 29, 2024. First significant reform of the Mining Act since 2013. Key changes include: universal environmental assessment for all mining projects (abolishing the 2,000 metric ton BAPE threshold), redesignation of 'claims' as 'exclusive exploration rights', new critical and strategic minerals provisions, Indigenous community agreements on land use, and new conditions for holding mining rights. Draft regulations published March 2026 subject to 45-day public consultation."
+        },
+        {
+          "name": "Authorization for Impact-Causing Exploration Work (ATI) Regulation",
+          "year": "2024",
+          "regulator": "Ministère des Ressources naturelles et des Forêts (MRNF)",
+          "source_url": "https://www.bba.ca/publications/the-quebec-mining-sector-a-new-regulatory-requirement-as-of-may-2024",
+          "verified": true,
+          "notes": "Effective May 6, 2024. Requires any mining company conducting 'impact' exploration work to obtain an Authorization for Impact-Causing Exploration Work (ATI). Requires notification to municipal executive directors and First Nations band councils, who have 30 days to submit questions and comments. Applies to exploration activities relevant to Nemaska Lithium's Whabouchi Mine area."
+        },
+        {
+          "name": "Environment Quality Act (EQA) (CQLR, c. Q-2)",
+          "year": "1972",
+          "regulator": "Ministère de l'Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs (MELCCFP)",
+          "source_url": "http://legisquebec.gouv.qc.ca/en/ShowDoc/cs/Q-2",
+          "verified": true,
+          "notes": "Quebec's principal environmental statute. Requires certificates of authorization under section 22 for certain activities and projects. Establishes the Environmental Impact Assessment and Review Procedure (EIARP), including BAPE public hearings. Title II establishes a special regime for James Bay and Northern Quebec (JBNQA territory) with active Indigenous community involvement — directly applicable to the Whabouchi Mine. Also governs depollution attestations for large industrial establishments such as the AP60 Smelter (Complexe Arvida). The EIARP process can take up to two years."
+        },
+        {
+          "name": "Regulation respecting mineral substances other than petroleum, natural gas and brine",
+          "year": null,
+          "regulator": "Ministère des Ressources naturelles et des Forêts (MRNF)",
+          "source_url": "https://mrnf.gouv.qc.ca/en/mines/mining-reclamation/legislative-provisions/",
+          "verified": true,
+          "notes": "Enacted under the Mining Act. Requires mining companies to submit rehabilitation and restoration plans (closure plans) and provide financial guarantees covering reclamation costs. Applies to both mineral exploration activities and mining operations, including Nemaska Lithium's Whabouchi Mine."
+        },
+        {
+          "name": "James Bay and Northern Quebec Agreement (JBNQA)",
+          "year": "1975",
+          "regulator": "Government of Quebec / Government of Canada / Cree Nation Government / Makivik Corporation (Inuit)",
+          "source_url": null,
+          "verified": true,
+          "notes": "Foundational treaty governing the Whabouchi Mine area. An Aboriginal land claim settlement covering economic development, property issues, and cultural, social and governmental institutions for Indigenous peoples in northern Quebec. Establishes the environmental and social impact assessment and review procedure under Title II of the EQA for mining projects in the James Bay and Northern Quebec territory. Bill 5 (Quebec's project acceleration legislation) does not apply to this territory as the JBNQA processes cannot be unilaterally amended."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Fraser Institute Investment Attractiveness Index",
+          "evidence_of_application": "Quebec ranks 5th globally on the Fraser Institute's annual survey of mining investment attractiveness, reflecting the maturity and stability of its regulatory framework.",
+          "source_url": null
+        },
+        {
+          "framework": "Bureau d'audiences publiques sur l'environnement (BAPE) Public Hearing Process",
+          "evidence_of_application": "BAPE public hearings are a mandatory component of Quebec's Environmental Impact Assessment and Review Procedure (EIARP) under the EQA. BAPE recommendations must be taken into account by the Quebec government when deciding whether to authorize or deny a project. Post-Bill 63, all mining projects must undergo this assessment regardless of size.",
+          "source_url": null
+        },
+        {
+          "framework": "UN Declaration on the Rights of Indigenous Peoples (UNDRIP) — Indirect Application via JBNQA and Bill 63",
+          "evidence_of_application": "Bill 63 introduced provisions enabling the Government of Quebec to enter into agreements with Indigenous communities (Cree Nation Government, Makivik Corporation, Kativik Regional Government, or individual band councils) to determine land boundaries for mineral withdrawal, and included Indigenous relations training as a potential criterion for holding mining rights. The JBNQA treaty regime under Title II of the EQA ensures active involvement of Cree, Inuit and Naskapi communities in environmental assessment of northern mining projects.",
+          "source_url": "https://www.bcf.ca/en/thought-leadership/case-studies/mining-law-reform-in-quebec/"
+        }
+      ],
+      "gap_summary": "The research findings are cut off before completing the section on JBNQA Land Categories (Section 4.1), leaving the details of the land categorization system (Category I, II, and III lands) under the JBNQA unaddressed. No specific details are provided on federal legislation applicable to these projects (e.g., the Impact Assessment Act, Fisheries Act, or Species at Risk Act), which would typically apply alongside provincial legislation. The year of original enactment for the Mining Act (CQLR, c. M-13.1) and the Regulation respecting mineral substances is not explicitly stated in the findings. Details on the specific environmental authorizations and certificates obtained by Nemaska Lithium for the Bécancour Conversion Facility (which falls outside the James Bay territory and therefore under the standard EIARP regime) are not provided. The specific depollution attestation status and conditions for Rio Tinto's AP60 Smelter are not detailed beyond the general legislative framework. Draft regulations under Bill 63 (published March 2026) have not yet come fully into force, creating regulatory uncertainty for future projects."
+    },
+    "community_social_legislation": {
+      "has_dedicated_csl_law": true,
+      "legislation": [
+        {
+          "name": "James Bay and Northern Québec Agreement (JBNQA)",
+          "year": "1975",
+          "regulator": "Government of Quebec, Government of Canada, Hydro-Québec, Grand Council of the Crees of Quebec, Northern Quebec Inuit Association",
+          "source_url": "https://www.cngov.ca/wp-content/uploads/2023/09/jbnqa-1.pdf",
+          "verified": true,
+          "notes": "The foundational modern treaty governing land management and Indigenous rights in the James Bay and Northern Quebec region. The Whabouchi mine sits on Category III land under the JBNQA. Establishes environmental and social protection regimes (sections 22, 23, 24) and requires consent of native peoples for mining on Category I lands. Constitutionally protected."
+        },
+        {
+          "name": "Agreement Respecting a New Relationship Between the Cree Nation and the Government of Quebec (Paix des Braves)",
+          "year": "2002",
+          "regulator": "Government of Quebec, Government of Canada, Grand Council of the Crees",
+          "source_url": "https://en.wikipedia.org/wiki/Agreement_Respecting_a_New_Relationship_Between_the_Cree_Nation_and_the_Government_of_Quebec",
+          "verified": true,
+          "notes": "Signed February 7, 2002 in Waskaganish. A 50-year agreement providing for revenue sharing and joint management of mining, forestry and hydroelectric resources on traditional Cree lands. Establishes joint jurisdiction between Quebec government and Cree Nation in James Bay municipalities and surrounding territories. Constitutionally protected and prevails over subsequent provincial legislation where conflicts arise."
+        },
+        {
+          "name": "Agreement on Governance in the Eeyou Istchee James Bay Territory",
+          "year": "2012",
+          "regulator": "Government of Quebec, Cree Nation, Jamésiens",
+          "source_url": "https://cngov.ca/governance-structure/legislation/agreements/",
+          "verified": true,
+          "notes": "Signed July 24, 2012. Builds on the JBNQA and Paix des Braves to establish a partnership between the Cree, Quebec and the Jamésiens for the governance of Eeyou Istchee James Bay Territory."
+        },
+        {
+          "name": "Act Giving Effect to the Agreement on Cree Nation Governance (Cree Nation Governance Agreement)",
+          "year": "2018",
+          "regulator": "Government of Canada, Crees of Eeyou Istchee",
+          "source_url": "https://cngov.ca/governance-structure/legislation/agreements/",
+          "verified": true,
+          "notes": "Gives effect and force of law to the Agreement on Cree Nation Governance signed July 18, 2017, and its companion the Cree Constitution. Establishes Cree Nation self-governance framework relevant to the territory in which the Whabouchi mine operates."
+        },
+        {
+          "name": "Environmental Quality Act (Quebec) — Chapter II (COMEX provisions)",
+          "year": "1972",
+          "regulator": "Ministère de l'Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs (MELCCFP); COMEX (Environmental and Social Impact Review Committee)",
+          "source_url": "https://comexqc.ca/en/",
+          "verified": true,
+          "notes": "Under Chapter II of Quebec's Environmental Quality Act, COMEX — a bipartite Quebec-Cree independent body — is responsible for assessment and review of social and environmental impacts of projects in the JBNQA territory. COMEX reviewed the Whabouchi Project (file 3214-14-052), held public hearings in 2015, and has issued and tracked multiple Certificate of Authorization amendments (MODCA1 through MODCA9+) since 2016."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Environmental and Social Impact Assessment (ESIA) — JBNQA Chapter 22 (COMEX Process)",
+          "evidence_of_application": "Nemaska Lithium submitted its impact assessment statement to COMEX in 2013. Public hearings were held in 2015. The process enabled consideration of community concerns and resulted in a Certificate of Authorization for the Whabouchi Project. COMEX is the bipartite Quebec-Cree agency charged with evaluating projects south of the 55th parallel North under the JBNQA framework.",
+          "source_url": "https://comexqc.ca/en/fiches-de-projet/projet-whabouchi-developpement-exploitation-dun-gisement-spodumene-territoire-baie-james/"
+        },
+        {
+          "framework": "Canadian Environmental Assessment Act (CEAA) — Federal Environmental Assessment",
+          "evidence_of_application": "The Whabouchi Mine Project was subject to both the COMEX ESIA process and the Canadian Environmental Assessment Agency (CEAA) review process, as it lies entirely within the JBNQA territory.",
+          "source_url": "https://www.canada.ca/en/impact-assessment-agency/corporate/james-bay-northern-quebec-agreement.html"
+        },
+        {
+          "framework": "Treaty-Based Indigenous Consent and Revenue Sharing (JBNQA + Paix des Braves)",
+          "evidence_of_application": "The JBNQA and Paix des Braves together require consent for mining on Category I lands, establish revenue sharing, and provide for joint management of natural resources on traditional Cree lands. These treaty frameworks directly governed the approvals and ongoing management of the Whabouchi mine. The Paix des Braves has been cited as a historic model for government-Indigenous relations in Quebec.",
+          "source_url": "https://cngov.ca/governance-structure/legislation/agreements/"
+        }
+      ],
+      "gap_summary": "The research findings focus primarily on the Nemaska Lithium Whabouchi Mine and its JBNQA-governed territory. Specific community and social legislation applicable to the Bécancour Conversion Facility (located in southern Quebec, outside the JBNQA territory) is not addressed in the findings — separate provincial and municipal social/community frameworks would apply there. Similarly, detailed community and social legislation specific to the Rio Tinto AP60 Smelter complex is not covered in these findings. No information is provided on Indigenous Impact and Benefit Agreements (IBAs) or specific financial compensation arrangements, if any, negotiated directly between Nemaska Lithium and the Cree Nation for the Whabouchi project. Details on how the Paix des Braves revenue-sharing provisions apply specifically to lithium mining (as opposed to forestry and hydroelectric resources) are not elaborated upon. The findings also do not address Quebec's Act respecting the rights of persons and families or other provincial social legislation as applied to workers or surrounding communities."
+    },
+    "human_rights_frameworks": {
+      "has_domestic_human_rights_law": true,
+      "legislation_or_constitution": [
+        {
+          "name": "Section 35 of the Constitution Act, 1982",
+          "year": "1982",
+          "source_url": "https://www.canada.ca/en/campaign/critical-minerals-in-canada/regulations-for-critical-minerals-development.html",
+          "verified": true,
+          "notes": "Constitutionally protects Aboriginal and treaty rights of Indigenous Peoples in Canada; imposes a duty on the Crown to consult and, where appropriate, accommodate Indigenous groups when conduct might adversely impact established or potential Aboriginal or treaty rights. Directly relevant to Whabouchi mine located on Cree treaty lands in Eeyou Istchee."
+        },
+        {
+          "name": "United Nations Declaration on the Rights of Indigenous Peoples Act (Bill C-15)",
+          "year": "2021",
+          "source_url": "https://en.wikipedia.org/wiki/United_Nations_Declaration_on_the_Rights_of_Indigenous_Peoples_Act_(Canada)",
+          "verified": true,
+          "notes": "Received Royal Assent on June 21, 2021. Requires federal law to align with UNDRIP's 46 articles, including free, prior and informed consent (FPIC) for resource extraction on Indigenous lands. Grand Council of the Crees (Eeyou Istchee) was an active supporter. Directly relevant to Whabouchi mine operations on Cree territory."
+        },
+        {
+          "name": "James Bay and Northern Quebec Agreement (JBNQA)",
+          "year": "1975",
+          "source_url": "https://www.canada.ca/en/impact-assessment-agency/corporate/james-bay-northern-quebec-agreement.html",
+          "verified": true,
+          "notes": "First modern land claim agreement in Canada; constitutionally protected; defines land categories (I, II, III), resource management rights, environmental and social protection regime for Cree territory. Consent of Indigenous peoples required for mining on Category I lands. Whabouchi mine changes located on JBNQA lands (trapline R20, near R19, Cree Nation of Nemaska). Primary rights framework for the Whabouchi site."
+        },
+        {
+          "name": "Impact Assessment Act (IAA) / Canadian Environmental Assessment Act (CEAA 2012)",
+          "year": "2012",
+          "source_url": "https://iaac-aeic.gc.ca/050/evaluations/document/153132",
+          "verified": true,
+          "notes": "Whabouchi mine underwent federal environmental assessment under CEAA 2012 (EA Report published July 29, 2015). Subsequent project changes triggered further IAAC review in 2023, including analysis of additional impacts on Indigenous Peoples' rights. IAAC consulted Cree Nation of Nemaska and Cree Nation Government as part of the process."
+        }
+      ],
+      "international_conventions_ratified": [
+        {
+          "convention": "United Nations Declaration on the Rights of Indigenous Peoples (UNDRIP)",
+          "ratified": true,
+          "source_url": "https://www.cngov.ca/news-issues/current-issues/undrip-and-bill-c-15/"
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "UN Declaration on the Rights of Indigenous Peoples (UNDRIP) — Free, Prior and Informed Consent (FPIC)",
+          "evidence_of_application": "FPIC is embedded in Canada's Bill C-15 (2021), which requires federal law to align with UNDRIP. The Whabouchi mine's environmental and social impact assessment (ESIA) was submitted to both federal (IAAC) and Quebec (COMEX) authorities, with public hearings held in Eeyou Istchee James Bay territory in 2015. The Grand Council of the Crees actively supported Bill C-15. IAAC's 2023 analysis explicitly assessed additional impacts on Indigenous Peoples' rights under the JBNQA.",
+          "source_url": "https://www.canada.ca/en/department-justice/news/2021/12/government-of-canada-advances-implementation-of-the-united-nations-declaration-on-the-rights-of-indigenous-peoples-act.html"
+        }
+      ],
+      "modern_slavery_risk": "Low — Canada is a mature, high-income jurisdiction with robust federal and provincial labour law, constitutional protections, and active regulatory oversight. The Whabouchi mine and Bécancour plant operate within a heavily regulated environment including JBNQA obligations, IAAC review, and UNDRIP/FPIC requirements. The Rio Tinto AP60 smelter similarly operates under Quebec and federal law. No evidence of forced labour or trafficking risks is present in the findings for these specific operations. However, supply chain risks upstream (e.g., sourcing of other minerals) are not addressed in the available findings and cannot be assessed.",
+      "gap_summary": "The findings focus primarily on Indigenous rights frameworks applicable to the Whabouchi mine (JBNQA, Section 35, UNDRIP/Bill C-15) and federal environmental assessment processes. Gaps include: (1) No specific information on Quebec provincial human rights legislation (e.g., Quebec Charter of Human Rights and Freedoms) or its application to these operations; (2) No detail on labour rights frameworks or occupational health and safety legislation applicable to the Bécancour processing plant or Rio Tinto AP60 smelter; (3) No information on Canada's ratification status of ILO conventions relevant to Indigenous peoples (e.g., ILO Convention 169), which Canada has not ratified; (4) No specific human rights due diligence or modern slavery reporting obligations identified for these operations under Canadian law; (5) No information on grievance mechanisms or remedy frameworks specific to workers or affected communities at these sites beyond the JBNQA consultation processes."
+    },
+    "security_frameworks": {
+      "has_private_security_regulation": true,
+      "legislation": [
+        {
+          "name": "Impact Assessment Act (IAA) / Canadian Environmental Assessment Act, 2012",
+          "year": "2012",
+          "source_url": "https://iaac-aeic.gc.ca/050/evaluations/proj/80021",
+          "verified": true,
+          "notes": "Federal environmental and impact assessment framework governing major projects including Nemaska Lithium's Whabouchi Mine; amended Decision Statement issued September 19, 2023"
+        },
+        {
+          "name": "Explosives Act (Canada)",
+          "year": null,
+          "source_url": "https://natural-resources.canada.ca/minerals-mining/explosives-fireworks-ammunition/explosives/explosives-act-regulations",
+          "verified": true,
+          "notes": "Federal legislation regulating manufacture, sale, use, storage and transportation of explosives used in exploration and mining"
+        },
+        {
+          "name": "Explosives Regulations, 2013 (SOR/2024-77 as most recently amended)",
+          "year": "2013",
+          "source_url": "https://natural-resources.canada.ca/minerals-mining/explosives-fireworks-ammunition/explosives/explosives-act-regulations",
+          "verified": true,
+          "notes": "Sets out security requirements for explosives including vehicle locking, secure access-controlled parking, video surveillance, immobilization devices and alarm systems during transport"
+        },
+        {
+          "name": "Transportation of Dangerous Goods Act, 1992",
+          "year": "1992",
+          "source_url": null,
+          "verified": true,
+          "notes": "Federal legislation covering safety and security aspects of transporting explosives and other dangerous goods within Canada"
+        },
+        {
+          "name": "Québec Explosives Act (CQLR, c. E-22)",
+          "year": null,
+          "source_url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/E-22",
+          "verified": true,
+          "notes": "Provincial legislation governing explosives in Québec; Sûreté du Québec issues general explosives permits requiring background checks on shareholders with over 10% of shares and special driver's licenses for transport"
+        },
+        {
+          "name": "James Bay and Northern Québec Agreement (JBNQA)",
+          "year": "1975",
+          "source_url": null,
+          "verified": true,
+          "notes": "Governs environmental and social impact assessments in Eeyou Istchee/James Bay territory; authorization granted to Whabouchi mine in September 2015 following COMEX review"
+        },
+        {
+          "name": "Environment Quality Act (Québec)",
+          "year": null,
+          "source_url": null,
+          "verified": true,
+          "notes": "Québec provincial legislation under which a Certificate of Authorization was granted for the Whabouchi mining site in September 2015"
+        },
+        {
+          "name": "Loi sur les mines (Mining Act, Québec)",
+          "year": null,
+          "source_url": null,
+          "verified": true,
+          "notes": "Québec Mining Act under which Mining Lease number 1022 was granted to Nemaska Lithium Inc. on October 26, 2017, for a 20-year period ending October 25, 2037, covering 138.106 ha"
+        }
+      ],
+      "voluntary_principles_applied": false,
+      "vp_evidence_url": null,
+      "conflict_risk_level": "Low — The Whabouchi Mine is located in the Eeyou Istchee/James Bay region of Québec, Canada, a stable democratic jurisdiction with established Indigenous consultation processes (JBNQA framework). The Bécancour conversion facility and Rio Tinto AP60 smelter at Complexe Arvida (Jonquière/Saguenay) are in established industrial zones. No evidence of armed conflict, significant civil unrest, or elevated security threat was identified in the findings. The mine project was paused in December 2025 due to market/supply chain factors rather than security concerns.",
+      "gap_summary": "1. No site-specific private security policies or contracts for either the Whabouchi Mine, Bécancour facility, or AP60 smelter were identified in the findings. 2. No evidence of Voluntary Principles on Security and Human Rights (VPs) application was found despite Rio Tinto being a known VP signatory in other jurisdictions. 3. The findings are incomplete — the section on National Critical Infrastructure Protection (Part 2.3) is cut off and no further detail on federal critical infrastructure designation for these assets is available. 4. No specific cybersecurity or physical security management plans for the facilities were referenced. 5. No community security agreements or impact and benefit agreements (IBAs) specific to security provisions with Indigenous communities were cited. 6. The Whabouchi Mine is currently on pause (announced December 2025), creating a gap in current operational security applicability for that site."
+    },
+    "safety_equipment_availability": {
+      "overall_rating": "Readily Available",
+      "ppe_availability": "Quebec operates under a comprehensive OHS framework administered by CNESST, with mandatory PPE requirements enforced through multiple regulations. At Whabouchi Mine, PPE requirements include full body harnesses (CAN/CSA Z259.10 compliant) for fall protection where falls exceed 3m, Class 2 or 3 high-visibility apparel (CSA Z96-09 compliant) for all surface personnel since January 2018, and self-contained breathing apparatus for underground hoistmen with cylinders charged at minimum 13,800 kPa and 6m³ air capacity. At the Rio Tinto AP60 Smelter, the Regulation respecting Safety and Health in Foundry Works (CQLR c. S-2.1, r. 15) mandates specific PPE for smelter/casthouse environments. General workplace PPE and respiratory protection are governed by CQLR c. S-2.1, r. 13.",
+      "specialist_equipment_notes": "Fall arrest systems must connect to anchorage systems compliant with CSA Z259.16 or certified per EN 795 or CAN/CSA Z259.15. Self-contained breathing apparatus required for underground hoistmen must maintain positive air pressure at all times inside the facial piece. Ground control and excavation safety requires engineer-certified plans and specifications. Scaling equipment is mandatory for roof, wall, and working face maintenance in underground operations. Autonomous and semi-autonomous vehicle safety equipment requirements were updated via Gazette Officielle du Québec amendment dated October 8, 2025. The remote sub-arctic location of Whabouchi (accessible via all-weather road and Nemiscau airport 18km west) makes on-site stockpiling of specialist equipment critical. Construction phases at Bécancour are subject to the Safety Code for the Construction Industry (CQLR c. S-2.1, r. 4).",
+      "import_feasibility": "As a mature Canadian jurisdiction within a CUSMA/USMCA trade framework, import of safety equipment from the US and internationally is generally straightforward with low customs friction. Canadian Standards Association (CSA) certification is required for most safety-critical equipment, which may necessitate recertification or sourcing of CSA-compliant variants. Lead times to the remote Whabouchi site are extended due to sub-arctic location; however, the all-weather road and Nemiscau airport (18km west) provide year-round access. Costs are consistent with Canadian market rates. Emergency resupply to Whabouchi is constrained by remoteness, making local inventory management critical.",
+      "known_specific_gaps": [
+        "Remote sub-arctic location of Whabouchi mine creates resupply challenges in emergencies despite all-weather road and nearby airport access",
+        "CSA certification requirements may limit availability of some internationally sourced specialist equipment without recertification",
+        "Underground drilling personnel must complete Module 6 of the modular course for miners (Centre de services scolaire de l'Or-et-des-Bois) within 6 months of hiring; until trained, workers must be accompanied by certified personnel, creating potential temporary workforce constraints",
+        "Regulatory updates for autonomous/semi-autonomous vehicles (October 2025 Gazette amendment) may require procurement of newly specified equipment not yet widely stocked locally"
+      ],
+      "source_urls": [
+        "https://www.legisquebec.gouv.qc.ca/en/document/cs/s-2.1",
+        "https://legisquebec.gouv.qc.ca/en/showdoc/cr/S-2.1,%20r.%2013",
+        "https://legisquebec.gouv.qc.ca/en/ShowDoc/cr/S-2.1,%20r.%2014",
+        "https://www.legisquebec.gouv.qc.ca/en/pdf/cr/S-2.1,%20R.%2014.pdf",
+        "http://legisquebec.gouv.qc.ca/fr/showdoc/cr/s-2.1,%20r.%2015",
+        "https://legisquebec.gouv.qc.ca/en/showdoc/cr/S-2.1,%20r.%204",
+        "https://www.legisquebec.gouv.qc.ca/en/document/cs/m-13.1"
+      ],
+      "confidence": "High"
+    },
+    "training_providers": {
+      "has_national_training_framework": true,
+      "framework_name": "Act Respecting Occupational Health and Safety (LSST / OHSA), CQLR c S-2.1, administered by CNESST, with permanent regime under Act to Modernize the Occupational Health and Safety Regime (AMOHSR, Bill 59) effective October 1, 2025",
+      "registered_providers_available": true,
+      "mining_specific_training": "Quebec provides mining-specific OHS training through APSM (Association Paritaire pour la Santé et la Sécurité du Travail du Secteur Minier), which delivers in-house, regional, and online training in French and English. The mandatory modular mine worker training program (Formation Modulaire du Travailleur Minier / FMTM) covers 12 modules including working at heights, ground consolidation, explosives, and health and safety regulations, and is compulsory for all workers in underground mines. Mine rescue training is coordinated via CATAMINE in partnership with CNESST. Nemaska Lithium uses PAÉLO (powered by Global Formation), a SaaS digital training platform with 3D immersive environments tailored to the mining, manufacturing, and chemical sectors, for its Bécancour processing plant. The Regulation Respecting Occupational Health and Safety in Mines (CQLR c S-2.1, r 14) governs mine-specific training requirements.",
+      "internationally_recognised_certs_available": null,
+      "cert_examples": [],
+      "workforce_literacy_rate": null,
+      "source_urls": [
+        "https://www.fasken.com/en/knowledge/2025/10/regime-permanent-de-la-lmrsst",
+        "https://www.dlapiper.com/en-ca/insights/publications/2025/11/quebec-employers-face-significant-new-obligations-in-overhaul-of-provincial-health-and-safety-regime",
+        "https://www.labourandemploymentlaw.com/2026/03/modernizing-quebecs-occupational-health-and-safety-regime-key-employer-obligations-in-2026/",
+        "https://legisquebec.gouv.qc.ca/en/ShowDoc/cr/S-2.1,%20r.%2014",
+        "https://qualificationsquebec.com/profession/manoeuvres-des-mines/",
+        "https://www.canlii.org/en/qc/laws/stat/cqlr-c-m-13.1/latest/cqlr-c-m-13.1.html",
+        "https://aspmines.qc.ca/en/",
+        "https://pharesst.irsst.qc.ca",
+        "https://pharesst.irsst.qc.ca/rapports-scientifique/197/",
+        "https://paelo.ca/en/",
+        "https://global-formation.com"
+      ],
+      "gap_summary": "No data found on internationally recognised certifications (e.g. IOSH, NEBOSH, ICAM, BOSIET) being available or required in this Quebec mining context. Workforce literacy rate is not provided in the findings. Training details specific to the Rio Tinto AP60 Smelter (Complexe Arvida/Jonquière) are not covered in the findings beyond general Quebec regulatory applicability. Indigenous community-specific training programs linked to consultation obligations under the Quebec Mining Act are referenced but not detailed. Information on cost, duration, and scheduling of APSM and FMTM modules is not fully elaborated.",
+      "confidence": "Medium"
+    },
+    "security_companies": {
+      "reputable_providers_available": true,
+      "notable_providers": [
+        {
+          "name": "GardaWorld",
+          "international": true,
+          "human_rights_certified": null,
+          "notes": "GardaWorld has a documented case study referencing Rio Tinto Aluminerie Quebec, suggesting a prior or existing security services relationship with Rio Tinto aluminium operations in Quebec. No direct confirmation of contracts at Whabouchi Mine, Bécancour, or AP60 Smelter specifically found in public sources.",
+          "source_url": "https://www.garda.com/sites/default/files/2017-06/Rio_Tinto_Aluminerie_Quebec.pdf"
+        }
+      ],
+      "armed_security_regulation": "regulated — Quebec and Canada have established provincial and federal frameworks governing private security; however, specific contract and provider details for Nemaska Lithium sites are not publicly disclosed due to explicit confidentiality policy. Security operations at Whabouchi Mine are subject to additional obligations under the James Bay and Northern Quebec Agreement (JBNQA) and the Chinuchi Agreement with the Cree Nation, which may influence security provider selection and conduct.",
+      "conflict_risk_to_security_operations": "Medium",
+      "gap_summary": "1) Nemaska Lithium explicitly states its supplier list is not publicly disclosed for confidentiality reasons, meaning no confirmed security contractor for Whabouchi Mine or Bécancour Conversion Facility can be identified from public sources. 2) The identity of the security provider(s) at the AP60 Smelter (Complexe Arvida/Jonquière) is not confirmed in any available public source. 3) GardaWorld's case study references Rio Tinto Aluminerie Quebec but does not confirm a current or site-specific contract at AP60 or any Nemaska site. 4) Indigenous procurement obligations under the Chinuchi Agreement and Nemaska Lithium's Buy Local Policy may significantly influence security contractor selection, but no Cree-owned or Indigenous security firm has been publicly identified as a provider. 5) The AP60 smelter expansion only commenced commissioning in March 2026, meaning security procurement for the expanded facility may be recent and undocumented publicly.",
+      "confidence": "Low"
+    },
+    "socioeconomic_context": {
+      "poverty_rate": "null — not specified in findings for the Eeyou Istchee/James Bay or Bécancour regions",
+      "poverty_source_url": null,
+      "basic_sanitation_access": "null — not specified in findings",
+      "sanitation_source_url": null,
+      "clean_water_access": "null — not specified in findings",
+      "water_source_url": null,
+      "healthcare_system_quality": "null — not specified in findings; Quebec operates a publicly funded provincial healthcare system but no project-specific details provided",
+      "infectious_disease_risk": "null — not specified in findings",
+      "local_workforce_skill_level": "Findings note fewer than 100 workers at the Whabouchi mine site and a roughly 50% reduction in contractual workforce at the Bécancour plant, with several hundred workers retained; no further detail on skill levels provided",
+      "infrastructure_quality": "The Whabouchi property is located approximately 30 km east of Nemaska and accessible via km 276 on the Route du Nord, approximately 300 km north-northwest of Chibougamau; no broader infrastructure quality assessment provided in findings",
+      "corruption_perception_index": "Not available in findings; Quebec/Canada context noted — Quebec's Auditor General issued a 50-page critique citing lack of guardrails, failure to identify best value principles, and lack of public transparency in critical mineral financing",
+      "cpi_source_url": null,
+      "overall_context_summary": "Quebec is a mature federal–provincial mining jurisdiction governed by the Mining Act and the James Bay and Northern Quebec Agreement, with dual federal (IAAC) and provincial (COMEX) regulatory oversight. The Nemaska Lithium Whabouchi project has experienced significant instability including a 2019 bankruptcy, CAD $1.2 billion in public financing, a mine pause in December 2025, and a roughly 50% workforce reduction at the Bécancour conversion plant, which is approximately 70% complete and targeting first production in 2028. Governance concerns include contested Indigenous consultation obligations, a Quebec Superior Court ruling against the province's free-entry mining regime, and an Auditor General critique of opaque public financing practices."
+    },
+    "overall_compliance_maturity": {
+      "rag_rating": "A",
+      "rag_rationale": "Quebec presents a mature, well-regulated mining jurisdiction with comprehensive multi-layered permitting under both federal and provincial frameworks, making it broadly compliant but with notable evolving uncertainties. Key indicators of amber status include: (1) Quebec ranked 22nd in the 2024-2025 Fraser Institute investment attractiveness index, falling out of the top ten for the second consecutive year after four years in the top ten, reflecting growing industry concern about regulatory complexity and burden; (2) the Supreme Court of Canada's October 2023 ruling that several provisions of the federal Impact Assessment Act were unconstitutional has introduced legal uncertainty in how federal and provincial oversight interact; (3) Bill 63 (Royal Assent November 29, 2024) introduced significant reforms to the Mining Act — including mandatory provincial environmental assessment for all new mining projects — but additional implementing regulations remain outstanding as of March 2026 draft consultation phase, meaning the regime is not yet fully operationalized; (4) the new ATI exploration authorization requirement introduced May 2024 adds a layer of regulatory process that was previously absent; and (5) Bill 5 (tabled December 2025) aims to accelerate strategic projects but intersects with James Bay and Northern Québec Agreement obligations, creating further complexity. Counterbalancing these concerns, Nemaska Lithium's Whabouchi Mine has obtained all primary authorizations (JBNQA authorization September 2015, federal permit July 2015, provincial Certificate of Authorization September 2015), and Quebec's overall regulatory environment remains structured, transparent and investor-familiar. The combination of strong foundational compliance with material ongoing regulatory evolution and declining investment perception metrics justifies an Amber rather than Green rating.",
+      "key_strengths": [
+        "Quebec is a mature, well-established mining jurisdiction with one of the most comprehensive multi-layered permitting systems globally, operating under both federal and provincial legal frameworks",
+        "Nemaska Lithium's Whabouchi Mine has obtained all primary authorizations required to commence mining operations, including JBNQA authorization (September 2015), federal permit under the Canadian Environmental Assessment Act (July 2015), and provincial Certificate of Authorization under the Environment Quality Act (September 2015)",
+        "Quebec ranked 5th globally on overall investment attractiveness in 2023 per the Fraser Institute, reflecting historically strong regulatory predictability",
+        "Bill 63 (Royal Assent November 29, 2024) represents a significant and industry-supported reform of the Mining Act, introducing greater transparency, improved land use coordination, enhanced environmental requirements and stronger Indigenous community protections",
+        "The new ATI authorization requirement (May 2024) formalizes and streamlines the Indigenous and community consultation process for mineral exploration, replacing a previously uncertain and cumbersome informal process",
+        "Quebec's focus on critical minerals and EV battery supply chain, including the Nemaska Lithium ecosystem and Rio Tinto AP60 facility, positions it as a strategically important and investor-attractive jurisdiction",
+        "MELCCFP has made significant efforts to respond to proponent comments following implementation of new EQA ministerial authorization forms in late 2021"
+      ],
+      "key_barriers": [
+        "Quebec fell out of the top ten most attractive jurisdictions for investment in both 2024 and 2025 per the Fraser Institute, after four consecutive years in the top ten, signaling growing investor concern about regulatory burden and uncertainty",
+        "Quebec has had the third-largest decline in investment attractiveness from 2018 to 2025, dropping from nearly 90.0 to just 74.1 on the Fraser Institute index",
+        "The Supreme Court of Canada's October 2023 ruling that several provisions of the federal Impact Assessment Act were unconstitutional has created ongoing legal uncertainty in how federal oversight interacts with provincial assessment regimes",
+        "Bill 63's implementing regulations remain incomplete as of March 2026, with draft regulations subject to 45-day public consultation, meaning the reformed Mining Act regime is not yet fully operationalized",
+        "Bill 5 (tabled December 2025), while aimed at accelerating strategic projects, intersects with James Bay and Northern Québec Agreement obligations and Title II of the EQA, creating potential complexity for projects in affected territories",
+        "The introduction of mandatory provincial environmental assessment (including BAPE review) for all new mining projects under Bill 63 adds procedural requirements and timelines for future project phases",
+        "The new ATI requirement for impact-causing exploration work (effective May 2024) introduces an additional permitting layer that did not previously exist, adding regulatory steps for exploration-stage activities"
+      ],
+      "recommended_approach": "Documents for this jurisdiction should be calibrated to reflect an evolving compliance landscape anchored in strong foundational legal structures but subject to material regulatory transition. Due diligence materials should clearly distinguish between (1) legacy authorizations already obtained under prior regulatory frameworks (e.g., Whabouchi's 2015 permits) and (2) forward-looking compliance obligations under the reformed regime post-Bill 63. All documents should explicitly address the unresolved constitutional uncertainty arising from the Supreme Court's October 2023 Impact Assessment Act ruling and its implications for federal-provincial jurisdiction. Permitting timelines and cost estimates should incorporate the new mandatory provincial environmental assessment procedure for all new mining projects, including potential BAPE review. Documents touching on exploration activities must account for the new ATI authorization requirement effective May 2024. Any activities in or near territories subject to the James Bay and Northern Québec Agreement should be flagged for heightened Indigenous consultation obligations, particularly in light of Bill 5's interaction with JBNQA. Given the declining Fraser Institute rankings, investor-facing documents should contextualize this trend against Quebec's structural strengths and strategic critical minerals positioning. Compliance monitoring provisions should be calibrated to track ongoing implementation of Bill 63's outstanding regulations, expected through 2026."
+    }
   }
 }
