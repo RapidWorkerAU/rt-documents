@@ -131,28 +131,79 @@ DIMENSION_LABELS = {
 # ── Claude API helpers ────────────────────────────────────────────────────────
 
 def call_claude_with_search(client, system, prompt, label="", max_tokens=8000):
-    """Call Claude with web search enabled. Returns parsed JSON."""
+    """
+    Two-call approach:
+    Call 1 — web search enabled, returns plain text research findings.
+    Call 2 — no web search, structures the findings into the required JSON.
+    This avoids JSON parse failures from mixed tool_use/text content blocks.
+    """
     for attempt in range(3):
         try:
-            response = client.messages.create(
+            # ── Call 1: gather research with web search ──────────────────────
+            research_response = client.messages.create(
                 model="claude-sonnet-4-6",
                 max_tokens=max_tokens,
                 system=system,
                 tools=[{"type": "web_search_20250305", "name": "web_search"}],
-                messages=[{"role": "user", "content": prompt}],
+                messages=[{
+                    "role": "user",
+                    "content": (
+                        prompt +
+                        "\n\nIMPORTANT: Search the web thoroughly for this information. "
+                        "Return your findings as detailed plain text prose — NOT as JSON. "
+                        "Include all source URLs you find inline with the text. "
+                        "Be comprehensive and specific."
+                    )
+                }],
             )
-            # Extract text blocks from response (ignore tool_use blocks)
-            text_blocks = [b.text for b in response.content if hasattr(b, "text")]
-            raw = " ".join(text_blocks).strip()
+
+            # Extract all text from research response
+            research_text = " ".join(
+                b.text for b in research_response.content
+                if hasattr(b, "text") and b.text
+            ).strip()
+
+            if not research_text:
+                raise ValueError("Empty research response from web search call")
+
+            print(f"    Research gathered: {len(research_text)} chars")
+
+            # ── Call 2: structure into JSON (no web search) ──────────────────
+            # Re-extract the JSON schema from the original prompt
+            json_schema_start = prompt.find("Return this JSON object:")
+            if json_schema_start == -1:
+                json_schema_start = prompt.find("Return ONLY this JSON")
+            schema_instruction = prompt[json_schema_start:] if json_schema_start != -1 else prompt[-3000:]
+
+            structure_prompt = f"""Based on the research findings below, structure the information 
+into the required JSON format. Only include information that appears in the research findings.
+If a piece of information was not found in the research, use null or "Not found" as appropriate.
+Include all source URLs exactly as they appear in the research text.
+
+RESEARCH FINDINGS:
+{research_text}
+
+{schema_instruction}
+
+Return ONLY valid JSON — no markdown fences, no preamble, no commentary."""
+
+            structure_response = client.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=max_tokens,
+                system="You are a JSON structuring assistant. Output only valid JSON — no markdown, no commentary.",
+                messages=[{"role": "user", "content": structure_prompt}],
+            )
+
+            raw = structure_response.content[0].text.strip()
             raw = re.sub(r"^```(?:json)?\s*", "", raw)
             raw = re.sub(r"\s*```$", "", raw)
             return json.loads(raw)
+
         except json.JSONDecodeError as e:
             print(f"  JSON error {label} attempt {attempt+1}: {e}")
             if attempt < 2:
                 time.sleep(10)
             else:
-                # Return empty structure on final failure
                 return None
         except Exception as e:
             print(f"  API error {label} attempt {attempt+1}: {e}")
