@@ -54,7 +54,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add outputs/_country_profiles_cache.json
           git diff --staged --quiet || git commit -m "chore: Guinea (GN) research complete [skip ci]"
           git push
@@ -73,7 +75,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add outputs/_country_profiles_cache.json
           git diff --staged --quiet || git commit -m "chore: Western Australia (WA) research complete [skip ci]"
           git push
@@ -92,7 +96,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add outputs/_country_profiles_cache.json
           git diff --staged --quiet || git commit -m "chore: Queensland (QLD) research complete [skip ci]"
           git push
@@ -111,7 +117,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add outputs/_country_profiles_cache.json
           git diff --staged --quiet || git commit -m "chore: Argentina (AR) research complete [skip ci]"
           git push
@@ -130,7 +138,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add outputs/_country_profiles_cache.json
           git diff --staged --quiet || git commit -m "chore: Canada Quebec (CA) research complete [skip ci]"
           git push
@@ -149,7 +159,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add outputs/_country_profiles_cache.json
           git diff --staged --quiet || git commit -m "chore: Mongolia (MN) research complete [skip ci]"
           git push
@@ -168,7 +180,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add outputs/_country_profiles_cache.json
           git diff --staged --quiet || git commit -m "chore: United States (US) research complete [skip ci]"
           git push
@@ -190,7 +204,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add outputs/_compliance_matrix_cache.json
           git diff --staged --quiet || git commit -m "chore: compliance matrix cache saved [skip ci]"
           git push
@@ -212,7 +228,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add outputs/HSESC_Country_Compliance_Sourcebook.xlsx
           git diff --staged --quiet || git commit -m "feat: HSESC country compliance sourcebook complete [skip ci]"
           git push

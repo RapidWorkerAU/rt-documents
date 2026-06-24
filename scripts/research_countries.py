@@ -252,221 +252,207 @@ rather than guessing. You always report the absence of information as a finding 
 Output only valid JSON — no markdown fences, no preamble."""
 
 
+
+def _research_topic(client, jur_name, jur_location, jur_notes, topic, schema):
+    """Research one topic for a jurisdiction. Returns dict or None."""
+    for attempt in range(3):
+        try:
+            # Call 1: web search for raw information as plain text
+            r1 = client.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=4000,
+                system=SYSTEM_RESEARCH,
+                tools=[{"type": "web_search_20250305", "name": "web_search"}],
+                messages=[{"role": "user", "content":
+                    f"Research {topic} for {jur_name} ({jur_location}). "
+                    f"Context: {jur_notes}. "
+                    "Search the web thoroughly. Return detailed plain text findings with all source URLs inline. "
+                    "Do NOT return JSON."
+                }],
+            )
+            research_text = " ".join(
+                b.text for b in r1.content if hasattr(b, "text") and b.text
+            ).strip()
+
+            if not research_text:
+                raise ValueError("Empty web search response")
+
+            print(f"      Search returned {len(research_text)} chars")
+
+            # Call 2: structure findings into JSON (no web search)
+            r2 = client.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=3000,
+                system="Output only valid JSON. No markdown, no preamble, no commentary.",
+                messages=[{"role": "user", "content":
+                    "Based on these research findings, fill in the JSON schema below.\n"
+                    "Only use information present in the findings. Use null for missing data.\n"
+                    "Include source URLs exactly as found in the research.\n\n"
+                    "FINDINGS:\n" + research_text[:8000] + "\n\n"
+                    "JSON SCHEMA TO FILL:\n" + schema + "\n\n"
+                    "Return only valid JSON."
+                }],
+            )
+            raw = r2.content[0].text.strip()
+            raw = re.sub(r"^```(?:json)?\s*", "", raw)
+            raw = re.sub(r"\s*```$", "", raw)
+            return json.loads(raw)
+
+        except json.JSONDecodeError as e:
+            print(f"      JSON error attempt {attempt+1}: {e}")
+            if attempt < 2:
+                time.sleep(5)
+        except Exception as e:
+            print(f"      Error attempt {attempt+1}: {e}")
+            if attempt < 2:
+                time.sleep(10)
+    return None
+
+
 def research_jurisdiction_profile(client, jurisdiction):
-    """Research the full country/jurisdiction profile."""
-    jur_name = jurisdiction["name"]
+    """
+    Research a jurisdiction across all HSESC dimensions.
+    Each dimension is a separate web search + JSON structuring call pair
+    to avoid token limit issues with large combined JSON responses.
+    """
+    jur_name     = jurisdiction["name"]
     jur_location = jurisdiction["location"]
-    jur_notes = jurisdiction["notes"]
+    jur_notes    = jurisdiction["notes"]
 
-    prompt = f"""Research the following jurisdiction for an HSESC (health, safety, environment, 
-security, community) compliance assessment for a major mining project:
+    topics = [
+        ("development_classification",
+         '{"classification":"<First World/Second World/Third World or OECD/Non-OECD/LDC>",'
+         '"hdi_rank":"<UN HDI rank and score or Not available>",'
+         '"hdi_source_url":"<URL or null>",'
+         '"notes":"<what this means for HSESC compliance>"}'),
 
-JURISDICTION: {jur_name}
-PROJECT LOCATION: {jur_location}
-CONTEXT: {jur_notes}
+        ("osh_legislation",
+         '{"has_dedicated_osh_law":true_or_false,'
+         '"legislation":[{"name":"<name>","year":"<year>","regulator":"<body>",'
+         '"regulator_url":"<URL or null>","source_url":"<URL or null>",'
+         '"verified":true_or_false,"notes":"<relevance>"}],'
+         '"global_frameworks_applied":[{"framework":"<name>",'
+         '"evidence_of_application":"<context>","source_url":"<URL or null>"}],'
+         '"gap_summary":"<what domestic law does not cover>"}'),
 
-Search for current, verified information on each dimension below. 
-For each item requiring a source, provide the actual URL if one exists.
-If information cannot be verified or does not exist, say so explicitly — 
-"No evidence found" or "No domestic legislation identified" are valid answers.
-Do NOT invent legislation, bodies, or frameworks that you cannot verify exist.
+        ("environmental_legislation",
+         '{"has_dedicated_env_law":true_or_false,'
+         '"legislation":[{"name":"<name>","year":"<year>","regulator":"<body>",'
+         '"source_url":"<URL or null>","verified":true_or_false,"notes":"<relevance>"}],'
+         '"global_frameworks_applied":[{"framework":"<name>",'
+         '"evidence_of_application":"<context>","source_url":"<URL or null>"}],'
+         '"gap_summary":"<gaps>"}'),
 
-Return this JSON object:
+        ("community_social_legislation",
+         '{"has_dedicated_csl_law":true_or_false,'
+         '"legislation":[{"name":"<name>","year":"<year>","regulator":"<body>",'
+         '"source_url":"<URL or null>","verified":true_or_false,"notes":"<relevance>"}],'
+         '"global_frameworks_applied":[{"framework":"<name>",'
+         '"evidence_of_application":"<context>","source_url":"<URL or null>"}],'
+         '"gap_summary":"<gaps>"}'),
 
-{{
-  "development_classification": {{
-    "classification": "<First World / Second World / Third World or OECD/Non-OECD/LDC>",
-    "hdi_rank": "<UN HDI rank and score if available, or 'Not available'>",
-    "hdi_source_url": "<URL or null>",
-    "notes": "<context on what this means for HSESC compliance>"
-  }},
-  "osh_legislation": {{
-    "has_dedicated_osh_law": true_or_false,
-    "legislation": [
-      {{
-        "name": "<full name of legislation>",
-        "year": "<year enacted or last amended>",
-        "regulator": "<name of regulatory body>",
-        "regulator_url": "<URL or null>",
-        "source_url": "<URL to the legislation or official summary>",
-        "verified": true_or_false,
-        "notes": "<what it covers relevant to mining>"
-      }}
-    ],
-    "global_frameworks_applied": [
-      {{
-        "framework": "<e.g. ILO Convention 176, IFC Performance Standards>",
-        "evidence_of_application": "<how/why this is applied in this country>",
-        "source_url": "<URL or null>"
-      }}
-    ],
-    "gap_summary": "<summary of what domestic law does NOT cover>"
-  }},
-  "environmental_legislation": {{
-    "has_dedicated_env_law": true_or_false,
-    "legislation": [
-      {{
-        "name": "<full name>",
-        "year": "<year>",
-        "regulator": "<name>",
-        "regulator_url": "<URL or null>",
-        "source_url": "<URL or null>",
-        "verified": true_or_false,
-        "notes": "<relevance>"
-      }}
-    ],
-    "global_frameworks_applied": [
-      {{
-        "framework": "<e.g. IFC PS3, CBD, ESIA requirements>",
-        "evidence_of_application": "<context>",
-        "source_url": "<URL or null>"
-      }}
-    ],
-    "gap_summary": "<gaps>"
-  }},
-  "community_social_legislation": {{
-    "has_dedicated_csl_law": true_or_false,
-    "legislation": [
-      {{
-        "name": "<full name>",
-        "year": "<year>",
-        "regulator": "<name>",
-        "source_url": "<URL or null>",
-        "verified": true_or_false,
-        "notes": "<relevance including indigenous rights, land access, resettlement>"
-      }}
-    ],
-    "global_frameworks_applied": [
-      {{
-        "framework": "<e.g. IFC PS5 Land Acquisition, UN DRIP, FPIC>",
-        "evidence_of_application": "<context>",
-        "source_url": "<URL or null>"
-      }}
-    ],
-    "gap_summary": "<gaps>"
-  }},
-  "human_rights_frameworks": {{
-    "has_domestic_human_rights_law": true_or_false,
-    "legislation_or_constitution": [
-      {{
-        "name": "<name>",
-        "year": "<year>",
-        "source_url": "<URL or null>",
-        "verified": true_or_false,
-        "notes": "<relevance>"
-      }}
-    ],
-    "international_conventions_ratified": [
-      {{
-        "convention": "<e.g. UN ICCPR, ILO C87, ILO C98>",
-        "ratified": true_or_false,
-        "source_url": "<URL or null>"
-      }}
-    ],
-    "global_frameworks_applied": [
-      {{
-        "framework": "<e.g. UN Guiding Principles on Business and Human Rights, Voluntary Principles>",
-        "evidence_of_application": "<context>",
-        "source_url": "<URL or null>"
-      }}
-    ],
-    "modern_slavery_risk": "<High/Medium/Low with explanation>",
-    "gap_summary": "<gaps>"
-  }},
-  "security_frameworks": {{
-    "has_private_security_regulation": true_or_false,
-    "legislation": [
-      {{
-        "name": "<name>",
-        "year": "<year>",
-        "source_url": "<URL or null>",
-        "verified": true_or_false,
-        "notes": "<what it regulates>"
-      }}
-    ],
-    "voluntary_principles_applied": true_or_false,
-    "vp_evidence_url": "<URL or null>",
-    "conflict_risk_level": "<High/Medium/Low with explanation>",
-    "gap_summary": "<gaps>"
-  }},
-  "safety_equipment_availability": {{
-    "overall_rating": "<Readily Available / Limited Availability / Very Limited Availability>",
-    "ppe_availability": "<description of what is and is not available locally>",
-    "specialist_equipment_notes": "<notes on cranes, MEWPs, gas detection, fall arrest etc>",
-    "import_feasibility": "<how feasible is importing equipment — cost, customs, lead time>",
-    "known_specific_gaps": [
-      "<e.g. seatbelted buses unavailable locally>",
-      "<e.g. calibrated gas detectors not available in-country>"
-    ],
-    "source_urls": ["<URL or null>"],
-    "confidence": "<High/Medium/Low — how confident are you in this assessment>"
-  }},
-  "training_providers": {{
-    "has_national_training_framework": true_or_false,
-    "framework_name": "<name of national qualification framework if any>",
-    "registered_providers_available": true_or_false,
-    "mining_specific_training": "<description of what mining-specific training is available locally>",
-    "internationally_recognised_certs_available": true_or_false,
-    "cert_examples": ["<e.g. IOSH, NEBOSH, ICAM, BOSIET>"],
-    "workforce_literacy_rate": "<% if available, or qualitative description>",
-    "source_urls": ["<URL or null>"],
-    "gap_summary": "<what training cannot be sourced locally>",
-    "confidence": "<High/Medium/Low>"
-  }},
-  "security_companies": {{
-    "reputable_providers_available": true_or_false,
-    "notable_providers": [
-      {{
-        "name": "<company name>",
-        "international": true_or_false,
-        "human_rights_certified": true_or_false,
-        "notes": "<notes>",
-        "source_url": "<URL or null>"
-      }}
-    ],
-    "armed_security_regulation": "<regulated/unregulated/prohibited with context>",
-    "conflict_risk_to_security_operations": "<High/Medium/Low>",
-    "gap_summary": "<gaps>",
-    "confidence": "<High/Medium/Low>"
-  }},
-  "socioeconomic_context": {{
-    "poverty_rate": "<% below national poverty line if available, with source>",
-    "poverty_source_url": "<URL or null>",
-    "basic_sanitation_access": "<% with access or qualitative, with source>",
-    "sanitation_source_url": "<URL or null>",
-    "clean_water_access": "<% with access or qualitative, with source>",
-    "water_source_url": "<URL or null>",
-    "healthcare_system_quality": "<description relevant to occupational health and emergency response>",
-    "infectious_disease_risk": "<key diseases relevant to project workforce>",
-    "local_workforce_skill_level": "<description of available workforce skills relevant to mining>",
-    "infrastructure_quality": "<roads, power, comms — relevant to remote project>",
-    "corruption_perception_index": "<CPI rank and score if available>",
-    "cpi_source_url": "<URL or null>",
-    "overall_context_summary": "<2-3 sentence summary of what this means for HSESC compliance>"
-  }},
-  "overall_compliance_maturity": {{
-    "rag_rating": "<G/A/R>",
-    "rag_rationale": "<detailed explanation of the rating>",
-    "key_strengths": ["<strength 1>", "<strength 2>"],
-    "key_barriers": ["<barrier 1>", "<barrier 2>"],
-    "recommended_approach": "<how documents should be calibrated for this jurisdiction>"
-  }},
-  "sources": [
-    {{
-      "claim": "<brief description of the claim this source supports>",
-      "source_name": "<publication, body, or website name>",
-      "url": "<full URL>",
-      "date_accessed": "{date.today().isoformat()}",
-      "verified": true_or_false,
-      "notes": "<any caveats about this source>"
-    }}
-  ]
-}}"""
+        ("human_rights_frameworks",
+         '{"has_domestic_human_rights_law":true_or_false,'
+         '"legislation_or_constitution":[{"name":"<name>","year":"<year>",'
+         '"source_url":"<URL or null>","verified":true_or_false,"notes":"<relevance>"}],'
+         '"international_conventions_ratified":[{"convention":"<name>",'
+         '"ratified":true_or_false,"source_url":"<URL or null>"}],'
+         '"global_frameworks_applied":[{"framework":"<name>",'
+         '"evidence_of_application":"<context>","source_url":"<URL or null>"}],'
+         '"modern_slavery_risk":"<High/Medium/Low with explanation>",'
+         '"gap_summary":"<gaps>"}'),
 
-    print(f"  Researching {jur_name}...")
-    result = call_claude_with_search(client, SYSTEM_RESEARCH, prompt,
-                                      label=f"profile-{jur_name}", max_tokens=12000)
-    return result
+        ("security_frameworks",
+         '{"has_private_security_regulation":true_or_false,'
+         '"legislation":[{"name":"<name>","year":"<year>","source_url":"<URL or null>",'
+         '"verified":true_or_false,"notes":"<what it regulates>"}],'
+         '"voluntary_principles_applied":true_or_false,'
+         '"vp_evidence_url":"<URL or null>",'
+         '"conflict_risk_level":"<High/Medium/Low with explanation>",'
+         '"gap_summary":"<gaps>"}'),
+
+        ("safety_equipment_availability",
+         '{"overall_rating":"<Readily Available/Limited Availability/Very Limited Availability>",'
+         '"ppe_availability":"<description>",'
+         '"specialist_equipment_notes":"<cranes MEWPs gas detection fall arrest etc>",'
+         '"import_feasibility":"<cost customs lead time>",'
+         '"known_specific_gaps":["<e.g. seatbelted buses unavailable locally>"],'
+         '"source_urls":["<URL or null>"],'
+         '"confidence":"<High/Medium/Low>"}'),
+
+        ("training_providers",
+         '{"has_national_training_framework":true_or_false,'
+         '"framework_name":"<name or null>",'
+         '"registered_providers_available":true_or_false,'
+         '"mining_specific_training":"<description>",'
+         '"internationally_recognised_certs_available":true_or_false,'
+         '"cert_examples":["<e.g. IOSH NEBOSH ICAM BOSIET>"],'
+         '"workforce_literacy_rate":"<% or qualitative>",'
+         '"source_urls":["<URL or null>"],'
+         '"gap_summary":"<what cannot be sourced locally>",'
+         '"confidence":"<High/Medium/Low>"}'),
+
+        ("security_companies",
+         '{"reputable_providers_available":true_or_false,'
+         '"notable_providers":[{"name":"<name>","international":true_or_false,'
+         '"human_rights_certified":true_or_false,"notes":"<notes>",'
+         '"source_url":"<URL or null>"}],'
+         '"armed_security_regulation":"<regulated/unregulated/prohibited with context>",'
+         '"conflict_risk_to_security_operations":"<High/Medium/Low>",'
+         '"gap_summary":"<gaps>",'
+         '"confidence":"<High/Medium/Low>"}'),
+
+        ("socioeconomic_context",
+         '{"poverty_rate":"<% or qualitative with source>",'
+         '"poverty_source_url":"<URL or null>",'
+         '"basic_sanitation_access":"<% or qualitative>",'
+         '"sanitation_source_url":"<URL or null>",'
+         '"clean_water_access":"<% or qualitative>",'
+         '"water_source_url":"<URL or null>",'
+         '"healthcare_system_quality":"<description>",'
+         '"infectious_disease_risk":"<key diseases relevant to project workforce>",'
+         '"local_workforce_skill_level":"<description>",'
+         '"infrastructure_quality":"<roads power comms>",'
+         '"corruption_perception_index":"<CPI rank and score or Not available>",'
+         '"cpi_source_url":"<URL or null>",'
+         '"overall_context_summary":"<2-3 sentence summary>"}'),
+
+        ("overall_compliance_maturity",
+         '{"rag_rating":"<G/A/R>",'
+         '"rag_rationale":"<detailed explanation>",'
+         '"key_strengths":["<strength>"],'
+         '"key_barriers":["<barrier>"],'
+         '"recommended_approach":"<how documents should be calibrated for this jurisdiction>"}'),
+    ]
+
+    profile = {"sources": []}
+    total = len(topics)
+
+    for i, (topic_key, schema) in enumerate(topics):
+        print(f"    [{i+1}/{total}] {topic_key}...")
+        result = _research_topic(client, jur_name, jur_location, jur_notes, topic_key, schema)
+        if result:
+            profile[topic_key] = result
+            # Collect sources
+            if isinstance(result, dict):
+                for v in result.values():
+                    if isinstance(v, list):
+                        for item in v:
+                            if isinstance(item, dict) and item.get("source_url"):
+                                profile["sources"].append({
+                                    "claim": topic_key,
+                                    "source_name": item.get("name", topic_key),
+                                    "url": item.get("source_url", ""),
+                                    "date_accessed": date.today().isoformat(),
+                                    "verified": item.get("verified", False),
+                                    "notes": ""
+                                })
+        else:
+            profile[topic_key] = {"_topic_research_failed": True}
+            print(f"    WARNING: {topic_key} failed — placeholder written")
+        time.sleep(1)
+
+    return profile
 
 
 def research_procedure_compliance(client, procedure, jurisdictions, profiles):
