@@ -1,1 +1,900 @@
-{}
+{
+  "GN": {
+    "sources": [
+      {
+        "claim": "osh_legislation",
+        "source_name": "Labour Code (Code du Travail) of the Republic of Guinea",
+        "url": "https://wwwex.ilo.org/dyn/legosh_en/f?p=14100:1100:0::NO::P1100_ISO_CODE3,P1100_SUBCODE_CODE,P1100_YEAR:GIN,,2015",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Public Health Code of Guinea",
+        "url": "https://clinregs.niaid.nih.gov/sites/default/files/documents/guinea/Guinea-PHC-GoogleTranslation.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Mining Code (Law 2011/006/CNT), as amended by Law 2013/053/CNT",
+        "url": "https://mines.gov.gn/docs/PDF/codes/Code_Minier_2011_amende_2013_bilingue_FR-EN.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "National Social Security Fund (CNSS) — Social Security Framework",
+        "url": "https://www.lawgratis.com/blog-detail/employment-law-in-guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "osh_legislation",
+        "url": "https://wwwex.ilo.org/dyn/legosh_en/f?p=14100:1100:0::NO::P1100_ISO_CODE3,P1100_SUBCODE_CODE,P1100_YEAR:GIN,,2015",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Environmental Code (Law No. L/2019/0034/AN)",
+        "url": "https://practiceguides.chambers.com/practice-guides/mining-2026/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Mining Code (Law L/2013/053/CNT, amending Law L/2011/006/CNT)",
+        "url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Decree D/2014/014 on Environmental and Social Impact Assessment for Mining Operations",
+        "url": "https://www.lexology.com/library/detail.aspx?g=ac73d313-7ded-4cfa-a530-41d1b34cbdb1",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Decree D/2014/012 on Management of Authorisations and Mining Rights",
+        "url": "https://www.lexology.com/library/detail.aspx?g=ac73d313-7ded-4cfa-a530-41d1b34cbdb1",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Decree D/2014/013 on Implementation of Financial Provisions of the Mining Code",
+        "url": "https://www.lexology.com/library/detail.aspx?g=ac73d313-7ded-4cfa-a530-41d1b34cbdb1",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Decree D/2014/015 Adopting a Model Form Mining Agreement",
+        "url": "https://www.lexology.com/library/detail.aspx?g=ac73d313-7ded-4cfa-a530-41d1b34cbdb1",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Decree No D/2015/007/PRG/SGG on Accelerated Processing of Integrated Mining Project Files",
+        "url": "https://practiceguides.chambers.com/practice-guides/mining-2026/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Order No A/2016/5002/MMG/SGG introducing new cadastral procedure",
+        "url": "https://practiceguides.chambers.com/practice-guides/mining-2026/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Joint Order No A/2018/5212/MEF/MMG/MB/MATD/SGG implementing Article 165 of the Mining Code",
+        "url": "https://practiceguides.chambers.com/practice-guides/mining-2026/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://www.lexology.com/library/detail.aspx?g=ac73d313-7ded-4cfa-a530-41d1b34cbdb1",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://www.mondaq.com/energy-and-natural-resources/975732/mining-comparative-guide",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://eiti.org/countries/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Mining Code (Law L/2011/006/CNT)",
+        "url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Mining Code Amendment (Law L/2013/053/CNT), promulgated by Presidential Decree D/2013/075/PRG/SGG",
+        "url": "https://www.lexology.com/library/detail.aspx?g=8a147452-513a-4b2a-8042-36994fdb1063",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Decree D/2014/012 — Management of Authorisations and Mining Rights",
+        "url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Decree D/2014/013 — Implementation of Financial Provisions",
+        "url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Decree D/2014/014 — Environmental and Social Impact Assessment for Mining Operations",
+        "url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Decree D/2014/015 — Model Form Mining Agreement",
+        "url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Local Development Agreement (LDA) Requirements (Article 130, Mining Code)",
+        "url": "https://ccsi.columbia.edu/content/report-community-development-funds-and-agreements-guinea-under-new-mining-code",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Decree D/2017/275/PRG/SGG — Local Economic Development Fund (FODEL)",
+        "url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://www.business-humanrights.org/en/latest-news/guinea-simandou-iron-ore-project/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Constitution of Guinea (Fourth Constitution)",
+        "url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Mining Code (Law 2011/006/CNT)",
+        "url": "https://www.mondaq.com/energy-and-natural-resources/975732/mining-comparative-guide",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Decree D/2014/012/PRG/SGG on the management of mining permits and titles",
+        "url": "https://www.lexology.com/library/detail.aspx?g=8a147452-513a-4b2a-8042-36994fdb1063",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Decree D/2014/013/PRG/SGG relating to the application of financial provisions",
+        "url": "https://www.mondaq.com/energy-and-natural-resources/975732/mining-comparative-guide",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Decree D/2014/014 on environmental and social impact assessment for mining operations",
+        "url": "https://www.lexology.com/library/detail.aspx?g=8a147452-513a-4b2a-8042-36994fdb1063",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Decree D/2014/015/PRG/SGG adopting a template of mining convention",
+        "url": "https://www.mondaq.com/energy-and-natural-resources/975732/mining-comparative-guide",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Rural Land Policy",
+        "url": "https://www.hrw.org/sites/default/files/report_pdf/guinea1018_web2.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/statements/2020/02/committee-economic-social-and-cultural-rights-raises-impact-extractive",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/press-releases/2018/10/human-rights-committee-examines-guineas-efforts-implement-civil-and",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/countries/guinea/our-presence",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/countries/guinea/our-presence",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/countries/guinea/our-presence",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/countries/guinea/our-presence",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/countries/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/countries/guinea/our-presence",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/countries/guinea/our-presence",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.hrw.org/report/2018/10/04/what-do-we-get-out-it/human-rights-impact-bauxite-mining-guinea",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Decree No D/108/PRG regulating the activities of surveillance, guarding, cash transport and protection of persons",
+        "url": "https://www.privatesecurityobservatory.org/regulation-and-oversight/national-regulations-and-overview/guinea.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Decree No. 5857/MS/Cab/98 on the use of equipment, uniforms and badges of security companies, guards, cash transport and personal protection companies",
+        "url": "https://www.privatesecurityobservatory.org/regulation-and-oversight/national-regulations-and-overview/guinea.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Decree No. 5858/MS/Cab/98 on the administrative authorisation of companies for surveillance, security, cash transport and personal protection",
+        "url": "https://www.privatesecurityobservatory.org/regulation-and-oversight/national-regulations-and-overview/guinea.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Mining Code (Law L/2013/053/CNT), amending Law L/2011/006/CNT",
+        "url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Public-Private Partnership Law No. 0032/2017/AN",
+        "url": "https://www.lexology.com/library/detail.aspx?g=8a147452-513a-4b2a-8042-36994fdb1063",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "G4S Guinea",
+        "url": "https://www.g4s.com/contact-us/worldwide/guinea/en-gn",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "SimFer Internal Security (led by Robbie Tilley)",
+        "url": "https://simfer-sa.com/en/about-us/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      }
+    ],
+    "development_classification": {
+      "classification": "Non-OECD / LDC (Least Developed Country)",
+      "hdi_rank": "Not available",
+      "hdi_source_url": null,
+      "notes": "Guinea is a Non-OECD Least Developed Country (LDC) hosting the Simandou greenfield project, the largest greenfield integrated mine and infrastructure investment in Africa at approximately $24 billion. As an LDC, Guinea presents elevated HSESC (Health, Safety, Environment, Social and Community) compliance challenges: the project is located in a remote, sparsely populated, biodiversity-rich region (Nzérékoré/Kankan, southeastern Guinea) with minimal pre-existing infrastructure. HSESC obligations are heightened given the scale of ground-up infrastructure development (600+ km new railway, deep-water port, 235 bridges, 24+ km of tunnels), the displacement and community integration risks in a fragile governance environment, and the involvement of multiple international financiers (UK Export Finance, Bpifrance, Africa Finance Corporation, African Development Bank) who typically impose IFC Performance Standards and Equator Principles compliance as conditions of financing. The Guinean state holds a 15% free-carried interest, meaning private operators bear primary capital and compliance risk. The transition from construction to early operational ramp-up (first shipment December 2025) does not reduce HSESC obligations; ongoing monitoring, community engagement, and environmental management plans remain critical."
+    },
+    "osh_legislation": {
+      "has_dedicated_osh_law": false,
+      "legislation": [
+        {
+          "name": "Labour Code (Code du Travail) of the Republic of Guinea",
+          "year": "2014",
+          "regulator": "Ministry in charge of Labour",
+          "regulator_url": null,
+          "source_url": "https://wwwex.ilo.org/dyn/legosh_en/f?p=14100:1100:0::NO::P1100_ISO_CODE3,P1100_SUBCODE_CODE,P1100_YEAR:GIN,,2015",
+          "verified": true,
+          "notes": "Primary OSH instrument in Guinea, issued 1 October 2014. Covers hygiene and safety within workplaces (Part III, Title II, Chapter I) and prevention of and compensation for occupational accidents and illnesses (Part III, Title III, Chapter I). Key articles include Article 139 (general duty of care), Article 142 (worker duty to follow safety procedures), and Article 149 (requirement to engage occupational physician). Workers have the right to refuse work presenting serious and imminent danger. Contains only general provisions; no practical workplace OSH standards or subsidiary technical orders have been enacted."
+        },
+        {
+          "name": "Public Health Code of Guinea",
+          "year": null,
+          "regulator": "Ministry in charge of Public Health (jointly with Ministry in charge of Labour)",
+          "regulator_url": null,
+          "source_url": "https://clinregs.niaid.nih.gov/sites/default/files/documents/guinea/Guinea-PHC-GoogleTranslation.pdf",
+          "verified": true,
+          "notes": "Requires preventive measures to protect worker health across all sectors. Article 203 mandates that the Ministry of Public Health, acting jointly with the Ministry of Labour, determine hygiene and safety standards applicable in establishments. Includes requirements for periodic and pre-recruitment medical visits and general hygiene and work safety measures."
+        },
+        {
+          "name": "Mining Code (Law 2011/006/CNT), as amended by Law 2013/053/CNT",
+          "year": "2011",
+          "regulator": "National Mining Authority (Ministry of Mines)",
+          "regulator_url": "https://mines.gov.gn",
+          "source_url": "https://mines.gov.gn/docs/PDF/codes/Code_Minier_2011_amende_2013_bilingue_FR-EN.pdf",
+          "verified": true,
+          "notes": "Primary mining-sector legislation, dated 9 September 2011, amended 2013. Article 143 mandates environmental and health protection obligations including: mandatory hygiene, health and safety plan as part of mining permit applications; Health Adjustment Plan requiring approval by competent technical departments; routine medical visits for workers at least once a year; screening for nuisance factors; titleholder direct liability for health-related damages to workers and local communities for non-compliance; and mandatory reporting of any mining accident to the National Mining Authority and its local representative within 72 hours (serious or fatal accidents have additional reporting requirements). Implementing decrees include D/2014/013/PRG/SGG, D/2014/012/PRG/SGG, and D/2014/015/PRG/SGG."
+        },
+        {
+          "name": "National Social Security Fund (CNSS) — Social Security Framework",
+          "year": null,
+          "regulator": "National Social Security Fund (CNSS)",
+          "regulator_url": null,
+          "source_url": "https://www.lawgratis.com/blog-detail/employment-law-in-guinea",
+          "verified": true,
+          "notes": "Provides pensions, disability benefits, and survivors' benefits. Both employers and employees contribute based on a percentage of the employee's wages. Relevant to OSH as it covers disability and occupational injury compensation."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "ILO Conventions (ratified by Guinea)",
+          "evidence_of_application": "Guinea's Labour Code is supplemented by various ILO conventions that Guinea has ratified. The ILO LEGOSH database records Guinea's legislative framework as incorporating ILO standards into its national OSH legal structure.",
+          "source_url": "https://wwwex.ilo.org/dyn/legosh_en/f?p=14100:1100:0::NO::P1100_ISO_CODE3,P1100_SUBCODE_CODE,P1100_YEAR:GIN,,2015"
+        }
+      ],
+      "gap_summary": "Guinea's OSH framework contains significant gaps. The 2014 Labour Code establishes only general OSH obligations; the transition government has not enacted any subsidiary technical orders or practical workplace health and safety standards as called for by the Code, meaning specific safety requirements for particular occupations or methods of work do not exist in enforceable form. No dedicated standalone OSH law exists. The Public Health Code's mandate under Article 203 for joint ministerial determination of hygiene and safety standards has not been comprehensively implemented. The Mining Code's OSH provisions rely on operator-submitted health and safety plans and health adjustment plans approved by competent technical departments, but enforcement capacity and standards verification mechanisms are not fully detailed. The overall legal framework depends heavily on general duties of care without the specific technical standards, inspection infrastructure, or enforcement mechanisms needed to give those duties practical effect."
+    },
+    "environmental_legislation": {
+      "has_dedicated_env_law": true,
+      "legislation": [
+        {
+          "name": "Environmental Code (Law No. L/2019/0034/AN)",
+          "year": "2019",
+          "regulator": "Republic of Guinea (National Assembly)",
+          "source_url": "https://practiceguides.chambers.com/practice-guides/mining-2026/guinea",
+          "verified": true,
+          "notes": "Primary environmental legislation governing Guinea. Establishes fundamental principles for sustainable development, environmental management and protection of natural capital against degradation. Mining activities must comply with this code, including mandatory environmental and social impact studies for exploitation permits and concessions."
+        },
+        {
+          "name": "Mining Code (Law L/2013/053/CNT, amending Law L/2011/006/CNT)",
+          "year": "2013",
+          "regulator": "Conseil National de Transition (CNT); promulgated by Presidential Decree D/2013/075/PRG/SGG",
+          "source_url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+          "verified": true,
+          "notes": "Primary mining legislation adopted 8 April 2013, promulgated 17 April 2013. Includes environmental and rehabilitation obligations, requirement for environmental and social impact studies, international best practice standards (Articles 142 and 145), specific authorisations for infrastructure activities (Articles 120, 143, 144), and mine closure notification requirements (Article 131). Mandates compliance with Environmental Code."
+        },
+        {
+          "name": "Decree D/2014/014 on Environmental and Social Impact Assessment for Mining Operations",
+          "year": "2014",
+          "regulator": "Government of Guinea",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=ac73d313-7ded-4cfa-a530-41d1b34cbdb1",
+          "verified": true,
+          "notes": "One of four implementing decrees adopted January 2014 under the Mining Code. Specifically governs environmental and social impact assessment requirements for mining operations. Note: pending publication in the Official Gazette at time of reporting, but treated as in effect by Guinean authorities."
+        },
+        {
+          "name": "Decree D/2014/012 on Management of Authorisations and Mining Rights",
+          "year": "2014",
+          "regulator": "Government of Guinea",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=ac73d313-7ded-4cfa-a530-41d1b34cbdb1",
+          "verified": true,
+          "notes": "Implementing decree adopted January 2014 governing the management of authorisations and mining rights under the Mining Code. Treated as in effect upon signature by Guinean authorities."
+        },
+        {
+          "name": "Decree D/2014/013 on Implementation of Financial Provisions of the Mining Code",
+          "year": "2014",
+          "regulator": "Government of Guinea",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=ac73d313-7ded-4cfa-a530-41d1b34cbdb1",
+          "verified": true,
+          "notes": "Implementing decree adopted January 2014 governing financial provisions of the Mining Code, including environmental taxes and royalties on classified establishments."
+        },
+        {
+          "name": "Decree D/2014/015 Adopting a Model Form Mining Agreement",
+          "year": "2014",
+          "regulator": "Government of Guinea",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=ac73d313-7ded-4cfa-a530-41d1b34cbdb1",
+          "verified": true,
+          "notes": "Implementing decree adopted January 2014 establishing a model form mining agreement under the Mining Code."
+        },
+        {
+          "name": "Decree No D/2015/007/PRG/SGG on Accelerated Processing of Integrated Mining Project Files",
+          "year": "2015",
+          "regulator": "Government of Guinea",
+          "source_url": "https://practiceguides.chambers.com/practice-guides/mining-2026/guinea",
+          "verified": true,
+          "notes": "Dated 14 January 2015. Established a system for accelerated processing and monitoring of integrated mining project files."
+        },
+        {
+          "name": "Order No A/2016/5002/MMG/SGG introducing new cadastral procedure",
+          "year": "2016",
+          "regulator": "Ministry of Mines and Geology (MMG)",
+          "source_url": "https://practiceguides.chambers.com/practice-guides/mining-2026/guinea",
+          "verified": true,
+          "notes": "Introduced a new cadastral procedure for mining activities in Guinea."
+        },
+        {
+          "name": "Joint Order No A/2018/5212/MEF/MMG/MB/MATD/SGG implementing Article 165 of the Mining Code",
+          "year": "2018",
+          "regulator": "Multiple ministries: MEF, MMG, MB, MATD",
+          "source_url": "https://practiceguides.chambers.com/practice-guides/mining-2026/guinea",
+          "verified": true,
+          "notes": "Dated 13 July 2018. Joint ministerial order implementing Article 165 of the Mining Code."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "International Best Practices in Environmental Protection",
+          "evidence_of_application": "Article 142 of the Mining Code explicitly requires that the environment be protected in accordance with the Environmental Code or 'international best practices in this area.' Article 145 further requires title-holders to apply whichever are the highest standards applicable in Guinea or those followed by title-holders in their other operations.",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=ac73d313-7ded-4cfa-a530-41d1b34cbdb1"
+        },
+        {
+          "framework": "International Labour Organization (ILO) Conventions on Occupational Health and Safety",
+          "evidence_of_application": "Guinea's mining code incorporates elements from ILO conventions, particularly those addressing occupational health and safety in hazardous industries. Operators must draft a health adjustment plan for approval by competent technical departments.",
+          "source_url": "https://www.mondaq.com/energy-and-natural-resources/975732/mining-comparative-guide"
+        },
+        {
+          "framework": "Extractive Industries Transparency Initiative (EITI)",
+          "evidence_of_application": "Guinea is listed as an EITI member country, indicating commitment to transparency standards in extractive industries including the Simandou project.",
+          "source_url": "https://eiti.org/countries/guinea"
+        }
+      ],
+      "gap_summary": "Several gaps and limitations are identified in the findings: (1) The four key implementing decrees of January 2014 (D/2014/012 through D/2014/015) had not been formally published in the Official Gazette at time of reporting, creating uncertainty around their formal legal standing, though Guinean authorities treat them as in effect. (2) Implementation and enforcement challenges are noted for ILO occupational health and safety conventions despite their incorporation into the mining code. (3) No specific regulatory body or enforcement agency details are provided beyond general ministerial references. (4) No specific details are available on community development agreements required under the Mining Code between title-holders and local communities. (5) The findings note that communities have appealed Simandou environmental permits in Guinea's Supreme Court, suggesting potential disputes around the adequacy or process of environmental authorisations, but no outcome is documented. (6) Environmental tax and royalty rate specifics under the Environmental Code are not detailed."
+    },
+    "community_social_legislation": {
+      "has_dedicated_csl_law": true,
+      "legislation": [
+        {
+          "name": "Mining Code (Law L/2011/006/CNT)",
+          "year": "2011",
+          "regulator": "Conseil National de Transition (CNT)",
+          "source_url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+          "verified": true,
+          "notes": "Foundational mining legislation introducing 15% free carried state interest, minimum investment obligations, local development agreements with communities, and environmental/rehabilitation obligations. Governs Simandou and all major mining operations in Guinea."
+        },
+        {
+          "name": "Mining Code Amendment (Law L/2013/053/CNT), promulgated by Presidential Decree D/2013/075/PRG/SGG",
+          "year": "2013",
+          "regulator": "Conseil National de Transition (CNT) / President of Guinea",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=8a147452-513a-4b2a-8042-36994fdb1063",
+          "verified": true,
+          "notes": "Amends the 2011 Mining Code. Adopted 8 April 2013, promulgated 17 April 2013. Reinforces community development requirements, transparency provisions, and local development fund obligations applicable to Simandou."
+        },
+        {
+          "name": "Decree D/2014/012 — Management of Authorisations and Mining Rights",
+          "year": "2014",
+          "regulator": "Government of Guinea",
+          "source_url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+          "verified": true,
+          "notes": "Implementing regulation for the Mining Code covering management of mining authorisations and rights, including those applicable to Simandou."
+        },
+        {
+          "name": "Decree D/2014/013 — Implementation of Financial Provisions",
+          "year": "2014",
+          "regulator": "Government of Guinea",
+          "source_url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+          "verified": true,
+          "notes": "Implementing regulation for the financial provisions of the Mining Code, including contribution rates and payment mechanisms relevant to community development funding."
+        },
+        {
+          "name": "Decree D/2014/014 — Environmental and Social Impact Assessment for Mining Operations",
+          "year": "2014",
+          "regulator": "Government of Guinea",
+          "source_url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+          "verified": true,
+          "notes": "Implementing regulation requiring environmental and social impact assessments for mining operations, directly applicable to the Simandou project."
+        },
+        {
+          "name": "Decree D/2014/015 — Model Form Mining Agreement",
+          "year": "2014",
+          "regulator": "Government of Guinea",
+          "source_url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+          "verified": true,
+          "notes": "Adopts a model form mining agreement as implementing regulation for the Mining Code, establishing standard contractual requirements including community provisions."
+        },
+        {
+          "name": "Local Development Agreement (LDA) Requirements (Article 130, Mining Code)",
+          "year": "2011",
+          "regulator": "Minister in charge of Mines and Minister in charge of Decentralisation (joint order)",
+          "source_url": "https://ccsi.columbia.edu/content/report-community-development-funds-and-agreements-guinea-under-new-mining-code",
+          "verified": true,
+          "notes": "Mandates mining permit holders to enter into Local Development Agreements with local communities. Must include provisions for training, environmental protection, health measures, and social projects. Financial contribution set at 0.5% of turnover for bauxite and iron ore, 1% for other minerals."
+        },
+        {
+          "name": "Decree D/2017/275/PRG/SGG — Local Economic Development Fund (FODEL)",
+          "year": "2017",
+          "regulator": "Government of Guinea / Ministry of Local and Regional Government and Decentralisation / Ministry of Mines and Geology",
+          "source_url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+          "verified": true,
+          "notes": "Created FODEL on 31 October 2017 pursuant to Article 130 of the Mining Code. Aims to promote development of local/regional authorities in mining prefectures. Financed by 0.5% of company turnover for category 1 minerals (bauxite, iron) and 1% for others. A FODEL Management Support Committee (CAGF) oversees implementation. Non-compliance results in back-payments with interest; serious breaches can lead to licence withdrawal. Primarily operationalised in bauxite prefectures; extension to Simandou's Nzérékoré region is pending."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Business and Human Rights (UN Guiding Principles context)",
+          "evidence_of_application": "The Simandou project is tracked by Business & Human Rights Resource Centre, indicating scrutiny under international business and human rights norms including community consultation and social impact obligations.",
+          "source_url": "https://www.business-humanrights.org/en/latest-news/guinea-simandou-iron-ore-project/"
+        }
+      ],
+      "gap_summary": "FODEL has been primarily operationalised in the bauxite prefectures in northwest Guinea (Boké, Boffa, Fria, etc.) and its extension to Simandou's Nzérékoré region in southeast Guinea remains unclear or pending. The findings are truncated on this point, leaving the current status of FODEL application to Simandou unconfirmed. There is no specific dedicated community and social legislation solely for the Simandou project; rather, it is governed by the general Mining Code framework and its implementing decrees. Details on enforcement track record, free prior and informed consent (FPIC) processes, grievance mechanisms, and resettlement frameworks specific to Simandou are not provided in the available findings. Application of international frameworks beyond business and human rights monitoring (e.g., IFC Performance Standards, Equator Principles) is not documented in the findings."
+    },
+    "human_rights_frameworks": {
+      "has_domestic_human_rights_law": true,
+      "legislation_or_constitution": [
+        {
+          "name": "Constitution of Guinea (Fourth Constitution)",
+          "year": "2010",
+          "source_url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+          "verified": true,
+          "notes": "Approved by referendum on 19 April 2010 and formally adopted on 7 May 2010. Enshrines the right to a healthy environment. Guinea is a civil law jurisdiction where codified law is the primary source. A new constitution was voted on under military oversight in September 2025 but its human rights provisions are not yet fully verified in English-language sources."
+        },
+        {
+          "name": "Mining Code (Law 2011/006/CNT)",
+          "year": "2011",
+          "source_url": "https://www.mondaq.com/energy-and-natural-resources/975732/mining-comparative-guide",
+          "verified": true,
+          "notes": "Primary sectoral law governing the mining sector, dated 9 September 2011, amended by Law 2013/053/CNT in 2013. Introduces requirements for environmental and social impact assessments. Implemented by Decrees D/2014/012, D/2014/013, D/2014/014, and D/2014/015."
+        },
+        {
+          "name": "Decree D/2014/012/PRG/SGG on the management of mining permits and titles",
+          "year": "2014",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=8a147452-513a-4b2a-8042-36994fdb1063",
+          "verified": true,
+          "notes": "Implementing regulation of the Mining Code relating to management of authorisations and mining rights."
+        },
+        {
+          "name": "Decree D/2014/013/PRG/SGG relating to the application of financial provisions",
+          "year": "2014",
+          "source_url": "https://www.mondaq.com/energy-and-natural-resources/975732/mining-comparative-guide",
+          "verified": true,
+          "notes": "Implementing regulation on financial provisions of the Mining Code."
+        },
+        {
+          "name": "Decree D/2014/014 on environmental and social impact assessment for mining operations",
+          "year": "2014",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=8a147452-513a-4b2a-8042-36994fdb1063",
+          "verified": true,
+          "notes": "Implementing regulation requiring environmental and social impact assessments for mining operations."
+        },
+        {
+          "name": "Decree D/2014/015/PRG/SGG adopting a template of mining convention",
+          "year": "2014",
+          "source_url": "https://www.mondaq.com/energy-and-natural-resources/975732/mining-comparative-guide",
+          "verified": true,
+          "notes": "Adopts a model form mining agreement as an implementing regulation of the Mining Code."
+        },
+        {
+          "name": "Rural Land Policy",
+          "year": "2001",
+          "source_url": "https://www.hrw.org/sites/default/files/report_pdf/guinea1018_web2.pdf",
+          "verified": true,
+          "notes": "Intended to facilitate land demarcation, registration and protection in rural areas. The government has failed to fully roll out this policy, leaving rural customary landholders without adequate legal protection."
+        }
+      ],
+      "international_conventions_ratified": [
+        {
+          "convention": "International Covenant on Economic, Social and Cultural Rights (ICESCR)",
+          "ratified": true,
+          "source_url": "https://www.ohchr.org/en/statements/2020/02/committee-economic-social-and-cultural-rights-raises-impact-extractive"
+        },
+        {
+          "convention": "International Covenant on Civil and Political Rights (ICCPR)",
+          "ratified": true,
+          "source_url": "https://www.ohchr.org/en/press-releases/2018/10/human-rights-committee-examines-guineas-efforts-implement-civil-and"
+        },
+        {
+          "convention": "Convention Against Torture (CAT)",
+          "ratified": true,
+          "source_url": "https://www.ohchr.org/en/countries/guinea/our-presence"
+        },
+        {
+          "convention": "International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families (CRMW)",
+          "ratified": true,
+          "source_url": "https://www.ohchr.org/en/countries/guinea/our-presence"
+        },
+        {
+          "convention": "Optional Protocol to the Convention on the Rights of the Child on the involvement of children in armed conflict (CRC-OP-AC)",
+          "ratified": true,
+          "source_url": "https://www.ohchr.org/en/countries/guinea/our-presence"
+        },
+        {
+          "convention": "Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography (CRC-OP-SC)",
+          "ratified": true,
+          "source_url": "https://www.ohchr.org/en/countries/guinea/our-presence"
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "UN Guiding Principles on Business and Human Rights (UNGPs)",
+          "evidence_of_application": "Implicitly relevant given OHCHR presence and engagement with extractive industries in Guinea, and the documented need for companies operating at Simandou (Rio Tinto, SMB-Winning, CTG) to conduct human rights due diligence in line with international standards for large-scale infrastructure projects.",
+          "source_url": "https://www.ohchr.org/en/countries/guinea"
+        },
+        {
+          "framework": "OHCHR Technical Cooperation and Monitoring Mandate",
+          "evidence_of_application": "UN Human Rights in Guinea holds a comprehensive mandate covering technical cooperation, monitoring and protection functions. OHCHR supports establishment of a national human rights institution, transitional justice mechanisms, security and justice sector reform, and monitors the human rights situation including in the context of extractive industries.",
+          "source_url": "https://www.ohchr.org/en/countries/guinea/our-presence"
+        },
+        {
+          "framework": "UN Treaty Body Reporting System",
+          "evidence_of_application": "With OHCHR technical support, Guinea has established an interministerial committee tasked with drafting reports to Treaty Bodies. Guinea has submitted reports under CAT, CRMW, CRC-OP-AC, and CRC-OP-SC. ICESCR Committee reviewed Guinea's initial report in February 2020, noting impacts of extractive industries on human rights including child labour and community tensions.",
+          "source_url": "https://www.ohchr.org/en/countries/guinea/our-presence"
+        },
+        {
+          "framework": "Environmental and Social Impact Assessment (ESIA) Requirements under Mining Code",
+          "evidence_of_application": "The 2011 Mining Code and its 2014 implementing regulations require detailed environmental and social impact assessments for mining operations, aligning with international standards for project-level human rights and environmental due diligence in the extractive sector.",
+          "source_url": "https://www.hrw.org/report/2018/10/04/what-do-we-get-out-it/human-rights-impact-bauxite-mining-guinea"
+        }
+      ],
+      "modern_slavery_risk": "High — The ICESCR Committee explicitly noted that mining industries in Guinea have fostered child labour and prostitution, and generated community tensions through non-compliance with commitments on job creation and economic benefits. The Simandou project involves a large remote workforce, cross-border migrant labour, and communities with weak formal land and labour protections. Customary land tenure is largely unregistered, leaving communities vulnerable to displacement without adequate compensation. The absence of binding compensation and resettlement regulations creates conditions where affected persons may face coercion or loss of livelihoods. The military-led governance context and gaps in rule of law further elevate risks of forced labour, trafficking, and exploitation in the project's labour supply chain and host communities.",
+      "gap_summary": "Key gaps identified: (1) No clear and binding regulatory framework governing land acquisition, compensation, and resettlement for project-affected communities in the mining sector, despite the 2011 Mining Code requiring such regulations. (2) The 2001 rural land policy intended to facilitate customary land registration has not been fully implemented, leaving most rural farmers without formal legal protection for their land rights. (3) Compensation standards for land acquisitions in the mining sector have not been established despite the 2011 Mining Code creating an obligation to do so. (4) Documented non-compliance by mining companies with commitments on job creation and community economic benefits, with insufficient state enforcement mechanisms. (5) The status and human rights provisions of a new constitution reportedly adopted in a September 2025 referendum under military oversight are not yet verified. (6) Ongoing human rights harms in the now-operational Simandou project are documented but specific regulatory responses are not yet established. (7) ICCPR review noted the state's difficulty in ensuring primacy of national law incorporating Covenant provisions over customary practices, particularly affecting vulnerable groups."
+    },
+    "security_frameworks": {
+      "has_private_security_regulation": true,
+      "legislation": [
+        {
+          "name": "Decree No D/108/PRG regulating the activities of surveillance, guarding, cash transport and protection of persons",
+          "year": "1998",
+          "source_url": "https://www.privatesecurityobservatory.org/regulation-and-oversight/national-regulations-and-overview/guinea.html",
+          "verified": true,
+          "notes": "Primary national instrument regulating private security companies in Guinea, covering surveillance, guarding, cash transport and personal protection. 417 PSCs fall under its authority via the Ministry of Security and Civil Protection."
+        },
+        {
+          "name": "Decree No. 5857/MS/Cab/98 on the use of equipment, uniforms and badges of security companies, guards, cash transport and personal protection companies",
+          "year": "1998",
+          "source_url": "https://www.privatesecurityobservatory.org/regulation-and-oversight/national-regulations-and-overview/guinea.html",
+          "verified": true,
+          "notes": "Supporting decree to D/108/PRG governing equipment, uniforms and badges of private security personnel."
+        },
+        {
+          "name": "Decree No. 5858/MS/Cab/98 on the administrative authorisation of companies for surveillance, security, cash transport and personal protection",
+          "year": "1998",
+          "source_url": "https://www.privatesecurityobservatory.org/regulation-and-oversight/national-regulations-and-overview/guinea.html",
+          "verified": true,
+          "notes": "Supporting decree to D/108/PRG governing administrative authorisation requirements for private security companies."
+        },
+        {
+          "name": "Mining Code (Law L/2013/053/CNT), amending Law L/2011/006/CNT",
+          "year": "2013",
+          "source_url": "https://www.mayerbrown.com/en/insights/resource-centers/africa-mining-know-how/guinea",
+          "verified": true,
+          "notes": "Key legislation governing mining activities in Guinea. Requires Local Development Agreements, codes of good conduct, corruption monitoring plans, and specific authorisations for certain operations including infrastructure. Mandates 0.5% of turnover contribution to local development for bauxite and iron ore."
+        },
+        {
+          "name": "Public-Private Partnership Law No. 0032/2017/AN",
+          "year": "2017",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=8a147452-513a-4b2a-8042-36994fdb1063",
+          "verified": true,
+          "notes": "Promulgated by Decree No. 0/2017/278/PRG/SGG dated 24 October 2017. Applies to integrated mining projects comprising both mining and infrastructure aspects, although mining rights alone are excluded from its scope."
+        }
+      ],
+      "voluntary_principles_applied": null,
+      "vp_evidence_url": null,
+      "conflict_risk_level": "High — Guinea exhibits multiple elevated risk indicators: violent crime, ethnic tensions, frequent protests, a military junta government (Conseil National de Transition), a history of corruption and ownership disputes over the Simandou deposit, and a private security regulatory framework assessed by expert observers as materially inadequate for operations of this scale and complexity.",
+      "gap_summary": "The 1998 private security decree (D/108/PRG) is the sole operative national instrument for the sector and is considered materially inadequate by expert observers: it lacks sufficient rules and principles to guide the Ministry of Security and Civil Protection in worker protection, and does not address questions of law and liability adequately. There is no specific, dedicated private security law for the mining sector in Guinea. No evidence was found of the Voluntary Principles on Security and Human Rights being formally applied at Simandou. The national anti-corruption framework, while requiring codes of good conduct and corruption monitoring plans under the Mining Code and EITI compliance since 2014, operates in a context where Guinea ranked 133rd out of 180 countries on Transparency International's index. The regulatory framework therefore contains significant gaps in private security oversight, human rights due diligence standards for security forces, and sector-specific mining security regulation."
+    },
+    "safety_equipment_availability": {
+      "overall_rating": "Very Limited Availability",
+      "ppe_availability": "Safety equipment availability at the Simandou site is critically constrained by extreme remoteness in the Nzérékoré Region of southeastern Guinea. A formal IFC compliance audit (November–December 2023) conducted by French firm Artelia for WCS found that first aid training was extremely limited and the quality of medical facilities at the main camps was variable. The site was until recently accessible only by unpaved roads and air, with iron ore transport taking 18 hours by rail and 90 minutes by air, making resupply of safety equipment logistically challenging.",
+      "specialist_equipment_notes": "No specific documented evidence found regarding availability of specialist equipment such as cranes, MEWPs, gas detection systems, or fall arrest equipment on-site. However, the IFC compliance audit findings of poor health and safety conditions and variable medical facility quality suggest broader deficiencies in safety infrastructure beyond basic first aid. The project does employ colossal earth-moving equipment (yellow earth-moving trucks noted on-site), implying some heavy equipment is present, but no verified data on associated safety equipment availability exists.",
+      "import_feasibility": "No specific cost, customs, or lead time data found for safety equipment imports into Guinea. The extreme remoteness of the site (Nzérékoré Region, far southeast Guinea) and reliance on a newly constructed 670 km heavy-haul railway or 90-minute air transport suggests significant logistical complexity and lead time for any imported safety equipment. Guinea's regulatory framework does not appear to include streamlined customs provisions specific to mining safety equipment.",
+      "known_specific_gaps": [
+        "First aid training at worker camps was extremely limited (IFC compliance audit, Nov–Dec 2023)",
+        "Quality of medical facilities at main camps was variable and below IFC Performance Standard requirements",
+        "No Guinea-specific PPE technical standard or standalone occupational health and safety act identified",
+        "Implementation of safety standards challenged by remote location and infrastructure limitations",
+        "No publicly available Guinea national mining safety equipment standard issued since 2013"
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Simandou_mine",
+        "https://www.miningweekly.com/article/simandouiron-ore-project-guinea-update-2024-02-02",
+        "https://african.business/2025/12/resources/visiting-simandou-is-guineas-mega-project-finally-ready",
+        "https://eiti.org/countries/guinea",
+        "https://www.mondaq.com/energy-and-natural-resources/975732/mining-comparative-guide",
+        "https://www.loc.gov/item/global-legal-monitor/2013-07-31/guinea-mining-code-amended/",
+        "https://www.a-mla.org/en/country/Guinea",
+        "https://discoveryalert.com.au/contract-worker-dies-rio-tinto-safety-reforms-2026/",
+        "https://resourcecontracts.org/contract/ocds-591adf-4606247360/download/word",
+        "https://www.pinsentmasons.com/out-law/analysis/simandou-contracts-international-sustainability-standards",
+        "https://www.mining.com/web/accidents-at-giant-rio-tinto-project-kill-more-than-a-dozen-workers-prompting-inquiry/",
+        "https://www.business-humanrights.org/en/latest-news/guinea-reports-reveal-unusually-high-number-of-worker-fatalities-and-failure-to-implement-safety-guidelines-at-simandou-iron-ore-project-incl-co-comments/"
+      ],
+      "confidence": "Medium"
+    },
+    "training_providers": {
+      "has_national_training_framework": true,
+      "framework_name": "Simandou Academy (part of SIMANDOU 2040 program)",
+      "registered_providers_available": true,
+      "mining_specific_training": "Training programs cover welding, carpentry, electrics, heavy equipment operations, saponification, sewing, hairdressing, engineering, digital skills, artificial intelligence, renewable energies, management, railway operations, project management, and sustainable agriculture. Programs are delivered at vocational centres near the Simandou site, with practical instruction prioritised over written manuals. Mine operators SimFer (Rio Tinto) and WCS partner with Guinean educational institutions for off-the-job training, apprentice programs, and skills upgrades from unskilled to semi-skilled to skilled positions.",
+      "internationally_recognised_certs_available": false,
+      "cert_examples": [],
+      "workforce_literacy_rate": null,
+      "source_urls": [
+        "https://simfer-sa.com/en/about-us/",
+        "https://riotintoguinee.com/en/",
+        "https://www.riotinto.com/en/operations/africa/simandou",
+        "https://wcsglobal.com/en/local-employment-and-training-strategy-employment-for-guineans",
+        "https://ivoireindustriemag.com/en/articles/simandou-academy-la-guinee-mise-sur-lhumain-pour-transformer-ses-richesses-butyeo",
+        "https://www.ecofinagency.com/news-services/0506-56201-guinea-counts-on-local-talent-to-maximize-simandou-s-economic-impact",
+        "https://www.financialafrik.com/en/2026/05/23/simandou-2040-program-guinean-state-and-chalco-guinea-company-sign-agreement-to-build-an-alumina-refinery-in-boffa/",
+        "https://discoveryalert.com.au/simandou-2040-programme-guinea-economic-transformation-2025/",
+        "https://wcsglobal.com/en/974.html",
+        "https://uganc.edu.gn/luganc-et-hunan-technical-college-of-railway-high-speed-signent-un-memorandum-daccord/"
+      ],
+      "gap_summary": "No evidence of internationally recognised safety or mining certifications (e.g. IOSH, NEBOSH, ICAM, BOSIET) being available locally. Workforce literacy rate data is not provided in the findings. The Simandou Academy and associated infrastructure are still in early rollout phases, meaning advanced engineering and technical training capacity is not yet fully established domestically. International partnerships (UM6P Morocco, University of Rwanda, Western Australian universities, Chalco engineering school) are being developed to fill gaps, implying that high-level technical, engineering, and scientific training cannot yet be fully sourced locally and must rely on overseas institutions.",
+      "confidence": "Medium"
+    },
+    "security_companies": {
+      "reputable_providers_available": true,
+      "notable_providers": [
+        {
+          "name": "G4S Guinea",
+          "international": true,
+          "human_rights_certified": false,
+          "notes": "G4S has been providing security services in Guinea since 2005. They are the largest security company in Africa with presence in 22 countries and over 100,000 employees. They have a sector focus on Energy, Mining and Construction. However, no public contract, press release, or named engagement specifically linking G4S to a Simandou site security role could be found.",
+          "source_url": "https://www.g4s.com/contact-us/worldwide/guinea/en-gn"
+        },
+        {
+          "name": "SimFer Internal Security (led by Robbie Tilley)",
+          "international": false,
+          "human_rights_certified": false,
+          "notes": "SimFer has built a dedicated internal security management capability. Robbie Tilley, Security Operations Manager at SimFer, is a former British Army Officer with expertise in global enterprise resilience, regional security, and crisis management. This suggests SimFer manages security in-house rather than outsourcing entirely to a single third-party provider.",
+          "source_url": "https://simfer-sa.com/en/about-us/"
+        }
+      ],
+      "armed_security_regulation": "No specific armed security regulation framework was identified in the findings. Rio Tinto/SimFer operates under the Voluntary Principles on Security and Human Rights (VPSHR) framework as a founding participant of the Voluntary Principles Initiative, providing guidance on security governance. However, subcontractor security governance is inconsistent, with investigations finding minimum safety guidelines were not correctly implemented across multiple WCS-managed subcontractors.",
+      "conflict_risk_to_security_operations": "High",
+      "gap_summary": "1. No verified public contract linking any named private security company specifically to Simandou operations was found. 2. Subcontractor security governance is a critical gap: WCS managed 13 subcontractors for rail and port construction, with at least nine accidents investigated where minimum safety guidelines were not correctly implemented. 3. Governance complexity across multiple consortia (SimFer, WCS, CTG) and overlapping ownership structures blurs accountability lines for security. 4. No information on WCS or Chinese subcontractor security provider engagement with VPSHR or equivalent human rights frameworks was found. 5. The Simandou Safety Advisory Panel was only established in 2026, suggesting independent safety oversight was absent during earlier construction phases.",
+      "confidence": "Low"
+    },
+    "socioeconomic_context": {
+      "poverty_rate": "More than 50% of Guinea's population of 15.8 million lives in poverty nationally; 66.2% of the population is multidimensionally poor (UNDP 2018 data); Nzérékoré region (project host) has the highest regional poverty rate at 67%, with over 1 million people living in poverty there",
+      "poverty_source_url": "https://hdr.undp.org",
+      "basic_sanitation_access": "20% of the population has access to improved sanitation",
+      "sanitation_source_url": "https://documents1.worldbank.org",
+      "clean_water_access": "77% of the population has access to improved water resources",
+      "water_source_url": "https://documents1.worldbank.org",
+      "healthcare_system_quality": "Not explicitly described in findings; life expectancy at birth is only 59.2 years, suggesting poor overall health outcomes. Basic service access is broadly limited across the country.",
+      "infectious_disease_risk": "Not specified in findings; however, the project area is in a remote primary rainforest region of southern Guinea, which implies elevated exposure to tropical infectious diseases typical of such environments. No specific diseases are named in the source material.",
+      "local_workforce_skill_level": "Low; Guinea has a young population with a high unemployment rate (approximately 50% of working population unemployed per ILO), low literacy levels, average years of schooling of only 2.6 years, and significant deficits in the specialized skills needed for large-scale industrial projects",
+      "infrastructure_quality": "Very poor pre-project baseline; the Simandou region is approximately 800 km and a two-day road journey from Conakry. There was virtually no industrial or export infrastructure before the project. Only 28% of the population has access to electricity. The 622-km TransGuinéen railway is a new build that for the first time connects Guinea east to west. Communities report still lacking water, electricity, and accountability.",
+      "corruption_perception_index": "Not available",
+      "cpi_source_url": null,
+      "overall_context_summary": "Guinea is one of the world's poorest nations, with over half its population living in poverty and the project's host region, Nzérékoré, recording the country's highest poverty rate at 67%. The Simandou area was virtually cut off from national infrastructure before the project, with extreme deficits in roads, electricity, sanitation, and skilled labor. The $11.6 billion Simandou integrated mine and railway project represents an unprecedented infrastructure intervention in this context, but significant governance, transparency, and community benefit-sharing challenges remain."
+    },
+    "overall_compliance_maturity": {
+      "rag_rating": "A",
+      "rag_rationale": "Guinea's compliance maturity for the Simandou project presents a mixed picture that warrants an Amber rating. On the positive side, Guinea has a formal legal framework including the 2011 Mining Code (revised 2013), an Environmental Code (2019), and mandatory Local Development Agreements with communities. The Simandou project itself operates under a structured USD 20 billion integrated framework with initial production commencing November 2025, signalling a degree of project-level compliance infrastructure. However, significant structural and institutional deficiencies temper this. There are no dedicated ESG regulations or guidelines in Guinea — a notable legislative gap. Enforcement is explicitly characterised as 'selective' by DLA Piper's 2024 analysis, and regulatory capacity is weak, with businesses routinely waiting months or years for approvals. The 2025 mass licence revocations demonstrated that even apparently compliant operators faced permit cancellations, materially elevating legal and political risk. The post-revocation shift back towards dialogue is encouraging but does not resolve underlying institutional unpredictability. The combination of a formal but under-enforced legal framework, absence of ESG-specific legislation, selective and sometimes blunt enforcement, and a weak judicial system places Guinea firmly in Amber — not Red because the Simandou project has specific high-profile legal and international backing, but not Green given pervasive governance and enforcement uncertainty.",
+      "key_strengths": [
+        "Established formal mining legal framework via the 2011 Mining Code (revised 2013) and 2019 Environmental Code providing a baseline regulatory structure",
+        "Mandatory Local Development Agreements (LDAs) with local communities required by law, providing a community engagement compliance mechanism",
+        "Simandou project operates at a scale and profile (USD 20 billion, largest integrated mining and infrastructure project in Africa) that attracts heightened governmental and international scrutiny, incentivising compliance",
+        "Initial production commenced November 2025, indicating project-level milestones are being met",
+        "'Simandou 2040' national development strategy aligns government interests with project success, reducing likelihood of arbitrary disruption to this specific project",
+        "Post-2025 revocation shift back to dialogue and case-by-case assessment suggests government recognises risks of blunt enforcement",
+        "Hygiene, health and safety plan required as part of mining permit applications, embedding baseline worker protection requirements"
+      ],
+      "key_barriers": [
+        "Complete absence of dedicated ESG legislation or guidelines — regulatory compliance relies solely on generic Mining Code and Environmental Code with no ESG-specific instrument",
+        "Enforcement is explicitly characterised as 'selective' and discretionary, creating unpredictability for compliance planning",
+        "Weak and unreliable legal system with limited institutional capacity to enforce regulatory requirements or ensure transparency around environmental impact assessments",
+        "2025 mass licence revocations swept up apparently compliant operators alongside dormant licences, demonstrating that formal compliance does not guarantee protection from enforcement actions",
+        "Approval timelines are unpredictable, with businesses waiting months or years for final decisions from ministries or the office of the President",
+        "Article 145 of the Mining Code allows revocation if 50% of committed work programme remains unfinished after two years, creating ongoing milestone compliance pressure",
+        "Political instability and military governance context increases risk of sudden policy shifts affecting compliance and permitting",
+        "Limited transparency mechanisms around environmental impact assessments despite legal requirements"
+      ],
+      "recommended_approach": "Documents for Guinea (Simandou) should be calibrated to reflect a high-engagement, evidence-heavy compliance posture given the selective enforcement environment and absence of ESG-specific regulation. Key calibrations include: (1) Explicitly reference and align with international standards (IFC Performance Standards, Equator Principles, ICMM frameworks) to fill the ESG legislative vacuum, as Guinea has no dedicated ESG instrument; (2) Build in rigorous internal documentation of compliance milestones, work programme progress, and government engagement records to evidence compliance against Article 145 revocation triggers and counter selective enforcement risk; (3) Incorporate LDA requirements prominently with detailed community engagement protocols to satisfy the mandatory Local Development Agreement requirement; (4) Include provisions for adaptive management of permitting timelines, acknowledging that approvals may take months to years, and avoid contractual dependencies on specific approval dates; (5) Treat government engagement as an ongoing contractual obligation rather than a one-time approval process, consistent with guidance that 'disciplined execution and sustained government engagement' are essential; (6) Include environmental and community impact assessment provisions that go beyond minimum Guinean legal requirements, drawing on international best practice given Guinea's limited EIA enforcement capacity; (7) Include dispute resolution clauses that treat litigation as a last resort and prioritise negotiated resolution, consistent with post-revocation dialogue trends; (8) Flag political and regulatory risk clearly in risk registers, noting that even compliant operators faced permit revocation in 2025."
+    }
+  }
+}
