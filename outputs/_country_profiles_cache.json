@@ -4431,5 +4431,887 @@
       ],
       "recommended_approach": "Documents for this jurisdiction should be calibrated to reflect moderate-to-high compliance complexity. Contractual and due diligence materials should explicitly account for legislative volatility and flag the risk of further Minerals Law amendments. Environmental compliance clauses should go beyond referencing the formal EIA framework and address known enforcement gaps, requiring project-level monitoring and third-party audit provisions. Investment agreements should address the 34% ownership cap under the 2024 Sovereign Wealth Fund Law and include provisions for potential state participation. Reporting obligations (annual mining plans, environmental management plans) should be clearly scheduled with reference to statutory deadlines (1 December, 15 February, 1 November). Documents should reference MRPAM as the primary regulatory authority and leverage the open contracts portal and EITI disclosure framework for transparency verification. Given election-cycle approval risks, project timelines should include contingency buffers. Pricing and royalty provisions should reference the Mining Product Exchange as the benchmark following the October 2025 shift to exchange-based royalty pricing."
     }
+  },
+  "US": {
+    "sources": [
+      {
+        "claim": "osh_legislation",
+        "source_name": "Federal Mine Safety and Health Act of 1977 (Mine Act), as amended by the MINER Act of 2006",
+        "url": "https://www.msha.gov/regulations/laws",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "30 CFR Part 56 — Safety and Health Standards, Surface Metal and Nonmetal Mines",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "30 CFR Part 57 — Safety and Health Standards, Underground Metal and Nonmetal Mines",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "30 CFR Part 46 — Training and Retraining of Miners (Surface Metal/Nonmetal)",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "30 CFR Part 48 — Training and Retraining of Miners (Underground Metal/Nonmetal)",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "30 CFR Part 50 — Notification, Investigation, Reports and Records of Accidents, Injuries, Illnesses, Employment and Coal Production",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "MSHA Final Rule: Lowering Miners' Exposure to Respirable Crystalline Silica and Improving Respiratory Protection (30 CFR Part 60)",
+        "url": "https://www.federalregister.gov/documents/2024/04/18/2024-06920/lowering-miners-exposure-to-respirable-crystalline-silica-and-improving-respiratory-protection",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "MSHA Final Rule: Safety Program for Surface Mobile Equipment (30 CFR Part 56 Subpart T)",
+        "url": "https://www.federalregister.gov/documents/2023/12/20/2023-27640/safety-program-for-surface-mobile-equipment",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "osh_legislation",
+        "url": "https://www.msha.gov/msha-and-osha-memorandum",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "General Mining Law of 1872",
+        "url": "https://en.wikipedia.org/wiki/General_Mining_Act_of_1872",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Federal Land Policy and Management Act (FLPMA)",
+        "url": "https://earthworks.org/resources/hardrock_mining_and_reclamation_act_of_2014_1872_mining_law_reform/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Federal Mine Safety and Health Act of 1977 (Mine Act)",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "National Environmental Policy Act (NEPA)",
+        "url": "https://www.resolutionmineeis.us/project-overview/questions-and-answers",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Clean Water Act (CWA)",
+        "url": "https://www.congress.gov/crs-product/R46615",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Clean Air Act (CAA)",
+        "url": "https://deq.utah.gov/air-quality/air-qu",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Federal Mine Safety and Health Act (MSHA)",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "MINER Act",
+        "url": "https://www.dol.gov/general/topic/safety-health/mining",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "National Environmental Policy Act (NEPA)",
+        "url": "https://asmi.az.gov/sites/default/files/documents/files/arizona_mining_permitting_guide_2011.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "National Historic Preservation Act (NHPA) — Section 106",
+        "url": "https://www.achp.gov/integrating_nepa_106",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Emergency Planning and Community Right-to-Know Act (EPCRA)",
+        "url": "https://www.epa.gov/epcra/are-mining-facilities-required-notify-under-sections-311-and-312",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://broadbandusa.ntia.gov/sites/default/files/2024-02/NHPA_Sect_106_Consultation_Process_Fact_Sheet_2024.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://www.epa.gov/epcra/are-mining-facilities-required-notify-under-sections-311-and-312",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Federal Mine Safety and Health Act of 1977 (Mine Act)",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "MINER Act of 2006",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Occupational Safety and Health Act of 1970",
+        "url": "https://legacy.lawatlas.org/datasets/state-occupational-safety-and-health-laws-mining",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Comprehensive Environmental Response Compensation and Liability Act (CERCLA)",
+        "url": "https://deq.utah.gov/businesses-facilities/kennecott-utah-copper-llc",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Clean Water Act (CWA)",
+        "url": "https://deq.utah.gov/businesses-facilities/kennecott-utah-copper-llc",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Clean Air Act (CAA)",
+        "url": "https://deq.utah.gov/businesses-facilities/kennecott-utah-copper-llc",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "MSHA Silica Rule — Lowering Miners' Exposure to Respirable Crystalline Silica and Improving Respiratory Protection",
+        "url": "https://catamountconsultingllc.com/latest-news/2024-brings-two-new-final-rules-for-msha/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "MSHA Surface Mobile Equipment Rule",
+        "url": "https://catamountconsultingllc.com/latest-news/2024-brings-two-new-final-rules-for-msha/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.cleanup&id=0800636",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://aflcio.org/reports/dotj-2025",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Federal Mine Safety and Health Act of 1977 (Mine Act)",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "MINER Act of 2006",
+        "url": "https://www.msha.gov/regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Title 30 CFR — Mineral Resources (MSHA Rules)",
+        "url": "https://www.msha.gov/regulations/standards-and-regulations",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "MSHA Final Rule — Safety Program for Surface Mobile Equipment",
+        "url": "https://www.federalregister.gov/documents/2023/12/20/2023-27640/safety-program-for-surface-mobile-equipment",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "MSHA Final Rule — Lowering Miners' Exposure to Respirable Crystalline Silica and Improving Respiratory Protection",
+        "url": "https://catamountconsultingllc.com/latest-news/2024-brings-two-new-final-rules-for-msha/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "30 CFR Part 48 — Training Requirements for Underground and Surface Mines",
+        "url": "https://arlweb.msha.gov/training/index.asp",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "30 CFR Part 46 — Training Requirements (Surface Metal/Nonmetal Mines)",
+        "url": "https://arlweb.msha.gov/training/index.asp",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "30 CFR 77.1101 — Emergency Evacuation and Escape Plans",
+        "url": "https://www.regulations.gov/docket/MSHA-2024-0033",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "MSHA-OSHA Memorandum of Understanding (MOU) — Jurisdictional Demarcation",
+        "url": "https://www.osha.gov/fom/chapter-17",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Redpath USA Corporation",
+        "url": "https://redpathmining.com/en/regions/americas",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Oddonetto Construction Inc.",
+        "url": "https://resolutioncopper.com/resolution-copper-completes-deepening-and-rehabilitation-of-historic-no-9-shaft/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "San Carlos Apache Contractors",
+        "url": "https://www.kjzz.org/tribal-natural-resources/2026-03-16/ownership-of-oak-flat-in-arizona-is-transferred-to-resolution-copper",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Brunel",
+        "url": "https://www.brunel.net/en-us/blog/mining/rio-tinto-family-day",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Avetta",
+        "url": "https://www.careermine.com/job/1991165/superintendent-facilities-maintenance/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Browz",
+        "url": "https://resolutioncopper.com/contractor/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      }
+    ],
+    "development_classification": {
+      "classification": "First World / OECD",
+      "hdi_rank": "Not available",
+      "hdi_source_url": null,
+      "notes": "The United States is a highly developed OECD nation with a mature and complex regulatory environment governing mining projects. Resolution Copper (Arizona) and Kennecott (Utah) operate under a comprehensive federal and state framework including MSHA, EPA, OSHA, NEPA, CWA, CAA, RCRA, and CERCLA. HSESC compliance requirements are among the most stringent in the world, encompassing detailed environmental impact assessments, cultural resource protections, community engagement, and multi-agency permitting processes. The Resolution Copper project illustrates that HSESC-equivalent obligations (environmental review, indigenous rights consultation, social licence, worker safety standards) are deeply embedded in law and can extend project timelines by decades. Regulatory compliance costs represent a significantly higher proportion of total development expenses than in many other jurisdictions."
+    },
+    "osh_legislation": {
+      "has_dedicated_osh_law": true,
+      "legislation": [
+        {
+          "name": "Federal Mine Safety and Health Act of 1977 (Mine Act), as amended by the MINER Act of 2006",
+          "year": "1977",
+          "regulator": "U.S. Department of Labor, Mine Safety and Health Administration (MSHA)",
+          "regulator_url": "https://www.msha.gov/",
+          "source_url": "https://www.msha.gov/regulations/laws",
+          "verified": true,
+          "notes": "Primary federal OSH statute for all mining operations in the US. Covers Resolution Copper (AZ) and Kennecott Utah Copper (UT). Requires mandatory inspections, safety and health standards, accident reporting within 15 minutes, training programs, and civil penalty assessment. Administered through 30 CFR Parts 1-199."
+        },
+        {
+          "name": "30 CFR Part 56 — Safety and Health Standards, Surface Metal and Nonmetal Mines",
+          "year": "1977",
+          "regulator": "Mine Safety and Health Administration (MSHA)",
+          "regulator_url": "https://www.msha.gov/",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Directly applicable to Kennecott's Bingham Canyon open-pit operation and surface areas of Resolution Copper. Includes air quality standards (30 CFR §56.5001) and notification requirements (30 CFR §56.1000) before commencing operations."
+        },
+        {
+          "name": "30 CFR Part 57 — Safety and Health Standards, Underground Metal and Nonmetal Mines",
+          "year": "1977",
+          "regulator": "Mine Safety and Health Administration (MSHA)",
+          "regulator_url": "https://www.msha.gov/",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Directly applicable to Resolution Copper's underground block-cave mining operation in Superior, Arizona. Covers underground metal and nonmetal mine safety and health standards including air quality (30 CFR §57.5001 and §57.5005)."
+        },
+        {
+          "name": "30 CFR Part 46 — Training and Retraining of Miners (Surface Metal/Nonmetal)",
+          "year": "1977",
+          "regulator": "Mine Safety and Health Administration (MSHA)",
+          "regulator_url": "https://www.msha.gov/",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Establishes mandatory training and retraining requirements for miners at surface metal and nonmetal mines, applicable to surface operations at both Resolution Copper and Kennecott Utah Copper."
+        },
+        {
+          "name": "30 CFR Part 48 — Training and Retraining of Miners (Underground Metal/Nonmetal)",
+          "year": "1977",
+          "regulator": "Mine Safety and Health Administration (MSHA)",
+          "regulator_url": "https://www.msha.gov/",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Establishes mandatory training and retraining requirements for miners at underground metal and nonmetal mines, directly applicable to Resolution Copper's underground operations."
+        },
+        {
+          "name": "30 CFR Part 50 — Notification, Investigation, Reports and Records of Accidents, Injuries, Illnesses, Employment and Coal Production",
+          "year": "1977",
+          "regulator": "Mine Safety and Health Administration (MSHA)",
+          "regulator_url": "https://www.msha.gov/",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Requires mine operators to immediately report all mining accidents within 15 minutes of when the operator knew or should have known about the accident. Applicable to all mining operations including Resolution Copper and Kennecott."
+        },
+        {
+          "name": "MSHA Final Rule: Lowering Miners' Exposure to Respirable Crystalline Silica and Improving Respiratory Protection (30 CFR Part 60)",
+          "year": "2024",
+          "regulator": "Mine Safety and Health Administration (MSHA)",
+          "regulator_url": "https://www.msha.gov/",
+          "source_url": "https://www.federalregister.gov/documents/2024/04/18/2024-06920/lowering-miners-exposure-to-respirable-crystalline-silica-and-improving-respiratory-protection",
+          "verified": true,
+          "notes": "Issued April 18, 2024. Lowers the PEL for respirable crystalline silica to 50 µg/m³ (8-hour TWA) and establishes an action level at 25 µg/m³. As of June 2026, compliance deadlines are stayed by the U.S. Court of Appeals for the Eighth Circuit (order dated April 11, 2025) pending substantive judicial review. Existing standards in 30 CFR §§56.5001, 56.5005, 57.5001, and 57.5005 remain in effect in the interim."
+        },
+        {
+          "name": "MSHA Final Rule: Safety Program for Surface Mobile Equipment (30 CFR Part 56 Subpart T)",
+          "year": "2023",
+          "regulator": "Mine Safety and Health Administration (MSHA)",
+          "regulator_url": "https://www.msha.gov/",
+          "source_url": "https://www.federalregister.gov/documents/2023/12/20/2023-27640/safety-program-for-surface-mobile-equipment",
+          "verified": true,
+          "notes": "Effective January 19, 2024; compliance required from July 17, 2024. Requires mine operators to develop, implement, and update a written safety program for surface mobile equipment (excluding belt conveyors) with miner input. Directly applicable to Kennecott's large open-pit Bingham Canyon operation."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "OSHA/MSHA Jurisdictional Memorandum of Understanding",
+          "evidence_of_application": "A formal MOU delineates that unsafe and unhealthful working conditions on mine sites and in milling operations fall under MSHA jurisdiction, with OSHA covering residual occupational safety areas not covered by MSHA. Both agencies coordinate to avoid jurisdictional gaps at mine sites.",
+          "source_url": "https://www.msha.gov/msha-and-osha-memorandum"
+        }
+      ],
+      "gap_summary": "The research findings do not detail specific state-level OSH or environmental legislation for Arizona or Utah, though it is noted that state regulatory standards are commonly equal to or more stringent than federal standards and that regulatory responsibilities have in many cases been delegated to state agencies. The 2024 MSHA Silica Rule (30 CFR Part 60), which would have strengthened silica exposure protections, is currently stayed indefinitely for metal and nonmetal mines pending judicial review, meaning the more protective 50 µg/m³ PEL is not yet enforceable. The findings do not address specific environmental legislation (e.g., Clean Water Act, Clean Air Act, CERCLA) applicable to these operations, nor do they cover specific state-level equivalents or any international/ILO framework application."
+    },
+    "environmental_legislation": {
+      "has_dedicated_env_law": true,
+      "legislation": [
+        {
+          "name": "General Mining Law of 1872",
+          "year": "1872",
+          "regulator": "Bureau of Land Management (BLM) / U.S. Department of the Interior",
+          "source_url": "https://en.wikipedia.org/wiki/General_Mining_Act_of_1872",
+          "verified": true,
+          "notes": "Authorizes and governs prospecting and mining for hardrock minerals (including copper) on federal public lands. Contains no environmental provisions and no royalty requirements. Modified by FLPMA (1976) which added surface management regulations (43 CFR 3809) requiring reclamation, financial guarantees, and detailed Mining Plans of Operations. Multiple reform bills (2007, 2009, 2014, 2015) failed to pass. As of June 2026, no comprehensive hardrock mining royalty or reclamation reform law has been enacted. Applicable to Resolution Copper (Arizona) and Kennecott Utah Copper (Utah)."
+        },
+        {
+          "name": "Federal Land Policy and Management Act (FLPMA)",
+          "year": "1976",
+          "regulator": "Bureau of Land Management (BLM) / U.S. Department of the Interior",
+          "source_url": "https://earthworks.org/resources/hardrock_mining_and_reclamation_act_of_2014_1872_mining_law_reform/",
+          "verified": true,
+          "notes": "Revised surface uses allowed on mining claims under the 1872 Mining Law, effective January 1981. Prohibits unnecessary or undue degradation of public lands. Regulations codified at 43 CFR 3809 (Surface Management regulations), updated with final rules published December 2001. Requires mining reclamation, financial guarantees, mining claim occupation permits, and detailed Mining Plans of Operations before surface disturbance. Applicable to both Resolution Copper and Kennecott Utah Copper where federal lands are involved."
+        },
+        {
+          "name": "Federal Mine Safety and Health Act of 1977 (Mine Act)",
+          "year": "1977",
+          "regulator": "Mine Safety and Health Administration (MSHA) / U.S. Department of Labor",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Signed into law by President Jimmy Carter. Requires MSHA to inspect all mines annually to ensure safe and healthy work environments. Grants authority to develop and revise health and safety standards for miners. Amended by the MINER Act of 2006. Regulations codified at 30 CFR Parts 1-199. Requires immediate notification of accidents, injuries, and illnesses; approved training programs; equipment approvals for gassy underground mines; and emergency response plans re-approved every six months. Cited violations subject to civil penalties. MSHA jurisdiction covers mining and mineral milling; OSHA covers refining and other non-mining operations per a Memorandum of Understanding. Applicable to both Resolution Copper and Kennecott Utah Copper."
+        },
+        {
+          "name": "National Environmental Policy Act (NEPA)",
+          "year": "1970",
+          "regulator": "Council on Environmental Quality (CEQ) / Federal agencies with permit authority",
+          "source_url": "https://www.resolutionmineeis.us/project-overview/questions-and-answers",
+          "verified": true,
+          "notes": "Signed into law January 1, 1970. Requires federal agencies to assess environmental effects of proposed actions prior to making decisions, including permit applications and federal land management actions. Requires evaluation of environmental, social, and economic effects and public review and comment. Directly applicable to Resolution Copper and Kennecott Utah Copper for activities on or adjacent to federal lands requiring federal permits."
+        },
+        {
+          "name": "Clean Water Act (CWA)",
+          "year": "1972",
+          "regulator": "U.S. Environmental Protection Agency (EPA) / U.S. Army Corps of Engineers",
+          "source_url": "https://www.congress.gov/crs-product/R46615",
+          "verified": true,
+          "notes": "Applicable to both mine sites through multiple provisions: Section 402 (NPDES) requires permits for all point-source discharges of pollutants into waters of the United States; Section 404 requires permits for dredge and fill activities including mining projects; Section 401 requires water quality certification for any activity requiring a federal license or permit that may result in a discharge into waters of the United States. Codified at 33 U.S.C. § 1251 et seq."
+        },
+        {
+          "name": "Clean Air Act (CAA)",
+          "year": "1970",
+          "regulator": "U.S. Environmental Protection Agency (EPA) / State environmental agencies",
+          "source_url": "https://deq.utah.gov/air-quality/air-qu",
+          "verified": true,
+          "notes": "Federal law covering the entire country governing air emissions from smelters, concentrators, and associated mining operations. EPA sets national ambient air quality limits. Major sources emitting 100 tons per year or more of any air pollutant, 10 tons per year or more of any single hazardous air pollutant, or 25 tons per year or more of a combination of hazardous air pollutants are required to obtain Title V Operating Permits. States required to develop comprehensive programs covering major and certain non-major sources. Applicable to Resolution Copper and Kennecott Utah Copper. Codified at 42 U.S.C. § 7401 et seq."
+        }
+      ],
+      "global_frameworks_applied": [],
+      "gap_summary": "The research findings cover only U.S. federal legislative frameworks applicable to both Resolution Copper (Arizona) and Kennecott Utah Copper (Utah). Several significant gaps exist: (1) No state-specific legislation for Arizona (e.g., Arizona Department of Environmental Quality regulations, Arizona Mined Land Reclamation Act) or Utah (e.g., Utah Division of Oil, Gas and Mining regulations, Utah Water Quality Act) is detailed despite the schema indicating these were to be covered. (2) No global or international frameworks are documented in the findings, so the global_frameworks_applied array is empty. (3) The Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA/Superfund) and Resource Conservation and Recovery Act (RCRA), which are commonly applicable to large mining operations, are not mentioned. (4) The Endangered Species Act (ESA) and National Historic Preservation Act (NHPA), both relevant to the Resolution Copper project given its cultural significance to the San Carlos Apache Tribe, are not addressed. (5) Site-specific permit details, consent decrees, or enforcement actions for either mine are absent. (6) No reform legislation has been enacted as of the research date (June 2026), leaving the 1872 Mining Law's lack of royalty requirements and environmental provisions as a continuing regulatory gap for hardrock mining on federal lands."
+    },
+    "community_social_legislation": {
+      "has_dedicated_csl_law": true,
+      "legislation": [
+        {
+          "name": "Federal Mine Safety and Health Act (MSHA)",
+          "year": "1977",
+          "regulator": "Mine Safety and Health Administration (MSHA), U.S. Department of Labor",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Establishes safety and health standards for mining operations, requires annual inspections, mandates immediate accident reporting within 15 minutes, and covers training programs. Applicable to both Resolution Copper (Arizona) and Kennecott Utah Copper. MSHA jurisdiction excludes refining operations, which fall under OSHA."
+        },
+        {
+          "name": "MINER Act",
+          "year": "2006",
+          "regulator": "Mine Safety and Health Administration (MSHA), U.S. Department of Labor",
+          "source_url": "https://www.dol.gov/general/topic/safety-health/mining",
+          "verified": true,
+          "notes": "Amended the Federal Mine Safety and Health Act of 1977. MSHA is responsible for enforcing the Mine Act as amended by the MINER Act of 2006."
+        },
+        {
+          "name": "National Environmental Policy Act (NEPA)",
+          "year": "1969",
+          "regulator": "U.S. Forest Service / Federal agencies with jurisdiction",
+          "source_url": "https://asmi.az.gov/sites/default/files/documents/files/arizona_mining_permitting_guide_2011.pdf",
+          "verified": true,
+          "notes": "Requires full disclosure of environmental and socioeconomic impacts for major federal actions, including approval of Plans of Operations. Mandates public comment periods open to affected communities and tribes. The U.S. Forest Service initiated an Environmental Impact Statement under NEPA following the land exchange authorization for Resolution Copper. Applies to both sites where federal decisions are involved."
+        },
+        {
+          "name": "National Historic Preservation Act (NHPA) — Section 106",
+          "year": "1966",
+          "regulator": "Advisory Council on Historic Preservation (ACHP) / Federal agencies",
+          "source_url": "https://www.achp.gov/integrating_nepa_106",
+          "verified": true,
+          "notes": "Section 106 requires federal agencies to consult with Indian tribes and other stakeholders regarding effects of undertakings on historic properties, including off tribal lands (ancestral homelands). Applies to Resolution Copper and Kennecott when federal permits are involved. Can result in legally binding Memoranda of Agreement (MOA) or Programmatic Agreements (PA). Process codified at 36 CFR 800."
+        },
+        {
+          "name": "Emergency Planning and Community Right-to-Know Act (EPCRA)",
+          "year": "1986",
+          "regulator": "U.S. Environmental Protection Agency (EPA) / State Emergency Response Commissions (SERCs) / Local Emergency Planning Committees (LEPCs)",
+          "source_url": "https://www.epa.gov/epcra/are-mining-facilities-required-notify-under-sections-311-and-312",
+          "verified": true,
+          "notes": "Authorized by SARA Title III; requires emergency planning and community right-to-know reporting on hazardous and toxic chemicals. Establishes SERCs and LEPCs for community chemical emergency planning. Requires EPA to maintain the Toxic Chemical Release Inventory (TRI). Mining facilities regulated by MSHA are not subject to EPCRA Sections 311 and 312, but refining and other non-mining operations at both sites are subject to these requirements. Facilities with extremely hazardous substances above threshold planning quantities must notify both SERC and LEPC."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Tribal Consultation (Section 106 NHPA / NEPA)",
+          "evidence_of_application": "Both the NHPA Section 106 process and NEPA require consultation with Indian tribes for projects affecting ancestral homelands and historic/cultural properties, including off-reservation lands. Applied to Resolution Copper's Environmental Impact Statement process and any federal permitting at Kennecott.",
+          "source_url": "https://broadbandusa.ntia.gov/sites/default/files/2024-02/NHPA_Sect_106_Consultation_Process_Fact_Sheet_2024.pdf"
+        },
+        {
+          "framework": "Community Right-to-Know (EPCRA / SARA Title III)",
+          "evidence_of_application": "EPCRA's Community Right-to-Know provisions increase public access to information on chemicals at facilities, their uses, and environmental releases. Applicable to processing and refining operations at both Resolution Copper and Kennecott through LEPC and SERC mechanisms and the Toxic Chemical Release Inventory (TRI).",
+          "source_url": "https://www.epa.gov/epcra/are-mining-facilities-required-notify-under-sections-311-and-312"
+        }
+      ],
+      "gap_summary": "The findings cover federal-level community and social legislation applicable to both Resolution Copper and Kennecott Utah Copper but do not include state-specific legislation for Arizona or Utah beyond brief references to state mine permitting consultation requirements. No information is provided on state-level community benefit agreements, indigenous land rights legislation beyond NHPA Section 106, occupational health standards specific to these sites, environmental justice executive orders, or social impact assessment requirements beyond NEPA. There is also no detail on international frameworks (e.g., IFC Performance Standards, UN Guiding Principles on Business and Human Rights) being formally applied at either site. Information on site-specific community investment programs, grievance mechanisms, or voluntary social commitments is absent from the findings."
+    },
+    "human_rights_frameworks": {
+      "has_domestic_human_rights_law": true,
+      "legislation_or_constitution": [
+        {
+          "name": "Federal Mine Safety and Health Act of 1977 (Mine Act)",
+          "year": "1977",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Primary federal law governing miner health and safety; enforced by MSHA; requires annual inspections, accident reporting within 15 minutes, and mandatory safety and health standards for all mines including Resolution Copper and Kennecott Utah Copper."
+        },
+        {
+          "name": "MINER Act of 2006",
+          "year": "2006",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Amendment to the Mine Act strengthening mine safety requirements; enforced by MSHA."
+        },
+        {
+          "name": "Occupational Safety and Health Act of 1970",
+          "year": "1970",
+          "source_url": "https://legacy.lawatlas.org/datasets/state-occupational-safety-and-health-laws-mining",
+          "verified": true,
+          "notes": "Administered by OSHA; covers most private sector employers, but mining conditions are largely outside standard OSHA jurisdiction as they fall under MSHA authority."
+        },
+        {
+          "name": "Comprehensive Environmental Response Compensation and Liability Act (CERCLA)",
+          "year": "1980",
+          "source_url": "https://deq.utah.gov/businesses-facilities/kennecott-utah-copper-llc",
+          "verified": true,
+          "notes": "Governs environmental cleanup at Kennecott Utah Copper LLC's Bingham Canyon Mine and related facilities; two active EPA Superfund zones at the site."
+        },
+        {
+          "name": "Clean Water Act (CWA)",
+          "year": "1972",
+          "source_url": "https://deq.utah.gov/businesses-facilities/kennecott-utah-copper-llc",
+          "verified": true,
+          "notes": "Applies to operational and environmental activities at Kennecott Utah Copper LLC facilities including Bingham Canyon Mine."
+        },
+        {
+          "name": "Clean Air Act (CAA)",
+          "year": "1970",
+          "source_url": "https://deq.utah.gov/businesses-facilities/kennecott-utah-copper-llc",
+          "verified": true,
+          "notes": "Applies to operational and environmental activities at Kennecott Utah Copper LLC facilities including smelter and refinery."
+        },
+        {
+          "name": "MSHA Silica Rule — Lowering Miners' Exposure to Respirable Crystalline Silica and Improving Respiratory Protection",
+          "year": "2024",
+          "source_url": "https://catamountconsultingllc.com/latest-news/2024-brings-two-new-final-rules-for-msha/",
+          "verified": true,
+          "notes": "Issued April 18, 2024; effective June 17, 2024; reduces permissible silica exposure limit from 100 to 50 micrograms per cubic meter; requires medical surveillance programs for metal and non-metal mine operators. Compliance deadlines subsequently stayed by judicial order."
+        },
+        {
+          "name": "MSHA Surface Mobile Equipment Rule",
+          "year": "2024",
+          "source_url": "https://catamountconsultingllc.com/latest-news/2024-brings-two-new-final-rules-for-msha/",
+          "verified": true,
+          "notes": "Requires all mine operators and independent contractors to develop and implement a written safety program for surface mobile equipment, designed with input from miners."
+        }
+      ],
+      "international_conventions_ratified": [
+        {
+          "convention": "ILO Convention or other international human rights instruments",
+          "ratified": null,
+          "source_url": null
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "UN Guiding Principles on Business and Human Rights (UNGPs)",
+          "evidence_of_application": "No direct evidence of application found in the research findings for Resolution Copper or Kennecott Utah Copper.",
+          "source_url": null
+        },
+        {
+          "framework": "EPA Superfund / National Priorities List (CERCLA cleanup framework)",
+          "evidence_of_application": "Kennecott Utah Copper has two active EPA Superfund zones (North Zone). In September 1995, Rio Tinto Kennecott, the EPA, and Utah Department of Environmental Quality signed a Memorandum of Understanding committing to cleanup projects. As of October 2025, EPA is evaluating lead exposure risks in soils, particularly for children under 7 and pregnant or nursing women.",
+          "source_url": "https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.cleanup&id=0800636"
+        },
+        {
+          "framework": "MSHA Impact Inspections Program",
+          "evidence_of_application": "MSHA reinstated impact inspections focusing on mines with poor compliance history, high injury/illness/fatality rates, or other unsafe indicators. Applicable to US mining operations including those in Arizona and Utah.",
+          "source_url": "https://aflcio.org/reports/dotj-2025"
+        }
+      ],
+      "modern_slavery_risk": "Low — The research findings do not indicate evidence of modern slavery risks at Resolution Copper or Kennecott Utah Copper. Both operations are subject to extensive federal regulatory oversight by MSHA under the Mine Act, including mandatory inspections, accident reporting requirements, and worker training standards. However, the findings do not include supply chain due diligence disclosures, contractor labor practices, or assessments specifically addressing forced labor or human trafficking risks, leaving gaps in a comprehensive modern slavery assessment.",
+      "gap_summary": "1. No information is provided on international conventions ratified by the US specifically relevant to mining labor rights (e.g., ILO conventions on forced labor, child labor, or indigenous peoples' rights). 2. No evidence of voluntary adoption of global frameworks such as the UN Guiding Principles on Business and Human Rights, the Voluntary Principles on Security and Human Rights, or the ICMM Mining Principles by either Resolution Copper or Kennecott Utah Copper. 3. No findings address indigenous peoples' rights frameworks (e.g., UNDRIP) despite Resolution Copper's operations in Arizona, where such considerations may be highly relevant. 4. No supply chain or contractor labor due diligence disclosures are present. 5. The MSHA 2024 Silica Rule's compliance deadlines have been judicially stayed, creating an enforcement gap for worker health protection. 6. Resource constraints at OSHA (1,802 inspectors for 11.8 million workplaces) and the 85-inspector reduction in FY 2024 suggest potential gaps in broader occupational safety enforcement. 7. The Kennecott Utah Copper lead exposure risk assessment (October 2025 Lead Directive) appears incomplete in the findings, leaving the scope of remediation and community health protections unclear. 8. No state-level human rights or environmental justice frameworks specific to Utah or Arizona are documented."
+    },
+    "security_frameworks": {
+      "has_private_security_regulation": false,
+      "legislation": [
+        {
+          "name": "Federal Mine Safety and Health Act of 1977 (Mine Act)",
+          "year": "1977",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Administered by MSHA; enforces mandatory safety and health standards at all U.S. mining operations to eliminate fatal accidents, reduce nonfatal accidents, and minimize health hazards."
+        },
+        {
+          "name": "MINER Act of 2006",
+          "year": "2006",
+          "source_url": "https://www.msha.gov/regulations",
+          "verified": true,
+          "notes": "Amends the Mine Act; expands MSHA enforcement authority and improves mine emergency response requirements."
+        },
+        {
+          "name": "Title 30 CFR — Mineral Resources (MSHA Rules)",
+          "year": null,
+          "source_url": "https://www.msha.gov/regulations/standards-and-regulations",
+          "verified": true,
+          "notes": "MSHA regulations codified in Title 30 of the Code of Federal Regulations, Chapter I; sets specific safety and health standards for mining operations."
+        },
+        {
+          "name": "MSHA Final Rule — Safety Program for Surface Mobile Equipment",
+          "year": "2024",
+          "source_url": "https://www.federalregister.gov/documents/2023/12/20/2023-27640/safety-program-for-surface-mobile-equipment",
+          "verified": true,
+          "notes": "Effective January 19, 2024; compliance required July 17, 2024. Requires written safety programs for surface mobile equipment at surface mines and surface areas of underground mines, including hazard and risk identification with miner input."
+        },
+        {
+          "name": "MSHA Final Rule — Lowering Miners' Exposure to Respirable Crystalline Silica and Improving Respiratory Protection",
+          "year": "2024",
+          "source_url": "https://catamountconsultingllc.com/latest-news/2024-brings-two-new-final-rules-for-msha/",
+          "verified": true,
+          "notes": "Issued April 18, 2024; effective June 17, 2024. Reduces permissible silica exposure limit to 50 µg/m³; mandates sampling, written evaluations, respiratory protection programs, and medical surveillance for Metal/Nonmetal mine operators (24-month compliance window)."
+        },
+        {
+          "name": "30 CFR Part 48 — Training Requirements for Underground and Surface Mines",
+          "year": null,
+          "source_url": "https://arlweb.msha.gov/training/index.asp",
+          "verified": true,
+          "notes": "Governs MSHA-approved training plans for underground mines and certain surface metal mines; requires minimum 8 hours of annual underground refresher training; trainers must be MSHA-certified."
+        },
+        {
+          "name": "30 CFR Part 46 — Training Requirements (Surface Metal/Nonmetal Mines)",
+          "year": null,
+          "source_url": "https://arlweb.msha.gov/training/index.asp",
+          "verified": true,
+          "notes": "Covers training at surface metal and nonmetal mines not subject to Part 48; training plans do not require MSHA approval but must meet regulatory requirements; trainers deemed competent by mine operator."
+        },
+        {
+          "name": "30 CFR 77.1101 — Emergency Evacuation and Escape Plans",
+          "year": null,
+          "source_url": "https://www.regulations.gov/docket/MSHA-2024-0033",
+          "verified": true,
+          "notes": "Requires surface mine operators to establish and maintain current escape and evacuation plans for fire events; mandates employee instruction in plans, fire alarm signals, and emergency procedures."
+        },
+        {
+          "name": "MSHA-OSHA Memorandum of Understanding (MOU) — Jurisdictional Demarcation",
+          "year": null,
+          "source_url": "https://www.osha.gov/fom/chapter-17",
+          "verified": true,
+          "notes": "Delineates respective authority boundaries between MSHA and OSHA, clarifying where mining/milling regulation ends and OSHA jurisdiction begins."
+        }
+      ],
+      "voluntary_principles_applied": null,
+      "vp_evidence_url": null,
+      "conflict_risk_level": "Low — The United States is a stable, high-income democracy with a mature, codified federal regulatory environment for mine safety administered by MSHA. Resolution Copper (Arizona) and Kennecott Utah Copper (Utah) operate in established mining jurisdictions with no evidence of armed conflict, significant civil unrest, or elevated security risk in the research findings.",
+      "gap_summary": "The research findings do not contain any information on: (1) private or contracted security personnel frameworks specific to Resolution Copper or Kennecott Utah Copper; (2) application of or adherence to the Voluntary Principles on Security and Human Rights (VPs); (3) site-specific security policies, community relations security protocols, or human rights due diligence programs; (4) environmental security frameworks (the findings were cut off before Section 4 was completed); (5) state-level regulatory frameworks for Arizona or Utah beyond federal MSHA requirements; and (6) cybersecurity or critical infrastructure protection measures applicable to these operations."
+    },
+    "safety_equipment_availability": {
+      "overall_rating": "Readily Available",
+      "ppe_availability": "PPE availability is governed by MSHA under 30 CFR Parts 56 and 57, which set identical standards for surface and underground metal/nonmetal mines. Requirements include adequate first-aid materials (stretchers, blankets, water/neutralizing agents near corrosive substances) and self-contained self-rescue devices (SCSR) approved by both MSHA and NIOSH under 42 CFR Part 84. SCSRs must be strategically located throughout underground mines and all underground personnel must receive annual MSHA-approved self-rescuer training. MSHA's Approval and Certification Center (A&CC) certifies specific equipment; for PPE not directly regulated by MSHA performance standards, ANSI and NIOSH-compliant products are generally accepted.",
+      "specialist_equipment_notes": "MSHA's Approval and Certification Center (A&CC) evaluates and certifies conveyors, motors, diesel equipment, dust collection systems, hoses, batteries, electrical wiring, and flame-resistant components. Two-way wireless communications and electronic tracking systems are required under the MINER Act. A 2024 rule mandates written safety programs for surface mobile equipment (excluding belt conveyors) at surface mines and surface areas of underground mines, with compliance required from July 17, 2024. An updated rule on electric motor-driven equipment approval standards was also issued in December 2024. Some equipment meeting ANSI or IEC hazard ratings cannot currently be used in mines due to lack of specific MSHA approval under 30 CFR, though acceptance of voluntary consensus standards could expand availability. A new 30 CFR Part 60 standard for respirable crystalline silica was introduced in 2024.",
+      "import_feasibility": null,
+      "known_specific_gaps": [
+        "Equipment approved under ANSI or IEC standards that meets hazard ratings for underground use may not be deployable due to lack of MSHA-specific approval under 30 CFR, limiting available technology options for underground mines",
+        "Self-contained self-rescue devices and personal flashlights/headlamps are among the few PPE items directly evaluated by MSHA's A&CC; broader PPE approval relies on third-party ANSI and NIOSH standards rather than direct MSHA certification"
+      ],
+      "source_urls": [
+        "https://www.msha.gov/regulations",
+        "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-K/part-57",
+        "https://www.dol.gov/general/topic/safety-health/mining",
+        "https://www.msha.gov/compliance-and-enforcement/equipment-approval-certification/list-approved-products",
+        "https://www.federalregister.gov/documents/2024/12/10/2024-28315/testing-evaluation-and-approval-of-electric-motor-driven-mine-equipment-and-accessories",
+        "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-K/part-57/subpart-Q/subject-group-ECFR78bd7acdcf91560/section-57.18028",
+        "https://www.law.cornell.edu/cfr/text/30/57.18028",
+        "https://www.oshaeducationcenter.com/articles/msha/",
+        "https://webapps.dol.gov/elaws/elg/msha.htm"
+      ],
+      "confidence": "High"
+    },
+    "training_providers": {
+      "has_national_training_framework": true,
+      "framework_name": "Mine Safety and Health Administration (MSHA) — 30 CFR Parts 46 & 48; Federal Mine Safety and Health Act of 1977",
+      "registered_providers_available": true,
+      "mining_specific_training": "Comprehensive mining-specific training is available at federal and state levels. MSHA provides materials, guidance, and hands-on assistance for underground and surface mining operations. Training covers New Miner Training, Annual Refresher (Surface and Underground), Instructor Training/Train-the-Trainer, Miner's Rights, Welding/Cutting, Lock-Out/Tag-Out, Slings/Rigging, Roof/Back/Ground Control, Powered Haulage, Machinery Safety, Electrical Safety, HazCom, FA/CPR/BBP, and 30 CFR Parts 46, 47, 48, 49, 56, 57, 58 and 62. Training is delivered by MSHA-approved instructors on-site or at institutions such as the MSHA National Mine Health and Safety Academy (Beaver, WV), Arizona State Mine Inspector (Phoenix/Tucson), and Utah State University Eastern (Price, UT). OSHA frameworks apply to surface plant facilities (smelters, refineries, processing plants) and EPA frameworks cover environmental compliance at both Resolution Copper (Arizona) and Kennecott (Utah) sites.",
+      "internationally_recognised_certs_available": null,
+      "cert_examples": [],
+      "workforce_literacy_rate": null,
+      "source_urls": [
+        "https://www.msha.gov/training",
+        "https://www.msha.gov/training/training-programs-and-courses",
+        "https://www.msha.gov/training/training-programs-and-courses/academy-home-page",
+        "https://www.msha.gov/sites/default/files/Academy/2024-Course-Catalog.pdf",
+        "https://asmi.az.gov/services/msha-training",
+        "https://www.msha.gov/arizona",
+        "https://asmipayments.az.gov/",
+        "https://eastern.usu.edu/mining/",
+        "https://eastern.usu.edu/cwd/mining/index",
+        "https://www.msha.gov/utah",
+        "https://miningsh.arizona.edu/training",
+        "https://miningsh.arizona.edu/training/msha-certification",
+        "https://miningsh.arizona.edu/partners"
+      ],
+      "gap_summary": "No data found on internationally recognised certifications (e.g. IOSH, NEBOSH, ICAM, BOSIET) being available locally. Workforce literacy rate data is not present in the findings. Full details on the University of Arizona Western Mining Safety and Health Training Resource Center were truncated and could not be fully sourced. Information on OSHA-specific training providers and EPA compliance training providers was referenced contextually but no dedicated provider details were included in the findings.",
+      "confidence": "Medium"
+    },
+    "security_companies": {
+      "reputable_providers_available": true,
+      "notable_providers": [
+        {
+          "name": "Redpath USA Corporation",
+          "international": true,
+          "human_rights_certified": null,
+          "notes": "Lead underground mining contractor at Resolution Copper (No. 9 Shaft rehabilitation, completed November 2025) and active at Kennecott Utah Copper for underground development. Based in Sparks, Nevada. Not a physical security guard company but classified as an operator under MSHA regulations, making them integral to site access and safety compliance frameworks at both sites.",
+          "source_url": "https://redpathmining.com/en/regions/americas"
+        },
+        {
+          "name": "Oddonetto Construction Inc.",
+          "international": false,
+          "human_rights_certified": null,
+          "notes": "Minority- and woman-majority-owned general contractor based in Arizona, engaged at Resolution Copper for underground concrete work and surface batch plant operations. Over 40 years of service in Arizona. Construction contractor subject to MSHA compliance and Rio Tinto/BHP site access controls, not a physical security provider.",
+          "source_url": "https://resolutioncopper.com/resolution-copper-completes-deepening-and-rehabilitation-of-historic-no-9-shaft/"
+        },
+        {
+          "name": "San Carlos Apache Contractors",
+          "international": false,
+          "human_rights_certified": null,
+          "notes": "Indigenous-owned construction and civil contractors engaged at Resolution Copper, building roads and performing underground concrete work at depth (6,844 feet below surface). Subject to MSHA regulations and Rio Tinto/BHP contractor management protocols. Not a physical security provider.",
+          "source_url": "https://www.kjzz.org/tribal-natural-resources/2026-03-16/ownership-of-oak-flat-in-arizona-is-transferred-to-resolution-copper"
+        },
+        {
+          "name": "Brunel",
+          "international": true,
+          "human_rights_certified": null,
+          "notes": "Specialist international staffing and workforce solutions company confirmed active at Kennecott Utah Copper (Bingham Canyon Mine). Has placed a high number of contractors on successful assignments with Rio Tinto at Bingham Canyon, including contract bus drivers. Workers subject to Rio Tinto site security and contractor compliance requirements.",
+          "source_url": "https://www.brunel.net/en-us/blog/mining/rio-tinto-family-day"
+        },
+        {
+          "name": "Avetta",
+          "international": true,
+          "human_rights_certified": null,
+          "notes": "Rio Tinto's global contractor compliance and prequalification platform, confirmed in use at Kennecott Utah Copper (Bingham Canyon Mine). All contractors must be prequalified through Avetta before site access is granted. Facilities Maintenance Superintendent role at Kennecott explicitly oversees contractor safety and drives compliance through this system.",
+          "source_url": "https://www.careermine.com/job/1991165/superintendent-facilities-maintenance/"
+        },
+        {
+          "name": "Browz",
+          "international": true,
+          "human_rights_certified": null,
+          "notes": "Contractor prequalification and compliance management platform explicitly required by Resolution Copper for all supplier and contractor teams. Serves as the primary digital gateway for site access at Resolution Copper, validating MSHA compliance, safety records, insurance, and training credentials. Equivalent function to Avetta at Kennecott.",
+          "source_url": "https://resolutioncopper.com/contractor/"
+        }
+      ],
+      "armed_security_regulation": "Regulated — The United States has a well-established federal and state regulatory framework governing armed security at mining operations. The Mine Safety and Health Administration (MSHA) classifies all contractors on mine sites as 'operators' subject to mandatory safety and access compliance. Physical security guard services at industrial and mining sites are regulated at the state level (licensing, training, and armed guard permits vary by state — Arizona and Utah both require state licensure for armed security personnel). No named physical security guard company was identified as contracted exclusively by Resolution Copper or Kennecott; both operations appear to manage access primarily through internal security departments, MSHA-compliant site protocols, and contractor prequalification systems (Browz at Resolution Copper; Avetta at Kennecott).",
+      "conflict_risk_to_security_operations": "Medium",
+      "gap_summary": "No public record was found identifying a specific private physical security guard company contracted for perimeter security, gatehouse, or guard force services at either Resolution Copper (Superior, Arizona) or Kennecott Utah Copper (Bingham Canyon, Utah). The research findings are incomplete — the section on major private physical security companies in the US mining sector (Section 4) was cut off mid-sentence before Allied Universal and other candidate providers could be fully described. Human rights certification status is unknown for all identified providers. The distinction between mining/construction contractors (Redpath, Oddonetto, San Carlos Apache) and physical security providers is not clearly delineated in public sources for these sites. Contractor compliance systems (Browz, Avetta) are confirmed but their specific security-related prequalification criteria are not detailed. No information is available on whether armed or unarmed security is used, guard force size, or specific security protocols at either site.",
+      "confidence": "Low"
+    },
+    "socioeconomic_context": {
+      "poverty_rate": null,
+      "poverty_source_url": null,
+      "basic_sanitation_access": null,
+      "sanitation_source_url": null,
+      "clean_water_access": null,
+      "water_source_url": null,
+      "healthcare_system_quality": null,
+      "infectious_disease_risk": null,
+      "local_workforce_skill_level": null,
+      "infrastructure_quality": "The Resolution Copper project is situated within the Copper Triangle, a region that already boasts existing mining infrastructure, and resides within the footprint of the historic Magma copper mine, suggesting established regional infrastructure for mining operations.",
+      "corruption_perception_index": "Not available",
+      "cpi_source_url": null,
+      "overall_context_summary": "The United States copper mining sector operates under one of the world's most comprehensive federal regulatory frameworks, involving MSHA, EPA, OSHA, BLM, and other agencies, with significant compliance costs representing a higher proportion of total development expenses than in many other jurisdictions. The US currently produces only about 1 million tonnes of copper per year while consuming approximately 2 million tonnes, relying on net imports for nearly 50% of its supply, a gap projected to widen with the energy transition. In response, the Trump Administration designated copper as a critical mineral in November 2025 and imposed 50% tariffs on certain copper imports under Section 232 to spur domestic production and reduce reliance on foreign supply."
+    },
+    "overall_compliance_maturity": {
+      "rag_rating": "A",
+      "rag_rationale": "The United States demonstrates a mature and comprehensive federal regulatory framework for mining compliance, anchored by MSHA, EPA, and OSHA with well-established enforcement mechanisms under the Federal Mine Safety and Health Act of 1977. Resolution Copper (Arizona) has achieved significant regulatory milestones: the Final Environmental Impact Statement (FEIS) was republished by the USFS in June 2025 following over 10 years of NEPA review, a historic land exchange was completed on March 16, 2026 following a favorable Ninth Circuit ruling, and a Record of Decision was issued. These represent substantial compliance maturity and regulatory progress. However, the rating is Amber rather than Green due to persisting material compliance risks: ongoing and unresolved tribal opposition from the San Carlos Apache Tribe and allied organizations regarding the sacred Oak Flat site, the contentious nature of the land exchange which required Supreme Court intervention (May 2025) and faced sustained legal challenges, and the fact that the project remains in pre-development with full operational compliance yet to be demonstrated. Additionally, evolving regulatory requirements such as the 2024 MSHA Silica Final Rule (reducing PEL to 50 µg/m³) introduce forward compliance obligations. The combination of strong institutional frameworks and significant unresolved stakeholder and human rights risks justifies an Amber rating.",
+      "key_strengths": [
+        "Mature and comprehensive federal regulatory framework under MSHA, EPA, and OSHA with clearly defined jurisdictional boundaries and enforcement standards",
+        "MSHA conducts mandatory unannounced inspections (four annually for underground mines, two for surface mines) with civil penalty and withdrawal order powers",
+        "Over 10 years of rigorous NEPA review process involving multiple federal and state agencies, Native American Tribes, and civil society organizations",
+        "FEIS republished June 2025 and Record of Decision (RoD) issued March 16, 2026, completing the federal land exchange process",
+        "Ninth Circuit Court of Appeals ruling (March 13, 2026) and US Supreme Court rejection of Apache Stronghold appeal (May 27, 2025) provide legal certainty on land exchange",
+        "More than 5,400 acres of environmentally and culturally sensitive land placed into permanent conservation as part of the land exchange",
+        "Resolution Copper is a joint venture with strong parent companies (Rio Tinto 55%, BHP 45%) with established compliance capabilities",
+        "Section 110(c) of the Mine Act provides individual liability accountability for corporate officers, reinforcing compliance culture"
+      ],
+      "key_barriers": [
+        "Sustained and unresolved opposition from the San Carlos Apache Tribe and Indigenous communities regarding the sacred significance of Oak Flat, representing ongoing human rights and social licence risks",
+        "Opposition from national environmental organisations including the National Audubon Society, Sierra Club Grand Canyon Chapter, and National Congress of American Indians",
+        "Project remains in pre-development phase — operational compliance track record under MSHA and EPA standards has not yet been established",
+        "Evolving regulatory requirements including the 2024 MSHA Silica Final Rule reducing the permissible exposure limit to 50 µg/m³, requiring proactive compliance investment",
+        "Complex overlapping federal and state regulatory requirements creating compliance management challenges",
+        "Pattern-of-violations enforcement under MSHA can trigger withdrawal orders shutting down mine sections, posing operational risk",
+        "OSHA/MSHA jurisdictional interface at surface processing facilities requires careful management to avoid compliance gaps",
+        "Reputational and legal risks associated with Free, Prior and Informed Consent (FPIC) obligations not being fully satisfied despite judicial outcomes"
+      ],
+      "recommended_approach": "Documents for this jurisdiction should reflect a high-compliance regulatory environment with rigorous enforcement expectations. Compliance documentation should explicitly reference MSHA (30 CFR) standards, EPA requirements, and the 2024 Silica Final Rule. Given the Amber rating, documents should include enhanced sections on stakeholder engagement and Indigenous rights, acknowledging the San Carlos Apache Tribe's position and the ongoing social licence risk at Oak Flat even following legal resolution. Contract and policy documents should incorporate MSHA Section 110(c) individual liability provisions and pattern-of-violations risk mitigation protocols. Given the pre-operational status of Resolution Copper, documents should be calibrated to anticipate operational compliance obligations rather than reflect established performance, and should include forward-looking compliance milestones tied to the Mine Plan of Operations and FEIS conditions. Human rights due diligence documentation should reference both domestic legal requirements and international standards (e.g., IFC Performance Standards, UNDRIP) given the international ownership structure (Rio Tinto/BHP). Kennecott Utah Copper documentation may be calibrated more toward demonstrated operational compliance given its active operational status, and should be treated as a separate compliance profile from Resolution Copper."
+    }
   }
 }
