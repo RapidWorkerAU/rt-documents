@@ -896,5 +896,648 @@
       ],
       "recommended_approach": "Documents for Guinea (Simandou) should be calibrated to reflect a high-engagement, evidence-heavy compliance posture given the selective enforcement environment and absence of ESG-specific regulation. Key calibrations include: (1) Explicitly reference and align with international standards (IFC Performance Standards, Equator Principles, ICMM frameworks) to fill the ESG legislative vacuum, as Guinea has no dedicated ESG instrument; (2) Build in rigorous internal documentation of compliance milestones, work programme progress, and government engagement records to evidence compliance against Article 145 revocation triggers and counter selective enforcement risk; (3) Incorporate LDA requirements prominently with detailed community engagement protocols to satisfy the mandatory Local Development Agreement requirement; (4) Include provisions for adaptive management of permitting timelines, acknowledging that approvals may take months to years, and avoid contractual dependencies on specific approval dates; (5) Treat government engagement as an ongoing contractual obligation rather than a one-time approval process, consistent with guidance that 'disciplined execution and sustained government engagement' are essential; (6) Include environmental and community impact assessment provisions that go beyond minimum Guinean legal requirements, drawing on international best practice given Guinea's limited EIA enforcement capacity; (7) Include dispute resolution clauses that treat litigation as a last resort and prioritise negotiated resolution, consistent with post-revocation dialogue trends; (8) Flag political and regulatory risk clearly in risk registers, noting that even compliant operators faced permit revocation in 2025."
     }
+  },
+  "WA": {
+    "sources": [
+      {
+        "claim": "osh_legislation",
+        "source_name": "Work Health and Safety Act 2020 (WA)",
+        "url": "https://www.worksafe.wa.gov.au/publications/overview-western-australias-work-health-and-safety-act-2020",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Work Health and Safety (Mines) Regulations 2022 (WA)",
+        "url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_s53266.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Work Health and Safety (General) Regulations 2022 (WA)",
+        "url": "https://www.legislation.wa.gov.au",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Environmental Protection Act 1986 (WA)",
+        "url": "https://www.epa.wa.gov.au/legislation",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Environmental Protection Amendment Act 2024 (WA)",
+        "url": "https://amec.org.au/wa-2/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Mining Act 1978 (WA)",
+        "url": "https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/environmental-regulation-mineral-resources",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Environment Protection and Biodiversity Conservation Act 1999 (Cth)",
+        "url": "https://www.australiaminerals.gov.au/legislation-regulations-and-guidelines",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://discoveryalert.com.au/underground-mining-approvals-australia-2026/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/environmental-regulation-mineral-resources",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Mining Act 1978 (WA)",
+        "url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_604_homepage.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Native Title Act 1993 (Cth)",
+        "url": "https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/about-native-title-western-australia",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Aboriginal Heritage Act 1972 (WA)",
+        "url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_3_homepage.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Aboriginal Cultural Heritage Act 2021 (WA)",
+        "url": "https://en.wikipedia.org/wiki/Aboriginal_Cultural_Heritage_Act_2021",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Aboriginal Heritage Legislation Amendment and Repeal Act 2023 (WA)",
+        "url": "https://en.wikipedia.org/wiki/Aboriginal_Cultural_Heritage_Act_2021",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://www.dmp.wa.gov.au/Minerals/Native-Title-Act-Process-5548.aspx",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/indigenous-land-use-agreement",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/native-title",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Mining Act 1978 (WA)",
+        "url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_604_homepage.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Mining Regulations 1981 (WA)",
+        "url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_604_homepage.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Environmental Protection Act 1986 (WA)",
+        "url": "https://www.epa.wa.gov.au/legislation",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Environment Protection and Biodiversity Conservation Act 1999 (Cth)",
+        "url": "https://epbcpublicportal.environment.gov.au",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Mining Rehabilitation Fund Act 2012 (WA)",
+        "url": "https://www.edo.org.au/wp-content/uploads/2024/09/Mining-Law-in-WA.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Work Health and Safety Act 2020 (WA)",
+        "url": "https://www.worksafe.wa.gov.au/work-health-and-safety-laws",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Work Health and Safety (Mines) Regulations 2022 (WA)",
+        "url": "https://www.gclegal.com.au/insights/western-australia-whs-reforms-come-into-effect-what-you-need-to-know",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://search.informit.org/doi/abs/10.3316/informit.T2024071800020590378949937",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.riotinto.com/en/operations/anz/western-australia",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Mining Act 1978 (WA)",
+        "url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_604_homepage.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Mining Act Amendment Bill 2025 (WA)",
+        "url": "https://www.gtlaw.com.au/insights/mining-act-amendments-in-western-australia-an-end-to-the-uncertainty",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Work Health and Safety Act 2020 (WA)",
+        "url": "https://legislation.wa.gov.au/legislation/prod/filestore.nsf/FileURL/mrdoc_48401.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Work Health and Safety (Mines) Regulations 2022 (WA)",
+        "url": "https://legislation.wa.gov.au/legislation/prod/filestore.nsf/FileURL/mrdoc_48401.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Environmental Protection Act 1986 (WA)",
+        "url": "https://www.epa.wa.gov.au/proposals/rhodes-ridge-iron-ore-project",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_companies",
+        "source_name": "Wilson Security",
+        "url": "https://www.wilsonsecurity.com.au/insights/case-studies/case-study-transformative-technology-revolutionising-rio-tintos-security-operations/",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      }
+    ],
+    "development_classification": {
+      "classification": "First World / OECD",
+      "hdi_rank": "Not available",
+      "hdi_source_url": null,
+      "notes": "Western Australia operates under one of the world's most mature and well-codified mining regulatory frameworks, including the Mining Act 1978 (WA), the Environmental Protection Act 1986, and the Commonwealth EPBC Act 1999. As an OECD jurisdiction, Australia (and by extension the Pilbara region projects: Rhodes Ridge, Hope Downs 2, Western Range, and Winu) are subject to stringent health, safety, environmental, social, and community (HSESC) compliance requirements. Projects must obtain approvals through the Mining Development and Closure Proposal (MDCP) framework, undergo Environmental Impact Assessment (EIA) by the EPA WA at up to Public Environmental Review (PER) level, and comply with federal EPBC Act controls for Matters of National Environmental Significance. Social and heritage obligations are also enforced, as evidenced by Western Range's co-designed Social, Cultural and Heritage Management Plan with Yinhawangka Traditional Owners. The parallel processing reforms effective December 2024 streamline but do not reduce the rigour of HSESC compliance obligations."
+    },
+    "osh_legislation": {
+      "has_dedicated_osh_law": true,
+      "legislation": [
+        {
+          "name": "Work Health and Safety Act 2020 (WA)",
+          "year": "2020",
+          "regulator": "Department of Local Government, Industry Regulation and Safety (LGIRS) — WorkSafe division; WorkSafe Commissioner",
+          "regulator_url": "https://www.worksafe.wa.gov.au",
+          "source_url": "https://www.worksafe.wa.gov.au/publications/overview-western-australias-work-health-and-safety-act-2020",
+          "verified": true,
+          "notes": "Primary OSH statute in force from 31 March 2022. Covers all workplaces in Western Australia including mines, petroleum and geothermal energy operations. Replaces the Occupational Safety and Health Act 1984 (WA) and health and safety elements of the Mines Safety and Inspection Act 1994 (WA). Introduces PCBU duty of care, officer due diligence duties, consultation obligations, incident notification requirements, industrial manslaughter offence (up to 20 years imprisonment and $10M fine for body corporate), four categories of offences, enforceable undertakings, and prohibits insurance against WHS penalties. Directly applicable to Rhodes Ridge, Hope Downs 2, Western Range, and Winu operations in the Pilbara."
+        },
+        {
+          "name": "Work Health and Safety (Mines) Regulations 2022 (WA)",
+          "year": "2022",
+          "regulator": "Department of Local Government, Industry Regulation and Safety (LGIRS) — WorkSafe division",
+          "regulator_url": "https://www.worksafe.wa.gov.au",
+          "source_url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_s53266.html",
+          "verified": true,
+          "notes": "Mining-specific regulations in force from 31 March 2022. Apply to all current and future mines including mineral exploration activities in Western Australia. Chapter 10 contains mining-specific provisions conferred to the 'mine operator'. Replace prescriptive requirements of the Mines Safety and Inspection Regulations 1995 (WA) with risk management principles. Require quarterly WHS reporting to the regulator. Full text PDF available at https://www.legislation.wa.gov.au/legislation/prod/filestore.nsf/FileURL/mrdoc_44753.pdf/$FILE/Work%20Health%20and%20Safety%20(Mines)%20Regulations%202022%20-%20[00-a0-01].pdf and AustLII at http://www.austlii.edu.au/au/legis/wa/consol_reg/whasr2022382/. Amended by Work Health and Safety (Mines) Amendment Regulations (No. 2) 2024 (https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_s55058.html). Navigating guide available at https://www.worksafe.wa.gov.au/publications/navigating-work-health-and-safety-act-2020-and-work-health-and-safety-mines."
+        },
+        {
+          "name": "Work Health and Safety (General) Regulations 2022 (WA)",
+          "year": "2022",
+          "regulator": "Department of Local Government, Industry Regulation and Safety (LGIRS) — WorkSafe division",
+          "regulator_url": "https://www.worksafe.wa.gov.au",
+          "source_url": "https://www.legislation.wa.gov.au",
+          "verified": true,
+          "notes": "General WHS regulations in force from 31 March 2022, applicable alongside the mining-specific regulations. Covers general work health and safety requirements across all workplaces in Western Australia including mining operations in the Pilbara."
+        }
+      ],
+      "global_frameworks_applied": [],
+      "gap_summary": "The research findings do not identify specific gaps in domestic law coverage. The findings note that the WHS (Mines) Regulations 2022 removed many prescriptive requirements of the predecessor Mines Safety and Inspection Regulations 1995 (WA) in favour of risk management principles, which may represent a shift in regulatory approach rather than a gap. No information is provided in the findings regarding application of international or global OSH frameworks to these operations."
+    },
+    "environmental_legislation": {
+      "has_dedicated_env_law": true,
+      "legislation": [
+        {
+          "name": "Environmental Protection Act 1986 (WA)",
+          "year": "1986",
+          "regulator": "Environmental Protection Authority (EPA WA) / Department of Water and Environmental Regulation (DWER)",
+          "source_url": "https://www.epa.wa.gov.au/legislation",
+          "verified": true,
+          "notes": "Primary state environmental legislation for Western Australia. Establishes the EPA under Part II, environmental protection policies under Part III, environmental impact assessment under Part IV, pollution control under Part V, and enforcement under Part VI. Applies to all four project areas: Rhodes Ridge, Hope Downs 2, Western Range, and Winu."
+        },
+        {
+          "name": "Environmental Protection Amendment Act 2024 (WA)",
+          "year": "2024",
+          "regulator": "Environmental Protection Authority (EPA WA)",
+          "source_url": "https://amec.org.au/wa-2/",
+          "verified": true,
+          "notes": "Major reform package to the EP Act 1986. Amendments came into effect 13 December 2024. Key changes include parallel decision-making allowing proponents to progress other approvals while undergoing EPA assessment, and a Statement of Expectation requirement for the Minister for Environment. Described as the most significant reforms to environmental approvals in a generation."
+        },
+        {
+          "name": "Mining Act 1978 (WA)",
+          "year": "1978",
+          "regulator": "Department of Energy, Mines, Industry Regulation and Safety (DEMIRS)",
+          "source_url": "https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/environmental-regulation-mineral-resources",
+          "verified": true,
+          "notes": "Governs environmental approvals for mining activities including mineral resource exploration and mine construction and operation. Requires Programme of Work submissions and Mining Proposals (including mandatory Mine Closure Plans) for all mining operations. Applies to all four project areas in the Pilbara."
+        },
+        {
+          "name": "Environment Protection and Biodiversity Conservation Act 1999 (Cth)",
+          "year": "1999",
+          "regulator": "Department of Climate Change, Energy, the Environment and Water (DCCEEW)",
+          "source_url": "https://www.australiaminerals.gov.au/legislation-regulations-and-guidelines",
+          "verified": true,
+          "notes": "Commonwealth legislation governing federal environmental assessments where projects may impact matters of national environmental significance (MNES), including impacts on water resources from mining or exploration. Operates concurrently with WA state processes under a bilateral assessment system. Applies to all four Pilbara project areas where MNES may be triggered."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Bilateral Environmental Assessment System (State-Federal Dual Jurisdiction)",
+          "evidence_of_application": "Western Australia operates a bilateral assessment system where the state EPA evaluation runs parallel to federal DCCEEW processes. This dual-tier approach aims to streamline approvals whilst maintaining rigorous environmental standards across jurisdictional boundaries, applicable to all four project areas.",
+          "source_url": "https://discoveryalert.com.au/underground-mining-approvals-australia-2026/"
+        },
+        {
+          "framework": "ISO 9001 Quality Management System",
+          "evidence_of_application": "DEMIRS Resource and Environmental Compliance (REC) Division holds an ISO 9001 certified quality management system as part of its Environmental Regulatory Strategy to ensure resource industry activities are designed, operated, closed, decommissioned and rehabilitated in an ecologically sustainable manner.",
+          "source_url": "https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/environmental-regulation-mineral-resources"
+        }
+      ],
+      "gap_summary": "The findings provide comprehensive coverage of the overarching Western Australian and Commonwealth legislative framework applicable to the Pilbara region. However, the following gaps are noted: (1) Project-specific approval statuses, conditions, and Ministerial Approval Statements for Rhodes Ridge, Hope Downs 2, Western Range, and Winu are not detailed in the findings. (2) The full text of the 2024 EP Amendment Act reforms is truncated, specifically the Statement of Expectation provisions. (3) Native Title and Aboriginal Heritage Act implications specific to these four projects are not addressed. (4) Specific conditions attached to Mining Proposals and Mine Closure Plans for each project are absent. (5) Details on any EPBC Act referral decisions or controlled action determinations for these specific projects are not provided. (6) Rehabilitation bond and financial assurance requirements under DEMIRS are not covered."
+    },
+    "community_social_legislation": {
+      "has_dedicated_csl_law": true,
+      "legislation": [
+        {
+          "name": "Mining Act 1978 (WA)",
+          "year": "1978",
+          "regulator": "Department of Mines, Industry Regulation and Safety (DMIRS)",
+          "source_url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_604_homepage.html",
+          "verified": true,
+          "notes": "Primary legislative framework for mining tenements in Western Australia, including prospecting licences, exploration licences, retention licences, mining leases, general purpose leases and miscellaneous licences. Covers environmental requirements for prospecting, exploration, mining operations, mine closure, and Native Title Act processes."
+        },
+        {
+          "name": "Native Title Act 1993 (Cth)",
+          "year": "1993",
+          "regulator": "National Native Title Tribunal (NNTT) / Commonwealth Attorney-General's Department",
+          "source_url": "https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/about-native-title-western-australia",
+          "verified": true,
+          "notes": "Foundational federal instrument governing community and social obligations for Pilbara mining projects. Governs future act procedures (including grant of mining tenements), Right to Negotiate process, and Indigenous Land Use Agreements. Covers a significant proportion of Australia's landmass including Pilbara project areas."
+        },
+        {
+          "name": "Aboriginal Heritage Act 1972 (WA)",
+          "year": "1972",
+          "regulator": "Department of Planning, Lands and Heritage (WA)",
+          "source_url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_3_homepage.html",
+          "verified": true,
+          "notes": "Current governing law for protection and management of Aboriginal heritage in Western Australia as of June 2026, following repeal of the Aboriginal Cultural Heritage Act 2021 on 15 November 2023 via the Aboriginal Heritage Legislation Amendment and Repeal Act 2023. Substantially amended in November 2023, including equal right of review for Section 18 decisions via the State Administrative Tribunal for proponents and Native Title parties, clear timeframes, Premier call-in power for decisions of State or regional significance, and notification obligations for new information after Section 18 consent is granted."
+        },
+        {
+          "name": "Aboriginal Cultural Heritage Act 2021 (WA)",
+          "year": "2021",
+          "regulator": "Department of Planning, Lands and Heritage (WA)",
+          "source_url": "https://en.wikipedia.org/wiki/Aboriginal_Cultural_Heritage_Act_2021",
+          "verified": true,
+          "notes": "Passed to overhaul the 1972 Act following the Juukan Gorge destruction. Superseded the Aboriginal Heritage Act 1972 on 1 July 2023 but was repealed on 15 November 2023 following the Government of Western Australia's announcement on 8 August 2023. No longer in force as of June 2026; the 1972 Act (as amended) is the current law."
+        },
+        {
+          "name": "Aboriginal Heritage Legislation Amendment and Repeal Act 2023 (WA)",
+          "year": "2023",
+          "regulator": "Department of Planning, Lands and Heritage (WA)",
+          "source_url": "https://en.wikipedia.org/wiki/Aboriginal_Cultural_Heritage_Act_2021",
+          "verified": true,
+          "notes": "Passed on 15 November 2023 to repeal the Aboriginal Cultural Heritage Act 2021 and reinstate the Aboriginal Heritage Act 1972 with amendments. Establishes the current legislative regime for Aboriginal heritage protection applicable to Pilbara mining projects."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Right to Negotiate (RTN) Process",
+          "evidence_of_application": "Applicants for mining leases in the Pilbara must negotiate in good faith with native title parties. DMIRS is also a negotiating party on behalf of the State. A statutory six-month minimum negotiation period applies before any party may apply to the NNTT for a final determination. Recent DMIRS guidance confirms second and further renewals of mining leases are not exempt from the RTN process, affecting portfolio management for projects such as Rhodes Ridge, Hope Downs 2, Western Range, and Winu.",
+          "source_url": "https://www.dmp.wa.gov.au/Minerals/Native-Title-Act-Process-5548.aspx"
+        },
+        {
+          "framework": "Indigenous Land Use Agreements (ILUAs)",
+          "evidence_of_application": "ILUAs are voluntary agreements between Aboriginal groups and others about the use and management of land and waters applicable to Pilbara mining projects. More flexible than RTN agreements, ILUAs can address access, compensation, extinguishment, coexistence, cultural heritage, land management, future development, and mining. They can replace the future act process entirely and do not extinguish Native Title but may allow for its surrender by agreement.",
+          "source_url": "https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/indigenous-land-use-agreement"
+        },
+        {
+          "framework": "WA Whole-of-Government Native Title Approach",
+          "evidence_of_application": "The WA Government takes a consistent whole-of-government approach to Native Title matters, relying on negotiation and agreement making where possible. WA grants the highest number of land and mineral titles in Australia, the majority of which must comply with the future act regime of the Native Title Act 1993 (Cth), directly applicable to Pilbara projects.",
+          "source_url": "https://www.wa.gov.au/organisation/department-of-the-premier-and-cabinet/native-title"
+        }
+      ],
+      "gap_summary": "The findings are truncated and do not include the full text of the key amendments to the restored Aboriginal Heritage Act 1972, particularly regarding Section 18 consent notification obligations. No project-specific community benefit or social impact assessment legislation is cited for the individual projects (Rhodes Ridge, Hope Downs 2, Western Range, Winu). No information is provided on specific State Agreements, royalty frameworks, local content or employment obligations, environmental impact assessment legislation (e.g., Environmental Protection Act 1986 (WA)), or federal environment laws (e.g., EPBC Act 1999 (Cth)) as they apply to these projects. Compensation frameworks under the Native Title Act for loss or impairment of native title rights are referenced but not detailed. No specific ILUA or RTN agreement details are provided for the named projects."
+    },
+    "human_rights_frameworks": {
+      "has_domestic_human_rights_law": true,
+      "legislation_or_constitution": [
+        {
+          "name": "Mining Act 1978 (WA)",
+          "year": "1978",
+          "source_url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_604_homepage.html",
+          "verified": true,
+          "notes": "Principal legislation governing mining in Western Australia, including mineral exploration and mining operations. Regulates prospecting licences, exploration licences, and mining leases. Administered by DEMIRS and the Minister for Mines and Petroleum."
+        },
+        {
+          "name": "Mining Regulations 1981 (WA)",
+          "year": "1981",
+          "source_url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_604_homepage.html",
+          "verified": true,
+          "notes": "Accompanies the Mining Act 1978 (WA) as part of the principal legislative framework for mining in Western Australia."
+        },
+        {
+          "name": "Environmental Protection Act 1986 (WA)",
+          "year": "1986",
+          "source_url": "https://www.epa.wa.gov.au/legislation",
+          "verified": true,
+          "notes": "Prevents, controls and abates pollution and environmental harm; conserves and protects the environment. Establishes environmental assessment processes under Part IV. Relevant to all four Pilbara projects including Rhodes Ridge (referred under Section 38) and Winu."
+        },
+        {
+          "name": "Environment Protection and Biodiversity Conservation Act 1999 (Cth)",
+          "year": "1999",
+          "source_url": "https://epbcpublicportal.environment.gov.au",
+          "verified": true,
+          "notes": "Commonwealth dual-assessment pathway. Winu project determined a Controlled Action under s 75 (EPBC 2020/8707) on 13 August 2020, with listed threatened species and communities as controlling provisions. Bilateral agreements allow WA processes to be accredited by Commonwealth."
+        },
+        {
+          "name": "Mining Rehabilitation Fund Act 2012 (WA)",
+          "year": "2012",
+          "source_url": "https://www.edo.org.au/wp-content/uploads/2024/09/Mining-Law-in-WA.pdf",
+          "verified": true,
+          "notes": "Commenced 1 July 2013. Imposes a mining rehabilitation levy of 1% of estimated rehabilitation liability on mining tenement holders. Administered by DEMIRS."
+        },
+        {
+          "name": "Work Health and Safety Act 2020 (WA)",
+          "year": "2020",
+          "source_url": "https://www.worksafe.wa.gov.au/work-health-and-safety-laws",
+          "verified": true,
+          "notes": "Replaced the Occupational Safety and Health Act 1984 (WA) and health and safety elements of several other Acts from March 2022. Covers all workplaces including mines. PCBUs owe a primary duty of care to workers including contractors and labour hire employees. Supported by Work Health and Safety (Mines) Regulations 2022 (WA) requiring a Mine Safety Management System."
+        },
+        {
+          "name": "Work Health and Safety (Mines) Regulations 2022 (WA)",
+          "year": "2022",
+          "source_url": "https://www.gclegal.com.au/insights/western-australia-whs-reforms-come-into-effect-what-you-need-to-know",
+          "verified": true,
+          "notes": "Applies to all current and future mines including mineral exploration in Western Australia. Requires preparation, implementation and maintenance of a Mine Safety Management System (MSMS)."
+        },
+        {
+          "name": "Equal Opportunity Act 1984 (WA)",
+          "year": "1984",
+          "source_url": null,
+          "verified": true,
+          "notes": "Protects people from unlawful discrimination, harassment and victimisation in employment and other areas of public life on grounds including sex, race, disability, age, sexual orientation and family responsibility. Administered by the Commission for Equal Opportunity."
+        }
+      ],
+      "international_conventions_ratified": [
+        {
+          "convention": null,
+          "ratified": null,
+          "source_url": null
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "State Agreement Framework (WA)",
+          "evidence_of_application": "Large Pilbara iron ore projects including Rhodes Ridge and Hope Downs 2 operate under State Agreements — legal contracts between the WA Government and project proponents — detailing rights, obligations and conditions. Pilbara agreement mines face special closure regulation under this framework.",
+          "source_url": "https://search.informit.org/doi/abs/10.3316/informit.T2024071800020590378949937"
+        },
+        {
+          "framework": "Rio Tinto Operations Framework (Western Australia)",
+          "evidence_of_application": "Rhodes Ridge, Hope Downs 2, Western Range, and Winu are all identified as Rio Tinto operations in Western Australia, operating across Nyiyaparli, Nyangumarta and Martu Traditional Owner country in the Pilbara region.",
+          "source_url": "https://www.riotinto.com/en/operations/anz/western-australia"
+        }
+      ],
+      "modern_slavery_risk": "Medium — Western Australia is a high-income, well-regulated jurisdiction with robust work health and safety and equal opportunity legislation applicable to mining operations. However, risk is elevated by several factors: (1) the Pilbara mining sector relies heavily on fly-in-fly-out (FIFO) labour arrangements and subcontracted workforces, which are known vectors for modern slavery exposure; (2) Aboriginal people in Western Australia have never had land rights legislation, creating structural vulnerability for Traditional Owner communities such as Nyiyaparli, Nyangumarta and Martu people in negotiating with mining proponents; (3) the research findings do not reference any specific modern slavery due diligence measures, Modern Slavery Act 2018 (Cth) compliance statements, or supply chain screening processes applied to these four projects.",
+      "gap_summary": "The research findings present several notable gaps: (1) No information is provided on ratification or application of international human rights conventions (e.g. ILO conventions, UNDRIP, ICCPR) in the context of these projects; (2) No reference is made to the Modern Slavery Act 2018 (Cth) or any supply chain human rights due diligence specific to Rio Tinto's operations at these sites; (3) The Equal Opportunity Act 1984 (WA) section is incomplete in the source findings, cutting off mid-sentence; (4) There is no mention of Native Title Act 1993 (Cth) processes, Indigenous Land Use Agreements (ILUAs), or Free, Prior and Informed Consent (FPIC) frameworks applicable to the Nyiyaparli, Nyangumarta and Martu Traditional Owners, despite the projects being located on their Country; (5) No information is provided on the application of the UN Guiding Principles on Business and Human Rights (UNGPs) or the Voluntary Principles on Security and Human Rights; (6) Western Australia's absence of state-level land rights legislation for Aboriginal people is noted but no compensatory mechanisms or alternative protections are described; (7) No grievance mechanism or remedy framework specific to these projects is identified."
+    },
+    "security_frameworks": {
+      "has_private_security_regulation": false,
+      "legislation": [
+        {
+          "name": "Mining Act 1978 (WA)",
+          "year": "1978",
+          "source_url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_604_homepage.html",
+          "verified": true,
+          "notes": "Foundational tenure-security instrument establishing legal certainty over the right to mine via prospecting licences, exploration licences, retention licences, mining leases, general purpose leases and miscellaneous licences. Applies to all four named sites."
+        },
+        {
+          "name": "Mining Act Amendment Bill 2025 (WA)",
+          "year": "2025",
+          "source_url": "https://www.gtlaw.com.au/insights/mining-act-amendments-in-western-australia-an-end-to-the-uncertainty",
+          "verified": true,
+          "notes": "Revised and expanded amendment bill introduced to address tenure uncertainty arising from court decisions and to enhance security of mining tenure. Replaces lapsed 2024 version."
+        },
+        {
+          "name": "Work Health and Safety Act 2020 (WA)",
+          "year": "2020",
+          "source_url": "https://legislation.wa.gov.au/legislation/prod/filestore.nsf/FileURL/mrdoc_48401.pdf",
+          "verified": true,
+          "notes": "Imposes primary WHS duty on persons conducting a business or undertaking (PCBU) to ensure health and safety of workers. Came into full force with subsidiary regulations on 31 March 2022."
+        },
+        {
+          "name": "Work Health and Safety (Mines) Regulations 2022 (WA)",
+          "year": "2022",
+          "source_url": "https://legislation.wa.gov.au/legislation/prod/filestore.nsf/FileURL/mrdoc_48401.pdf",
+          "verified": true,
+          "notes": "Requires mine operators to have a Mine Safety Management System (MSMS) in place for all sites including exploration. Classifies principal mining hazards as those with reasonable potential to cause multiple deaths. Current consolidated version as at 17 April 2025."
+        },
+        {
+          "name": "Environmental Protection Act 1986 (WA)",
+          "year": "1986",
+          "source_url": "https://www.epa.wa.gov.au/proposals/rhodes-ridge-iron-ore-project",
+          "verified": true,
+          "notes": "Section 38 referral mechanism for environmental assessment of major projects. Rhodes Ridge Iron Ore Project has been referred to the Environmental Protection Authority under this Act. Winu project also subject to EPA WA assessment."
+        }
+      ],
+      "voluntary_principles_applied": false,
+      "vp_evidence_url": null,
+      "conflict_risk_level": "Low — All four sites are located in Western Australia, a jurisdiction ranked among the world's most politically and legally stable mining environments. Sites are subject to comprehensive state and federal regulatory oversight. Native title engagement processes are established for each site (Nyiyaparli, Ngarlawangga, Banjima, Yinhawangka, Nyangumarta, Martu peoples). No evidence of armed conflict, civil unrest, or elevated security threat in the research findings.",
+      "gap_summary": "1. No information on private security personnel, contractors, or security management plans is present in the findings, so 'has_private_security_regulation' cannot be confirmed as true from available data. 2. No evidence of adoption of or adherence to the Voluntary Principles on Security and Human Rights by Rio Tinto or any JV partner is mentioned for these specific sites. 3. The WHS findings are truncated — penalty provisions and further regulatory detail are incomplete. 4. No site-specific security risk assessments, threat assessments, or physical security protocols are documented. 5. Federal-level security legislation (e.g., Security of Critical Infrastructure Act) is not addressed in the findings. 6. The Winu prefeasibility study was scheduled for 2025 completion but no outcome is reported, leaving regulatory approval status uncertain."
+    },
+    "safety_equipment_availability": {
+      "overall_rating": "Readily Available",
+      "ppe_availability": "Western Australia (Pilbara) operates under a comprehensive mandatory safety framework requiring all mine operators (PCBUs) to provide PPE and safety equipment as part of their primary duty under the Work Health and Safety Act 2020 and WHS (Mines) Regulations 2022. All projects — Rhodes Ridge, Hope Downs 2, Western Range, and Winu — must maintain a Mine Safety Management System (MSMS) with adequate resources for implementation, including personal protective equipment to address identified physical and psychosocial risks.",
+      "specialist_equipment_notes": "Mandatory specialist emergency equipment includes breathing apparatus, lifting gear, medical equipment, and fire-fighting equipment, as required under Regulation 43 and Part 10.2 Division 5 of the WHS (Mines) Regulations 2022. Mine operators must ensure resources and workers allocated are adequate for emergencies continuing beyond a single shift. Principal Mining Hazard Management Plans (PMHMPs) under Regulations 627–629 require specific critical control measures and equipment for identified hazards. Trigger Action Response Plans (TARPs) are also required. Gas detection, fall arrest, and other hazard-specific equipment would be governed by individual PMHMPs for each site. Emergency plans must be tested at intervals no greater than 12 months.",
+      "import_feasibility": null,
+      "known_specific_gaps": [
+        "No specific equipment gaps identified for individual projects in the findings",
+        "Draft updated Code of Practice for Emergency Management was still under public consultation as of December 2025 and may not reflect the most up-to-date legislative requirements",
+        "Transition arrangements still in place from Mines Safety and Inspection Act 1994 codes of practice, which may create uncertainty in some equipment standards"
+      ],
+      "source_urls": [
+        "https://legislation.wa.gov.au/legislation/prod/filestore.nsf/FileURL/mrdoc_47453.pdf/$FILE/Work%20Health%20and%20Safety%20(Mines)%20Regulations%202022%20-%20[01-c0-00].pdf",
+        "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_s55058.html",
+        "https://www.worksafe.wa.gov.au",
+        "https://www.dmirs.wa.gov.au",
+        "https://www.worksafe.wa.gov.au/publications/code-practice-mine-safety-management-system",
+        "https://www.worksafe.wa.gov.au/emergency-plan-mining-operations",
+        "https://www.wa.gov.au/government/publications/draft-code-of-practice-emergency-management-western-australian-mines"
+      ],
+      "confidence": "Medium"
+    },
+    "training_providers": {
+      "has_national_training_framework": true,
+      "framework_name": "Work Health and Safety Act 2020 (WA) and Work Health and Safety (Mines) Regulations 2022, administered by DEMIRS (Department of Energy, Mines, Industry Regulation and Safety)",
+      "registered_providers_available": true,
+      "mining_specific_training": "WA mining training is governed by DEMIRS-approved statutory position certification via the Mines Statutory Positions Portal (MSPP). Workers in designated statutory positions must complete regulator-approved training (manager-level: 3 units; supervisor-level: 2 units) and pass a DEMIRS statutory examination before formal appointment. Rio Tinto operates in-house training through the WAFutureSkills platform covering graduate programs, traineeships (Certificate II/III), Indigenous scholarships, and the ATAL 8-week work readiness program for Traditional Owners. Contractor workforce compliance is managed through the Avetta/Pegasus personnel qualification system. Site-specific inductions are operator-managed; a White Card is required for construction-related work on site.",
+      "internationally_recognised_certs_available": null,
+      "cert_examples": [],
+      "workforce_literacy_rate": null,
+      "source_urls": [
+        "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_s53266.html",
+        "https://safetyline.wa.gov.au/safetyline-news/timeline-extended-for-mining-statutory-positions-certification/",
+        "https://www.worksafe.wa.gov.au/mines-statutory-positions-portal-mspp",
+        "https://civilsafety.edu.au/blog/how-to-get-a-job-in-the-mines-qld-wa",
+        "https://www.wafutureskills.riotinto.com/",
+        "https://www.wafutureskills.riotinto.com/our-programs",
+        "https://www.wafutureskills.riotinto.com/aboriginal-training-and-liaison-program",
+        "https://www.riotinto.com/en/news/releases/2025/rio-strengthens-indigenous-employment-pathways",
+        "https://pages.avetta.com/RioTinto-IronOre"
+      ],
+      "gap_summary": "No data found on: internationally recognised certifications (e.g. IOSH, NEBOSH, BOSIET) available locally in the Pilbara; workforce literacy rates for the four site areas; a comprehensive list of external Registered Training Organisations (RTOs) delivering DEMIRS-approved statutory position units in the Pilbara; full details of the Avetta/Pegasus contractor qualification requirements; and any site-specific induction details for Rhodes Ridge (pre-development), Hope Downs 2 (under construction), or Winu (early-stage JV).",
+      "confidence": "Medium"
+    },
+    "security_companies": {
+      "reputable_providers_available": true,
+      "notable_providers": [
+        {
+          "name": "Wilson Security",
+          "international": false,
+          "human_rights_certified": null,
+          "notes": "Primary verified security contractor for Rio Tinto's Pilbara operations. Contract covers approximately 100 staff across 24 sites, including 24/7 Perth control room, remote villages, townships, airports and gatehouses. Utilises DASH integrated reporting platform, drones for asset protection, and QR-code incident reporting. Acquired Global Security Management Pty Ltd in the Pilbara, establishing regional roots. Estimated $2.5 million savings over five years for Rio Tinto. No public documents confirm specific coverage of Rhodes Ridge, Hope Downs 2, Western Range, or Winu individually.",
+          "source_url": "https://www.wilsonsecurity.com.au/insights/case-studies/case-study-transformative-technology-revolutionising-rio-tintos-security-operations/"
+        },
+        {
+          "name": "Sodexo",
+          "international": true,
+          "human_rights_certified": null,
+          "notes": "Facilities management provider for Rio Tinto's FIFO accommodation villages, residential houses and operational sites across the Pilbara. Seven-year contract commencing June 2026 with option to extend three years, following a previous 10-year contract. Scope includes accommodation, catering, retail services, and site access management functions that overlap with physical security operations. Not a dedicated security contractor but performs access control and site management roles.",
+          "source_url": null
+        }
+      ],
+      "armed_security_regulation": "Regulated — Western Australia is a mature, stable mining jurisdiction under Australian law. Security industry licensing is regulated at the state level under the Security and Related Activities (Control) Act 1996 (WA). Armed security is permitted but tightly regulated. The Pilbara mining context does not indicate prohibition of armed security, though standard practice at Rio Tinto sites appears to rely on unarmed guarding with technology-enhanced monitoring.",
+      "conflict_risk_to_security_operations": "Low",
+      "gap_summary": "1. No public contract documents confirm which of the four specific sites (Rhodes Ridge, Hope Downs 2, Western Range, Winu) are individually named in Wilson Security's Rio Tinto contract. 2. Rhodes Ridge is in feasibility study phase (FID pending, first ore 2030), so permanent security arrangements are likely not yet tendered or publicly disclosed. 3. Hope Downs 2 is under construction (first ore 2027), and dedicated site security contracts may not yet be publicly available. 4. Winu is pre-FID/pre-production, meaning a permanent security footprint has likely not been established or publicly tendered. 5. Human rights certifications for either provider are not confirmed in available sources. 6. Sodexo contract details regarding specific security-adjacent scope (e.g., access control specifics) are incomplete as the source text was truncated. 7. No information found on secondary or backup security providers for any of the four sites.",
+      "confidence": "Medium"
+    },
+    "socioeconomic_context": {
+      "poverty_rate": null,
+      "poverty_source_url": null,
+      "basic_sanitation_access": null,
+      "sanitation_source_url": null,
+      "clean_water_access": null,
+      "water_source_url": null,
+      "healthcare_system_quality": null,
+      "infectious_disease_risk": null,
+      "local_workforce_skill_level": "The Pilbara region hosts a mature, experienced mining workforce supporting large-scale iron ore operations; the region ranks 7th lowest unemployment among 50 OECD mining regions, indicating a relatively skilled and employed labour base, though specific skill-level descriptors are not detailed in the findings.",
+      "infrastructure_quality": "The Pilbara has a well-developed mining infrastructure network including heavy-haul rail and port facilities supporting approximately 90% of Australia's iron ore production; specific roads, power, and communications quality metrics are not detailed in the findings.",
+      "corruption_perception_index": "Not available in findings; however, Australia is a mature, well-regulated jurisdiction with a strong legislative framework, implying a low corruption environment.",
+      "cpi_source_url": null,
+      "overall_context_summary": "The Pilbara region in Western Australia is one of the world's premier mining jurisdictions, contributing approximately 19.2% of WA's GDP and underpinning the state's fiscal position through over $11 billion in annual royalties and resource revenues. The region hosts some of the world's largest undeveloped iron ore deposits, including Rhodes Ridge (6.7 billion tonnes), with projects such as Hope Downs 2, Western Range, and Winu further reinforcing the Pilbara's global mining significance. Operating within a mature, strongly regulated Australian legal and institutional framework, the socioeconomic risks associated with poverty, corruption, and inadequate infrastructure are low compared to many other global mining jurisdictions."
+    },
+    "overall_compliance_maturity": {
+      "rag_rating": "G",
+      "rag_rationale": "Western Australia (Pilbara) demonstrates a high overall compliance maturity across multiple dimensions. The jurisdiction has a well-established legislative framework anchored by the Mining Act 1978 (WA) and Mining Regulations 1981 (WA), administered by a dedicated and capable regulator (DEMIRS). The regulator has robust enforcement mechanisms including inspections, audits, investigations, and licence suspension powers. The introduction of WHS Regulations 2022 modernised health and safety obligations, introducing risk-based Mine Safety Management Systems (MSMS) and updated PCBU duties. Mine closure and rehabilitation requirements are stringent, with EPA sign-off required prior to relinquishment and increased EPA scrutiny of Pilbara rehabilitation performance specifically. Structural reforms effective July 2025 have reorganised DEMIRS functions into more specialised departments, indicating ongoing institutional improvement. Site-specific findings for Rhodes Ridge confirm active EPA referral processes under the Environmental Protection Act 1986 (WA), consistent with a mature approvals framework. While Rhodes Ridge remains in pre-development/approval stage and Winu and other sites carry project-specific uncertainties, the jurisdictional baseline is mature, transparent, and well-resourced. Minor amber considerations exist around the transition period following the July 2025 structural reforms and the early-stage status of some projects, but overall the jurisdiction presents a green compliance maturity profile.",
+      "key_strengths": [
+        "Established and comprehensive legislative framework under the Mining Act 1978 (WA) and Mining Regulations 1981 (WA)",
+        "DEMIRS (and successor agencies post-July 2025) maintain robust enforcement mechanisms including inspections, audits, investigations, and licence revocation powers",
+        "Modern risk-based health and safety regime introduced via WHS Regulations 2022, requiring Mine Safety Management Systems (MSMS) for all mine operators",
+        "Stringent mine closure and rehabilitation requirements, with EPA sign-off required before relinquishment",
+        "EPA applying increased scrutiny to Pilbara rehabilitation performance, including cumulative effects assessment across BHP and Rio Tinto operations",
+        "Consistent document hierarchy model (legislation, policy, guidelines, procedures) adopted by DWER and DEMIRS providing regulatory clarity",
+        "WA is internationally recognised as one of the world's most mature and established mining jurisdictions",
+        "Structural public sector reforms (effective July 2025) aimed at improving specialisation and regulatory effectiveness"
+      ],
+      "key_barriers": [
+        "Structural transition risk: July 2025 public sector reforms reorganising DEMIRS into multiple successor agencies may create short-term regulatory uncertainty and process disruption",
+        "Rhodes Ridge remains in pre-development/EPA referral stage, meaning site-specific compliance obligations are not yet fully defined or tested",
+        "EPA cumulative effects scrutiny across the Eastern Pilbara introduces additional complexity and potential delays for approvals",
+        "Native title considerations at Rhodes Ridge (located within a Native Title Determination area) add procedural and negotiation complexity to approvals",
+        "First ore from Rhodes Ridge not expected until 2030, meaning compliance track record for that specific site is limited",
+        "Removal of prescriptive requirements under new WHS Regulations places greater onus on mine operators to self-manage risk, requiring high internal capability"
+      ],
+      "recommended_approach": "Documents should be calibrated to reflect a mature, well-regulated jurisdiction with a green baseline compliance profile. Reference the Mining Act 1978 (WA), WHS Regulations 2022, and Environmental Protection Act 1986 (WA) as primary legislative anchors. Acknowledge the July 2025 structural reform and reference successor agencies (Department of Mines, Petroleum and Exploration; Department of Local Government, Industry Regulation and Safety) where relevant. For Rhodes Ridge specifically, documents should note the active EPA referral and pre-approval status, and flag native title as a key approvals dependency. Rehabilitation and closure planning documents should reflect EPA's heightened Pilbara-specific scrutiny and cumulative effects requirements. Health and safety documentation should align with MSMS requirements and PCBU duty frameworks under WHS Regulations 2022. Given the jurisdictional maturity, documents can assume a sophisticated regulatory audience and should be precise, evidence-based, and condition-specific rather than general in nature."
+    }
   }
 }
