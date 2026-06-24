@@ -3729,5 +3729,707 @@
       ],
       "recommended_approach": "Documents for this jurisdiction should be calibrated to reflect an evolving compliance landscape anchored in strong foundational legal structures but subject to material regulatory transition. Due diligence materials should clearly distinguish between (1) legacy authorizations already obtained under prior regulatory frameworks (e.g., Whabouchi's 2015 permits) and (2) forward-looking compliance obligations under the reformed regime post-Bill 63. All documents should explicitly address the unresolved constitutional uncertainty arising from the Supreme Court's October 2023 Impact Assessment Act ruling and its implications for federal-provincial jurisdiction. Permitting timelines and cost estimates should incorporate the new mandatory provincial environmental assessment procedure for all new mining projects, including potential BAPE review. Documents touching on exploration activities must account for the new ATI authorization requirement effective May 2024. Any activities in or near territories subject to the James Bay and Northern Québec Agreement should be flagged for heightened Indigenous consultation obligations, particularly in light of Bill 5's interaction with JBNQA. Given the declining Fraser Institute rankings, investor-facing documents should contextualize this trend against Quebec's structural strengths and strategic critical minerals positioning. Compliance monitoring provisions should be calibrated to track ongoing implementation of Bill 63's outstanding regulations, expected through 2026."
     }
+  },
+  "MN": {
+    "sources": [
+      {
+        "claim": "osh_legislation",
+        "source_name": "Constitution of Mongolia",
+        "url": "https://www.ilo.org/media/271951/download",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Labour Law of Mongolia",
+        "url": "https://investmongolia.gov.mn/wp-content/uploads/2023/11/Law-on-Labor-1.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Law on Occupational Safety and Health (Law on Labour Safety and Hygiene)",
+        "url": "https://gratanet.com/publications/occupational-health-and-safety-regulations-in-mongolia",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "Law on Hygiene",
+        "url": "https://legalinfo.mn/en/edtl/16230949262521",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "osh_legislation",
+        "url": "https://www.ilo.org/media/271951/download",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "osh_legislation",
+        "source_name": "osh_legislation",
+        "url": "https://gratanet.com/publications/occupational-health-and-safety-regulations-in-mongolia",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Environmental Protection Law of Mongolia",
+        "url": "https://faolex.fao.org/docs/pdf/mon32709.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Law on Environmental Impact Assessment (EIA Law)",
+        "url": "https://law.asia/mineral-rights-environmental-obligations-mongolia/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Minerals Law of Mongolia",
+        "url": "https://law.asia/mineral-rights-environmental-obligations-mongolia/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Law on Prohibition of Mineral Exploration and Mining Activities in Headwaters of Rivers, Protected Water Reservoir Zones, and Forested Areas (\"Law with the Long Name\" / LLN)",
+        "url": "https://miningwatch.ca/sites/default/files/OT_issues.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "Subsoil Law of Mongolia",
+        "url": "https://law.asia/mineral-rights-environmental-obligations-mongolia/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://www.hoganlovells.com/en/publications/revision-of-environmental-laws-in-mongolia-and-its-impact-on-the-mining-sector",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://www.lexology.com/library/detail.aspx?g=06cbf257-305d-49ff-98ef-4154c8d0530b",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "environmental_legislation",
+        "source_name": "environmental_legislation",
+        "url": "https://www.hoganlovells.com/en/publications/revision-of-environmental-laws-in-mongolia-and-its-impact-on-the-mining-sector",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Minerals Law of Mongolia 2006 (Article 42 — Local Level Agreements; Article 43 — Employment Obligations)",
+        "url": "https://policy.asiapacificenergy.org/sites/default/files/Minerals%20Law%20Of%20Mongolia.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "River (Water) Law 2009 (renewed 2015)",
+        "url": "https://legalblogs.wolterskluwer.com/arbitration-blog/mongolia-investment-related-developments-in-the-mining-sector/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Foreign Investment Law 2013",
+        "url": "https://legalblogs.wolterskluwer.com/arbitration-blog/mongolia-investment-related-developments-in-the-mining-sector/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Oyu Tolgoi Investment Agreement (OTIA) 2009",
+        "url": "https://admin.ot.mn/wp-content/uploads/ot/content/about_us/IA/Oyu_Tolgoi_IA_EN.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "Oyu Tolgoi Community Development Agreement (CDA) / Cooperation Agreement 2015",
+        "url": "https://www.riotinto.com/en/operations/mongolia/oyu-tolgoi/oyu-tolgoi-communities",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/24761028.2021.2021356",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://resourcegovernance.org/articles/local-level-agreements-mongolia-need-government-leadership-and-policy-clarity",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "community_social_legislation",
+        "source_name": "community_social_legislation",
+        "url": "https://www.iied.org/mapping-community-development-requirements-mining-sector",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Minerals Law of Mongolia",
+        "url": "https://law.asia/mineral-rights-environmental-obligations-mongolia/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Law on Environmental Impact Assessment",
+        "url": "https://eastasiaforum.org/2022/02/11/mining-fractures-land-and-community-in-mongolia/",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Local Level Agreement (LLA) Requirement",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/24761028.2021.2021356",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Law on the Sovereign Wealth Fund and Minerals Law Amendments",
+        "url": "https://www.pwc.com/mn/en/tax_alerts/tax_alert_04_2024.html",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "Draft Law on Critical Minerals",
+        "url": "https://en.mininginsight.mn/index.php?newsid=462",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/press-releases/2019/09/mongolia-mining-should-serve-boost-sustainable-development-and-human-rights",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "human_rights_frameworks",
+        "source_name": "human_rights_frameworks",
+        "url": "https://www.ohchr.org/en/press-releases/2019/09/mongolia-mining-should-serve-boost-sustainable-development-and-human-rights",
+        "date_accessed": "2026-06-24",
+        "verified": false,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Minerals Law of Mongolia",
+        "url": "https://legalinfo.mn/mn/edtl/16532053891911",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Minerals Law of Mongolia (Asia Pacific Energy Policy version)",
+        "url": "https://policy.asiapacificenergy.org/sites/default/files/Minerals%20Law%20Of%20Mongolia.pdf",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "2024 Minerals Law Amendment and Sovereign Wealth Fund Law",
+        "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/486a416f/mining-in-mongolia-ten-things-to-know",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Constitution of Mongolia Amendment (Article 6.2)",
+        "url": "https://thinkmongol.mn/en/policy-briefs/strategic-deposits",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      },
+      {
+        "claim": "security_frameworks",
+        "source_name": "Oyu Tolgoi Investment Agreement (OTIA)",
+        "url": "http://www.turquoisehill.com/i/pdf/Oyu_Tolgoi_IA_ENG.PDF",
+        "date_accessed": "2026-06-24",
+        "verified": true,
+        "notes": ""
+      }
+    ],
+    "development_classification": {
+      "classification": "Non-OECD / Lower-Middle Income (Developing Economy)",
+      "hdi_rank": "Not available",
+      "hdi_source_url": null,
+      "notes": "Mongolia is a non-OECD developing economy with a rapidly evolving mining law framework. The Oyu Tolgoi project operates in an extreme remote environment in the South Gobi Desert, approximately 600 km from the capital Ulaanbaatar, with ultra-low precipitation (as little as 38.4 mm/year), no surface water, and temperature extremes ranging from -50°F in winter to intense summer heat. These conditions elevate all HSESC risk categories significantly. Health risks are amplified by remoteness and reliance on a centralised on-site SOS clinic and occupational health services under the HSESC Department. Safety is managed through a Critical Risk Management (CRM) program covering 17 critical risks integrated into pre-start meetings and maintenance planning. Environmental pressures include severe dust control challenges, groundwater scarcity, and accelerated desertification driven by a 2.1°C average temperature increase since 1940. Security and emergency management are handled by a dedicated on-site department. Community obligations are significant given the project's scale (expected 450,000–500,000 t/y copper production), its status as Mongolia's largest financial undertaking, and the 34% government ownership stake. The joint venture structure (Rio Tinto/Turquoise Hill 66%, Government of Mongolia 34%) means HSESC compliance must meet both international lender standards (IFC, EBRD) and Mongolian national regulatory requirements, creating a dual compliance framework typical of major extractive projects in developing economies."
+    },
+    "osh_legislation": {
+      "has_dedicated_osh_law": true,
+      "legislation": [
+        {
+          "name": "Constitution of Mongolia",
+          "year": "1992",
+          "regulator": "Government of Mongolia",
+          "regulator_url": null,
+          "source_url": "https://www.ilo.org/media/271951/download",
+          "verified": true,
+          "notes": "Article 16, Chapter Two — Human Rights and Freedoms — establishes citizens' right to suitable conditions of work, health protection and medical care, forming the constitutional foundation for OSH legislation in Mongolia."
+        },
+        {
+          "name": "Labour Law of Mongolia",
+          "year": "1999",
+          "regulator": "Ministry of Labour and Social Protection of Mongolia",
+          "regulator_url": null,
+          "source_url": "https://investmongolia.gov.mn/wp-content/uploads/2023/11/Law-on-Labor-1.pdf",
+          "verified": true,
+          "notes": "Enacted in 1999, last revised 2 July 2021. Lays the foundation for labour relations and employment rights. Key OSH obligations include: employers must provide workplaces meeting OSH standards; employers must investigate and report every industrial accident; concealment of occupational diseases, poisoning or industrial accidents is prohibited. Applicable to all workplaces including Oyu Tolgoi mine."
+        },
+        {
+          "name": "Law on Occupational Safety and Health (Law on Labour Safety and Hygiene)",
+          "year": "2015",
+          "regulator": "Central public administrative institution in charge of labour issues",
+          "regulator_url": null,
+          "source_url": "https://gratanet.com/publications/occupational-health-and-safety-regulations-in-mongolia",
+          "verified": true,
+          "notes": "Standalone OSH law established in 2015, superseding the first standalone OSH law of 2008. Covers: employer risk assessments and internal controls; mandatory allocation of production/service costs to OSH based on risk level; provision of PPE at no cost to employees meeting international standards; employee right to refuse unsafe work; prohibition on concealing workplace accidents; reporting to statistical authorities. A first standalone OSH law was enacted in 2008 and correlated with a declining trend in occupational disease cases. International treaties to which Mongolia is a party prevail over this law where provisions differ."
+        },
+        {
+          "name": "Law on Hygiene",
+          "year": null,
+          "regulator": "Central public administrative institution in charge of labour issues",
+          "regulator_url": null,
+          "source_url": "https://legalinfo.mn/en/edtl/16230949262521",
+          "verified": true,
+          "notes": "Regulates workplace labour safety and hygiene requirements and prevention of industrial accidents, acute poisoning and occupational disease. Requires organisations with 50 or more employees to employ a dedicated hygiene and labour safety officer; those with 50 or fewer must hire one on a contractual basis. Employers must provide preventive medical check-ups and prevent infectious, non-infectious and occupational diseases."
+        },
+        {
+          "name": "Minerals Law of Mongolia",
+          "year": "2006",
+          "regulator": "Ministry of Mining and Heavy Industry of Mongolia",
+          "regulator_url": null,
+          "source_url": null,
+          "verified": true,
+          "notes": "Main law governing the mining sector, including operations such as Oyu Tolgoi. Has been amended over a hundred times, with the most recent amendment in January 2023 addressing exploration tenement tender and special licence provisions. Comprehensive further amendments were introduced by the Mongolian government in May 2026 (text truncated in findings)."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "ILO International Labour Standards",
+          "evidence_of_application": "The Law on Occupational Safety and Health (2015) explicitly provides that where an international treaty to which Mongolia is a party provides otherwise than domestic law, the provisions of the international treaty shall prevail. Mongolia is an ILO member state and OSH standards are referenced in ILO documentation covering Mongolia's legislative framework.",
+          "source_url": "https://www.ilo.org/media/271951/download"
+        },
+        {
+          "framework": "International PPE Standards",
+          "evidence_of_application": "The Law on Occupational Safety and Health (2015) requires employers to provide employees with PPE that meets international standards for the employee's working conditions and responsibilities, at no cost to the employee.",
+          "source_url": "https://gratanet.com/publications/occupational-health-and-safety-regulations-in-mongolia"
+        }
+      ],
+      "gap_summary": "The findings do not specify dedicated OSH regulations for underground mining operations beyond the general Minerals Law and the standalone OSH law. There is no mention of specific regulations covering extreme environmental conditions (temperatures as low as −40°C, high winds, and near-zero rainfall) as experienced at Oyu Tolgoi, nor site-specific emergency response or rescue requirements for underground mines. The findings do not detail enforcement mechanisms, penalties for non-compliance, or specific inspection frequency requirements for high-risk mining operations. No specific mention is made of regulations governing contractor or subcontractor OSH obligations at large-scale mining projects, nor are there details on dust, noise, or chemical exposure limit standards specific to copper and gold mining. The Minerals Law has undergone over a hundred sometimes overlapping amendments, creating potential regulatory uncertainty. The 2026 amendments referenced in the findings are incomplete and their OSH implications are unknown from available information."
+    },
+    "environmental_legislation": {
+      "has_dedicated_env_law": true,
+      "legislation": [
+        {
+          "name": "Environmental Protection Law of Mongolia",
+          "year": "2012",
+          "regulator": "Ministry of Environment and Climate Change (MECC)",
+          "source_url": "https://faolex.fao.org/docs/pdf/mon32709.pdf",
+          "verified": true,
+          "notes": "Foundational environmental statute establishing constitutional duty to protect the environment, defining environmental carrying capacity, regulating pollution sources, mandating environmental monitoring, prescribing rights and duties of state inspectors, and setting liability for breach of environmental protection obligations. 2012 revision replaced 18 environmental laws with 8 laws and introduced 2 new laws. Introduced 'polluter pays' principle, collective management of natural resources, public participation in environmental decision-making, and international standards in environmental auditing. Banks and financial institutions are obligated not to fund projects harmful to the environment, society, and human health."
+        },
+        {
+          "name": "Law on Environmental Impact Assessment (EIA Law)",
+          "year": null,
+          "regulator": "Ministry of Environment and Climate Change (MECC)",
+          "source_url": "https://law.asia/mineral-rights-environmental-obligations-mongolia/",
+          "verified": true,
+          "notes": "Requires mining licence holders to submit an environmental impact assessment report before commencing mining operations. EIA reports must include minutes of public consultation meetings with affected local communities. Critiqued by UNDP assessment for lacking operational procedures, national criteria, and procedures for agencies undertaking EIA. The relevant minister is authorised to adopt detailed regulations on public participation."
+        },
+        {
+          "name": "Minerals Law of Mongolia",
+          "year": "2006",
+          "regulator": "Mineral Resources and Petroleum Authority of Mongolia (MRPAM) / Ministry of Environment and Climate Change (MECC)",
+          "source_url": "https://law.asia/mineral-rights-environmental-obligations-mongolia/",
+          "verified": true,
+          "notes": "First adopted in 1994, most recently revised in 2006, amended 44 times since 2008. Article 37 requires exploration and mining licence holders to comply with environmental protection laws; prohibits commencement of exploration without written approval from the relevant environmental agency and mining operations without a commission act. Requires annual environmental management plans submitted to MECC by 1 November each year. Mandates closure and reclamation reporting including dedicated ecological restoration funds. Non-compliance may result in penalties under Mongolia's Criminal Code or Law on Petty Offences."
+        },
+        {
+          "name": "Law on Prohibition of Mineral Exploration and Mining Activities in Headwaters of Rivers, Protected Water Reservoir Zones, and Forested Areas (\"Law with the Long Name\" / LLN)",
+          "year": "2009",
+          "regulator": "Mongolian Parliament / Government of Mongolia",
+          "source_url": "https://miningwatch.ca/sites/default/files/OT_issues.pdf",
+          "verified": true,
+          "notes": "Known colloquially as the 'Law with Long Name,' drafted and promoted by local communities affected by gold mining. Prohibits mining operations within areas critical for water and biodiversity protection. All existing mining licences in protected areas were to be revoked within five months of enactment. Over 200 mining and exploration licences within 200 metres of water and forest sources were cancelled. Caused significant opposition from miners while raising public expectations for stricter enforcement."
+        },
+        {
+          "name": "Subsoil Law of Mongolia",
+          "year": null,
+          "regulator": null,
+          "source_url": "https://law.asia/mineral-rights-environmental-obligations-mongolia/",
+          "verified": true,
+          "notes": "Part of the broader legislative framework governing mineral-related activities in Mongolia, alongside the Constitution, Land Law, Environmental Protection Law, National Security Law, Investment Law, and Minerals Law."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "Equator Principles",
+          "evidence_of_application": "Amendments to Mongolia's Environmental Protection Law introduced an obligation on banks and financial and investment institutions not to provide funding, loans, or financial assistance to projects harmful to the environment, society, and human health. This provision is described as an apparent attempt to incorporate the Equator Principles into Mongolian domestic law, though it remains uncertain and vague with no objective criteria for what constitutes 'harmful.'",
+          "source_url": "https://www.hoganlovells.com/en/publications/revision-of-environmental-laws-in-mongolia-and-its-impact-on-the-mining-sector"
+        },
+        {
+          "framework": "Polluter Pays Principle",
+          "evidence_of_application": "Explicitly introduced into Mongolian law through amendments to the Law on Environmental Protection, establishing that those responsible for environmental damage bear the cost of remediation.",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=06cbf257-305d-49ff-98ef-4154c8d0530b"
+        },
+        {
+          "framework": "International Standards in Environmental Auditing",
+          "evidence_of_application": "The 2012 revision of Mongolia's environmental legislation explicitly stated the purpose of introducing international standards in environmental auditing as part of the legislative reform package.",
+          "source_url": "https://www.hoganlovells.com/en/publications/revision-of-environmental-laws-in-mongolia-and-its-impact-on-the-mining-sector"
+        }
+      ],
+      "gap_summary": "Several significant regulatory gaps have been identified: (1) The EIA Law lacks operational procedures and national criteria for EIA, lacks procedures for agencies undertaking EIA, and lacks clear specification of which activity types must conform to EIA procedures, as noted by a UNDP assessment cited in civil society research. (2) The obligation on financial institutions not to fund environmentally harmful projects under the Environmental Protection Law lacks objective criteria for defining 'harmful,' rendering the provision uncertain and difficult to enforce. (3) The Minerals Law has been amended 44 times since 2008, with 30 changes linked to other legislation, which experts argue has left the law without a guiding philosophy and potentially inconsistent in application. (4) The 'Law with the Long Name' (LLN) created significant tension between environmental protection and mining sector interests, with enforcement raising challenges around balancing public expectations with industry opposition. (5) Water scarcity in the South Gobi region (average 97 mm annual rainfall) presents an acute environmental risk for large-scale mining operations such as Oyu Tolgoi, but no specific dedicated water allocation or water use limitation legislation for the South Gobi mining context was identified in the findings. (6) The year of original enactment of the EIA Law was not specified in the available research findings."
+    },
+    "community_social_legislation": {
+      "has_dedicated_csl_law": true,
+      "legislation": [
+        {
+          "name": "Minerals Law of Mongolia 2006 (Article 42 — Local Level Agreements; Article 43 — Employment Obligations)",
+          "year": "2006",
+          "regulator": "Mongolian Parliament (State Great Khural); Ministry of Mining and Heavy Industry",
+          "source_url": "https://policy.asiapacificenergy.org/sites/default/files/Minerals%20Law%20Of%20Mongolia.pdf",
+          "verified": true,
+          "notes": "Foundational community/social obligation for all mine operators in Mongolia including Oyu Tolgoi. Article 42.1 requires license holders to conclude a Local Level Agreement (LLA) with local administrative bodies covering environmental protection, infrastructure development and employment. Article 42.2 allows organization of public forums; Article 42.3 allows selection of a public monitoring representative. Article 43.1 caps foreign employees at 10% of workforce, with financial penalties for exceedance. Over 100 LLAs established under this law, though monitoring and enforcement is inconsistent and SOEs frequently do not comply."
+        },
+        {
+          "name": "River (Water) Law 2009 (renewed 2015)",
+          "year": "2009",
+          "regulator": "Mongolian Parliament",
+          "source_url": "https://legalblogs.wolterskluwer.com/arbitration-blog/mongolia-investment-related-developments-in-the-mining-sector/",
+          "verified": true,
+          "notes": "Prohibits exploration and mining in headwaters and protected zones of water and forested areas. Relevant to Oyu Tolgoi as the 2009 Investment Agreement specifies a 30-year water utilisation contract (extendable by 20-year periods) given the mine's strategic importance classification."
+        },
+        {
+          "name": "Foreign Investment Law 2013",
+          "year": "2013",
+          "regulator": "Mongolian Parliament",
+          "source_url": "https://legalblogs.wolterskluwer.com/arbitration-blog/mongolia-investment-related-developments-in-the-mining-sector/",
+          "verified": true,
+          "notes": "Replaced the 2012 Strategic Foreign Investment Law (which was repealed in 2013). Part of the broader regulatory landscape governing foreign investment in mining, including at Oyu Tolgoi."
+        },
+        {
+          "name": "Oyu Tolgoi Investment Agreement (OTIA) 2009",
+          "year": "2009",
+          "regulator": "Government of Mongolia / Turquoise Hill Resources (Rio Tinto)",
+          "source_url": "https://admin.ot.mn/wp-content/uploads/ot/content/about_us/IA/Oyu_Tolgoi_IA_EN.pdf",
+          "verified": true,
+          "notes": "Establishes conditions governing Turquoise Hill Resources' investment in Oyu Tolgoi, including infrastructure investment rules, environmental requirements, labour relations, investment protection, taxation, and water utilisation. Mongolia holds 34% stake via Erdenes Oyu Tolgoi LLC. The OTIA expressly requires a Cooperation Agreement (CDA) as a condition alongside the Mongolian Minerals Law."
+        },
+        {
+          "name": "Oyu Tolgoi Community Development Agreement (CDA) / Cooperation Agreement 2015",
+          "year": "2015",
+          "regulator": "Ömnögovi (South Gobi) Provincial Government / Rio Tinto (Oyu Tolgoi LLC)",
+          "source_url": "https://www.riotinto.com/en/operations/mongolia/oyu-tolgoi/oyu-tolgoi-communities",
+          "verified": true,
+          "notes": "Concluded in 2015 between the Ömnögovi Aimag government and Rio Tinto. Required under both the OTIA and the Mongolian Minerals Law (Article 42). Product of a four-year deliberation and pre-negotiation process incorporating local community voices. Represents the project-level community development agreement for Oyu Tolgoi."
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "IFC Performance Standards / Community Development Agreements (CDAs) as international good practice",
+          "evidence_of_application": "Local NGOs lobbied for the 2006 Minerals Law LLA requirement by explicitly presenting it as international good practice proven effective for promoting local community participation in resource development project approvals. The CDA mechanism mirrors IFC-aligned community engagement and benefit-sharing standards.",
+          "source_url": "https://www.tandfonline.com/doi/full/10.1080/24761028.2021.2021356"
+        },
+        {
+          "framework": "Extractive Industries Transparency Initiative (EITI)",
+          "evidence_of_application": "EITI Mongolia reports are cited as evidence that state-owned enterprises (SOEs) do not establish LLAs as required under the Minerals Law, highlighting a compliance and transparency gap at the SOE level.",
+          "source_url": "https://resourcegovernance.org/articles/local-level-agreements-mongolia-need-government-leadership-and-policy-clarity"
+        },
+        {
+          "framework": "IIED Resource Contracts / Community Development Mapping",
+          "evidence_of_application": "Multiple Local Cooperation Agreements for Ömnögovi Aimag (South Gobi) companies are documented and publicly available on the IIED resource contracts platform, indicating application of international transparency norms to Mongolian CDAs.",
+          "source_url": "https://www.iied.org/mapping-community-development-requirements-mining-sector"
+        }
+      ],
+      "gap_summary": "While Mongolia has a dedicated legislative requirement for Local Level Agreements (LLAs/CDAs) under Article 42 of the 2006 Minerals Law, implementation is significantly undermined by several gaps: (1) Monitoring and enforcement of LLA obligations is described as lacking, with local governments' implementation of mandatory public hearings before signing CDAs being 'haphazard at best'; (2) State-owned enterprises (SOEs) systematically fail to establish LLAs despite the legal requirement, as documented by EITI Mongolia reports; (3) The original LLA provision is vague, focusing on benefit-sharing rather than substantive community consent or approval mechanisms, meaning NGO intent to mandate community approval was not realised in the final law; (4) The Minerals Law has undergone over 100 amendments since 2006, creating a complex, overlapping and sometimes contradictory regulatory framework; (5) The 2009 Oyu Tolgoi Investment Agreement granted Rio Tinto significant concessions including tax stability and operational autonomy, deferring meaningful dividends to Mongolia until capital cost recovery — raising equity concerns regarding community benefit distribution; (6) Research findings on the 2015 OT CDA are incomplete (text cut off), limiting full assessment of its specific community obligation provisions."
+    },
+    "human_rights_frameworks": {
+      "has_domestic_human_rights_law": true,
+      "legislation_or_constitution": [
+        {
+          "name": "Minerals Law of Mongolia",
+          "year": "2006",
+          "source_url": "https://law.asia/mineral-rights-environmental-obligations-mongolia/",
+          "verified": true,
+          "notes": "Core mining legislation with over 100 amendments; requires environmental impact assessments before mining operations; Article 41 makes licence holders liable for damages; does not incorporate international resettlement or livelihood restoration standards; excludes herders without formally registered winter camps from project-affected people definitions."
+        },
+        {
+          "name": "Law on Environmental Impact Assessment",
+          "year": "2012",
+          "source_url": "https://eastasiaforum.org/2022/02/11/mining-fractures-land-and-community-in-mongolia/",
+          "verified": true,
+          "notes": "Obliges government to conduct environmental and social impact assessments before granting mining licences; criticized for conflict of interest as private consultancy firms contracted by mining corporations conduct the assessments; lacks robust social safeguarding and forced eviction protections."
+        },
+        {
+          "name": "Local Level Agreement (LLA) Requirement",
+          "year": "2006",
+          "source_url": "https://www.tandfonline.com/doi/full/10.1080/24761028.2021.2021356",
+          "verified": true,
+          "notes": "Since 2006, mining project proponents are required to establish local level agreements with local host governments; implementation has not consistently delivered greater benefits for local communities or improved community-developer relations."
+        },
+        {
+          "name": "Law on the Sovereign Wealth Fund and Minerals Law Amendments",
+          "year": "2024",
+          "source_url": "https://www.pwc.com/mn/en/tax_alerts/tax_alert_04_2024.html",
+          "verified": true,
+          "notes": "Approved April 19, 2024; aims for equitable distribution of mineral resource benefits to all citizens; limits private sector owners to no more than 34% of strategic mining assets; requires no less than 34% turnover to the state without compensation; considered expropriatory by investors and potentially affects up to 16 strategic deposits."
+        },
+        {
+          "name": "Draft Law on Critical Minerals",
+          "year": "2025",
+          "source_url": "https://en.mininginsight.mn/index.php?newsid=462",
+          "verified": false,
+          "notes": "Entirely new concept in Mongolia's legal framework; outlines how citizens will benefit from critical mineral development; addresses the current gap where Mongolia's legal framework does not define 'benefits' of the mining sector; Mongolia has not yet received profit from Oyu Tolgoi and may not until 2039."
+        }
+      ],
+      "international_conventions_ratified": [
+        {
+          "convention": "UN Guiding Principles on Business and Human Rights (UNGPs)",
+          "ratified": null,
+          "source_url": "https://www.ohchr.org/en/press-releases/2019/09/mongolia-mining-should-serve-boost-sustainable-development-and-human-rights"
+        }
+      ],
+      "global_frameworks_applied": [
+        {
+          "framework": "UN Guiding Principles on Business and Human Rights (UNGPs)",
+          "evidence_of_application": "Mongolia adopted a National Action Plan on Business and Human Rights (NAP) in June 2023, becoming the fourth country in the Asia-Pacific region to do so, underscoring commitment to responsible business conduct and human rights protections linked to business activities including mining.",
+          "source_url": "https://www.ohchr.org/en/press-releases/2019/09/mongolia-mining-should-serve-boost-sustainable-development-and-human-rights"
+        }
+      ],
+      "modern_slavery_risk": "High — The Oyu Tolgoi mine operates in a context of significant human rights gaps including inadequate resettlement and livelihood restoration standards, exclusion of customary land users (herders without formally registered winter camps) from legal protections, lack of robust social safeguarding, conflict of interest in environmental and social impact assessments conducted by corporate-hired consultants, and absence of defined benefit-sharing mechanisms. These structural vulnerabilities, combined with the remote location in one of Mongolia's driest regions, the scale of displacement and community disruption, and the 15-year dispute between the Mongolian state and Rio Tinto, create conditions conducive to labour exploitation, forced displacement, and other modern slavery risks.",
+      "gap_summary": "Key gaps include: (1) Absence of international resettlement and livelihood restoration standards in the Minerals Law, with compensation frameworks excluding customary land users such as herders without formally registered winter camps; (2) Lack of robust forced eviction protections and social safeguarding policy at the domestic level; (3) Conflict of interest in the EIA process whereby private firms contracted by mining corporations conduct social and environmental assessments; (4) Mongolia's legal framework does not define 'benefits' of the mining sector, and Mongolia has not yet received profits from Oyu Tolgoi; (5) The 2024 Minerals Law amendments and sovereign wealth fund legislation create investor uncertainty and potential expropriation risks without clear human rights-based benefit distribution mechanisms; (6) Local Level Agreements, while legally required since 2006, have not consistently protected community interests in practice; (7) No confirmed ratification of specific international human rights conventions applicable to mining-affected communities is documented in the findings; (8) The draft critical minerals law remains unenacted as of the research date."
+    },
+    "security_frameworks": {
+      "has_private_security_regulation": true,
+      "legislation": [
+        {
+          "name": "Minerals Law of Mongolia",
+          "year": "2006",
+          "source_url": "https://legalinfo.mn/mn/edtl/16532053891911",
+          "verified": true,
+          "notes": "Primary statutory instrument governing mining operations including security of exploration fields and mining areas; distinguishes strategic mineral deposits with national security implications; references National Security Law"
+        },
+        {
+          "name": "Minerals Law of Mongolia (Asia Pacific Energy Policy version)",
+          "year": "2006",
+          "source_url": "https://policy.asiapacificenergy.org/sites/default/files/Minerals%20Law%20Of%20Mongolia.pdf",
+          "verified": true,
+          "notes": "Alternative source for the Minerals Law text covering prospecting, exploration, mining regulation and area protection"
+        },
+        {
+          "name": "2024 Minerals Law Amendment and Sovereign Wealth Fund Law",
+          "year": "2024",
+          "source_url": "https://www.nortonrosefulbright.com/en/knowledge/publications/486a416f/mining-in-mongolia-ten-things-to-know",
+          "verified": true,
+          "notes": "Limits private sector ownership to no more than 34% of strategic deposit mining assets; grants state up to 50% free shares where state funds were used for exploration; does not apply to entities with existing investment agreements such as Oyu Tolgoi"
+        },
+        {
+          "name": "Constitution of Mongolia Amendment (Article 6.2)",
+          "year": "2019",
+          "source_url": "https://thinkmongol.mn/en/policy-briefs/strategic-deposits",
+          "verified": true,
+          "notes": "Enshrines the principle that the majority of benefits from strategically important deposits must accrue to the people through a Sovereign Wealth Fund; creates structural political risk for long-term site security"
+        },
+        {
+          "name": "Oyu Tolgoi Investment Agreement (OTIA)",
+          "year": "2009",
+          "source_url": "http://www.turquoisehill.com/i/pdf/Oyu_Tolgoi_IA_ENG.PDF",
+          "verified": true,
+          "notes": "Foundational legal security instrument for OT project; governs fiscal stability, ownership, and operational rights; mandates Cooperation Agreement for community security architecture; provides exemption from certain 2024 amendment provisions"
+        },
+        {
+          "name": "Law on Environmental Impact Assessment",
+          "year": null,
+          "source_url": null,
+          "verified": true,
+          "notes": "Requires mining licence holders to submit environmental impact assessment reports before commencing operations and annually draft and implement environmental management plans submitted to the Ministry of Environment and Climate Change"
+        },
+        {
+          "name": "National Security Law of Mongolia",
+          "year": null,
+          "source_url": null,
+          "verified": true,
+          "notes": "Referenced explicitly in the Minerals Law; applies to assets classified as nationally strategic, with direct connection bypassing some environmental protections"
+        },
+        {
+          "name": "Investment Law of Mongolia",
+          "year": null,
+          "source_url": null,
+          "verified": true,
+          "notes": "Part of the mineral-related legislative framework referenced in the Minerals Law governing investment relations at mining sites"
+        }
+      ],
+      "voluntary_principles_applied": null,
+      "vp_evidence_url": null,
+      "conflict_risk_level": "High — Multiple compounding risk factors are present: (1) Parliament retains unconstrained authority to designate additional deposits as strategic at any lifecycle stage, creating persistent expropriation risk; (2) the 2024 Sovereign Wealth Fund law and Minerals Law amendments create investor uncertainty even where existing agreements like the OTIA provide partial protection; (3) single-corridor export dependency via truck to the Chinese border creates critical supply chain vulnerability; (4) nomadic herder livelihood conflicts driven by extreme-climate land-use practices in the South Gobi create community-level tension; (5) extreme desert climate (0–50mm annual rainfall) imposes severe operational security constraints; (6) the U.S. Department of State's 2025 Investment Climate Statement characterizes the legislative environment as potentially expropriatory",
+      "gap_summary": "Key gaps identified in the research findings include: (1) No evidence found of Voluntary Principles on Security and Human Rights adoption or implementation at Oyu Tolgoi; (2) Operator-level private security contracts and procedures are not described in available sources; (3) Physical and operational security measures at site level are not documented in the findings; (4) Transparency mechanisms such as EITI participation or security incident reporting are not confirmed; (5) Environmental Management Plan content is truncated in findings and full obligations are unclear; (6) The Cooperation Agreement referenced under the OTIA is mentioned but its security-specific provisions are not detailed; (7) Community grievance mechanisms and their security dimensions are not described; (8) No information is available on how nomadic herder conflicts are formally managed within the security framework"
+    },
+    "safety_equipment_availability": {
+      "overall_rating": "Limited Availability",
+      "ppe_availability": "Mongolian law (Law on Occupational Safety and Health, 2015) mandates that employers provide PPE free of charge to employees, meeting international standards. At Oyu Tolgoi specifically, as a Rio Tinto-operated world-class facility with a 97% Mongolian workforce, PPE is systematically procured and maintained. However, local/domestic supply of specialist PPE is limited; equipment must be sourced to withstand extreme climate conditions ranging from -40°C in winter to +45°C in summer, with daily temperature fluctuations of up to 35°C, as well as intense dust and vibration from underground block-caving operations. Employers bear full responsibility for maintenance, disinfecting, and repair costs of provided PPE.",
+      "specialist_equipment_notes": "Oyu Tolgoi operates an underground block-caving complex requiring specialist underground mining safety equipment including gas detection systems, fall arrest systems, and specialised hardware capable of surviving extreme temperature fluctuations, intense dust, and vibration of both the Gobi Desert environment and deep underground tunnels. Mongolia ratified ILO Convention No. 176 (Safety and Health in Mines) in November 2015, which specifically requires special working devices, special protective equipment, and mine rescue provisions. Fleet tracking and vehicle safety systems (e.g., dashcam/GPS systems such as Fleeta) have been deployed site-wide. Procurement regulations require preference for Mongolia-registered suppliers meeting regulatory standards, which may constrain specialist equipment sourcing locally.",
+      "import_feasibility": "No specific cost, customs duty rates, or lead time data were identified in the research findings. However, the site's remote location (~550 km south of Ulaanbaatar, ~80 km from the Chinese border) and Mongolia's landlocked geography are relevant logistical factors. Licence holders must give procurement preference to Mongolia-registered suppliers, which may add complexity to importing specialist international safety equipment. Lead times are likely extended due to remoteness and import logistics.",
+      "known_specific_gaps": [
+        "Regulatory enforcement capacity is severely limited — GASI (General Agency for Specialised Inspection) has insufficient inspector numbers and is required to announce inspection plans a year in advance, reducing effectiveness",
+        "GASI is reported to be one of the most corrupt government bodies, undermining consistent safety equipment compliance verification",
+        "Local/domestic availability of specialist safety equipment meeting international standards for extreme Gobi Desert conditions (-40°C to +45°C) is not confirmed in findings",
+        "The regulatory environment is described as unstable with over 100 amendments to the 2006 Minerals Law, creating uncertainty around equipment compliance requirements",
+        "No specific data found on local availability of MEWPs, cranes, or advanced gas detection systems"
+      ],
+      "source_urls": [
+        "https://minearc.com/training-strengthens-mining-safety-in-mongolia/",
+        "https://en.wikipedia.org/wiki/Oyu_Tolgoi_mine",
+        "https://www.riotinto.com/en/operations/asia/oyu-tolgoi",
+        "https://plantrip.io/weather-expert/500",
+        "https://themongoliatour.com/gobi-desert-temp-average-temp-and-climate/",
+        "https://blackvue.com/blogs/fleet-tracking/case-study-safety-at-the-worlds-largest-scalehow-oyu-tolgoi-secures-high-stakes-mining-operations-with-fleeta-52093563",
+        "https://generisonline.com/understanding-occupational-health-and-safety-standards-in-mongolia/",
+        "https://gratanet.com/publications/occupational-health-and-safety-regulations-in-mongolia",
+        "https://www.mondaq.com/health-safety/1707866/occupational-health-and-safety-regulations-in-mongolia",
+        "https://www.atlashxm.com/resources/workplace-safety-mongolia-employer-employee-responsibilities",
+        "https://www.nortonrosefulbright.com/en/knowledge/publications/486a416f/mining-in-mongolia-ten-things-to-know",
+        "https://www.ilo.org/media/430386/download",
+        "https://www.ilo.org/publications/mongolia-briefing-note-occupational-safety-and-health-mining",
+        "https://www.gbreports.com/article/mining-regulations-in-mongolia",
+        "https://investmongolia.gov.mn/metals-and-mining/"
+      ],
+      "confidence": "Medium"
+    },
+    "training_providers": {
+      "has_national_training_framework": true,
+      "framework_name": "Mongolian Vocational Certificate III (dual-certified with Australian Certificate II under Holmesglen TAFE auspices)",
+      "registered_providers_available": true,
+      "mining_specific_training": "Multiple providers offer mining-specific training in the South Gobi / Ömnögovi Province context: (1) SGUMMI — specialist underground mass mining institute on-site at Oyu Tolgoi, launched 2025, offering 10 modules covering geotechnics, seismology, mine ventilation, drill and blast, and rock engineering, opening to all mining companies from 2026; (2) Oyu Tolgoi LLC internal vocational programmes training electricians, welders, and mechanics with dual Mongolian/Australian certification since 2013; (3) GCR Mongolia Training Academy in Ulaanbaatar, contractor-operated and linked to Oyu Tolgoi underground works. Hard-rock underground mining skills remain in shortage nationally.",
+      "internationally_recognised_certs_available": true,
+      "cert_examples": [
+        "Australian Certificate II (via Oyu Tolgoi LLC / Holmesglen TAFE pre-apprenticeship programme)",
+        "Australian Certificate IV (for vocational trainer-teachers)",
+        "Mongolian Vocational Certificate III",
+        "SGUMMI accreditation pathway targeting globally recognised mining university accreditation by year three"
+      ],
+      "workforce_literacy_rate": null,
+      "source_urls": [
+        "https://sgummi.com/",
+        "https://www.riotinto.com/en/news/releases/2025/rio-tinto-launches-south-gobi-underground-mass-mining-institute-at-its-world-class-oyu-tolgoi-copper-mine",
+        "https://smi.uq.edu.au/article/2026/01/new-mining-institute-opens-oyu-tolgoi-tackle-global-skills-shortage",
+        "https://jktech.com.au/article/2025/04/underground-mass-mining-institute-launches-mongolia-0",
+        "https://www.ot.mn/vocational-training/",
+        "https://www.ot.mn/vocational-education-and-training-projects/",
+        "https://www.gcrmongolia.mn/about"
+      ],
+      "gap_summary": "Nationally, there is a significant and documented decline in mining engineering graduates, creating a shortage of highly skilled mining professionals. Hard-rock underground mining expertise is particularly scarce locally. SGUMMI is currently restricted to Rio Tinto personnel and will not open to the broader market until 2026. Remote delivery options for the extreme-climate South Gobi Desert location are limited; training currently relies on on-site intensives at Oyu Tolgoi or travel to Ulaanbaatar. No data found on workforce literacy rates or IOSH/NEBOSH/ICAM/BOSIET-type internationally standardised safety certifications available locally. Mining law framework evolution adds further training complexity not yet addressed by identified providers.",
+      "confidence": "Medium"
+    },
+    "security_companies": {
+      "reputable_providers_available": true,
+      "notable_providers": [
+        {
+          "name": "Titan Security Global",
+          "international": true,
+          "human_rights_certified": false,
+          "notes": "Has provided security services in Mongolia for over a decade, operating in Ulaanbaatar, Erdenet, and Darkhan. Member of Worldwide Risk Global Management Security Group. Offers static guards, mobile patrols, armed escorts, transport security, and industrial security. No verifiable evidence of an active contract at Oyu Tolgoi specifically.",
+          "source_url": null
+        }
+      ],
+      "armed_security_regulation": "Regulated with gaps: Mongolia's private security industry is governed by the Law on Contracted Private Security Service (2000, revised twice). Licensing is required under the Law on Permits and sector-specific legislation. Training is mandatory for operational staff but voluntary at management level. No specific provision found in open sources for firearms authorisation procedures specific to mine site security guards in the South Gobi. Armed security at Oyu Tolgoi would need to comply with national-level weapons licensing laws. The regulatory framework is noted for vagueness and inconsistent application, and Mongolia lacked restrictions on owner/manager background checks at the time of the most recent comparative study (2017).",
+      "conflict_risk_to_security_operations": "Medium",
+      "gap_summary": "1. No verifiable evidence of major amendments to the Law on Contracted Private Security Service after 2017; the 2017 academic study is the most recent substantive public analysis. 2. No specific firearms authorisation procedures found for mine site security in the South Gobi. 3. No confirmed named security contractor(s) with active contracts at Oyu Tolgoi identified. 4. No evidence of human rights certifications (e.g., ICoC) for identified providers. 5. Regulatory vagueness and underfunded judiciary create enforcement uncertainty. 6. Extreme remoteness and climate create significant operational challenges for security hardware and personnel.",
+      "confidence": "Low"
+    },
+    "socioeconomic_context": {
+      "poverty_rate": "Not available in findings",
+      "poverty_source_url": null,
+      "basic_sanitation_access": "Not available in findings",
+      "sanitation_source_url": null,
+      "clean_water_access": "Limited surface water resources in Gobi region; low annual rainfall; prone to drought. Mine has installed 103 new wells across Umnugovi province to support local water access.",
+      "water_source_url": "https://www.ot.mn/en/news/q3-2025-performance-results",
+      "healthcare_system_quality": "Health centres have been constructed in three soums as part of Oyu Tolgoi's community infrastructure investments; broader national healthcare quality not described in findings.",
+      "infectious_disease_risk": "Not available in findings; however, extreme climate events including dust storms, flash floods, heavy snowfalls, and droughts pose environmental health risks to the workforce and surrounding communities.",
+      "local_workforce_skill_level": "Generally moderate; locally hired personnel are trained in core technical skills through pre-employment apprenticeship programmes. 97% of employees are Mongolian nationals, including 90% of leadership positions. The mine has contributed to building a skilled national workforce over time.",
+      "infrastructure_quality": "Limited in the remote South Gobi Desert region; the mine is approximately 235 km from the provincial capital Dalanzadgad and 80 km from the Chinese border. Community infrastructure including schools, kindergartens, health centres, and wells has been developed through the mine's community programmes, but broader regional infrastructure quality is not detailed in findings.",
+      "corruption_perception_index": "Not available in findings",
+      "cpi_source_url": null,
+      "overall_context_summary": "Oyu Tolgoi is a transformative mining project in the sparsely populated, climatically harsh South Gobi Desert of Mongolia, representing 25–30% of national GDP and contributing USD 5.1 billion in taxes since 2010. The project provides significant local employment (97% Mongolian workforce), community infrastructure, and supply chain benefits, but operates in a region with limited water resources, extreme climate vulnerability, and nomadic herder communities whose livelihoods are affected by land and water impacts. Mongolia's economy is heavily dependent on the mine's performance, with copper production driving GDP growth projected at 6.3% in 2025."
+    },
+    "overall_compliance_maturity": {
+      "rag_rating": "A",
+      "rag_rationale": "Mongolia's compliance maturity for the Oyu Tolgoi / South Gobi jurisdiction presents a mixed picture warranting an Amber rating. On the positive side, there is a well-established legislative framework (2006 Minerals Law with ongoing revisions), a functioning regulatory body (MRPAM) with real-time license publication and monthly production/export disclosures, 15 years of EITI implementation, a publicly accessible open contracts portal, and May 2026 comprehensive amendments aimed at improving ESG compliance and pricing transparency via a Mining Product Exchange. Environmental protection legislation including mandatory EIAs, environmental management plans and rehabilitation funds is formally in place. However, significant compliance risks persist: the Minerals Law has suffered over 100 amendments creating legislative instability and confusion; the regulatory environment is characterised as simultaneously too slow and too fast, with approvals stalling around elections; the 2024 Sovereign Wealth Fund amendments restricting private ownership to 34% in strategic deposits have raised material investor concern and may deter foreign investment; EIA enforcement is weak with identified procedural gaps and perceived government prioritisation of mining output over environmental compliance; and implementation of standards remains a persistent challenge. The jurisdiction is neither clearly high-compliance nor critically non-functional, but requires careful navigation of legislative volatility and enforcement gaps.",
+      "key_strengths": [
+        "MRPAM publishes license information in real time with monthly production and export data disclosures",
+        "15 years of EITI implementation contributing to robust routine government disclosures",
+        "Open contracts portal making most extractive contracts publicly available",
+        "Comprehensive May 2026 amendments revising ~40% of the Minerals Law with explicit ESG compliance mandates",
+        "Mining Product Exchange introduced for pricing transparency with exchange-based royalty pricing from October 2025",
+        "Extensive legal framework for environmental protection including mandatory EIAs, annual environmental management plans and rehabilitation fund requirements",
+        "Formal annual reporting obligations (mining plan by 1 December, mining report by 15 February) under MRPAM oversight"
+      ],
+      "key_barriers": [
+        "Legislative instability: over 100 amendments to the 2006 Minerals Law creating confusion and overlapping provisions",
+        "Regulatory environment characterised as unpredictable — abrupt changes alternating with periods of inaction, especially around elections",
+        "2024 Sovereign Wealth Fund Law restricting private ownership to 34% in strategic deposits and mandating non-compensated state participation, raising significant investor concern",
+        "EIA framework lacks operational procedures, national criteria and clear agency procedures per UNDP assessment",
+        "Perceived government prioritisation of mineral extraction over rigorous environmental compliance enforcement",
+        "Implementation and enforcement of environmental and compliance standards remain persistently weak",
+        "Approval and permitting processes tend to stall around election periods creating unpredictable delays"
+      ],
+      "recommended_approach": "Documents for this jurisdiction should be calibrated to reflect moderate-to-high compliance complexity. Contractual and due diligence materials should explicitly account for legislative volatility and flag the risk of further Minerals Law amendments. Environmental compliance clauses should go beyond referencing the formal EIA framework and address known enforcement gaps, requiring project-level monitoring and third-party audit provisions. Investment agreements should address the 34% ownership cap under the 2024 Sovereign Wealth Fund Law and include provisions for potential state participation. Reporting obligations (annual mining plans, environmental management plans) should be clearly scheduled with reference to statutory deadlines (1 December, 15 February, 1 November). Documents should reference MRPAM as the primary regulatory authority and leverage the open contracts portal and EITI disclosure framework for transparency verification. Given election-cycle approval risks, project timelines should include contingency buffers. Pricing and royalty provisions should reference the Mining Product Exchange as the benchmark following the October 2025 shift to exchange-based royalty pricing."
+    }
   }
 }
