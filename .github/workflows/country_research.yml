@@ -3,20 +3,16 @@ name: 03 - HSESC Country Compliance Sourcebook
 on:
   workflow_dispatch:
     inputs:
-      jurisdictions:
-        description: 'Comma-separated jurisdiction IDs to research (leave blank for all)'
-        required: false
-        default: 'all'
-      skip_research:
-        description: 'Skip Phase 1 jurisdiction research (use cache only)'
+      skip_matrix:
+        description: 'Skip Phase 2 compliance matrix (use cache only)'
         required: false
         default: 'false'
         type: choice
         options:
           - 'false'
           - 'true'
-      skip_matrix:
-        description: 'Skip Phase 2 compliance matrix (use cache only)'
+      skip_excel:
+        description: 'Skip Phase 3+4 versioning and Excel build (use cache only)'
         required: false
         default: 'false'
         type: choice
@@ -40,29 +36,144 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install anthropic openpyxl
+        run: pip install anthropic openpyxl
 
-      - name: Phase 1 — Research jurisdictions
-        if: ${{ github.event.inputs.skip_research != 'true' }}
+      # ── One step + one commit per jurisdiction ─────────────────────────────
+
+      - name: Research Guinea (GN)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python scripts/research_countries.py \
             --brief-dir briefs/ \
             --output-dir outputs/ \
-            --jurisdictions "${{ github.event.inputs.jurisdictions }}" \
-            --phase 1
+            --phase 1 \
+            --jurisdictions "GN"
 
-      - name: Commit Phase 1 cache
-        if: ${{ github.event.inputs.skip_research != 'true' }}
+      - name: Commit Guinea research
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add outputs/_country_profiles_cache.json
-          git diff --staged --quiet || git commit -m "chore: save country profiles cache after Phase 1 [skip ci]"
           git pull --rebase
+          git add outputs/_country_profiles_cache.json
+          git diff --staged --quiet || git commit -m "chore: Guinea (GN) research complete [skip ci]"
           git push
+
+      - name: Research Western Australia (WA)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/research_countries.py \
+            --brief-dir briefs/ \
+            --output-dir outputs/ \
+            --phase 1 \
+            --jurisdictions "WA"
+
+      - name: Commit Western Australia research
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add outputs/_country_profiles_cache.json
+          git diff --staged --quiet || git commit -m "chore: Western Australia (WA) research complete [skip ci]"
+          git push
+
+      - name: Research Queensland (QLD)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/research_countries.py \
+            --brief-dir briefs/ \
+            --output-dir outputs/ \
+            --phase 1 \
+            --jurisdictions "QLD"
+
+      - name: Commit Queensland research
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add outputs/_country_profiles_cache.json
+          git diff --staged --quiet || git commit -m "chore: Queensland (QLD) research complete [skip ci]"
+          git push
+
+      - name: Research Argentina (AR)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/research_countries.py \
+            --brief-dir briefs/ \
+            --output-dir outputs/ \
+            --phase 1 \
+            --jurisdictions "AR"
+
+      - name: Commit Argentina research
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add outputs/_country_profiles_cache.json
+          git diff --staged --quiet || git commit -m "chore: Argentina (AR) research complete [skip ci]"
+          git push
+
+      - name: Research Canada Quebec (CA)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/research_countries.py \
+            --brief-dir briefs/ \
+            --output-dir outputs/ \
+            --phase 1 \
+            --jurisdictions "CA"
+
+      - name: Commit Canada Quebec research
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add outputs/_country_profiles_cache.json
+          git diff --staged --quiet || git commit -m "chore: Canada Quebec (CA) research complete [skip ci]"
+          git push
+
+      - name: Research Mongolia (MN)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/research_countries.py \
+            --brief-dir briefs/ \
+            --output-dir outputs/ \
+            --phase 1 \
+            --jurisdictions "MN"
+
+      - name: Commit Mongolia research
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add outputs/_country_profiles_cache.json
+          git diff --staged --quiet || git commit -m "chore: Mongolia (MN) research complete [skip ci]"
+          git push
+
+      - name: Research United States (US)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/research_countries.py \
+            --brief-dir briefs/ \
+            --output-dir outputs/ \
+            --phase 1 \
+            --jurisdictions "US"
+
+      - name: Commit United States research
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add outputs/_country_profiles_cache.json
+          git diff --staged --quiet || git commit -m "chore: United States (US) research complete [skip ci]"
+          git push
+
+      # ── Phase 2: Compliance matrix ─────────────────────────────────────────
 
       - name: Phase 2 — Compliance matrix
         if: ${{ github.event.inputs.skip_matrix != 'true' }}
@@ -72,7 +183,6 @@ jobs:
           python scripts/research_countries.py \
             --brief-dir briefs/ \
             --output-dir outputs/ \
-            --jurisdictions "${{ github.event.inputs.jurisdictions }}" \
             --phase 2
 
       - name: Commit Phase 2 cache
@@ -82,29 +192,30 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase
           git add outputs/_compliance_matrix_cache.json
-          git diff --staged --quiet || git commit -m "chore: save compliance matrix cache after Phase 2 [skip ci]"
-          git pull --rebase
+          git diff --staged --quiet || git commit -m "chore: compliance matrix cache saved [skip ci]"
           git push
 
-      - name: Phase 3+4 — Versioning analysis and Excel build
+      # ── Phase 3+4: Versioning and Excel build ─────────────────────────────
+
+      - name: Phase 3+4 — Versioning and Excel build
+        if: ${{ github.event.inputs.skip_excel != 'true' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python scripts/research_countries.py \
             --brief-dir briefs/ \
             --output-dir outputs/ \
-            --jurisdictions "${{ github.event.inputs.jurisdictions }}" \
             --phase 34
 
       - name: Commit final sourcebook
+        if: ${{ github.event.inputs.skip_excel != 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase
-          git add outputs/
+          git add outputs/HSESC_Country_Compliance_Sourcebook.xlsx
           git diff --staged --quiet || git commit -m "feat: HSESC country compliance sourcebook complete [skip ci]"
-          git pull --rebase
           git push
 
       - name: Done
-        run: echo "Sourcebook complete. Pull outputs/HSESC_Country_Compliance_Sourcebook.xlsx"
+        run: echo "All phases complete. Pull outputs/HSESC_Country_Compliance_Sourcebook.xlsx"
