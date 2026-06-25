@@ -1,0 +1,92 @@
+name: 04 - Reformat and Fix Documents
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_from:
+        description: 'Filename to start from (e.g. PRO-0001_Legal_and_Other_Requirements.docx). Leave blank to start from the beginning.'
+        required: false
+        default: ''
+      single_document:
+        description: 'Process only this one document and stop (do not chain). Leave blank for full run.'
+        required: false
+        default: ''
+
+jobs:
+  reformat:
+    name: Reformat ${{ github.event.inputs.start_from || 'all documents' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install anthropic python-docx lxml
+
+      - name: Determine document to process
+        id: get_doc
+        run: |
+          python scripts/get_next_document.py \
+            --documents-dir outputs/documents \
+            --fixed-dir outputs/documents/fixed \
+            --start-from "${{ github.event.inputs.start_from }}" \
+            --single "${{ github.event.inputs.single_document }}"
+
+      - name: Reformat document
+        if: ${{ steps.get_doc.outputs.document_name != 'DONE' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/reformat_document.py \
+            --input "outputs/documents/${{ steps.get_doc.outputs.document_name }}" \
+            --output "outputs/documents/fixed/${{ steps.get_doc.outputs.document_name }}"
+
+      - name: Commit reformatted document
+        if: ${{ steps.get_doc.outputs.document_name != 'DONE' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash || true
+          git pull --rebase
+          git stash pop || true
+          git add outputs/documents/fixed/
+          git diff --staged --quiet || git commit -m "fix: reformat ${{ steps.get_doc.outputs.document_name }} [skip ci]"
+          git push
+
+      - name: Trigger next document
+        if: ${{ steps.get_doc.outputs.next_document != 'DONE' && github.event.inputs.single_document == '' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const next = '${{ steps.get_doc.outputs.next_document }}';
+            if (!next || next === 'DONE') {
+              console.log('All documents reformatted.');
+              return;
+            }
+            console.log(`Triggering reformat for: ${next}`);
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'reformat_documents.yml',
+              ref: 'main',
+              inputs: {
+                start_from: next,
+                single_document: ''
+              }
+            });
+
+      - name: All done
+        if: ${{ steps.get_doc.outputs.next_document == 'DONE' || github.event.inputs.single_document != '' }}
+        run: |
+          echo "============================================"
+          echo "Document reformatting complete."
+          echo "Check outputs/documents/fixed/ in the repository."
+          echo "============================================"
