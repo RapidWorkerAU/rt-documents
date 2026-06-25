@@ -13,7 +13,6 @@ The reformatting prompt is embedded in this script so it is the single source of
 """
 
 import argparse
-import base64
 import json
 import os
 import re
@@ -178,11 +177,7 @@ Return only valid JSON. No markdown, no preamble."""
 def get_correction_plan(client, docx_path):
     """Send the document to Claude and get back a correction plan JSON."""
 
-    with open(docx_path, "rb") as f:
-        docx_bytes = f.read()
-    docx_b64 = base64.standard_b64encode(docx_bytes).decode("utf-8")
-
-    # Also extract plain text for Claude to read the content
+    # Extract document content as indexed plain text
     doc = Document(docx_path)
     plain_text_parts = []
     for i, para in enumerate(doc.paragraphs):
@@ -208,23 +203,11 @@ def get_correction_plan(client, docx_path):
                 system="You are a document correction specialist. Output only valid JSON.",
                 messages=[{
                     "role": "user",
-                    "content": [
-                        {
-                            "type": "document",
-                            "source": {
-                                "type": "base64",
-                                "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                                "data": docx_b64,
-                            },
-                        },
-                        {
-                            "type": "text",
-                            "text": (
-                                f"DOCUMENT PARAGRAPH INDEX (for correction plan):\n{plain_text}\n\n"
-                                f"{REFORMATTING_PROMPT}"
-                            )
-                        }
-                    ]
+                    "content": (
+                        f"DOCUMENT CONTENT (paragraph index | style | text):\n\n"
+                        f"{plain_text}\n\n"
+                        f"{REFORMATTING_PROMPT}"
+                    )
                 }]
             )
 
