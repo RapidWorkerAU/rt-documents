@@ -523,6 +523,10 @@ def reformat(docx_path, output_path):
     body_start = find_body_start(all_paras)
     print(f"  Body starts at paragraph {body_start}")
 
+    # Build set of element IDs that must NEVER be modified (cover + TOC)
+    # This is everything in all_paras before body_start
+    protected_ids = set(id(p) for p in all_paras[:body_start])
+
     # ── Pass 1: Classify and restyle all body paragraphs ─────────────────────
     last_heading_level = 1  # track whether we're under H1 or H2
     new_body = []           # (para_element, classification)
