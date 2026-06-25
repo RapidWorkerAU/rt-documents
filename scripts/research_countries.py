@@ -586,8 +586,54 @@ Return ONLY this JSON:
   "most_complex_procedures": ["<PRO-XXXX>"]
 }}"""
 
-    result = call_claude_plain(client, SYSTEM_RESEARCH, prompt,
-                                label="versioning", max_tokens=6000)
+    # Split into two calls: groupings first, then per-procedure (to avoid token limits)
+    groupings_prompt = f"""Based on the HSESC compliance matrix below, determine which jurisdictions
+are similar enough to share procedure documents.
+
+COMPLIANCE MATRIX (procedure: jurisdiction=RAG):
+{chr(10).join(matrix_summary[:26])}
+... and {len(matrix_summary) - 26} more procedures with similar patterns.
+
+JURISDICTIONS: GN=Guinea, WA=Western Australia, QLD=Queensland, AR=Argentina,
+CA=Canada/Quebec, MN=Mongolia, US=United States
+
+Return ONLY this JSON:
+{{
+  "jurisdiction_groupings": [
+    {{"group_name": "<name>", "jurisdictions": ["WA","QLD","CA","US"],
+      "rationale": "<why>", "document_standard": "<prescriptiveness level>"}}
+  ],
+  "overall_strategy": "<2-3 sentence summary>",
+  "single_version_procedures": ["PRO-0001"],
+  "most_complex_procedures": ["PRO-0026"]
+}}"""
+
+    groupings = call_claude_plain(client, SYSTEM_RESEARCH, groupings_prompt,
+                                   label="versioning-groupings", max_tokens=3000)
+
+    procedures_prompt = f"""For each of the 51 HSESC procedures below, determine how many
+document versions are needed based on jurisdiction compliance ratings.
+
+COMPLIANCE MATRIX:
+{chr(10).join(matrix_summary)}
+
+JURISDICTION GROUPS (use these as the basis for grouping):
+GN=Guinea (lowest maturity), WA/QLD/CA/US=Mature, AR/MN=Developing
+
+Return ONLY this JSON — a list of procedure objects:
+{{"procedures": [
+  {{"procedure_id": "PRO-0001", "versions_needed": 2,
+    "version_groups": [["WA","QLD","CA","US","AR","MN"], ["GN"]],
+    "version_notes": "<what differs>"}}
+]}}"""
+
+    procs_result = call_claude_plain(client, SYSTEM_RESEARCH, procedures_prompt,
+                                      label="versioning-procedures", max_tokens=6000)
+
+    # Merge results
+    result = groupings or {}
+    if procs_result:
+        result["procedures"] = procs_result.get("procedures", [])
     return result
 
 
@@ -738,7 +784,7 @@ def build_tab1_country_profiles(ws, jurisdictions, profiles):
             leg_summary(osh),
             leg_summary(env),
             leg_summary(csl),
-            "; ".join(c.get("convention","") for c in hr.get("international_conventions_ratified", [])[:5])
+            "; ".join(str(c.get("convention","") or "") for c in hr.get("international_conventions_ratified", [])[:5] if c)
             or leg_summary(hr),
             f"{equip.get('overall_rating','Unknown')} | {equip.get('ppe_availability','')[:200]}",
             f"Registered: {'Yes' if train.get('registered_providers_available') else 'No/Unknown'} | {train.get('gap_summary','')[:200]}",
@@ -746,7 +792,7 @@ def build_tab1_country_profiles(ws, jurisdictions, profiles):
             socio.get("overall_context_summary", ""),
             mat.get("rag_rationale", ""),
             rag_text(rag),
-            "\n".join(f"• {b}" for b in mat.get("key_barriers", [])),
+            "\n".join(f"• {b}" for b in mat.get("key_barriers", []) if b),
             mat.get("recommended_approach", ""),
         ]
 
